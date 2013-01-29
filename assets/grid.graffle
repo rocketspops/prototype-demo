@@ -4290,7 +4290,7 @@
 		</dict>
 		<dict>
 			<key>Lock</key>
-			<string>YES</string>
+			<string>NO</string>
 			<key>Name</key>
 			<string>Baseline Half Step</string>
 			<key>Print</key>
@@ -4300,7 +4300,7 @@
 		</dict>
 		<dict>
 			<key>Lock</key>
-			<string>YES</string>
+			<string>NO</string>
 			<key>Name</key>
 			<string>Baseline Full Step</string>
 			<key>Print</key>
@@ -4310,7 +4310,7 @@
 		</dict>
 		<dict>
 			<key>Lock</key>
-			<string>YES</string>
+			<string>NO</string>
 			<key>Name</key>
 			<string>Grid Columns</string>
 			<key>Print</key>
@@ -4341,7 +4341,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-01-29 17:11:46 +0000</string>
+	<string>2013-01-29 17:12:51 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
