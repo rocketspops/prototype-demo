@@ -3688,11 +3688,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-<<<<<<< HEAD
-	<string>2013-01-29 17:03:48 +0000</string>
-=======
 	<string>2013-01-29 19:26:49 +0000</string>
->>>>>>> Updates to auth UI revisions
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
@@ -14845,15 +14841,9 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-<<<<<<< HEAD
-					<integer>43505</integer>
-					<key>IsLocked</key>
-					<string>YES</string>
-=======
 					<integer>103952</integer>
 					<key>Layer</key>
 					<integer>3</integer>
->>>>>>> Updates to auth UI revisions
 				</dict>
 				<dict>
 					<key>Bounds</key>
@@ -16804,11 +16794,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		<key>SidebarWidth</key>
 		<integer>188</integer>
 		<key>VisibleRegion</key>
-<<<<<<< HEAD
-		<string>{{269, 26}, {1529, 899}}</string>
-=======
 		<string>{{2, 625}, {1529, 899}}</string>
->>>>>>> Updates to auth UI revisions
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
