@@ -40,7 +40,7 @@
 	<key>CanvasSize</key>
 	<string>{1220, 1200}</string>
 	<key>ColumnAlign</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>ColumnSpacing</key>
 	<real>12</real>
 	<key>CreationDate</key>
@@ -54,6 +54,51 @@
 	<key>GraphicsList</key>
 	<array>
 		<dict>
+			<key>Bounds</key>
+			<string>{{410, 23}, {400, 24}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>278</integer>
+			<key>Layer</key>
+			<integer>0</integer>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>http://modularscale.com/scale/?px1=16&amp;px2=&amp;ra1=1.125&amp;ra2=0</string>
+			</dict>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>stroke</key>
+				<dict>
+					<key>Color</key>
+					<dict>
+						<key>b</key>
+						<string>0.298039</string>
+						<key>g</key>
+						<string>0.298039</string>
+						<key>r</key>
+						<string>0.298039</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>Text</key>
+			<dict>
+				<key>Pad</key>
+				<integer>0</integer>
+				<key>Text</key>
+				<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\slleading20\pardirnatural\qc
+{\field{\*\fldinst{HYPERLINK "http://modularscale.com/scale/?px1=16&amp;px2=&amp;ra1=1.125&amp;ra2=0"}}{\fldrslt 
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+\ul \ulc2 http://modularscale.com/scale/?px1=16&amp;px2=&amp;ra1=1.125&amp;ra2=0}}}</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>AllowConnections</key>
 			<string>NO</string>
 			<key>AllowLabelDrop</key>
@@ -65,7 +110,7 @@
 			<key>ID</key>
 			<integer>178</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1115}</string>
@@ -105,7 +150,7 @@
 			<key>ID</key>
 			<integer>180</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1091}</string>
@@ -145,7 +190,7 @@
 			<key>ID</key>
 			<integer>182</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1067}</string>
@@ -185,7 +230,7 @@
 			<key>ID</key>
 			<integer>184</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1043}</string>
@@ -225,7 +270,7 @@
 			<key>ID</key>
 			<integer>186</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1019}</string>
@@ -265,7 +310,7 @@
 			<key>ID</key>
 			<integer>188</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 995}</string>
@@ -305,7 +350,7 @@
 			<key>ID</key>
 			<integer>190</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 971}</string>
@@ -345,7 +390,7 @@
 			<key>ID</key>
 			<integer>192</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 947}</string>
@@ -385,7 +430,7 @@
 			<key>ID</key>
 			<integer>194</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 923}</string>
@@ -425,7 +470,7 @@
 			<key>ID</key>
 			<integer>196</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 899}</string>
@@ -465,7 +510,7 @@
 			<key>ID</key>
 			<integer>198</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 875}</string>
@@ -505,7 +550,7 @@
 			<key>ID</key>
 			<integer>200</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 851}</string>
@@ -545,7 +590,7 @@
 			<key>ID</key>
 			<integer>202</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 827}</string>
@@ -585,7 +630,7 @@
 			<key>ID</key>
 			<integer>204</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 803}</string>
@@ -625,7 +670,7 @@
 			<key>ID</key>
 			<integer>206</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 779}</string>
@@ -665,7 +710,7 @@
 			<key>ID</key>
 			<integer>208</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 755}</string>
@@ -705,7 +750,7 @@
 			<key>ID</key>
 			<integer>210</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 731}</string>
@@ -745,7 +790,7 @@
 			<key>ID</key>
 			<integer>212</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 707}</string>
@@ -785,7 +830,7 @@
 			<key>ID</key>
 			<integer>214</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 683}</string>
@@ -825,7 +870,7 @@
 			<key>ID</key>
 			<integer>216</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 659}</string>
@@ -865,7 +910,7 @@
 			<key>ID</key>
 			<integer>218</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 635}</string>
@@ -905,7 +950,7 @@
 			<key>ID</key>
 			<integer>220</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 611}</string>
@@ -945,7 +990,7 @@
 			<key>ID</key>
 			<integer>222</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 587}</string>
@@ -985,7 +1030,7 @@
 			<key>ID</key>
 			<integer>224</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 563}</string>
@@ -1025,7 +1070,7 @@
 			<key>ID</key>
 			<integer>226</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 539}</string>
@@ -1065,7 +1110,7 @@
 			<key>ID</key>
 			<integer>228</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 515}</string>
@@ -1105,7 +1150,7 @@
 			<key>ID</key>
 			<integer>230</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 491}</string>
@@ -1145,7 +1190,7 @@
 			<key>ID</key>
 			<integer>232</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 467}</string>
@@ -1185,7 +1230,7 @@
 			<key>ID</key>
 			<integer>234</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 443}</string>
@@ -1225,7 +1270,7 @@
 			<key>ID</key>
 			<integer>236</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 419}</string>
@@ -1265,7 +1310,7 @@
 			<key>ID</key>
 			<integer>238</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 395}</string>
@@ -1305,7 +1350,7 @@
 			<key>ID</key>
 			<integer>240</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 371}</string>
@@ -1345,7 +1390,7 @@
 			<key>ID</key>
 			<integer>242</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 347}</string>
@@ -1385,7 +1430,7 @@
 			<key>ID</key>
 			<integer>244</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 323}</string>
@@ -1425,7 +1470,7 @@
 			<key>ID</key>
 			<integer>246</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 299}</string>
@@ -1465,7 +1510,7 @@
 			<key>ID</key>
 			<integer>248</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 275}</string>
@@ -1505,7 +1550,7 @@
 			<key>ID</key>
 			<integer>250</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 251}</string>
@@ -1545,7 +1590,7 @@
 			<key>ID</key>
 			<integer>252</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 227}</string>
@@ -1585,7 +1630,7 @@
 			<key>ID</key>
 			<integer>254</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 203}</string>
@@ -1625,7 +1670,7 @@
 			<key>ID</key>
 			<integer>256</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 179}</string>
@@ -1665,7 +1710,7 @@
 			<key>ID</key>
 			<integer>258</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 155}</string>
@@ -1705,7 +1750,7 @@
 			<key>ID</key>
 			<integer>260</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 131}</string>
@@ -1745,7 +1790,7 @@
 			<key>ID</key>
 			<integer>262</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 107}</string>
@@ -1785,7 +1830,7 @@
 			<key>ID</key>
 			<integer>264</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 83}</string>
@@ -1825,7 +1870,7 @@
 			<key>ID</key>
 			<integer>266</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 59}</string>
@@ -1865,7 +1910,7 @@
 			<key>ID</key>
 			<integer>268</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 35}</string>
@@ -1905,7 +1950,7 @@
 			<key>ID</key>
 			<integer>270</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 11}</string>
@@ -1945,7 +1990,7 @@
 			<key>ID</key>
 			<integer>272</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1163}</string>
@@ -1985,7 +2030,7 @@
 			<key>ID</key>
 			<integer>274</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1187}</string>
@@ -2025,7 +2070,7 @@
 			<key>ID</key>
 			<integer>277</integer>
 			<key>Layer</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1139}</string>
@@ -2065,7 +2110,7 @@
 			<key>ID</key>
 			<integer>177</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1127}</string>
@@ -2105,7 +2150,7 @@
 			<key>ID</key>
 			<integer>179</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1103}</string>
@@ -2145,7 +2190,7 @@
 			<key>ID</key>
 			<integer>181</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1079}</string>
@@ -2185,7 +2230,7 @@
 			<key>ID</key>
 			<integer>183</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1055}</string>
@@ -2225,7 +2270,7 @@
 			<key>ID</key>
 			<integer>185</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1031}</string>
@@ -2265,7 +2310,7 @@
 			<key>ID</key>
 			<integer>187</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1007}</string>
@@ -2305,7 +2350,7 @@
 			<key>ID</key>
 			<integer>189</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 983}</string>
@@ -2345,7 +2390,7 @@
 			<key>ID</key>
 			<integer>191</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 959}</string>
@@ -2385,7 +2430,7 @@
 			<key>ID</key>
 			<integer>193</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 935}</string>
@@ -2425,7 +2470,7 @@
 			<key>ID</key>
 			<integer>195</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 911}</string>
@@ -2465,7 +2510,7 @@
 			<key>ID</key>
 			<integer>197</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 887}</string>
@@ -2505,7 +2550,7 @@
 			<key>ID</key>
 			<integer>199</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 863}</string>
@@ -2545,7 +2590,7 @@
 			<key>ID</key>
 			<integer>201</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 839}</string>
@@ -2585,7 +2630,7 @@
 			<key>ID</key>
 			<integer>203</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 815}</string>
@@ -2625,7 +2670,7 @@
 			<key>ID</key>
 			<integer>205</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 791}</string>
@@ -2665,7 +2710,7 @@
 			<key>ID</key>
 			<integer>207</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 767}</string>
@@ -2705,7 +2750,7 @@
 			<key>ID</key>
 			<integer>209</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 743}</string>
@@ -2745,7 +2790,7 @@
 			<key>ID</key>
 			<integer>211</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 719}</string>
@@ -2785,7 +2830,7 @@
 			<key>ID</key>
 			<integer>213</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 695}</string>
@@ -2825,7 +2870,7 @@
 			<key>ID</key>
 			<integer>215</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 671}</string>
@@ -2865,7 +2910,7 @@
 			<key>ID</key>
 			<integer>217</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 647}</string>
@@ -2905,7 +2950,7 @@
 			<key>ID</key>
 			<integer>219</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 623}</string>
@@ -2945,7 +2990,7 @@
 			<key>ID</key>
 			<integer>221</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 599}</string>
@@ -2985,7 +3030,7 @@
 			<key>ID</key>
 			<integer>223</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 575}</string>
@@ -3025,7 +3070,7 @@
 			<key>ID</key>
 			<integer>225</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 551}</string>
@@ -3065,7 +3110,7 @@
 			<key>ID</key>
 			<integer>227</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 527}</string>
@@ -3105,7 +3150,7 @@
 			<key>ID</key>
 			<integer>229</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 503}</string>
@@ -3145,7 +3190,7 @@
 			<key>ID</key>
 			<integer>231</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 479}</string>
@@ -3185,7 +3230,7 @@
 			<key>ID</key>
 			<integer>233</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 455}</string>
@@ -3225,7 +3270,7 @@
 			<key>ID</key>
 			<integer>235</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 431}</string>
@@ -3265,7 +3310,7 @@
 			<key>ID</key>
 			<integer>237</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 407}</string>
@@ -3305,7 +3350,7 @@
 			<key>ID</key>
 			<integer>239</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 383}</string>
@@ -3345,7 +3390,7 @@
 			<key>ID</key>
 			<integer>241</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 359}</string>
@@ -3385,7 +3430,7 @@
 			<key>ID</key>
 			<integer>243</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 335}</string>
@@ -3425,7 +3470,7 @@
 			<key>ID</key>
 			<integer>245</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 311}</string>
@@ -3465,7 +3510,7 @@
 			<key>ID</key>
 			<integer>247</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 287}</string>
@@ -3505,7 +3550,7 @@
 			<key>ID</key>
 			<integer>249</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 263}</string>
@@ -3545,7 +3590,7 @@
 			<key>ID</key>
 			<integer>251</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 239}</string>
@@ -3585,7 +3630,7 @@
 			<key>ID</key>
 			<integer>253</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 215}</string>
@@ -3625,7 +3670,7 @@
 			<key>ID</key>
 			<integer>255</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 191}</string>
@@ -3665,7 +3710,7 @@
 			<key>ID</key>
 			<integer>257</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 167}</string>
@@ -3705,7 +3750,7 @@
 			<key>ID</key>
 			<integer>259</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 143}</string>
@@ -3745,7 +3790,7 @@
 			<key>ID</key>
 			<integer>261</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 119}</string>
@@ -3785,7 +3830,7 @@
 			<key>ID</key>
 			<integer>263</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 95}</string>
@@ -3825,7 +3870,7 @@
 			<key>ID</key>
 			<integer>265</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 71}</string>
@@ -3865,7 +3910,7 @@
 			<key>ID</key>
 			<integer>267</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 47}</string>
@@ -3905,7 +3950,7 @@
 			<key>ID</key>
 			<integer>269</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 23}</string>
@@ -3945,7 +3990,7 @@
 			<key>ID</key>
 			<integer>271</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1151}</string>
@@ -3985,7 +4030,7 @@
 			<key>ID</key>
 			<integer>273</integer>
 			<key>Layer</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>Points</key>
 			<array>
 				<string>{0, 1175}</string>
@@ -4392,7 +4437,7 @@
 			<key>ID</key>
 			<integer>13</integer>
 			<key>Layer</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>GridInfo</key>
@@ -4411,6 +4456,16 @@
 	<array>
 		<dict>
 			<key>Lock</key>
+			<string>NO</string>
+			<key>Name</key>
+			<string>Modular Scale Legend</string>
+			<key>Print</key>
+			<string>YES</string>
+			<key>View</key>
+			<string>YES</string>
+		</dict>
+		<dict>
+			<key>Lock</key>
 			<string>YES</string>
 			<key>Name</key>
 			<string>Baseline Half Step</string>
@@ -4421,7 +4476,7 @@
 		</dict>
 		<dict>
 			<key>Lock</key>
-			<string>NO</string>
+			<string>YES</string>
 			<key>Name</key>
 			<string>Baseline Full Step</string>
 			<key>Print</key>
@@ -4462,7 +4517,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-01-29 16:37:37 +0000</string>
+	<string>2013-01-29 16:47:52 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
