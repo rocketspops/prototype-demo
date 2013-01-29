@@ -3807,7 +3807,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-01-29 21:04:42 +0000</string>
+	<string>2013-01-29 22:52:26 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -13676,7 +13676,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1208.7394819079445, 980.22349660644511}, {12.313973426818848, 12.313973426818848}}</string>
+							<string>{{818.45545241049183, 965.34303591050138}, {12.313973426818848, 12.313973426818848}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -13722,7 +13722,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{27.459486642385286, 963.61913520459177}, {1215, 45}}</string>
+							<string>{{313.36463165283203, 948.99999457959177}, {532.54052734375, 45}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -13789,7 +13789,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\b\fs36 \cf1 Oops! }</string>
+\f0\b\fs36 \cf1 Oops! Your }</string>
 							</dict>
 						</dict>
 					</array>
@@ -16027,7 +16027,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -16037,7 +16037,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -16118,7 +16118,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{27, 20}, {1732, 1038}}</string>
+		<string>{{34, 11}, {1691, 1047}}</string>
 		<key>ListView</key>
 		<false/>
 		<key>OutlineWidth</key>
@@ -16132,7 +16132,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		<key>SidebarWidth</key>
 		<integer>188</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {1529, 899}}</string>
+		<string>{{12, 759}, {1488, 908}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
