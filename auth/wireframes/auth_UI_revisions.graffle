@@ -3688,9 +3688,9 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-01-29 16:58:26 +0000</string>
+	<string>2013-01-29 17:03:48 +0000</string>
 	<key>Modifier</key>
-	<string>dave.castleton</string>
+	<string>billy.whited</string>
 	<key>NotesVisible</key>
 	<string>NO</string>
 	<key>OriginVisible</key>
@@ -6439,6 +6439,8 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					</array>
 					<key>ID</key>
 					<integer>43505</integer>
+					<key>IsLocked</key>
+					<string>YES</string>
 				</dict>
 			</array>
 			<key>GridInfo</key>
@@ -8355,7 +8357,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		<key>SidebarWidth</key>
 		<integer>188</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 26}, {1529, 899}}</string>
+		<string>{{269, 26}, {1529, 899}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
