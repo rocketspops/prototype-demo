@@ -6333,7 +6333,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-01-30 19:57:54 +0000</string>
+	<string>2013-01-30 20:05:31 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -17446,7 +17446,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -17496,7 +17496,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -23310,7 +23310,7 @@ Thank you,\uc0\u8232 Your Centro Team.}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -23320,7 +23320,7 @@ Thank you,\uc0\u8232 Your Centro Team.}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -34813,16 +34813,16 @@ We have sent you an email in order to verify your email address, you will need t
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Auth • Sign in &amp; Settings</string>
+				<string>Auth • User verification</string>
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>Auth • User verification</string>
+				<string>Auth • Recover Password</string>
 			</dict>
 		</array>
 		<key>Frame</key>
