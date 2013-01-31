@@ -4286,7 +4286,7 @@
 			<key>Print</key>
 			<string>YES</string>
 			<key>View</key>
-			<string>NO</string>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Lock</key>
@@ -4341,7 +4341,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-01-29 17:12:51 +0000</string>
+	<string>2013-01-31 16:39:08 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
@@ -4422,7 +4422,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{99, 4}, {1777, 1054}}</string>
+		<string>{{360, 201}, {1777, 1054}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -4436,7 +4436,7 @@
 		<key>SidebarWidth</key>
 		<integer>202</integer>
 		<key>VisibleRegion</key>
-		<string>{{-170, 0}, {1560, 915}}</string>
+		<string>{{-163, 0}, {1546, 915}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
