@@ -6336,7 +6336,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-02-04 17:02:33 +0000</string>
+	<string>2013-02-04 17:09:02 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -14439,7 +14439,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -14479,7 +14479,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -19257,7 +19257,7 @@ Thank you,\uc0\u8232 Your Centro Team.}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{452.35485076904297, 165.53398132324219}, {373.6451416015625, 28}}</string>
+					<string>{{481.35485076904297, 165.53398132324219}, {315.6451416015625, 28}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -24709,7 +24709,7 @@ logout}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{409.02117156982422, 165.53398132324219}, {460.3125, 28}}</string>
+					<string>{{436.35485076904297, 165.53398132324219}, {405.6451416015625, 28}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -26353,7 +26353,7 @@ Subject:
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{459.26741000000004, 166}, {359.77767999999998, 28}}</string>
+					<string>{{481.3125, 166}, {315.6875, 28}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -32472,7 +32472,7 @@ logout}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{485.18834686279297, 239.06796264648438}, {311.8116455078125, 28}}</string>
+					<string>{{531.18833923339844, 239.06796264648438}, {219.81166076660156, 28}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
