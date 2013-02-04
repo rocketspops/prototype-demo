@@ -36,7 +36,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-01-31 22:05:30 +0000</string>
+	<string>2013-02-04 16:17:44 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
@@ -28263,91 +28263,8 @@ user}</string>
 					<integer>3</integer>
 				</dict>
 				<dict>
-					<key>Class</key>
-					<string>Group</string>
-					<key>Graphics</key>
-					<array>
-						<dict>
-							<key>Bounds</key>
-							<string>{{26.929574873636511, 9}, {139.43663024902344, 55}}</string>
-							<key>Class</key>
-							<string>ShapedGraphic</string>
-							<key>ID</key>
-							<integer>108119</integer>
-							<key>ImageID</key>
-							<integer>2</integer>
-							<key>Opacity</key>
-							<real>0.89999997615814209</real>
-							<key>Shape</key>
-							<string>Rectangle</string>
-							<key>Style</key>
-							<dict>
-								<key>fill</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-								<key>image fill</key>
-								<dict>
-									<key>Opacity</key>
-									<real>0.89999997615814209</real>
-								</dict>
-								<key>shadow</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-								<key>stroke</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-							</dict>
-						</dict>
-						<dict>
-							<key>Bounds</key>
-							<string>{{20, 0}, {153, 60}}</string>
-							<key>Class</key>
-							<string>ShapedGraphic</string>
-							<key>ID</key>
-							<integer>108120</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
-							<key>Style</key>
-							<dict>
-								<key>fill</key>
-								<dict>
-									<key>Color</key>
-									<dict>
-										<key>b</key>
-										<string>0.901961</string>
-										<key>g</key>
-										<string>0.901961</string>
-										<key>r</key>
-										<string>0.901961</string>
-									</dict>
-								</dict>
-								<key>shadow</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-								<key>stroke</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-							</dict>
-						</dict>
-					</array>
-					<key>ID</key>
-					<integer>108118</integer>
-					<key>Layer</key>
-					<integer>4</integer>
-				</dict>
-				<dict>
 					<key>Bounds</key>
-					<string>{{16.929574873636511, 9}, {139.43663024902344, 55}}</string>
+					<string>{{26.666665859323352, 7.7301587686035873}, {139.43663024902344, 55}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -28906,123 +28823,81 @@ gear}</string>
 					<string>NO</string>
 				</dict>
 				<dict>
+					<key>Bounds</key>
+					<string>{{492.82257843017578, 21.539682462792825}, {234.35484313964844, 28}}</string>
 					<key>Class</key>
-					<string>Group</string>
-					<key>Graphics</key>
-					<array>
-						<dict>
-							<key>Bounds</key>
-							<string>{{497.82608695652175, 23}, {224.3478260869565, 25.333333333333332}}</string>
-							<key>Class</key>
-							<string>ShapedGraphic</string>
-							<key>ID</key>
-							<integer>107715</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
-							<key>Style</key>
-							<dict>
-								<key>fill</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-								<key>shadow</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-								<key>stroke</key>
-								<dict>
-									<key>Draws</key>
-									<string>NO</string>
-								</dict>
-							</dict>
-							<key>Text</key>
-							<dict>
-								<key>Pad</key>
-								<integer>0</integer>
-								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
-{\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
-
-\f0\fs28 \cf2 This is a global notification message.}</string>
-								<key>VerticalPad</key>
-								<integer>0</integer>
-							</dict>
-							<key>Wrap</key>
-							<string>NO</string>
-						</dict>
-						<dict>
-							<key>Bounds</key>
-							<string>{{490, 19}, {239.99999999999997, 32}}</string>
-							<key>Class</key>
-							<string>ShapedGraphic</string>
-							<key>ID</key>
-							<integer>107716</integer>
-							<key>Shape</key>
-							<string>Rectangle</string>
-							<key>Style</key>
-							<dict>
-								<key>fill</key>
-								<dict>
-									<key>Color</key>
-									<dict>
-										<key>b</key>
-										<string>0.827331</string>
-										<key>g</key>
-										<string>0.96733</string>
-										<key>r</key>
-										<string>1</string>
-									</dict>
-								</dict>
-								<key>shadow</key>
-								<dict>
-									<key>Beneath</key>
-									<string>YES</string>
-									<key>Color</key>
-									<dict>
-										<key>a</key>
-										<string>0.3</string>
-										<key>b</key>
-										<string>0</string>
-										<key>g</key>
-										<string>0</string>
-										<key>r</key>
-										<string>0</string>
-									</dict>
-									<key>Draws</key>
-									<string>NO</string>
-									<key>Fuzziness</key>
-									<real>13.051496505737305</real>
-									<key>ShadowVector</key>
-									<string>{0, 2}</string>
-								</dict>
-								<key>stroke</key>
-								<dict>
-									<key>Color</key>
-									<dict>
-										<key>b</key>
-										<string>0.701961</string>
-										<key>g</key>
-										<string>0.701961</string>
-										<key>r</key>
-										<string>0.701961</string>
-									</dict>
-								</dict>
-							</dict>
-							<key>Text</key>
-							<dict>
-								<key>Pad</key>
-								<integer>10</integer>
-							</dict>
-						</dict>
-					</array>
+					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>107714</integer>
+					<integer>107716</integer>
 					<key>Layer</key>
 					<integer>8</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.278431</string>
+								<key>g</key>
+								<string>0.760784</string>
+								<key>r</key>
+								<string>0.505882</string>
+							</dict>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Beneath</key>
+							<string>YES</string>
+							<key>Color</key>
+							<dict>
+								<key>a</key>
+								<string>0.3</string>
+								<key>b</key>
+								<string>0</string>
+								<key>g</key>
+								<string>0</string>
+								<key>r</key>
+								<string>0</string>
+							</dict>
+							<key>Draws</key>
+							<string>NO</string>
+							<key>Fuzziness</key>
+							<real>13.051496505737305</real>
+							<key>ShadowVector</key>
+							<string>{0, 2}</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Cap</key>
+							<integer>2</integer>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.212013</string>
+								<key>g</key>
+								<string>0.569555</string>
+								<key>r</key>
+								<string>0.380118</string>
+							</dict>
+							<key>Join</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Pad</key>
+						<integer>10</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
+
+\f0\fs28 \cf1 This is a global notification message.}</string>
+					</dict>
 				</dict>
 				<dict>
 					<key>Class</key>
@@ -33825,7 +33700,7 @@ gear}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -58269,13 +58144,9 @@ gear}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>6</integer>
+		<integer>5</integer>
 		<key>ExpandedCanvases</key>
 		<array>
-			<dict>
-				<key>name</key>
-				<string>Test</string>
-			</dict>
 			<dict>
 				<key>name</key>
 				<string>Launchpad</string>
@@ -58294,7 +58165,7 @@ gear}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{416, 33}, {1933, 1228}}</string>
+		<string>{{0, 4}, {1933, 1054}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -58308,9 +58179,9 @@ gear}</string>
 		<key>SidebarWidth</key>
 		<integer>211</integer>
 		<key>VisibleRegion</key>
-		<string>{{-238, 0}, {1693, 1089}}</string>
+		<string>{{-48, 0}, {1313.0769712402994, 703.84617966307781}}</string>
 		<key>Zoom</key>
-		<real>1</real>
+		<real>1.2999999523162842</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -58340,8 +58211,8 @@ gear}</string>
 			</array>
 			<array>
 				<string>Launchpad</string>
-				<real>1</real>
-				<real>2</real>
+				<real>1.2999999523162842</real>
+				<real>0.78750002384185791</real>
 			</array>
 			<array>
 				<string>Test</string>
