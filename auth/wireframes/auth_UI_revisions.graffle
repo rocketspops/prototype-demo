@@ -6217,7 +6217,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-01-31 22:56:06 +0000</string>
+	<string>2013-02-01 22:34:46 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -6726,13 +6726,14 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 				<string>Chrome</string>
 				<string>Metadata</string>
 				<string>Wireframe</string>
+				<string>Sign out</string>
 			</array>
 			<key>AutoAdjust</key>
 			<true/>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1449, 907}}</string>
+				<string>{{0, 0}, {1283, 907}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -6756,7 +6757,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1449, 907}</string>
+			<string>{1283, 907}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -7204,8 +7205,6 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 							</array>
 							<key>ID</key>
 							<integer>107776</integer>
-							<key>Link</key>
-							<dict/>
 						</dict>
 						<dict>
 							<key>Class</key>
@@ -8485,34 +8484,34 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								aUkBBJKEhIQM
 								TlNEaWN0aW9u
 								YXJ5AJSEAWkE
-								koSWlgZOU0tl
-								cm6GkoSEhAhO
-								U051bWJlcgCE
-								hAdOU1ZhbHVl
-								AJSEASqEhAFk
-								nQCGkoSWlhBO
-								U1BhcmFncmFw
-								aFN0eWxlhpKE
-								hIQQTlNQYXJh
-								Z3JhcGhTdHls
-								ZQCUhARDQ0BT
-								AACEhIQHTlNB
-								cnJheQCUmQyS
-								hISECU5TVGV4
-								dFRhYgCUhAJD
-								ZgAchpKEpKIA
-								OIaShKSiAFSG
-								koSkogBwhpKE
-								pKIAgYwAhpKE
-								pKIAgagAhpKE
-								pKIAgcQAhpKE
-								pKIAgeAAhpKE
-								pKIAgfwAhpKE
-								pKIAgRgBhpKE
-								pKIAgTQBhpKE
-								pKIAgVABhoaB
-								AAiEBFsxZl2D
-								zcxMPYaShJaW
+								koSWlhBOU1Bh
+								cmFncmFwaFN0
+								eWxlhpKEhIQQ
+								TlNQYXJhZ3Jh
+								cGhTdHlsZQCU
+								hARDQ0BTAACE
+								hIQHTlNBcnJh
+								eQCUmQyShISE
+								CU5TVGV4dFRh
+								YgCUhAJDZgAc
+								hpKEn54AOIaS
+								hJ+eAFSGkoSf
+								ngBwhpKEn54A
+								gYwAhpKEn54A
+								gagAhpKEn54A
+								gcQAhpKEn54A
+								geAAhpKEn54A
+								gfwAhpKEn54A
+								gRgBhpKEn54A
+								gTQBhpKEn54A
+								gVABhoaBAAiE
+								BFsxZl2DzcxM
+								PYaShJaWBk5T
+								S2VyboaShISE
+								CE5TTnVtYmVy
+								AISEB05TVmFs
+								dWUAlIQBKoSE
+								AWSjAIaShJaW
 								Bk5TRm9udIaS
 								hISEBk5TRm9u
 								dB6UmRiEBVsy
@@ -9470,34 +9469,34 @@ logout}</string>
 								aUkBBJKEhIQM
 								TlNEaWN0aW9u
 								YXJ5AJSEAWkE
-								koSWlgZOU0tl
-								cm6GkoSEhAhO
-								U051bWJlcgCE
-								hAdOU1ZhbHVl
-								AJSEASqEhAFk
-								nQCGkoSWlhBO
-								U1BhcmFncmFw
-								aFN0eWxlhpKE
-								hIQQTlNQYXJh
-								Z3JhcGhTdHls
-								ZQCUhARDQ0BT
-								AACEhIQHTlNB
-								cnJheQCUmQyS
-								hISECU5TVGV4
-								dFRhYgCUhAJD
-								ZgAchpKEpKIA
-								OIaShKSiAFSG
-								koSkogBwhpKE
-								pKIAgYwAhpKE
-								pKIAgagAhpKE
-								pKIAgcQAhpKE
-								pKIAgeAAhpKE
-								pKIAgfwAhpKE
-								pKIAgRgBhpKE
-								pKIAgTQBhpKE
-								pKIAgVABhoaB
-								AAiEBFsxZl2D
-								zcxMPYaShJaW
+								koSWlhBOU1Bh
+								cmFncmFwaFN0
+								eWxlhpKEhIQQ
+								TlNQYXJhZ3Jh
+								cGhTdHlsZQCU
+								hARDQ0BTAACE
+								hIQHTlNBcnJh
+								eQCUmQyShISE
+								CU5TVGV4dFRh
+								YgCUhAJDZgAc
+								hpKEn54AOIaS
+								hJ+eAFSGkoSf
+								ngBwhpKEn54A
+								gYwAhpKEn54A
+								gagAhpKEn54A
+								gcQAhpKEn54A
+								geAAhpKEn54A
+								gfwAhpKEn54A
+								gRgBhpKEn54A
+								gTQBhpKEn54A
+								gVABhoaBAAiE
+								BFsxZl2DzcxM
+								PYaShJaWBk5T
+								S2VyboaShISE
+								CE5TTnVtYmVy
+								AISEB05TVmFs
+								dWUAlIQBKoSE
+								AWSjAIaShJaW
 								Bk5TRm9udIaS
 								hISEBk5TRm9u
 								dB6UmRiEBVsy
@@ -14447,7 +14446,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -14467,7 +14466,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -14574,7 +14573,7 @@ logout}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1449, 907}}</string>
+				<string>{{0, 0}, {1283, 907}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -14598,7 +14597,7 @@ logout}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1449, 907}</string>
+			<string>{1283, 907}</string>
 			<key>ColumnAlign</key>
 			<integer>2</integer>
 			<key>ColumnSpacing</key>
@@ -18443,7 +18442,7 @@ logout}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1449, 907}}</string>
+				<string>{{0, 0}, {1283, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -18467,7 +18466,7 @@ logout}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1449, 907}</string>
+			<string>{1283, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -19462,8 +19461,6 @@ Thank you,\uc0\u8232 Your Centro Team.}</string>
 							</dict>
 							<key>ID</key>
 							<integer>108244</integer>
-							<key>Link</key>
-							<dict/>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -19504,34 +19501,34 @@ Thank you,\uc0\u8232 Your Centro Team.}</string>
 								aUkBBJKEhIQM
 								TlNEaWN0aW9u
 								YXJ5AJSEAWkE
-								koSWlgZOU0tl
-								cm6GkoSEhAhO
-								U051bWJlcgCE
-								hAdOU1ZhbHVl
-								AJSEASqEhAFk
-								nQCGkoSWlhBO
-								U1BhcmFncmFw
-								aFN0eWxlhpKE
-								hIQQTlNQYXJh
-								Z3JhcGhTdHls
-								ZQCUhARDQ0BT
-								AACEhIQHTlNB
-								cnJheQCUmQyS
-								hISECU5TVGV4
-								dFRhYgCUhAJD
-								ZgAchpKEpKIA
-								OIaShKSiAFSG
-								koSkogBwhpKE
-								pKIAgYwAhpKE
-								pKIAgagAhpKE
-								pKIAgcQAhpKE
-								pKIAgeAAhpKE
-								pKIAgfwAhpKE
-								pKIAgRgBhpKE
-								pKIAgTQBhpKE
-								pKIAgVABhoaB
-								AAiEBFsxZl2D
-								zcxMPYaShJaW
+								koSWlhBOU1Bh
+								cmFncmFwaFN0
+								eWxlhpKEhIQQ
+								TlNQYXJhZ3Jh
+								cGhTdHlsZQCU
+								hARDQ0BTAACE
+								hIQHTlNBcnJh
+								eQCUmQyShISE
+								CU5TVGV4dFRh
+								YgCUhAJDZgAc
+								hpKEn54AOIaS
+								hJ+eAFSGkoSf
+								ngBwhpKEn54A
+								gYwAhpKEn54A
+								gagAhpKEn54A
+								gcQAhpKEn54A
+								geAAhpKEn54A
+								gfwAhpKEn54A
+								gRgBhpKEn54A
+								gTQBhpKEn54A
+								gVABhoaBAAiE
+								BFsxZl2DzcxM
+								PYaShJaWBk5T
+								S2VyboaShISE
+								CE5TTnVtYmVy
+								AISEB05TVmFs
+								dWUAlIQBKoSE
+								AWSjAIaShJaW
 								Bk5TRm9udIaS
 								hISEBk5TRm9u
 								dB6UmRiEBVsy
@@ -19572,8 +19569,6 @@ gear}</string>
 							<string>Resize</string>
 							<key>ID</key>
 							<integer>108245</integer>
-							<key>Link</key>
-							<dict/>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -20620,34 +20615,34 @@ logout}</string>
 								aUkBBJKEhIQM
 								TlNEaWN0aW9u
 								YXJ5AJSEAWkE
-								koSWlgZOU0tl
-								cm6GkoSEhAhO
-								U051bWJlcgCE
-								hAdOU1ZhbHVl
-								AJSEASqEhAFk
-								nQCGkoSWlhBO
-								U1BhcmFncmFw
-								aFN0eWxlhpKE
-								hIQQTlNQYXJh
-								Z3JhcGhTdHls
-								ZQCUhARDQ0BT
-								AACEhIQHTlNB
-								cnJheQCUmQyS
-								hISECU5TVGV4
-								dFRhYgCUhAJD
-								ZgAchpKEpKIA
-								OIaShKSiAFSG
-								koSkogBwhpKE
-								pKIAgYwAhpKE
-								pKIAgagAhpKE
-								pKIAgcQAhpKE
-								pKIAgeAAhpKE
-								pKIAgfwAhpKE
-								pKIAgRgBhpKE
-								pKIAgTQBhpKE
-								pKIAgVABhoaB
-								AAiEBFsxZl2D
-								zcxMPYaShJaW
+								koSWlhBOU1Bh
+								cmFncmFwaFN0
+								eWxlhpKEhIQQ
+								TlNQYXJhZ3Jh
+								cGhTdHlsZQCU
+								hARDQ0BTAACE
+								hIQHTlNBcnJh
+								eQCUmQyShISE
+								CU5TVGV4dFRh
+								YgCUhAJDZgAc
+								hpKEn54AOIaS
+								hJ+eAFSGkoSf
+								ngBwhpKEn54A
+								gYwAhpKEn54A
+								gagAhpKEn54A
+								gcQAhpKEn54A
+								geAAhpKEn54A
+								gfwAhpKEn54A
+								gRgBhpKEn54A
+								gTQBhpKEn54A
+								gVABhoaBAAiE
+								BFsxZl2DzcxM
+								PYaShJaWBk5T
+								S2VyboaShISE
+								CE5TTnVtYmVy
+								AISEB05TVmFs
+								dWUAlIQBKoSE
+								AWSjAIaShJaW
 								Bk5TRm9udIaS
 								hISEBk5TRm9u
 								dB6UmRiEBVsy
@@ -24459,7 +24454,7 @@ logout}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1449, 907}}</string>
+				<string>{{0, 0}, {1283, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -24483,7 +24478,7 @@ logout}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1449, 907}</string>
+			<string>{1283, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -24888,8 +24883,6 @@ logout}</string>
 									</array>
 									<key>ID</key>
 									<integer>108031</integer>
-									<key>Link</key>
-									<dict/>
 								</dict>
 								<dict>
 									<key>Class</key>
@@ -24986,8 +24979,6 @@ logout}</string>
 									</array>
 									<key>ID</key>
 									<integer>107780</integer>
-									<key>Link</key>
-									<dict/>
 								</dict>
 							</array>
 							<key>ID</key>
@@ -25005,8 +24996,6 @@ logout}</string>
 									<string>ShapedGraphic</string>
 									<key>ID</key>
 									<integer>107785</integer>
-									<key>Link</key>
-									<dict/>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -28329,34 +28318,34 @@ Subject:
 								aUkBBJKEhIQM
 								TlNEaWN0aW9u
 								YXJ5AJSEAWkE
-								koSWlgZOU0tl
-								cm6GkoSEhAhO
-								U051bWJlcgCE
-								hAdOU1ZhbHVl
-								AJSEASqEhAFk
-								nQCGkoSWlhBO
-								U1BhcmFncmFw
-								aFN0eWxlhpKE
-								hIQQTlNQYXJh
-								Z3JhcGhTdHls
-								ZQCUhARDQ0BT
-								AACEhIQHTlNB
-								cnJheQCUmQyS
-								hISECU5TVGV4
-								dFRhYgCUhAJD
-								ZgAchpKEpKIA
-								OIaShKSiAFSG
-								koSkogBwhpKE
-								pKIAgYwAhpKE
-								pKIAgagAhpKE
-								pKIAgcQAhpKE
-								pKIAgeAAhpKE
-								pKIAgfwAhpKE
-								pKIAgRgBhpKE
-								pKIAgTQBhpKE
-								pKIAgVABhoaB
-								AAiEBFsxZl2D
-								zcxMPYaShJaW
+								koSWlhBOU1Bh
+								cmFncmFwaFN0
+								eWxlhpKEhIQQ
+								TlNQYXJhZ3Jh
+								cGhTdHlsZQCU
+								hARDQ0BTAACE
+								hIQHTlNBcnJh
+								eQCUmQyShISE
+								CU5TVGV4dFRh
+								YgCUhAJDZgAc
+								hpKEn54AOIaS
+								hJ+eAFSGkoSf
+								ngBwhpKEn54A
+								gYwAhpKEn54A
+								gagAhpKEn54A
+								gcQAhpKEn54A
+								geAAhpKEn54A
+								gfwAhpKEn54A
+								gRgBhpKEn54A
+								gTQBhpKEn54A
+								gVABhoaBAAiE
+								BFsxZl2DzcxM
+								PYaShJaWBk5T
+								S2VyboaShISE
+								CE5TTnVtYmVy
+								AISEB05TVmFs
+								dWUAlIQBKoSE
+								AWSjAIaShJaW
 								Bk5TRm9udIaS
 								hISEBk5TRm9u
 								dB6UmRiEBVsy
@@ -29413,34 +29402,34 @@ logout}</string>
 								aUkBBJKEhIQM
 								TlNEaWN0aW9u
 								YXJ5AJSEAWkE
-								koSWlgZOU0tl
-								cm6GkoSEhAhO
-								U051bWJlcgCE
-								hAdOU1ZhbHVl
-								AJSEASqEhAFk
-								nQCGkoSWlhBO
-								U1BhcmFncmFw
-								aFN0eWxlhpKE
-								hIQQTlNQYXJh
-								Z3JhcGhTdHls
-								ZQCUhARDQ0BT
-								AACEhIQHTlNB
-								cnJheQCUmQyS
-								hISECU5TVGV4
-								dFRhYgCUhAJD
-								ZgAchpKEpKIA
-								OIaShKSiAFSG
-								koSkogBwhpKE
-								pKIAgYwAhpKE
-								pKIAgagAhpKE
-								pKIAgcQAhpKE
-								pKIAgeAAhpKE
-								pKIAgfwAhpKE
-								pKIAgRgBhpKE
-								pKIAgTQBhpKE
-								pKIAgVABhoaB
-								AAiEBFsxZl2D
-								zcxMPYaShJaW
+								koSWlhBOU1Bh
+								cmFncmFwaFN0
+								eWxlhpKEhIQQ
+								TlNQYXJhZ3Jh
+								cGhTdHlsZQCU
+								hARDQ0BTAACE
+								hIQHTlNBcnJh
+								eQCUmQyShISE
+								CU5TVGV4dFRh
+								YgCUhAJDZgAc
+								hpKEn54AOIaS
+								hJ+eAFSGkoSf
+								ngBwhpKEn54A
+								gYwAhpKEn54A
+								gagAhpKEn54A
+								gcQAhpKEn54A
+								geAAhpKEn54A
+								gfwAhpKEn54A
+								gRgBhpKEn54A
+								gTQBhpKEn54A
+								gVABhoaBAAiE
+								BFsxZl2DzcxM
+								PYaShJaWBk5T
+								S2VyboaShISE
+								CE5TTnVtYmVy
+								AISEB05TVmFs
+								dWUAlIQBKoSE
+								AWSjAIaShJaW
 								Bk5TRm9udIaS
 								hISEBk5TRm9u
 								dB6UmRiEBVsy
@@ -33282,13 +33271,14 @@ logout}</string>
 				<string>Chrome</string>
 				<string>Metadata</string>
 				<string>Wireframe</string>
+				<string>Settings</string>
 			</array>
 			<key>AutoAdjust</key>
 			<true/>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1449, 907}}</string>
+				<string>{{0, 0}, {1283, 907}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -33312,7 +33302,7 @@ logout}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1449, 907}</string>
+			<string>{1283, 907}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -39034,7 +39024,7 @@ logout}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1449, 907}}</string>
+				<string>{{0, 0}, {1283, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -39058,7 +39048,7 @@ logout}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1449, 907}</string>
+			<string>{1283, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -43176,7 +43166,7 @@ We have sent you an email in order to verify your email address, you will need t
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>5</integer>
+		<integer>1</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
@@ -43189,7 +43179,7 @@ We have sent you an email in order to verify your email address, you will need t
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{10, 32}, {1651, 1026}}</string>
+		<string>{{0, 4}, {1440, 874}}</string>
 		<key>ListView</key>
 		<false/>
 		<key>OutlineWidth</key>
@@ -43203,7 +43193,7 @@ We have sent you an email in order to verify your email address, you will need t
 		<key>SidebarWidth</key>
 		<integer>188</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 12}, {1448, 887}}</string>
+		<string>{{0, 0}, {1237, 735}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
