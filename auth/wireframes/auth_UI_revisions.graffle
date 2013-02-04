@@ -6336,7 +6336,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-02-04 16:53:36 +0000</string>
+	<string>2013-02-04 16:57:47 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -6833,7 +6833,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
-			<integer>3</integer>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>Sign in</string>
@@ -14489,7 +14489,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -14621,7 +14621,28 @@ logout}</string>
 									<key>ID</key>
 									<integer>108339</integer>
 									<key>Link</key>
-									<dict/>
+									<dict>
+										<key>layersActionLink</key>
+										<dict>
+											<key>ActionItems</key>
+											<array>
+												<dict>
+													<key>Layer</key>
+													<integer>0</integer>
+													<key>Type</key>
+													<integer>2</integer>
+												</dict>
+												<dict>
+													<key>Layer</key>
+													<integer>1</integer>
+													<key>Type</key>
+													<integer>1</integer>
+												</dict>
+											</array>
+											<key>Worksheet</key>
+											<integer>2</integer>
+										</dict>
+									</dict>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -37625,7 +37646,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -37665,7 +37686,7 @@ logout}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -42097,9 +42118,14 @@ We have sent you an email in order to verify your email address, you will need t
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>ExpandedCanvases</key>
-		<array/>
+		<array>
+			<dict>
+				<key>name</key>
+				<string>Auth • Sign in - Single app</string>
+			</dict>
+		</array>
 		<key>Frame</key>
 		<string>{{29, 80}, {1802, 978}}</string>
 		<key>ListView</key>
