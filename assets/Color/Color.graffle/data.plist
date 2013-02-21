@@ -396,11 +396,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.223484</string>
+								<string>0.435294</string>
 								<key>g</key>
-								<string>0.639688</string>
+								<string>0.717647</string>
 								<key>r</key>
-								<string>0.190055</string>
+								<string>0</string>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -439,7 +439,7 @@
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{29.383041381835938, 347.5}, {60, 16}}</string>
+					<string>{{29.383010864257812, 347.5}, {60, 16}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -501,7 +501,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{29.383041381835938, 363.5}, {314.38302612304688, 41}}</string>
+					<string>{{29.383010864257812, 363.5}, {314.38302612304688, 41}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -531,11 +531,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.193673</string>
+								<string>0.67451</string>
 								<key>g</key>
-								<string>0.793483</string>
+								<string>0.905882</string>
 								<key>r</key>
-								<string>0.947579</string>
+								<string>0.980392</string>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -548,18 +548,14 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>1</string>
+								<string>0.518806</string>
 								<key>g</key>
-								<string>1</string>
+								<string>0.820721</string>
 								<key>r</key>
-								<string>1</string>
+								<string>0.914652</string>
 							</dict>
 							<key>CornerRadius</key>
-							<real>2</real>
-							<key>Draws</key>
-							<string>NO</string>
-							<key>Width</key>
-							<real>4</real>
+							<real>1</real>
 						</dict>
 					</dict>
 					<key>Text</key>
@@ -668,11 +664,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.30039</string>
+								<string>0.245216</string>
 								<key>g</key>
-								<string>0.268083</string>
+								<string>0.168991</string>
 								<key>r</key>
-								<string>0.845424</string>
+								<string>0.967282</string>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -1036,7 +1032,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-02-21 17:19:11 +0000</string>
+	<string>2013-02-21 23:00:20 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -1117,7 +1113,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{188, 115}, {1175, 943}}</string>
+		<string>{{164, 167}, {1175, 874}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -1131,7 +1127,7 @@
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, -35}, {1040, 804}}</string>
+		<string>{{0, -1}, {1040, 735}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
