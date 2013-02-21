@@ -14,7 +14,7 @@
 	<key>BackgroundGraphic</key>
 	<dict>
 		<key>Bounds</key>
-		<string>{{0, 0}, {1728, 733}}</string>
+		<string>{{0, 0}, {1152, 733}}</string>
 		<key>Class</key>
 		<string>SolidGraphic</string>
 		<key>ID</key>
@@ -952,7 +952,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{458, 34}, {702, 699}}</string>
+			<string>{{437, 17}, {702, 699}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -988,7 +988,7 @@
 	<key>GuidesVisible</key>
 	<string>YES</string>
 	<key>HPages</key>
-	<integer>3</integer>
+	<integer>2</integer>
 	<key>ImageCounter</key>
 	<integer>2</integer>
 	<key>ImageLinkBack</key>
@@ -1036,7 +1036,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-02-21 15:49:58 +0000</string>
+	<string>2013-02-21 17:19:11 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -1117,7 +1117,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{182, 112}, {1175, 943}}</string>
+		<string>{{188, 115}, {1175, 943}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
