@@ -1,6 +1,6 @@
 # Observation Session
 - February 26, 2013
-- Sean Cleary (Session 2)
+- Sean Cleary (CM) (Session 2)
 - Conducted by Dave Castleton
 
 
