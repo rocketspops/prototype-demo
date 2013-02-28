@@ -8,6 +8,11 @@
 ________________________________________________________________
 - "Dashboard really controls my path for the day."
 - "If something gets screwed up, the first thing we do is check what we sent."
+- CM's would benefit from having a central location with:
+-- Campaigns scheduled to launch the previous day, today, tomorrow
+-- Placement issues (no delivery for live campaigns, delivery for pending campaigns, etc.)
+-- I.O.'s processed that were assigned to CM
+- Need to look at viewable space for mapping (see /product-design/insight/01-discovery/Observation Sessions/Artifacts/Screenshots/Insight/Mapping_screen_from_CM_laptop.png)
 
 
 # General observations
