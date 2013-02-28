@@ -7,6 +7,7 @@
 # Take-aways
 ________________________________________________________________
 - "Dashboard really controls my path for the day."
+- "If something gets screwed up, the first thing we do is check what we sent."
 
 
 # General observations
@@ -20,16 +21,22 @@ ________________________________________________________________
 - Doesn't often go down to the live section of the dash
 - Spends most of her time in the pending section
 
-# Placement color tags
+## Placement color tags
 - Loves the tags in the campaign details page for placements 
 (/product-design/insight/01-discovery/Observation Sessions/Artifacts/Screenshots/MMS/06_MMS_placement_status_tag.png)
 -- Likes the color coding and being able indicate the status of the placement with the color tags
 
-# Supplemental reports
+## Supplemental reports
 - Steve's team (Midwest) has a Google spreadsheet that shows campaign progress (includes to-do-lists for team, upcoming campaigns, current=running businesses, upcoming campaigns=pending)
 - Karaline likes to know what kinds of campaigns are coming up
 -- This information isn't in MMS
 -- Helps her plan the upcoming weeks
+
+## Placement screenshots
+- Client always asks for screenshots
+- Site will send shots of each placement 
+- AC will create Centro specific PowerPoint doc that they compile and send to client for verification purposes
+
 
 # Task observations
 ________________________________________________________________
@@ -74,47 +81,60 @@ ________________________________________________________________
 - Opens tab with PointRoll dashboard
 - Creates a daily report
 
+
 ## Initial Daily Reports
+- Goes through this process by campaign (v. by step in the process)
+-- Helps to make sure she doesn't miss anything in the process for each campaign
 - One of the main jobs is to make sure all placements are live once the flight dates have started
 - The next day after it's supposed to start, they will start checking to make sure it's live
 - Will send emails out to site 
-- Client always asks for screenshots
-- Site will send shots of each placement 
-- AC will create Centro specific PowerPoint doc that they compile and send to client for verification purposes
 ----->
 - She receives an email from a publisher saying they never received tags for a particular campaign
 - She Searches "Sent" folder to find the email that she sent previously and resends it
 <-----
 - Goes back to initial report task:
-- Pulls report from ad server (pointroll in this case)
+- Pulls report from ad server (PointRoll in this case)
 - Opens campaign details pages in new tab
 - Keeping DB open in the original tab
 - Maps report
 - Creates daily report
-
-- Goes through this process by campaign, helps to make sure she doesn't miss anything in the process for that campaign
-
 - Saves report to a temporary "Reports" folder
 - Goes to MMS
 - Clicks upload
-- Like MMS mapping better
--- YOu can see more, in MMS
-- Mapping:
-- Looks at placement name, looks at tags to find match 
-(looks at name, sizes of ads, only looks at impression to see if it's live, likes seeing impression to see that it's live, likes to be able to see if one is a testing) (need more info about test impressions--what they are, what they mean, what do you look for in a test impression, what does it tell you)
-- Test impressions are a visual about what's coming up
+-- Like MMS mapping better
+-- She can see more in MMS
 
-- Runs into a problem with a tag that she's unfamiliar with, goes to look up the email that she sent the tags over with, looks at the attachments to see what was sent and compares that to the mapping panel in MMS
-- Sees that the tag was there and figure out that it's an added value
+## Mapping:
+- Looks first at placement name then looks at tags to find match 
+-- Looks at name, sizes of ads 
+-- Only looks at impression to see if it's live
+--- This helps determine if a tag is just a test impression or if it's a live tag performing poorly or
+-- Tags with test impression may be for future flight dates
+-- Doesn't want to delete those because she might need it later
+--- That's why we temporarily hide v. delete tags
+-- Test impressions are a visual cue about what's coming up
 
-- If something gets screwed up, the first thing we do is check what we sent
+- Runs into a problem with a tag that she's unfamiliar with
+-- Goes to look up the email that she sent the publisher with the tags in it
+-- Looks at the attachments to see what was sent and compares that to the mapping panel in MMS
+-- Sees that the tag was there and figured out that it's an added value
+-- The usual visual cue (AV) wasn't in the tag name
 
-- So I don't use Insight like a dashboard right now, I only use it to do mapping, 
-- Didn't realize that all she was seeing on the dash was all campaigns
-- Never need a view of all campaigns
+- "If something gets screwed up, the first thing we do is check what we sent."
 
-- Mapping is really important, should be it's own page
+# Insight feedback
+________________________________________________________________
+- Doesn't use Insight like a dashboard right now
+-- Only uses it to do mapping, auto mapping isn't always accurate 
+- Didn't realize that the Insight dashboard (Campaign Index) was displaying ALL campaigns
+- Never needs a view of all campaigns
+- The viewable space for mapping is Insight is just too small
+-- Mapping is really important, should be it's own page
+
+## Create a campaign daily report on an unfamiliar ad server
+- Sometimes has to reference the help manual for how to create an delivery report for ad servers she doesn't interact with very much (this is the manual process we hope to eliminate)
+- She navigates to the Word doc file on her computer
+- Opens Word doc, looks for ad server instructions and follows the screenshots/instructions on how to create a report
 
 
 
-- Sometimes has to reference the help manual for how to create an delivery report (this is the manual process we hope to get rid of), she navigates over the file on her computer, opens Word doc, looks for ad server instructions and follows the screenshots/instructions on how to create a report
