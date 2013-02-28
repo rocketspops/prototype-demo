@@ -4,25 +4,39 @@
 - Conducted by Dave Castleton
 
 
-# Header
+# Take-aways
 ________________________________________________________________
 
-## Subheader
-- Opens MMS dashboard
-- Second tab for RAW reports to get reports faster
-- Opens MediaMind
--- Management campaigns have been divided 
--- If campaign in MediaMind, it gets kicked over to a CA
--- They can get more data
--- If a client has an ad server, usually they have analysts on there side, then just an AC handles the data
+
+
+# General observations
+________________________________________________________________
+
+## Analysis ownership
+- Ownership for campaign analysis has been divided between AC/CA
+- CA's get a campaign if:
+-- Campaign is in MediaMind
+-- Client wants more custom/comprehensive reporting
+- AC's get assigned if:
+-- Client only needs basic reporting
+--- Basic reporting = impressions, clicks, pacing
+-- If a client has an ad server, usually they have analysts on their side
 -- MediaMind is the ad server we use for more full-service clients
 
+# Task observations
+________________________________________________________________
+
+## Starting the day
+- Opens MMS dashboard
+- Opens second tab for RAW reports to get reports faster (RAW Reports folder is so full it crashes Outlook or takes a long time to load)
+- Opens MediaMind in another tab
+
 - Starts with her MMS dashboard
-- Doesn't use the spreadsheet because OFA started it was the only thing she was doing, it went
-- Doesn't know if she was using it just because everybody else was using it
-- But with the smaller load, MMS dashboard has been working really well
-- Liked it in the beginning because of having more notes, but now that she is more familiar with it it she just uses the notes field 
-- Using notes to tell how often, what day of the week, and the actual date
+- Doesn't use the Dashboard spreadsheet because when OFA started, it was the only thing she was doing and the spreadsheet wasn't needed
+- Hasn't gone back to the spreadsheet because with the smaller load, MMS dashboard has been working really well
+- Liked it in the beginning because it allowed her to have more notes, but now that she is more familiar with her job responsibilities, she doesn't need it as much and just uses the notes field in MMS
+- Notes include:
+-- How often, what day of the week, and the actual date
 - Additional notes about things that she needs to do with the client
 - Depending on the stage, CA/CM use the note (e.g. Pending v. Live)
 - If you put your initials by the note, it's less likely that someone will delete it
