@@ -12,7 +12,7 @@ ________________________________________________________________
 # General observations
 ________________________________________________________________
 
-## Analysis ownership
+## Campaign analysis ownership
 - Ownership for campaign analysis has been divided between AC/CA
 - CA's get a campaign if:
 -- Campaign is in MediaMind
@@ -22,6 +22,36 @@ ________________________________________________________________
 --- Basic reporting = impressions, clicks, pacing
 -- If a client has an ad server, usually they have analysts on their side
 -- MediaMind is the ad server we use for more full-service clients
+
+- MMS dashboard is missing the option to see who the AC is on the campaign
+- This became more important since they broke out campaign analysis ownership based on MediaMind or not (AC v. CA)
+- You add people in the Plan Details section of MMS
+- Because there's no space for AC in the SP/CM AM/CA columns, they put the AC assigned to the campaign in the notes
+
+# Assigning ownership
+- AM or AC creates the campaign which is housed in the "Media Plans" section of MMS
+- Create the campaign once they start building out a media plan proposal for the client
+- AM or AC will start building the media plan, (adding sites and placements)
+- They assign the campaign to the various team members at that point
+- Ownership can be edited at anytime by going to the Plan Details section of a campaign in MMS
+
+## Julie's workload
+- Julie tends to have larger campaigns but a smaller number
+- Currently has around 15 campaigns
+-- Has had up to 70
+- Depends on time of year and size of campaign
+
+## Dashboard Campaign Notes
+- Generally uses notes to track reporting schedule
+-- Includes how often, day of the week, and date of next report
+-- Example: "JA; weekly reporting M (next 03.04.13);"
+- Also uses notes to annotate to-do's for campaigns
+-- Example: "JA; wrap up needed (in fb-show line items)
+-- Example: "Weekly reporting T (3.5.13); request inventory avails for yahoo targeting"
+- Depending on the stage of a campaign (e.g. Pending v. Live), CA/CM use the notes
+- Users can only enter in one note
+- New note replaces old note
+- Julie has found that if you put your initials by the note, it's less likely that someone will delete it
 
 # Task observations
 ________________________________________________________________
@@ -35,47 +65,45 @@ ________________________________________________________________
 - Doesn't use the Dashboard spreadsheet because when OFA started, it was the only thing she was doing and the spreadsheet wasn't needed
 - Hasn't gone back to the spreadsheet because with the smaller load, MMS dashboard has been working really well
 - Liked it in the beginning because it allowed her to have more notes, but now that she is more familiar with her job responsibilities, she doesn't need it as much and just uses the notes field in MMS
-- Notes include:
--- How often, what day of the week, and the actual date
-- Additional notes about things that she needs to do with the client
-- Depending on the stage, CA/CM use the note (e.g. Pending v. Live)
-- If you put your initials by the note, it's less likely that someone will delete it
-- One field that's missing from MMS owners is the AC
-- Became more complicated when they broke out campaign ownership based on MediaMind or not (AC v. CA)
+- When in Dashboard, filters by next report date
+- Looks to see what's on schedule for her to update today
 
-- Add people in the Plan Details section of MMS
-- Because not field for AC on dashboard, they put the AC in the notes
+## Next report date
+- When setting the next report date on Campaign Report Upload Confirmation page, the date format is different (mm/dd/yyyy)
+- When setting the next report date on the Campaign Dashboard in MMS, the date format is (mm/dd/yy)
+-- This causes the dates to sort incorrectly (see /product-design/insight/01-discovery/Observation Sessions/Artifacts/Screenshots/MMS/next_report_date_sorting.png)
+-- When you have a lot of campaigns, it's hassle to scroll around to find what you're looking for and make sure you aren't missing any campaigns that need to be updated
 
-- Tends to have larger campaigns but a smaller number
-- Has around 15 campaigns
-- Has had up to 70
-- Depends on time of year and size of campaign
+## MMS Campaign Dashboard
+- Wishes there was more than just pacing on MMS Dashboard
+- CA's don't look at Approve/revised date
+- IO's Sent, Creative Sent, Live checkboxes are not needed in Live section
+-- More important in pending for the CM
+-- By the time CA gets the campaign, they know it's live 
+-- If campaign is pending, they might still look at the boxes to see why a campaign hasn't started yet
 
-- When at Dashboard, filters by next report date
-- What's on schedule for me to update today
-- Pain point-
--- Set next report date on campaign report upload confirmation page, the format is different (xx/xx/xxxx) vs. changing the report date on the dashboard (xx/xx/xx)
--- This causes the dates to sort incorrectly 
--- when you have a lot of campaigns, this is a hassle to scroll and find what you're looking for
+- Site count isn't very helpful either
+-- Site count is be more helpful in pending status
+-- When she sees a new campaign on her dash it's good to see site count once to get an idea of campaign size
+--- But there are other factors in determine campaign size too
+-- Site count might be useful for coordinators
+-- They have to send an email per site
+-- Sorting by site # might help them prioritize their workload
 
-- On dashboard, it would be good to have more than just pacing
--- CA-doesn't look at Approve/revised date, Site count, finds it more helpful in pending status-when she sees a new campaign on her dash it good to see once to see size, might be useful for coordinators because they have to send an email per site, so they could sort by # of sites for them to prioritize their work load
-- Add CTR, Conversion rates is they have it
+- Add CTR, Conversion rates(when applicable) to the MMS dashboard
+- Annoying to have to pull reports just to see CTR, Conversion rate
+-- Sales people ask for it and it sucks to pull for just those metrics
 
-- Annoying to have to pull reports to see information for (CTR, Conversion rate), Sales people might ask for it and it sucks to pull for just those metrics
+- CA's check final report box when the campaign is fully updated and they've talked to the client and it's good for billing
+- CA's click the box then finance can start working on it
 
-- Checkboxs seem more important in pending
-- By the time CA gets the campaign, they know it's live 
-- CA's check final report box when the campaign is fully update and we've talked to the client and good for billing, click the box, then finance can start working on it
-
-- If campaign is pending, they will look at the boxes, to see why a campaign hasn't started yet
-
-- Custom reports
--- Created for clients 
--- Taking basic download client report for MMS and creating pivotable and other charts or graphs to highlight performance levels
--- If they want to do more than that, they have to go into MediaMind (ad server) gives you more advanced data
-- Report should be the same per week for the advertiser
-- Most of the legwork comes on the front end to build the report, once they are built they can save the reports format
+## Custom reports
+- Created for clients 
+- Involves downloading basic client report from MMS and creating pivotables and other charts or graphs to highlight performance levels
+- If client wants more than that, CA's have to go into MediaMind (ad server) where they can access more advanced/detailed data
+- Each advertiser can get different reports but the report is usually the each week for the advertiser
+- Most of the legwork comes with initial build of the report
+- Once they are built they can save the reports format
 
 - Julie works campaign by campaign
 - Does it this way because it helps her stay organized to make sure each campaign gets each step of the process
