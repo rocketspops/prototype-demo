@@ -13,7 +13,7 @@ ________________________________________________________________
 - A messaging system akin the Basecamp might help cut down on the back and forth between MMS and email
 -- Being able to see previous correspondence for a campaign in one location might reduce time-on-task 
 - Notes are crucial to how they interact with MMS/Campaign/Others on the account team and how they remind themselves what to do next
-- Campaign daily task prioritization can be nuanced depending on several factors: date, performance, client, publisher, ad server
+- Campaign daily task prioritization can be nuanced depending on several factors: date, performance, client, publisher, ad server, revenue, est. loss
 
 # General observations
 ________________________________________________________________
