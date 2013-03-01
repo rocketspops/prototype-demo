@@ -7,7 +7,13 @@
 # Take-aways
 ________________________________________________________________
 
-
+- CA's would benefit from having a central location with:
+-- Dashboard with to-do's for the day
+-- Performance alerts
+- A messaging system akin the Basecamp might help cut down on the back and forth between MMS and email
+-- Being able to see previous correspondence for a campaign in one location might reduce time-on-task 
+- Notes are crucial to how they interact with MMS/Campaign/Others on the account team and how they remind themselves what to do next
+- Campaign daily task prioritization can be nuanced depending on several factors: date, performance, client, publisher, ad server
 
 # General observations
 ________________________________________________________________
@@ -105,29 +111,36 @@ ________________________________________________________________
 - Most of the legwork comes with initial build of the report
 - Once they are built they can save the reports format
 
+## Prioritizing order of campaigns for the day
 - Julie works campaign by campaign
-- Does it this way because it helps her stay organized to make sure each campaign gets each step of the process
-- Prioritizes the campaign order by what of day the reports needs to go out, 
-- General performance issues, especially if the client is upset about performance
-- Will do as much as she can at one point, comes up with some ideas, will hold onto report until account team are available 
-- This requires more strategy about how to fix the poor performance
+-- Does it this way because it helps her stay organized to make sure each campaign gets each step of the process
+- Prioritizes the campaign order by what of day the reports needs to go out 
+-- Also takes into consideration general performance issues
+-- Higher priority is given to campaigns where the client is upset about performance
+- For campaigns where a client is upset about performance: 
+-- Pull report
+-- Does more in-depth analysis about how to improve performance
+-- Runs recommendations by account team
+-- If account team is busy, will do as much as she can to analyze and come up with recommendations, then will hold onto report until account team are available 
+- Some publishers don't allow third-party tracking (e.g. Yahoo)
+-- For those campaigns, she will request performance data from the publisher via email first to get that process started
+-- Takes time to get data back 
+-- She notes which campaigns she needs to manual request performance data from in the notes section of the MMS Dashboard
+-- While she waits for data to come in she starts working on other campaigns
+- Mobile is another area where third-party ad serving doesn't really work
 
-- Some publishers, we can't use 3-party tracking so we have to reach out to publisher to get performance data
-- she'll make notes about which ones have to go through this manual process
-- She'll first email those site and wait for the data to come over and get started on other campaigns until the data comes in
-- Mobile is another area that 3-party ad serving doesn't really work
+## Insight feedback
+- Currently, building a custom report is all done through excel
+- CA's download ad server data and combine with MMS data
+-- A custom report builder where you could pull any campaign by any placement, ad size, basically everything you can do in excel would be really nice
+-- Ability to pull data into a table and create a graph, that would be amazing
+-- It would really speed things up
+- Be able to download a PDF version 
+-- When we email clients, sometimes formatting gets screwed up
 
-- Use RAW Reports 
-- Auto upload in insight for analysts should be almost 100% because of the way they determine campaign ownership (AC/CA)
-
-- Insight
-- Building a custom report is all done through excel
-- A custom report builder where you could pull any campaign by any placement, ad size, basically everything you can do in excel
-- Pull into a table and create a graph, that would be amazing
-- more or less what we do in excel it would really speed things up
-- And be able to download a PDF version 
-- When we email clients formatting gets screwed up
-- Right download ad server and combine with MMS data
+## Auto-mapping
+- Auto upload in Insight for analysts should be almost 100% because of the way they determine campaign ownership (AC/CA)
+- For now, AC's will have more manual mapping to do
 
 
 
