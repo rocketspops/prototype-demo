@@ -31,7 +31,7 @@ ________________________________________________________________
 - CA's don't do mapping as much, Sean likes to do his own mapping
 
 ## Traffic out a site
-- The process of building out all the tags (i.e. sending over the necessary creative assets that a publisher needs to launch the campaign)
+- The process of building out all the tags (i.e. sending over the necessary creative assets tags that a publisher needs to launch the campaign)
 
 ## Uploading delivery report to MMS
 - Report pulled from ad server, can't exceed a certain number of line items or MMS won't let it upload (report too big)
