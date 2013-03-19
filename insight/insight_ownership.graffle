@@ -6330,7 +6330,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-03-19 19:24:06 +0000</string>
+	<string>2013-03-19 19:41:38 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -6848,7 +6848,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1310, 1367}}</string>
+				<string>{{0, 0}, {1524, 1367}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -6872,7 +6872,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1310, 1367}</string>
+			<string>{1524, 1367}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -13250,7 +13250,7 @@ Email}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs32 \cf2 \ul \ulc3 Details}</string>
+\f0\fs32 \cf2 Details}</string>
 												<key>VerticalPad</key>
 												<integer>0</integer>
 											</dict>
@@ -18043,7 +18043,7 @@ Email}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1278, 1452}}</string>
+				<string>{{0, 0}, {1524, 1452}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -18067,7 +18067,7 @@ Email}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1278, 1452}</string>
+			<string>{1524, 1452}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -22837,7 +22837,7 @@ Email}</string>
 \deftab720
 \pard\pardeftab720
 
-\f0\fs32 \cf2 \ul \ulc3 Details}</string>
+\f0\fs32 \cf2 Details}</string>
 										<key>VerticalPad</key>
 										<integer>0</integer>
 									</dict>
@@ -38192,7 +38192,7 @@ Email}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{110, 184}, {1541, 874}}</string>
+		<string>{{137, 180}, {1755, 878}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -38206,15 +38206,15 @@ Email}</string>
 		<key>SidebarWidth</key>
 		<integer>217</integer>
 		<key>VisibleRegion</key>
-		<string>{{-106, 0}, {1522.0929979375405, 854.6511485745549}}</string>
+		<string>{{0, 60}, {1523, 739}}</string>
 		<key>Zoom</key>
-		<real>0.86000001430511475</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Ownership - Campaign Details</string>
+				<real>1</real>
 				<real>0.86000001430511475</real>
-				<real>0.85000002384185791</real>
 			</array>
 			<array>
 				<string>Introduction</string>
