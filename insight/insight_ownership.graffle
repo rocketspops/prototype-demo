@@ -9784,7 +9784,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-03-21 18:34:11 +0000</string>
+	<string>2013-03-25 15:50:22 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -9853,7 +9853,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1309, 890}}</string>
+				<string>{{0, 0}, {1170, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -9877,7 +9877,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1309, 890}</string>
+			<string>{1170, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -52146,7 +52146,7 @@ AD TAGS}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -52269,7 +52269,7 @@ AD TAGS}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1309, 890}}</string>
+				<string>{{0, 0}, {1165, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -52293,7 +52293,7 @@ AD TAGS}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1309, 890}</string>
+			<string>{1165, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -62130,7 +62130,7 @@ AD TAGS}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1309, 1461}}</string>
+				<string>{{0, 0}, {1283, 1461}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -62154,7 +62154,7 @@ AD TAGS}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1309, 1461}</string>
+			<string>{1283, 1461}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -72428,7 +72428,7 @@ AD TAGS}</string>
 		<key>SidebarWidth</key>
 		<integer>217</integer>
 		<key>VisibleRegion</key>
-		<string>{{-56, 0}, {1421.7391046436617, 967.39128679882197}}</string>
+		<string>{{-56, 0}, {1421.7391046436617, 967.39128679882185}}</string>
 		<key>Zoom</key>
 		<real>0.92000001668930054</real>
 		<key>ZoomValues</key>
