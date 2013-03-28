@@ -9784,7 +9784,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-03-25 15:50:22 +0000</string>
+	<string>2013-03-28 14:44:55 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -10283,14 +10283,14 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
-			<integer>6</integer>
+			<integer>0</integer>
 			<key>AllLayers</key>
 			<array>
-				<string>Details</string>
-				<string>Details w/ Owner Roll Initials</string>
-				<string>Details w/ Owner Roll</string>
-				<string>Details w/ Owner Roll 1</string>
-				<string>Details w/ Owner Roll 2</string>
+				<string>Details w/ Owner v.1</string>
+				<string>Details w/ Owner Roll Initials v.2.1</string>
+				<string>Details w/ Owner Roll v.2.2</string>
+				<string>Details w/ Owner Roll v.2.3</string>
+				<string>Details w/ Owner Roll v.2.4</string>
 				<string>Mapping on</string>
 				<string>Campaign Details</string>
 				<string>Grid</string>
@@ -10303,7 +10303,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1309, 1519}}</string>
+				<string>{{0, 0}, {1283, 1519}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -10327,7 +10327,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1309, 1519}</string>
+			<string>{1283, 1519}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -10336,6 +10336,113 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<string>1 pt = 1 px</string>
 			<key>GraphicsList</key>
 			<array>
+				<dict>
+					<key>Bounds</key>
+					<string>{{683.69563977130201, 338.53226074218753}, {359.77767999999998, 85.380775451660156}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0</string>
+							<key>g</key>
+							<string>0</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>12</real>
+					</dict>
+					<key>ID</key>
+					<integer>117920</integer>
+					<key>Layer</key>
+					<integer>0</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.74902</string>
+								<key>g</key>
+								<string>1</string>
+								<key>r</key>
+								<string>0.984314</string>
+							</dict>
+							<key>FillType</key>
+							<integer>2</integer>
+							<key>GradientAngle</key>
+							<real>90</real>
+							<key>GradientColor</key>
+							<dict>
+								<key>b</key>
+								<string>0.713235</string>
+								<key>g</key>
+								<string>1</string>
+								<key>r</key>
+								<string>1</string>
+							</dict>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Beneath</key>
+							<string>YES</string>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.701961</string>
+								<key>g</key>
+								<string>0.701961</string>
+								<key>r</key>
+								<string>0.701961</string>
+							</dict>
+							<key>Fuzziness</key>
+							<real>9.0033035278320312</real>
+							<key>ShadowVector</key>
+							<string>{2, 4}</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0</string>
+								<key>g</key>
+								<string>0.735294</string>
+								<key>r</key>
+								<string>0.735294</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>10</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+
+\f0\b\fs24 \cf0 Notes:\
+\
+1. 
+\b0 Clicking names pops user to email client }</string>
+						<key>VerticalPad</key>
+						<integer>10</integer>
+					</dict>
+					<key>TextPlacement</key>
+					<integer>0</integer>
+				</dict>
 				<dict>
 					<key>Class</key>
 					<string>Group</string>
@@ -11017,6 +11124,113 @@ Email}</string>
 
 \f0\fs24 \cf0 View campaign team}</string>
 					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{683.69563977130201, 338.53226074218753}, {359.77767999999998, 119.07642364501953}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0</string>
+							<key>g</key>
+							<string>0</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>12</real>
+					</dict>
+					<key>ID</key>
+					<integer>117923</integer>
+					<key>Layer</key>
+					<integer>1</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.74902</string>
+								<key>g</key>
+								<string>1</string>
+								<key>r</key>
+								<string>0.984314</string>
+							</dict>
+							<key>FillType</key>
+							<integer>2</integer>
+							<key>GradientAngle</key>
+							<real>90</real>
+							<key>GradientColor</key>
+							<dict>
+								<key>b</key>
+								<string>0.713235</string>
+								<key>g</key>
+								<string>1</string>
+								<key>r</key>
+								<string>1</string>
+							</dict>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Beneath</key>
+							<string>YES</string>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.701961</string>
+								<key>g</key>
+								<string>0.701961</string>
+								<key>r</key>
+								<string>0.701961</string>
+							</dict>
+							<key>Fuzziness</key>
+							<real>9.0033035278320312</real>
+							<key>ShadowVector</key>
+							<string>{2, 4}</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0</string>
+								<key>g</key>
+								<string>0.735294</string>
+								<key>r</key>
+								<string>0.735294</string>
+							</dict>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>10</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
+
+\f0\b\fs24 \cf0 Notes:\
+\
+1. 
+\b0 Universal feedback asked for some indication of rolls.  This was less important for their own teams, since they were familiar with everybody.  But when covering for someone else, they are less familiar with rolls for people associated with campaigns other than their own.}</string>
+						<key>VerticalPad</key>
+						<integer>10</integer>
+					</dict>
+					<key>TextPlacement</key>
+					<integer>0</integer>
 				</dict>
 				<dict>
 					<key>Class</key>
@@ -52132,17 +52346,7 @@ AD TAGS}</string>
 					<key>Lock</key>
 					<string>NO</string>
 					<key>Name</key>
-					<string>Details</string>
-					<key>Print</key>
-					<string>YES</string>
-					<key>View</key>
-					<string>NO</string>
-				</dict>
-				<dict>
-					<key>Lock</key>
-					<string>NO</string>
-					<key>Name</key>
-					<string>Details w/ Owner Roll Initials</string>
+					<string>Details w/ Owner v.1</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
@@ -52152,7 +52356,7 @@ AD TAGS}</string>
 					<key>Lock</key>
 					<string>NO</string>
 					<key>Name</key>
-					<string>Details w/ Owner Roll</string>
+					<string>Details w/ Owner Roll Initials v.2.1</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
@@ -52162,7 +52366,7 @@ AD TAGS}</string>
 					<key>Lock</key>
 					<string>NO</string>
 					<key>Name</key>
-					<string>Details w/ Owner Roll 1</string>
+					<string>Details w/ Owner Roll v.2.2</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
@@ -52172,7 +52376,17 @@ AD TAGS}</string>
 					<key>Lock</key>
 					<string>NO</string>
 					<key>Name</key>
-					<string>Details w/ Owner Roll 2</string>
+					<string>Details w/ Owner Roll v.2.3</string>
+					<key>Print</key>
+					<string>YES</string>
+					<key>View</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Lock</key>
+					<string>NO</string>
+					<key>Name</key>
+					<string>Details w/ Owner Roll v.2.4</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
@@ -52269,7 +52483,7 @@ AD TAGS}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1165, 949}}</string>
+				<string>{{0, 0}, {1204, 885}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -52293,7 +52507,7 @@ AD TAGS}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1165, 949}</string>
+			<string>{1204, 885}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -52480,7 +52694,7 @@ AD TAGS}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1309, 1452}}</string>
+				<string>{{0, 0}, {1283, 1452}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -52504,7 +52718,7 @@ AD TAGS}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1309, 1452}</string>
+			<string>{1283, 1452}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -72414,7 +72628,7 @@ AD TAGS}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{195, 29}, {1540, 1029}}</string>
+		<string>{{134, 4}, {1540, 1024}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -72426,9 +72640,9 @@ AD TAGS}</string>
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
-		<integer>217</integer>
+		<integer>322</integer>
 		<key>VisibleRegion</key>
-		<string>{{-56, 0}, {1421.7391046436617, 967.39128679882185}}</string>
+		<string>{{-11.999999999999991, 0}, {1307.6086719314412, 961.95650428871613}}</string>
 		<key>Zoom</key>
 		<real>0.92000001668930054</real>
 		<key>ZoomValues</key>
