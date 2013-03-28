@@ -9784,7 +9784,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-03-28 14:44:55 +0000</string>
+	<string>2013-03-28 14:50:05 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -11127,7 +11127,7 @@ Email}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{683.69563977130201, 338.53226074218753}, {359.77767999999998, 119.07642364501953}}</string>
+					<string>{{683.69563977130201, 338.53226074218753}, {359.77767999999998, 173.40977478027344}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -11225,7 +11225,9 @@ Email}</string>
 \f0\b\fs24 \cf0 Notes:\
 \
 1. 
-\b0 Universal feedback asked for some indication of rolls.  This was less important for their own teams, since they were familiar with everybody.  But when covering for someone else, they are less familiar with rolls for people associated with campaigns other than their own.}</string>
+\b0 Universal feedback asked for some indication of rolls.  This was less important for their own teams, since they were familiar with everybody.  But when covering for someone else, they are less familiar with rolls for people associated with campaigns other than their own.\
+\
+Rolls will vary between agencies so this will need further design consideration.  }</string>
 						<key>VerticalPad</key>
 						<integer>10</integer>
 					</dict>
@@ -52350,7 +52352,7 @@ AD TAGS}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -52360,7 +52362,7 @@ AD TAGS}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
