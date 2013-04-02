@@ -20,7 +20,7 @@
 	<key>GuidesVisible</key>
 	<string>YES</string>
 	<key>ImageCounter</key>
-	<integer>34</integer>
+	<integer>35</integer>
 	<key>Images</key>
 	<array>
 		<dict>
@@ -9784,7 +9784,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-03-28 14:50:05 +0000</string>
+	<string>2013-04-02 16:48:22 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -10283,7 +10283,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>AllLayers</key>
 			<array>
 				<string>Details w/ Owner v.1</string>
@@ -10303,7 +10303,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1283, 1519}}</string>
+				<string>{{0, 0}, {1541, 1519}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -10327,7 +10327,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1283, 1519}</string>
+			<string>{1541, 1519}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -11225,9 +11225,9 @@ Email}</string>
 \f0\b\fs24 \cf0 Notes:\
 \
 1. 
-\b0 Universal feedback asked for some indication of rolls.  This was less important for their own teams, since they were familiar with everybody.  But when covering for someone else, they are less familiar with rolls for people associated with campaigns other than their own.\
+\b0 Universal feedback asked for some indication of role.  This was less important for their own teams, since they were familiar with everybody.  But when covering for someone else, they are less familiar with role for people associated with campaigns other than their own.\
 \
-Rolls will vary between agencies so this will need further design consideration.  }</string>
+Role will vary between agencies so this will need further design consideration.  }</string>
 						<key>VerticalPad</key>
 						<integer>10</integer>
 					</dict>
@@ -52485,7 +52485,7 @@ AD TAGS}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1204, 885}}</string>
+				<string>{{0, 0}, {1165, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -52509,7 +52509,7 @@ AD TAGS}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1204, 885}</string>
+			<string>{1165, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -52696,7 +52696,7 @@ AD TAGS}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1283, 1452}}</string>
+				<string>{{0, 0}, {1687, 1452}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -52720,7 +52720,7 @@ AD TAGS}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1283, 1452}</string>
+			<string>{1687, 1452}</string>
 			<key>ColumnAlign</key>
 			<integer>0</integer>
 			<key>ColumnSpacing</key>
@@ -72630,7 +72630,7 @@ AD TAGS}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{134, 4}, {1540, 1024}}</string>
+		<string>{{126, -24}, {1695, 1054}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -72642,17 +72642,17 @@ AD TAGS}</string>
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
-		<integer>322</integer>
+		<integer>140</integer>
 		<key>VisibleRegion</key>
-		<string>{{-11.999999999999991, 0}, {1307.6086719314412, 961.95650428871613}}</string>
+		<string>{{0, 194}, {1540, 915}}</string>
 		<key>Zoom</key>
-		<real>0.92000001668930054</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Ownership - Campaign Details</string>
-				<real>0.92000001668930054</real>
-				<real>0.93000000715255737</real>
+				<real>1</real>
+				<real>1.1499999761581421</real>
 			</array>
 			<array>
 				<string>Introduction</string>
