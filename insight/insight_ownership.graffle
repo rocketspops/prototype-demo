@@ -3514,7 +3514,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-04-15 20:03:24 +0000</string>
+	<string>2013-04-15 20:05:55 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -50813,7 +50813,7 @@ Bridgette Muller \cf3 (AC)\
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{507.09417724609375, 454.83894920349121}, {15, 16}}</string>
+							<string>{{507.09417724609375, 436.83894920349121}, {15, 16}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>ID</key>
@@ -50843,7 +50843,7 @@ Bridgette Muller \cf3 (AC)\
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{507.09417724609375, 444.62277793884277}, {12, 16}}</string>
+							<string>{{507.09417724609375, 426.62277793884277}, {12, 16}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -50914,7 +50914,7 @@ Bridgette Muller \cf3 (AC)\
 							<array>
 								<dict>
 									<key>Bounds</key>
-									<string>{{521.46337890625, 560.7766056060791}, {124.46475219726562, 23.999999999999996}}</string>
+									<string>{{521.46337890625, 542.7766056060791}, {124.46475219726562, 23.999999999999996}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FontInfo</key>
@@ -50972,7 +50972,7 @@ Bridgette Muller \cf3 (AC)\
 								</dict>
 								<dict>
 									<key>Bounds</key>
-									<string>{{522.28691810555165, 588.1160567590523}, {240.43804723231028, 36}}</string>
+									<string>{{522.28691810555165, 570.1160567590523}, {240.43804723231028, 36}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FontInfo</key>
@@ -51042,7 +51042,7 @@ Bridgette Muller \cf3 (AC)\
 									<array>
 										<dict>
 											<key>Bounds</key>
-											<string>{{633.31110798899272, 658.37545743895271}, {46, 22}}</string>
+											<string>{{633.31110798899272, 640.37545743895271}, {46, 22}}</string>
 											<key>Class</key>
 											<string>ShapedGraphic</string>
 											<key>FitText</key>
@@ -51104,7 +51104,7 @@ Bridgette Muller \cf3 (AC)\
 										</dict>
 										<dict>
 											<key>Bounds</key>
-											<string>{{521.46338307444194, 651.3754224730942}, {88, 36}}</string>
+											<string>{{521.46338307444194, 633.3754224730942}, {88, 36}}</string>
 											<key>Class</key>
 											<string>ShapedGraphic</string>
 											<key>FontInfo</key>
@@ -51206,7 +51206,7 @@ Bridgette Muller \cf3 (AC)\
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{522.09417825901915, 418.41056158160745}, {138, 116}}</string>
+							<string>{{522.09417825901915, 400.41056158160745}, {138, 116}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -51276,7 +51276,7 @@ Bridgette Muller \cf3 (AC)\
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{777.51733601022579, 352.58638954162598}, {14, 20}}</string>
+							<string>{{777.51733601022579, 334.58638954162598}, {14, 20}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -51342,7 +51342,7 @@ Bridgette Muller \cf3 (AC)\
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{520.53223174361756, 360.77660275715152}, {242, 41}}</string>
+							<string>{{520.53223174361756, 342.77660275715152}, {242, 41}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -51408,7 +51408,7 @@ Bridgette Muller \cf3 (AC)\
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{481.09417724609375, 344.7766056060791}, {320, 376}}</string>
+							<string>{{481.09417724609375, 326.7766056060791}, {320, 376}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>ID</key>
@@ -81288,7 +81288,7 @@ Bridgette Muller \cf3 (AC)\
 		<key>SidebarWidth</key>
 		<integer>379</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 13}, {1301, 915}}</string>
+		<string>{{0, 82}, {1301, 915}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
