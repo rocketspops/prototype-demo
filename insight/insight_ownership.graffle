@@ -3514,7 +3514,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-04-15 20:12:43 +0000</string>
+	<string>2013-04-15 20:22:13 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -4033,7 +4033,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1541, 1367}}</string>
+				<string>{{0, 0}, {1302, 1367}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -4057,7 +4057,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1541, 1367}</string>
+			<string>{1302, 1367}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -51457,7 +51457,7 @@ Bridgette Muller \cf3 (AC)\
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{26.122806549072266, 142.5}, {1219.8771934509277, 877.5}}</string>
+					<string>{{26.122806549072266, 142.5}, {1219.8771934509277, 762.41925048828125}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -81263,18 +81263,9 @@ Bridgette Muller \cf3 (AC)\
 		<key>CurrentSheet</key>
 		<integer>2</integer>
 		<key>ExpandedCanvases</key>
-		<array>
-			<dict>
-				<key>name</key>
-				<string>Ownership - Campaign Details</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>Ownership - Edit</string>
-			</dict>
-		</array>
+		<array/>
 		<key>Frame</key>
-		<string>{{60, 4}, {1695, 1054}}</string>
+		<string>{{57, 4}, {1695, 1054}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -81288,7 +81279,7 @@ Bridgette Muller \cf3 (AC)\
 		<key>SidebarWidth</key>
 		<integer>379</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 82}, {1301, 915}}</string>
+		<string>{{0, 0}, {1301, 915}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
