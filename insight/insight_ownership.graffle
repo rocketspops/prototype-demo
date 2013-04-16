@@ -3514,7 +3514,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-04-16 18:36:21 +0000</string>
+	<string>2013-04-16 18:46:06 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -54368,7 +54368,7 @@ Expandable Banners}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{58, 65}, {1733, 993}}</string>
+		<string>{{57, 65}, {1733, 993}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
