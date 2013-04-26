@@ -36,7 +36,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-02-07 20:32:13 +0000</string>
+	<string>2013-04-26 17:08:26 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
@@ -164,7 +164,7 @@
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -252,7 +252,7 @@
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -347,7 +347,7 @@
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red129\green194\blue71;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -399,7 +399,7 @@
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -459,12 +459,12 @@ If a user supplies an invalid password, a message will pop up (following the sam
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 You entered an invalid password. \ul Show characters?}</string>
+\f0\fs28 \cf2 You entered an invalid password. \cf2 \ul \ulc2 Show characters?}</string>
 										<key>VerticalPad</key>
 										<integer>0</integer>
 									</dict>
@@ -632,7 +632,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red195\green13\blue61;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -688,7 +688,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red129\green194\blue71;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -739,7 +739,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red76\green76\blue76;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -830,7 +830,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red76\green76\blue76;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -924,7 +924,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red195\green13\blue61;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -974,7 +974,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red195\green13\blue61;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1024,7 +1024,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red129\green194\blue71;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1074,7 +1074,7 @@ If a user supplies an invalid password, a message will pop up (following the sam
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1144,7 +1144,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -1317,7 +1317,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red195\green13\blue61;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -1374,7 +1374,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1465,7 +1465,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1560,7 +1560,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1652,7 +1652,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -1698,7 +1698,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -1876,7 +1876,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -1924,7 +1924,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -2055,7 +2055,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -2103,7 +2103,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -6554,7 +6554,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSStandard;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -6602,7 +6602,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -6695,7 +6695,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -6791,7 +6791,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -6837,7 +6837,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -6974,7 +6974,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -7070,7 +7070,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -7116,7 +7116,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -7306,7 +7306,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -7354,7 +7354,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -7485,7 +7485,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -7533,7 +7533,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -11967,12 +11967,12 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs48 \cf2 info}</string>
+\f0\fs48 \cf1 info}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -11981,7 +11981,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{18, -3}, {139.43663024902344, 55}}</string>
+					<string>{{74, 113}, {139.43663024902344, 55}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -12056,7 +12056,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSStandard;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -12108,7 +12108,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -12164,7 +12164,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -12260,7 +12260,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -12306,7 +12306,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -12443,7 +12443,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -12539,7 +12539,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -12585,7 +12585,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -12778,7 +12778,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -12824,7 +12824,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -13061,7 +13061,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -13107,7 +13107,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -17492,7 +17492,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -17580,7 +17580,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -17754,7 +17754,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -17881,7 +17881,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -22302,7 +22302,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSStandard;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -22350,7 +22350,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -22443,7 +22443,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -22539,7 +22539,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -22585,7 +22585,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -22722,7 +22722,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -22818,7 +22818,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceCodePro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -22864,7 +22864,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -23054,7 +23054,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -23181,7 +23181,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -27675,7 +27675,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -27741,7 +27741,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -27807,7 +27807,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -27997,7 +27997,7 @@ Once a user gives focus to a field with an error and begins typing, the error wi
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28093,7 +28093,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28154,7 +28154,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red204\green204\blue204;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28204,7 +28204,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28262,7 +28262,7 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red204\green204\blue204;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28351,7 +28351,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28477,7 +28477,7 @@ user}</string>
 						<key>Pad</key>
 						<integer>10</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -28622,12 +28622,12 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs48 \cf2 \expnd0\expndtw0\kerning0
+\f0\fs48 \cf1 \expnd0\expndtw0\kerning0
 user}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
@@ -28675,12 +28675,12 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs48 \cf2 \expnd0\expndtw0\kerning0
+\f0\fs48 \cf1 \expnd0\expndtw0\kerning0
 logout}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
@@ -28728,12 +28728,12 @@ logout}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;}
+{\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs48 \cf2 thumbnails}</string>
+\f0\fs48 \cf1 thumbnails}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -28780,7 +28780,7 @@ logout}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28833,7 +28833,7 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28886,7 +28886,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -28938,7 +28938,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -29039,7 +29039,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -29091,7 +29091,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -29151,7 +29151,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -29218,7 +29218,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -29326,7 +29326,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -29389,7 +29389,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -29512,7 +29512,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -29611,7 +29611,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34102,7 +34102,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34168,7 +34168,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34234,7 +34234,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34424,7 +34424,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34520,7 +34520,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34578,7 +34578,7 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red204\green204\blue204;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34667,7 +34667,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34808,7 +34808,7 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34864,7 +34864,7 @@ user}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -34960,7 +34960,7 @@ user}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35006,7 +35006,7 @@ user}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -35184,7 +35184,7 @@ user}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -35235,7 +35235,7 @@ user}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35286,7 +35286,7 @@ cog}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35337,7 +35337,7 @@ logout}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35395,7 +35395,7 @@ logout}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35448,7 +35448,7 @@ user}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35501,7 +35501,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35553,7 +35553,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35654,7 +35654,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35706,7 +35706,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -35755,7 +35755,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -40309,7 +40309,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -40375,7 +40375,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -40441,7 +40441,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -40638,7 +40638,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -40736,7 +40736,7 @@ gear}</string>
 						<key>Pad</key>
 						<integer>0</integer>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red204\green204\blue204;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -40845,7 +40845,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -40911,7 +40911,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -41066,7 +41066,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -41132,7 +41132,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -41207,7 +41207,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -41273,7 +41273,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -41339,7 +41339,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -41396,7 +41396,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -41515,7 +41515,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -41645,7 +41645,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -41712,7 +41712,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -41820,7 +41820,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -41883,7 +41883,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -42006,7 +42006,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -42105,7 +42105,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -46565,7 +46565,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -46631,7 +46631,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -46697,7 +46697,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -46894,7 +46894,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -47049,7 +47049,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -47155,7 +47155,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -47212,7 +47212,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -47327,7 +47327,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -47457,7 +47457,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -47524,7 +47524,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -47632,7 +47632,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -47695,7 +47695,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -47818,7 +47818,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -47917,7 +47917,7 @@ gear}</string>
 										<key>Pad</key>
 										<integer>0</integer>
 										<key>Text</key>
-										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+										<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52363,7 +52363,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52429,7 +52429,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52495,7 +52495,7 @@ gear}</string>
 														<key>Pad</key>
 														<integer>0</integer>
 														<key>Text</key>
-														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+														<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52692,7 +52692,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52754,7 +52754,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Light;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52810,7 +52810,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52906,7 +52906,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -52952,7 +52952,7 @@ gear}</string>
 												<key>Pad</key>
 												<integer>0</integer>
 												<key>Text</key>
-												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+												<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
@@ -53126,7 +53126,7 @@ gear}</string>
 							<key>Text</key>
 							<dict>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -53276,7 +53276,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -53382,7 +53382,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red25\green25\blue25;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -53439,7 +53439,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -53554,7 +53554,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;\red128\green128\blue128;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -57988,7 +57988,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -58152,7 +58152,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Regular;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -58200,7 +58200,7 @@ gear}</string>
 								<key>Pad</key>
 								<integer>0</integer>
 								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SSPika;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -58387,7 +58387,7 @@ gear}</string>
 		<key>SidebarWidth</key>
 		<integer>211</integer>
 		<key>VisibleRegion</key>
-		<string>{{-236, -3}, {1693, 915}}</string>
+		<string>{{-236, -1}, {1693, 915}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
