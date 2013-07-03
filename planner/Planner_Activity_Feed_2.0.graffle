@@ -26001,7 +26001,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-07-03 22:30:59 +0000</string>
+	<string>2013-07-03 22:41:55 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -65706,13 +65706,59 @@ Target budget}</string>
 					<integer>0</integer>
 				</dict>
 				<dict>
+					<key>Bounds</key>
+					<string>{{497, 799.37497077063745}, {257.75, 18.316796753711984}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.380501</string>
+							<key>g</key>
+							<string>0.219294</string>
+							<key>r</key>
+							<string>0.180378</string>
+						</dict>
+						<key>Font</key>
+						<string>SourceSansPro-Semibold</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
+					<key>ID</key>
+					<integer>140205</integer>
+					<key>Layer</key>
+					<integer>1</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<dict>
 					<key>Class</key>
 					<string>Group</string>
 					<key>Graphics</key>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{540.7499916739763, 651.31249010935437}, {19, 26}}</string>
+							<string>{{540.49998848885127, 651.31249010935437}, {19, 26}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -65819,7 +65865,7 @@ Target budget}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{383.00000305473986, 649.56251507252455}, {154, 24}}</string>
+							<string>{{382.74999986961484, 649.56251507252455}, {154, 24}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -65941,7 +65987,7 @@ Target budget}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{540.74999184161436, 360.09227960556751}, {19, 26}}</string>
+							<string>{{541.99999182298791, 360.09227960556751}, {19, 26}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -66048,7 +66094,7 @@ Target budget}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{382.7500029243547, 358.84228489547968}, {154, 24}}</string>
+							<string>{{384.00000290572825, 358.84228489547968}, {154, 24}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -66170,7 +66216,7 @@ Target budget}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{495.98019713908388, 1054.6587275005879}, {19, 26}}</string>
+							<string>{{494.99999836087221, 1054.6587275005879}, {19, 26}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -66277,7 +66323,7 @@ Target budget}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{383.98019877821167, 1052.9087275192144}, {106, 24}}</string>
+							<string>{{383, 1052.9087275192144}, {106, 24}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -66398,7 +66444,7 @@ Target budget}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{390.04996086284467, 1876.8280340246856}, {18, 25}}</string>
+							<string>{{385.99999999999994, 1876.8280340246856}, {18, 25}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -66504,7 +66550,7 @@ Target budget}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{415.6999226212497, 1877.7082830294967}, {165, 22}}</string>
+							<string>{{411.64996175840497, 1877.7082830294967}, {165, 22}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -66525,7 +66571,7 @@ Target budget}</string>
 								<key>Font</key>
 								<string>SourceSansPro-Regular</string>
 								<key>Size</key>
-								<real>16</real>
+								<real>14</real>
 							</dict>
 							<key>ID</key>
 							<integer>140190</integer>
@@ -67029,7 +67075,7 @@ Target budget}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382.49999973922968, 2294.4166451171041}, {108, 19}}</string>
+					<string>{{382, 2294.4166451171041}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -67218,7 +67264,7 @@ Target budget}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382.49999973922968, 2277.4166451171041}, {242, 19}}</string>
+					<string>{{382, 2277.4166451171041}, {242, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -67287,7 +67333,7 @@ Target budget}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382.74999986961484, 1561.041696231812}, {134, 19}}</string>
+					<string>{{382, 1561.041696231812}, {134, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -67476,7 +67522,7 @@ Target budget}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382.74999986961484, 1544.041696231812}, {143, 19}}</string>
+					<string>{{382, 1544.041696231812}, {143, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -67998,7 +68044,7 @@ Target budget}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.99999430030562, 872.06254094466567}, {946.80011556297563, 23.999954223632812}}</string>
+					<string>{{383.99999430030562, 872.06254094466567}, {951.55011543259047, 23.999954223632812}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -68126,7 +68172,7 @@ Target budget}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.74999986961484, 522.89123285189282}, {504, 108}}</string>
+					<string>{{382.74999986961484, 522.89123285189282}, {504, 108}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -68200,7 +68246,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382.49999973922968, 326.12474451959145}, {108, 19}}</string>
+					<string>{{381.24999975785613, 326.12474451959145}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -68260,7 +68306,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382.49999973922968, 309.12474451959145}, {242, 19}}</string>
+					<string>{{381.24999975785613, 309.12474451959145}, {242, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -68553,7 +68599,7 @@ Rachel}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{414.74988066777752, 1910.2028951160614}, {187, 19}}</string>
+							<string>{{411.49987421184966, 1910.2028951160614}, {214, 22}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -68574,7 +68620,7 @@ Rachel}</string>
 								<key>Font</key>
 								<string>SourceSansPro-Regular</string>
 								<key>Size</key>
-								<real>12</real>
+								<real>14</real>
 							</dict>
 							<key>ID</key>
 							<integer>140178</integer>
@@ -68643,20 +68689,13 @@ Rachel}</string>
 								AJSZAIaBIAqE
 								BFszZl0PJIPN
 								zEw9hpKElpYG
-								TlNGb250hpKE
-								m5k0mwYAAAAs
-								AAAA//5TAG8A
-								dQByAGMAZQBT
-								AGEAbgBzAFAA
-								cgBvAC0AUgBl
-								AGcAdQBsAGEA
-								cgCcDp0AnQGd
-								AJ0AhpKElpYH
-								TlNDb2xvcoaS
-								hISEB05TQ29s
-								b3IAlJ0ChARm
-								ZmZmAIOwry8/
-								g9zbWz8BhoaG
+								TlNGb250hpKa
+								koSWlgdOU0Nv
+								bG9yhpKEhIQH
+								TlNDb2xvcgCU
+								nQKEBGZmZmYA
+								g7CvLz+D3Ntb
+								PwGGhoY=
 								</data>
 								<key>Text</key>
 								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
@@ -68665,7 +68704,7 @@ Rachel}</string>
 \deftab720
 \pard\pardeftab720\sl300
 
-\f0\fs28 \cf2 Proposal_houstonpress.com.xls}</string>
+\f0\fs32 \cf2 Proposal_houstonpress.com.xls}</string>
 								<key>VerticalPad</key>
 								<integer>0</integer>
 							</dict>
@@ -68674,7 +68713,7 @@ Rachel}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{385.25000645592792, 1907.5777740105987}, {26.5, 26.5}}</string>
+							<string>{{382.00000000000006, 1907.5777740105987}, {26.5, 26.5}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -68731,7 +68770,7 @@ Rachel}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{493.49999308958661, 1595.9383093599281}, {257.75, 18.316796753711984}}</string>
+							<string>{{493.49999308958661, 1594.9383093599281}, {257.75, 18.316796753711984}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -68751,7 +68790,7 @@ Rachel}</string>
 								<real>13</real>
 							</dict>
 							<key>ID</key>
-							<integer>140024</integer>
+							<integer>140204</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -68771,13 +68810,6 @@ Rachel}</string>
 							<dict>
 								<key>Align</key>
 								<integer>0</integer>
-								<key>Text</key>
-								<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Semibold;}
-{\colortbl;\red255\green255\blue255;\red46\green56\blue97;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
-
-\f0\b\fs26 \cf2 (Submitted Mon Jun 24 11:17AM CDT)}</string>
 							</dict>
 						</dict>
 						<dict>
@@ -68793,7 +68825,7 @@ Rachel}</string>
 								<real>14</real>
 							</dict>
 							<key>ID</key>
-							<integer>140025</integer>
+							<integer>140203</integer>
 							<key>ImageID</key>
 							<integer>80</integer>
 							<key>ManualSizeImage</key>
@@ -68830,7 +68862,7 @@ Rachel}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>140023</integer>
+					<integer>140202</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -68878,13 +68910,6 @@ Rachel}</string>
 					<dict>
 						<key>Align</key>
 						<integer>0</integer>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
-\cocoascreenfonts1{\fonttbl\f0\fnil\fcharset0 SourceSansPro-Semibold;}
-{\colortbl;\red255\green255\blue255;\red46\green56\blue97;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
-
-\f0\b\fs26 \cf2 (Submitted Fri Jun 21 3:45PM CDT)}</string>
 					</dict>
 				</dict>
 				<dict>
@@ -69153,7 +69178,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.24999960884452, 3214.0833400972197}, {108, 19}}</string>
+					<string>{{382, 3214.0833400972197}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -69213,7 +69238,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.49999973922968, 3056.0833401717255}, {108, 19}}</string>
+					<string>{{382, 3056.0833401717255}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -69273,7 +69298,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.74999986961484, 2914.8333402648577}, {108, 19}}</string>
+					<string>{{382, 2914.8333402648577}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -69393,7 +69418,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.48019790649414, 1975.6250039003789}, {108, 19}}</string>
+					<string>{{382, 1975.6250039003789}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -69453,7 +69478,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.48019790649414, 1340.5000038072467}, {108, 19}}</string>
+					<string>{{382, 1340.5000038072467}, {108, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -69513,7 +69538,7 @@ Rachel}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{381.48019790649414, 1136.8750038444996}, {134, 19}}</string>
+					<string>{{382, 1136.8750038444996}, {134, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -72287,7 +72312,7 @@ Brady}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{382, 945.12498975917708}, {817, 90}}</string>
+					<string>{{383, 945.12498975917708}, {817, 90}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -72429,7 +72454,7 @@ Brady}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{372.5, 799.37499217689026}, {968, 140.50001525878906}}</string>
+					<string>{{375.5, 799.37499217689026}, {968, 140.50001525878906}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -79977,9 +80002,9 @@ Centro Default\
 		<key>SidebarWidth</key>
 		<integer>160</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 1069.9999840557577}, {1881.249971967191, 1138.7499830313029}}</string>
+		<string>{{0, 206}, {1505, 911}}</string>
 		<key>Zoom</key>
-		<real>0.80000001192092896</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -79994,8 +80019,8 @@ Centro Default\
 			</array>
 			<array>
 				<string>Revisions</string>
-				<real>0.80000001192092896</real>
 				<real>1</real>
+				<real>0.5</real>
 			</array>
 			<array>
 				<string>Message examples from PCT</string>
