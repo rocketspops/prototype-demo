@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-07-03 15:22:01 +0000</string>
+	<string>2013-07-03 15:29:50 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -113,12 +113,635 @@
 			<key>ColumnSpacing</key>
 			<real>36</real>
 			<key>DisplayScale</key>
-			<string>1 0/72 in = 1 0/72 in</string>
+			<string>1 0/72 in = 1.0000 in</string>
 			<key>GraphicsList</key>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{9.5000123977661133, 48}, {557, 1485}}</string>
+					<string>{{31, 16}, {57, 17}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.572549</string>
+							<key>g</key>
+							<string>0.407843</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
+					<key>ID</key>
+					<integer>139671</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green104\blue146;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\fs28 \cf2 Message}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{31, 300}, {57, 17}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.572549</string>
+							<key>g</key>
+							<string>0.407843</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
+					<key>ID</key>
+					<integer>139670</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green104\blue146;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\fs28 \cf2 Message}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{31, 389}, {57, 17}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.572549</string>
+							<key>g</key>
+							<string>0.407843</string>
+							<key>r</key>
+							<string>0</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
+					<key>ID</key>
+					<integer>139669</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green104\blue146;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\fs28 \cf2 Message}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{20, 450}, {68, 19}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.0879955</string>
+							<key>g</key>
+							<string>0.1074</string>
+							<key>r</key>
+							<string>0.962135</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>15</real>
+					</dict>
+					<key>ID</key>
+					<integer>139668</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>RTFD</key>
+						<data>
+						BAtzdHJlYW10eXBlZIHoA4QBQISE
+						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
+						hIQITlNPYmplY3QAhZKEhIQITlNT
+						dHJpbmcBlIQBKwdNZXNzYWdlhoQC
+						aUkBB5KEhIQMTlNEaWN0aW9uYXJ5
+						AJSEAWkDkoSWlgdOU0NvbG9yhpKE
+						hIQHTlNDb2xvcgCUhAFjAoQEZmZm
+						ZoP8+no/g9bUVD6D2tjYPQGGkoSW
+						lhBOU1BhcmFncmFwaFN0eWxlhpKE
+						hIQQTlNQYXJhZ3JhcGhTdHlsZQCU
+						hARDQ0BTAACEhIQHTlNBcnJheQCU
+						mQCGgSAKhARbM2ZdDySDzcxMPYaS
+						hJaWBk5TRm9udIaShISEBk5TRm9u
+						dB6UmSiEBVs0MGNdBgAAAB4AAAD/
+						/kgAZQBsAHYAZQB0AGkAYwBhAC0A
+						QgBvAGwAZAAAAIQBZhCbAJsBmwCb
+						AIaGhg==
+						</data>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red245\green27\blue22;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\b\fs32 \cf2 Message}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{51, 570}, {37, 19}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.0879955</string>
+							<key>g</key>
+							<string>0.1074</string>
+							<key>r</key>
+							<string>0.962135</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>15</real>
+					</dict>
+					<key>ID</key>
+					<integer>139667</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>RTFD</key>
+						<data>
+						BAtzdHJlYW10eXBlZIHoA4QBQISE
+						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
+						hIQITlNPYmplY3QAhZKEhIQITlNT
+						dHJpbmcBlIQBKwVBbGVydIaEAmlJ
+						AQWShISEDE5TRGljdGlvbmFyeQCU
+						hAFpA5KElpYHTlNDb2xvcoaShISE
+						B05TQ29sb3IAlIQBYwKEBGZmZmaD
+						/Pp6P4PW1FQ+g9rY2D0BhpKElpYQ
+						TlNQYXJhZ3JhcGhTdHlsZYaShISE
+						EE5TUGFyYWdyYXBoU3R5bGUAlIQE
+						Q0NAUwAAhISEB05TQXJyYXkAlJkA
+						hoEgCoQEWzNmXQ8kg83MTD2GkoSW
+						lgZOU0ZvbnSGkoSEhAZOU0ZvbnQe
+						lJkohAVbNDBjXQYAAAAeAAAA//5I
+						AGUAbAB2AGUAdABpAGMAYQAtAEIA
+						bwBsAGQAAACEAWYQmwCbAZsAmwCG
+						hoY=
+						</data>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red245\green27\blue22;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\b\fs32 \cf2 Alert}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{10, 441}, {558, 197}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>139666</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.0879955</string>
+								<key>g</key>
+								<string>0.1074</string>
+								<key>r</key>
+								<string>0.962135</string>
+							</dict>
+							<key>Width</key>
+							<real>3</real>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{20, 88}, {68, 19}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.0879955</string>
+							<key>g</key>
+							<string>0.1074</string>
+							<key>r</key>
+							<string>0.962135</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>15</real>
+					</dict>
+					<key>ID</key>
+					<integer>139665</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>RTFD</key>
+						<data>
+						BAtzdHJlYW10eXBlZIHoA4QBQISE
+						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
+						hIQITlNPYmplY3QAhZKEhIQITlNT
+						dHJpbmcBlIQBKwdNZXNzYWdlhoQC
+						aUkBB5KEhIQMTlNEaWN0aW9uYXJ5
+						AJSEAWkDkoSWlgdOU0NvbG9yhpKE
+						hIQHTlNDb2xvcgCUhAFjAoQEZmZm
+						ZoP8+no/g9bUVD6D2tjYPQGGkoSW
+						lhBOU1BhcmFncmFwaFN0eWxlhpKE
+						hIQQTlNQYXJhZ3JhcGhTdHlsZQCU
+						hARDQ0BTAACEhIQHTlNBcnJheQCU
+						mQCGgSAKhARbM2ZdDySDzcxMPYaS
+						hJaWBk5TRm9udIaShISEBk5TRm9u
+						dB6UmSiEBVs0MGNdBgAAAB4AAAD/
+						/kgAZQBsAHYAZQB0AGkAYwBhAC0A
+						QgBvAGwAZAAAAIQBZhCbAJsBmwCb
+						AIaGhg==
+						</data>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red245\green27\blue22;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\b\fs32 \cf2 Message}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{51, 225}, {37, 19}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>FitText</key>
+					<string>YES</string>
+					<key>Flow</key>
+					<string>Resize</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Color</key>
+						<dict>
+							<key>b</key>
+							<string>0.0879955</string>
+							<key>g</key>
+							<string>0.1074</string>
+							<key>r</key>
+							<string>0.962135</string>
+						</dict>
+						<key>Font</key>
+						<string>Helvetica-Bold</string>
+						<key>Size</key>
+						<real>15</real>
+					</dict>
+					<key>ID</key>
+					<integer>139664</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+					</dict>
+					<key>Text</key>
+					<dict>
+						<key>Align</key>
+						<integer>0</integer>
+						<key>Pad</key>
+						<integer>0</integer>
+						<key>RTFD</key>
+						<data>
+						BAtzdHJlYW10eXBlZIHoA4QBQISE
+						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
+						hIQITlNPYmplY3QAhZKEhIQITlNT
+						dHJpbmcBlIQBKwVBbGVydIaEAmlJ
+						AQWShISEDE5TRGljdGlvbmFyeQCU
+						hAFpA5KElpYHTlNDb2xvcoaShISE
+						B05TQ29sb3IAlIQBYwKEBGZmZmaD
+						/Pp6P4PW1FQ+g9rY2D0BhpKElpYQ
+						TlNQYXJhZ3JhcGhTdHlsZYaShISE
+						EE5TUGFyYWdyYXBoU3R5bGUAlIQE
+						Q0NAUwAAhISEB05TQXJyYXkAlJkA
+						hoEgCoQEWzNmXQ8kg83MTD2GkoSW
+						lgZOU0ZvbnSGkoSEhAZOU0ZvbnQe
+						lJkohAVbNDBjXQYAAAAeAAAA//5I
+						AGUAbAB2AGUAdABpAGMAYQAtAEIA
+						bwBsAGQAAACEAWYQmwCbAZsAmwCG
+						hoY=
+						</data>
+						<key>Text</key>
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
+\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red245\green27\blue22;}
+\deftab720
+\pard\pardeftab720\sl300
+
+\f0\b\fs32 \cf2 Alert}</string>
+						<key>VerticalPad</key>
+						<integer>0</integer>
+					</dict>
+					<key>Wrap</key>
+					<string>NO</string>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{10, 81}, {558, 215}}</string>
+					<key>Class</key>
+					<string>ShapedGraphic</string>
+					<key>ID</key>
+					<integer>139662</integer>
+					<key>Shape</key>
+					<string>Rectangle</string>
+					<key>Style</key>
+					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
+						<key>stroke</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>b</key>
+								<string>0.0879955</string>
+								<key>g</key>
+								<string>0.1074</string>
+								<key>r</key>
+								<string>0.962135</string>
+							</dict>
+							<key>Width</key>
+							<real>3</real>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>Bounds</key>
+					<string>{{96, 16}, {449.5, 1545}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -544,53 +1167,61 @@ Rachel\
 						IHRoZSBwbGFjZW1lbnQgbmFtZS4K
 						VGhhbmtzIGZvciB5b3VyIGhlbHAh
 						IOKAqFJhY2hlbAqGhAJpSQELkoSE
-						hAxOU0RpY3Rpb25hcnkAlIQBaQOS
-						hJaWEU5TQmFja2dyb3VuZENvbG9y
-						hpKEhIQHTlNDb2xvcgCUhAFjAoQE
-						ZmZmZgEBAQGGkoSWlhBOU1BhcmFn
-						cmFwaFN0eWxlhpKEhIQXTlNNdXRh
-						YmxlUGFyYWdyYXBoU3R5bGUAhIQQ
-						TlNQYXJhZ3JhcGhTdHlsZQCUhARD
-						Q0BTBACEhIQHTlNBcnJheQCUmQCG
-						gSAChARbMmZdDySGkoSWlgZOU0Zv
-						bnSGkoSEhAZOU0ZvbnQelJkohAVb
-						NDBjXQYAAAAeAAAA//5IAGUAbAB2
-						AGUAdABpAGMAYQAtAEIAbwBsAGQA
-						AACEAWYMmwCbAZsAmwCGhpcCFpKE
-						mJkEkpyShJ6fBACggSACoQ8khpKZ
-						kpqSopKEpJkchAVbMjhjXQYAAAAU
-						AAAA//5IAGUAbAB2AGUAdABpAGMA
-						YQCkDJsAmwGbAJsAhpKElpYHTlND
-						b2xvcoaShJubApyDm5oaP4OQjw8/
-						g4KBAT8BhoaXA4EXAZKEmJkDkpmS
-						mpKckoSenwQAoIEgAqEPJIaSopKn
-						hpcBD5cCFpcDgaIAlwELlwIWlwOB
-						hAOXAQuXAhaXAzuXBCyShJiZBpKE
-						lpYLTlNVbmRlcmxpbmWGkoSEhAhO
-						U051bWJlcgCEhAdOU1ZhbHVlAJSE
-						ASqEhAFxqQGGkoSWlgZOU0xpbmuG
-						koSEhAVOU1VSTACUmwCShJaWSmh0
-						dHBzOi8vcHVibGlzaGVycy1kZW1v
-						LnRyYW5zaXMuY29tL2NvbGxhYm9y
-						YXRpb25zLzE5MTUyMC9yZXZpc2lv
-						bnMvMjE3MTk2hoaSopKnkpmSmpKo
-						koSbmwKcAIOUkxM/g9HQUD8BhpKc
-						koSenwQAoIEgAqEPJIaGlwUBkoSY
-						mQWSmZKakqKSp5KokraSnJK3kq2S
-						roaXAwGXAQ+XAhaXA4GKAYY=
+						hAxOU0RpY3Rpb25hcnkAlIQBaQKS
+						hJaWEE5TUGFyYWdyYXBoU3R5bGWG
+						koSEhBBOU1BhcmFncmFwaFN0eWxl
+						AJSEBENDQFMAAISEhAdOU0FycmF5
+						AJSZAIaBIAqEBFszZl0PJIPNzEw9
+						hpKElpYGTlNGb250hpKEhIQGTlNG
+						b250HpSZKIQFWzQwY10GAAAAHgAA
+						AP/+SABlAGwAdgBlAHQAaQBjAGEA
+						LQBCAG8AbABkAAAAhAFmDIQBYwCh
+						AaEAoQCGhpcCFpKEmJkDkoSWlgdO
+						U0NvbG9yhpKEhIQHTlNDb2xvcgCU
+						oQKEBGZmZmaDm5oaP4OQjw8/g4KB
+						AT8BhpKZkoSbmwAAnIEgCp0PJIPN
+						zEw9hpKekoSgmRyEBVsyOGNdBgAA
+						ABQAAAD//kgAZQBsAHYAZQB0AGkA
+						YwBhAKAMoQChAaEAoQCGhpcDgRcB
+						koSYmQKSmZKEm5sAAJyBIAqdDySD
+						zcxMPYaSnpKmhpcBD5cCFpcDgaIA
+						lwELlwIWlwOBhAOXAQuXAhaXAzuX
+						BCyShJiZBpKElpYQTlNVbmRlcmxp
+						bmVDb2xvcoaShKShAaODgYCAPYP/
+						/v4+g8bFRT8BhpKElpYGTlNMaW5r
+						hpKEhIQFTlNVUkwAlKEAkoSWlkpo
+						dHRwczovL3B1Ymxpc2hlcnMtZGVt
+						by50cmFuc2lzLmNvbS9jb2xsYWJv
+						cmF0aW9ucy8xOTE1MjAvcmV2aXNp
+						b25zLzIxNzE5NoaGkoSWlgtOU1Vu
+						ZGVybGluZYaShISECE5TTnVtYmVy
+						AISEB05TVmFsdWUAlIQBKoSEAXGp
+						AYaSopKEpKECowCDlJMTP4PR0FA/
+						AYaSmZKEm5sAAJyBIAqdDySDzcxM
+						PYaSnpKmhpcFAZKEmJkFkqqShKSh
+						AaODgYCAPYP//v4+g8bFRT8BhpKe
+						kqaSsJKxkpmShJubAACcgSAKnQ8k
+						g83MTD2GkqKShKShAqMAg5STEz+D
+						0dBQPwGGhpcGAZKEmJkDkqqSuJKZ
+						koSbmwAAnIEgCp0PJIPNzEw9hpKe
+						kqaGlwcPkoSYmQOSqpK4kpmShJub
+						AACcgSAKnQ8kg83MTD2Gkp6Sn4aX
+						CBaShJiZBJKZkoSbmwAAnIEgCp0P
+						JIPNzEw9hpKekqaSqpK4kqKSo4aX
+						BoGKAYY=
 						</data>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red136\green125\blue110;\red16\green127\blue197;
+{\colortbl;\red255\green255\blue255;\red136\green125\blue110;\red16\green127\blue197;\red16\green127\blue197;
 }
 \deftab720
 \pard\pardeftab720\sl300
 
-\f0\b\fs24 \cf0 \cb2 Lisa Chong\
+\f0\b\fs24 \cf0 Lisa Chong\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri May 17 4:49PM CDT\
+\b0 \cf2 Fri May 17 4:49PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hi Rachel,\
 We are able to execute this campaign with the additional ATF targeting, however we would have to raise the CPM to $6.50, as we are currently running this campaign without the ATF position for $6.00. \uc0\u8232 Please let us know if you have any other questions. \u8232 Thanks! \u8232 Lisa\
@@ -600,7 +1231,7 @@ We are able to execute this campaign with the additional ATF targeting, however 
 \b \cf0 Rachel Carlson\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri May 17 4:10PM CDT\
+\b0 \cf2 Fri May 17 4:10PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Ah yes, forgot about that whole situation! \uc0\u8232 It looks like you removed the ATF targeting, are we not able to execute the campaign that way? \u8232 Let me know, \u8232 Rachel\
 \
@@ -609,7 +1240,7 @@ We are able to execute this campaign with the additional ATF targeting, however 
 \b \cf0 Lisa Chong\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri May 17 4:05PM CDT\
+\b0 \cf2 Fri May 17 4:05PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hi Rachel,\
 Happy Friday! I hope you are doing well today.\
@@ -624,16 +1255,17 @@ Thanks! \uc0\u8232 Lisa\
 \b \cf0 Lisa Chong\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri May 17 4:05PM CDT\
+\b0 \cf2 Fri May 17 4:05PM CDT\
 \pard\pardeftab720\sl300
-\cf0 Submitted the Collaboration plan on Fri May 17 4:05PM CDT. {\field{\*\fldinst{HYPERLINK "https://publishers-demo.transis.com/collaborations/191520/revisions/217196"}}{\fldrslt \cf4 \ul \ulc4 You can view this Collaboration at any time.}}\cf4 \ul \ulc4 \
+\cf0 Submitted the Collaboration plan on Fri May 17 4:05PM CDT. {\field{\*\fldinst{HYPERLINK "https://publishers-demo.transis.com/collaborations/191520/revisions/217196"}}{\fldrslt \cf3 \ul \ulc4 You can view this Collaboration at any time.}}\cf3 \ul \ulc4 \
+\pard\pardeftab720\sl300
 \cf0 \ulnone \
 \pard\pardeftab720\sl300
 
 \b \cf0 Rachel Carlson\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri May 17 1:42PM CDT\
+\b0 \cf2 Fri May 17 1:42PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Good afternoon! \uc0\u8232 How's it going? We are looking to extend the current Madison American Family Insurance plan for the remainder of the year. I've included a general idea of budget level, but you could please update the inventory availability that would be great!\
 They have also requested ATF targeting for this campaign which I have included in the placement name.\
@@ -922,77 +1554,87 @@ Thanks for your help! \uc0\u8232 Rachel\
 						VGhhbmtzIGZvciBnZXR0aW5nIGJh
 						Y2sgdG8gbWUhIOKAqFJhY2hlbAqG
 						hAJpSQESkoSEhAxOU0RpY3Rpb25h
-						cnkAlIQBaQOShJaWEU5TQmFja2dy
-						b3VuZENvbG9yhpKEhIQHTlNDb2xv
-						cgCUhAFjAoQEZmZmZgEBAQGGkoSW
-						lhBOU1BhcmFncmFwaFN0eWxlhpKE
-						hIQXTlNNdXRhYmxlUGFyYWdyYXBo
-						U3R5bGUAhIQQTlNQYXJhZ3JhcGhT
-						dHlsZQCUhARDQ0BTBACEhIQHTlNB
-						cnJheQCUmQCGgSAChARbMmZdDySG
-						koSWlgZOU0ZvbnSGkoSEhAZOU0Zv
-						bnQelJkohAVbNDBjXQYAAAAeAAAA
-						//5IAGUAbAB2AGUAdABpAGMAYQAt
-						AEIAbwBsAGQAAACEAWYMmwCbAZsA
-						mwCGhpcCFpKEmJkEkpyShJ6fBACg
-						gSACoQ8khpKZkpqSopKEpJkchAVb
-						MjhjXQYAAAAUAAAA//5IAGUAbAB2
-						AGUAdABpAGMAYQCkDJsAmwGbAJsA
-						hpKElpYHTlNDb2xvcoaShJubApyD
-						m5oaP4OQjw8/g4KBAT8BhoaXA4Hf
-						AJKEmJkDkpmSmpKckoSenwQAoIEg
-						AqEPJIaSopKnhpcBEpcCFpcDO5cE
-						LJKEmJkGkoSWlgtOU1VuZGVybGlu
-						ZYaShISECE5TTnVtYmVyAISEB05T
-						VmFsdWUAlIQBKoSEAXGpAYaShJaW
-						Bk5TTGlua4aShISEBU5TVVJMAJSb
-						AJKElpZKaHR0cHM6Ly9wdWJsaXNo
-						ZXJzLWRlbW8udHJhbnNpcy5jb20v
-						Y29sbGFib3JhdGlvbnMvMTk1ODE3
-						L3JldmlzaW9ucy8yMjIyOTGGhpKi
-						kqeSmZKakqiShJubApwAg5STEz+D
-						0dBQPwGGkpyShJ6fBACggSACoQ8k
-						hoaXBQGShJiZBZKZkpqSopKnkqiS
-						tpKckreSrZKuhpcDAZcBD5cCFpcD
-						fpcBEpcCFpcDgQgBlwEPlwIWlwOB
-						CgGXBkSShJiZA5KZkoSbmwKcg+no
-						aD+D5eRkP4Pc21s/AYaSnJKEnp8E
-						AKCBIAKhEySGkqKSo4aXAROXAhaX
-						A4GnAJcHEJKEmJkEkpyShJ6fBACg
-						gSACoQ8khpKZkpqSopKEpJkshAVb
-						NDRjXQYAAAAkAAAA//5IAGUAbAB2
-						AGUAdABpAGMAYQAtAE8AYgBsAGkA
-						cQB1AGUApAybAJsBmwCbAIaSqJKE
-						m5sCnIODggI/g+/u7j6D0dDQPgGG
-						hpcIApKEmJkEkpyShJ6fAACEhIQO
-						TlNNdXRhYmxlQXJyYXkAoZkCkoSE
-						hAlOU1RleHRUYWIAlIQCQ2YAC4aS
-						hMWuACSGhoEkAoQEWzNmXSQPJIaS
-						mZKakqKSp5KokraGlwk4koSYmQaS
-						qJK2kpySwZKtkq6SopKnkpmSmpKy
-						koS0mwCShJaWM2h0dHBzOi8vcHVi
-						bGlzaGVycy1kZW1vLnRyYW5zaXMu
-						Y29tL2RvY3VtZW50cy81MzU4NoaG
-						hpcKAZKEmJkFkpmSmpKikqeSnJLB
-						kq2SrpKokraGlwsBkoSYmQOSmZKa
-						kpySwZKikqeGlwESlwIWlwOBaQGX
-						ARKXAhaXA4FzAZcBD5cCFpcDRpcB
-						EpcCF5cDYJcBD5cCF5cDgbMBhg==
+						cnkAlIQBaQKShJaWEE5TUGFyYWdy
+						YXBoU3R5bGWGkoSEhBBOU1BhcmFn
+						cmFwaFN0eWxlAJSEBENDQFMAAISE
+						hAdOU0FycmF5AJSZAIaBIAqEBFsz
+						Zl0PJIPNzEw9hpKElpYGTlNGb250
+						hpKEhIQGTlNGb250HpSZKIQFWzQw
+						Y10GAAAAHgAAAP/+SABlAGwAdgBl
+						AHQAaQBjAGEALQBCAG8AbABkAAAA
+						hAFmDIQBYwChAaEAoQCGhpcCFpKE
+						mJkDkoSWlgdOU0NvbG9yhpKEhIQH
+						TlNDb2xvcgCUoQKEBGZmZmaDm5oa
+						P4OQjw8/g4KBAT8BhpKZkoSbmwAA
+						nIEgCp0PJIPNzEw9hpKekoSgmRyE
+						BVsyOGNdBgAAABQAAAD//kgAZQBs
+						AHYAZQB0AGkAYwBhAKAMoQChAaEA
+						oQCGhpcDgd8AkoSYmQKSmZKEm5sA
+						AJyBIAqdDySDzcxMPYaSnpKmhpcB
+						EpcCFpcDO5cELJKEmJkGkoSWlhBO
+						U1VuZGVybGluZUNvbG9yhpKEpKEB
+						o4OBgIA9g//+/j6DxsVFPwGGkoSW
+						lgZOU0xpbmuGkoSEhAVOU1VSTACU
+						oQCShJaWSmh0dHBzOi8vcHVibGlz
+						aGVycy1kZW1vLnRyYW5zaXMuY29t
+						L2NvbGxhYm9yYXRpb25zLzE5NTgx
+						Ny9yZXZpc2lvbnMvMjIyMjkxhoaS
+						hJaWC05TVW5kZXJsaW5lhpKEhIQI
+						TlNOdW1iZXIAhIQHTlNWYWx1ZQCU
+						hAEqhIQBcakBhpKikoSkoQKjAIOU
+						kxM/g9HQUD8BhpKZkoSbmwAAnIEg
+						Cp0PJIPNzEw9hpKekqaGlwUBkoSY
+						mQWSqpKEpKEBo4OBgIA9g//+/j6D
+						xsVFPwGGkp6SppKwkrGSmZKEm5sA
+						AJyBIAqdDySDzcxMPYaSopKEpKEC
+						owCDlJMTP4PR0FA/AYaGlwYBkoSY
+						mQOSqpK4kpmShJubAACcgSAKnQ8k
+						g83MTD2Gkp6SpoaXBw+ShJiZA5Kq
+						kriSmZKEm5sAAJyBIAqdDySDzcxM
+						PYaSnpKfhpcIFpKEmJkEkpmShJub
+						AACcgSAKnQ8kg83MTD2Gkp6SppKq
+						kriSopKjhpcGfpcHEpcIFpcGgQgB
+						lwcPlwgWlwaBCgGXCUSShJiZBJKZ
+						koSbmwAAnIEgCp0TJIPNzEw9hpKE
+						lpYRTlNCYWNrZ3JvdW5kQ29sb3KG
+						koSkoQGjg+PiYj+D395eP4PU01M/
+						AYaSqpK4kp6Sn4aXBxOXCBaXBoGn
+						AJcKEJKEmJkEkpmShJubAACcgSAK
+						nQ8kg83MTD2Gkp6ShKCZLIQFWzQ0
+						Y10GAAAAJAAAAP/+SABlAGwAdgBl
+						AHQAaQBjAGEALQBPAGIAbABpAHEA
+						dQBlAKAMoQChAaEAoQCGkqqSq5Ki
+						koSkoQKjg4OCAj+D7+7uPoPR0NA+
+						AYaGlwsCkoSYmQSSmZKEm5sAAISd
+						mQKShISECU5TVGV4dFRhYgCUhAJD
+						ZgALhpKEzawAJIaGgSQKhARbNGZd
+						JA8kg83MTD2Gkp6SppKqkquSopK1
+						hpcMOJKEmJkGkqqSq5KskoSuoQCS
+						hJaWM2h0dHBzOi8vcHVibGlzaGVy
+						cy1kZW1vLnRyYW5zaXMuY29tL2Rv
+						Y3VtZW50cy81MzU4NoaGkp6SppKw
+						krGSopK1kpmSyoaXDQGShJiZBZKq
+						kquSnpKmkrCSsZKZksqSopK1hpcO
+						AZKEmJkDkqqSq5KZkoSbmwAAhJ2Z
+						ApLMks6GgSQKrSQPJIPNzEw9hpKe
+						kqaGlwcSlwgWlwaBaQGXBxKXCBaX
+						BoFzAZcHD5cIFpcGRpcHEpcIF5cG
+						YJcHD5cIF5cGgbMBhg==
 						</data>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf370
 \cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red136\green125\blue110;\red16\green127\blue197;
+{\colortbl;\red255\green255\blue255;\red136\green125\blue110;\red16\green127\blue197;\red16\green127\blue197;
 \red226\green222\blue211;\red111\green100\blue85;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
 {\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
 \deftab720
 \pard\pardeftab720\sl300
 
-\f0\b\fs24 \cf0 \cb2 Brady Knippenberg\
+\f0\b\fs24 \cf0 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Mon Jun 24 3:59PM CDT\
+\b0 \cf2 Mon Jun 24 3:59PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Rachel - here's the revised proposal with in-banner video inventory - all targeted to the Houston DMA within our Entertainment Channel.\
 Please let us know if you have any questions or need anything else.\
@@ -1004,16 +1646,17 @@ Brady\
 \b \cf0 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Mon Jun 24 3:59PM CDT\
+\b0 \cf2 Mon Jun 24 3:59PM CDT\
 \pard\pardeftab720\sl300
-\cf0 Submitted the Collaboration plan on Mon Jun 24 3:59PM CDT. {\field{\*\fldinst{HYPERLINK "https://publishers-demo.transis.com/collaborations/195817/revisions/222291"}}{\fldrslt \cf4 \ul \ulc4 You can view this Collaboration at any time.}}\cf4 \ul \ulc4 \
+\cf0 Submitted the Collaboration plan on Mon Jun 24 3:59PM CDT. {\field{\*\fldinst{HYPERLINK "https://publishers-demo.transis.com/collaborations/195817/revisions/222291"}}{\fldrslt \cf3 \ul \ulc4 You can view this Collaboration at any time.}}\cf3 \ul \ulc4 \
+\pard\pardeftab720\sl300
 \cf0 \ulnone \
 \pard\pardeftab720\sl300
 
 \b \cf0 Rachel Carlson\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Mon Jun 24 2:49PM CDT\
+\b0 \cf2 Mon Jun 24 2:49PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Brady! \uc0\u8232 Go ahead and submit for in-unit video, if the pre-roll is available we might be able to resize. \u8232 Thanks, \u8232 Rachel\
 \
@@ -1022,7 +1665,7 @@ Brady\
 \b \cf0 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Mon Jun 24 2:32PM CDT\
+\b0 \cf2 Mon Jun 24 2:32PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Rachel - HoustonPress.com actually doesn't have the capability to run pre-roll video. However, we can offer in-banner video with our display units.\
 Will there be creative for in-banner video that we can propose for the site?\
@@ -1034,7 +1677,7 @@ Brady\
 \b \cf0 Rachel Carlson\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Mon Jun 24 1:31PM CDT\
+\b0 \cf2 Mon Jun 24 1:31PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Brady! \uc0\u8232 How's it going? Hope you had a nice weekend. Starcom has asked us to include pre-roll inventory for HoustonPress as well as the display.\
 If you could please provide the same rates that have been sent to their team, we would really appreciate it!\
@@ -1044,11 +1687,11 @@ Rachel\
 
 \b \cf0 \cb5 The Comments below are from earlier requests for this Collaboration\
 \pard\pardeftab720\sl300
-\cf0 \cb2 \
+\cf0 \cb1 \
 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri Jun 21 4:00PM CDT\
+\b0 \cf2 Fri Jun 21 4:00PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Rachel - here are screenshots of the placements we're proposing for the Busch campaign.\
 Also, there is a minimum buy of $2,500 NET for the campaign.\
@@ -1059,14 +1702,15 @@ Brady\
 \i \cf6 Attached files:\
 \pard\tx220\tx720\pardeftab720\li720\fi-720\sl300
 \ls1\ilvl0
-\i0 \cf4 		{\field{\*\fldinst{HYPERLINK "https://publishers-demo.transis.com/documents/53586"}}{\fldrslt \ul VMG Advertising_2013 Busch HoustonPress.com_6.21.13.pptx}}\ul \
+\i0 \cf3 		{\field{\*\fldinst{HYPERLINK "https://publishers-demo.transis.com/documents/53586"}}{\fldrslt \ul VMG Advertising_2013 Busch HoustonPress.com_6.21.13.pptx}}\ul \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl300
 \ls1\ilvl0\cf0 \ulnone \
 \pard\pardeftab720\sl300
 
 \b \cf0 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri Jun 21 3:55PM CDT\
+\b0 \cf2 Fri Jun 21 3:55PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Rachel - here's the inventory we can deliver for Busch from our Entertainment section with all impressions geo-targeted to the Houston DMA.\
 We've also included ROS added-value placements to help bring the eCPM down.\
@@ -1079,7 +1723,7 @@ Brady\
 \b \cf0 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri Jun 21 2:44PM CDT\
+\b0 \cf2 Fri Jun 21 2:44PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Rachel - I just spoke to Amye at Starcom regarding the campaign. Yesterday when they RFP'd us, there wasn't a display portion to the campaign.\
 Looks like the client is now considering display, so we'll submit our proposal to both Centro and Starcom. Amye said we could have some additional time to submit, so we'll try to have this over by EOB today.\
@@ -1091,7 +1735,7 @@ Brady\
 \b \cf0 Rachel Carlson\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri Jun 21 2:31PM CDT\
+\b0 \cf2 Fri Jun 21 2:31PM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hi Brady! Gave you a call - anything you need to chat about? \uc0\u8232 Rachel\
 \
@@ -1100,7 +1744,7 @@ Brady\
 \b \cf0 Brady Knippenberg\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri Jun 21 11:44AM CDT\
+\b0 \cf2 Fri Jun 21 11:44AM CDT\
 \pard\pardeftab720\sl300
 \cf0 Hey Rachel - can you give me a quick call regarding this campaign? 312 849-0564\
 Thanks -\
@@ -1111,7 +1755,7 @@ Brady\
 \b \cf0 Rachel Carlson\
 \pard\pardeftab720\sl300
 
-\b0 \cf3 Fri Jun 21 11:15AM CDT\
+\b0 \cf2 Fri Jun 21 11:15AM CDT\
 \pard\pardeftab720\sl300
 \cf0 Good morning! \uc0\u8232 Hope you are having a great week! Busch is looking to launch an awareness campaign in Houston focusing on those who are hard working and "earning it".\
 I've included line items with historical rates that focus on Entertainment and Sports. They would like to avoid news content altogether.\
@@ -1182,7 +1826,7 @@ Thanks for getting back to me! \uc0\u8232 Rachel\
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
@@ -1191,7 +1835,7 @@ Thanks for getting back to me! \uc0\u8232 Rachel\
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{374, 24}, {1468, 1034}}</string>
+		<string>{{161, 5}, {1468, 1034}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
