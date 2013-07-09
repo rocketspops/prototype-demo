@@ -26001,7 +26001,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-07-09 15:55:23 +0000</string>
+	<string>2013-07-09 20:56:30 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
@@ -26080,7 +26080,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1170, 949}}</string>
+				<string>{{0, 0}, {1674, 847}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -26104,7 +26104,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1170, 949}</string>
+			<string>{1674, 847}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -53112,7 +53112,7 @@ Target budget}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -78701,7 +78701,7 @@ Target budget}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -78711,7 +78711,7 @@ Target budget}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -80173,7 +80173,7 @@ Centro Default\
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>YES</string>
+					<string>NO</string>
 				</dict>
 			</array>
 			<key>LayoutInfo</key>
@@ -80227,9 +80227,17 @@ Centro Default\
 				<key>name</key>
 				<string>Revisions</string>
 			</dict>
+			<dict>
+				<key>name</key>
+				<string>Message examples from PCT</string>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Alert/activity feed examples</string>
+			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{880, 540}, {1680, 878}}</string>
+		<string>{{652, 291}, {1848, 986}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -80243,7 +80251,7 @@ Centro Default\
 		<key>SidebarWidth</key>
 		<integer>160</integer>
 		<key>VisibleRegion</key>
-		<string>{{5, 0}, {1491, 724}}</string>
+		<string>{{5, 600}, {1659, 832}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
