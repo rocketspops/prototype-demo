@@ -1,0 +1,124 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  border-color: #d6d6d6;
+  border-style: solid;
+  border-width: 0 1px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 1220px;
+}
+
+.header {
+  height: 126px;
+  background: url("../images/header.png") no-repeat;
+  position: relative;
+}
+
+.header-alerts {
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 85px; 
+  z-index: 10;
+}
+
+
+[class*="trigger"] {
+  position: absolute;
+}
+
+.alerts-trigger {
+  right: 97px;
+  height: 30px;
+  width: 36px;
+}
+
+.messages-trigger {
+  top: 30px;
+  right: 0px;
+  height: 95px;
+  width: 100px;
+}
+
+.clicked {
+  background: rgba(100,100,100,0.1);
+}
+
+.alerts-trigger.clicked {
+  background: rgba(0,0,0,0.1);
+}
+
+.messages-container {
+  background: url('../images/messages-bg.png') no-repeat;
+  border-bottom: 1px solid #d6d6d6;
+  display: none;
+  height: 288px;
+  position: relative;
+  z-index: 1;
+}
+
+.messages {
+  position: absolute;
+    top: 32px;
+    left: 380px;
+    right: 0;
+    bottom: 0;
+  overflow: scroll;
+}
+
+.table-container {
+  background: blue;
+  position: absolute;
+  top: 126px;
+  bottom: 0px;
+  width: 100%;
+}
+
+.table-container div {
+  position: absolute;
+  top: 79px;
+  bottom: 0px;
+  overflow: scroll;
+  width: 100%;
+}
+
+.table {
+  position: relative;
+}
+
+.ui-resizable-s {
+  cursor: row-resize;
+  height: 7px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ui-resizable-s:before {
+  content: "";
+  border-color: rgb(200,200,200);
+  border-style: solid;
+  border-width: 1px 0;
+  height: 5px;
+  width: 20px;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  margin-left: -10px;
+}
