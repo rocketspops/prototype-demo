@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="stylesheets/default.css" />
   <script src="javascripts/jquery-1.9.1.js"></script>
   <script src="javascripts/jquery-ui-1.10.3.custom.js"></script>
+  <script src="javascripts/jquery.localscroll-1.2.7.js"></script>
+  <script src="javascripts/jquery.scrollTo-1.4.3.1.js"></script>
   <script src="javascripts/default.js"></script>
 </head>
 <body>
@@ -14,18 +16,57 @@
     <div class="header">
       <a class="alerts-trigger" href="#"></a>
       <a class="messages-trigger" href="#"></a>
-      <img class="header-alerts" src="images/alerts.png" alt="" />
+      <div class="header-alerts">
+        <div>
+          <img src="images/alerts.png" alt="" />
+        </div>
+      </div>
     </div>
     <div class="messages-container">
+      <a href="#" class="view-fullscreen">
+        <img src="images/expand-link.png" alt="" />
+      </a>
       <div class="messages">
-        <img class="" src="images/messages.png" alt="" />
+        <p>
+          <img src="images/messages/message_01.png" alt="" />
+        </p>
+        <p>
+          <img src="images/messages/message_02.png" alt="" />
+        </p>
+        <p>
+          <img src="images/messages/message_03.png" alt="" />
+        </p>
+        <p>
+          <img src="images/messages/message_04.png" alt="" />
+          <a href="#table-03"></a>
+        </p>
       </div>
     </div>
   </div>
   <div class="table-container">
-    <img class="table-header" src="images/table-bg.png" alt="" />
-    <div>
-      <img class="table" src="images/table.png" alt="" />
+    <img class="table-header" src="images/tables/table-header.png" alt="" />
+    <div class="table">
+      <div>
+        <img id="table-01" src="images/tables/table_01.png" alt="" />
+        <a class="table-trigger" href="#"></a>
+        <img class="js-toggle version-dropdown" src="images/versions/version_dropdown_01.png" alt="" />
+        <a class="tooltip-trigger" href="#"></a>
+        <img class="js-toggle tooltip" src="images/tooltip.png" alt="" />
+      </div>
+      <div>
+        <img id="table-02" src="images/tables/table_02.png" alt="" />
+        <a class="table-trigger" href="#"></a>
+        <img class="js-toggle version-dropdown" src="images/versions/version_dropdown_03.png" alt="" />
+        <a class="tooltip-trigger" href="#"></a>
+        <img class="js-toggle tooltip" src="images/tooltip.png" alt="" />
+      </div>
+      <div>
+        <img id="table-03" src="images/tables/table_03.png" alt="" />
+        <a class="table-trigger" href="#"></a>
+        <img class="js-toggle version-dropdown" src="images/versions/version_dropdown_02.png" alt="" />
+        <a class="tooltip-trigger" href="#"></a>
+        <img class="js-toggle tooltip" src="images/tooltip.png" alt="" />
+      </div>
     </div>
   </div>
 </body>

@@ -23,36 +23,47 @@ body {
   width: 1220px;
 }
 
-.header {
+.header,
+.header-alt {
+  border-bottom: 1px solid #d6d6d6;
   height: 126px;
   background: url("../images/header.png") no-repeat;
   position: relative;
 }
 
-.header-alerts {
-  display: none;
-  position: absolute;
-  top: 36px;
-  right: 85px; 
-  z-index: 10;
+.header-alt {
+  background: url("../images/header-alternate.png") no-repeat;
 }
-
 
 [class*="trigger"] {
   position: absolute;
 }
 
 .alerts-trigger {
-  right: 97px;
+  right: 99px;
   height: 30px;
-  width: 36px;
+  width: 34px;
 }
 
 .messages-trigger {
   top: 30px;
   right: 0px;
   height: 95px;
-  width: 100px;
+  width: 101px;
+}
+
+[class^="table-trigger"] {
+  height: 30px;
+  top: 0;
+  right: 65px; 
+  width: 160px;
+}
+
+[class^="tooltip-trigger"] {
+  height: 30px;
+  top: 0;
+  right: 0px; 
+  width: 30px;
 }
 
 .clicked {
@@ -64,7 +75,7 @@ body {
 }
 
 .messages-container {
-  background: url('../images/messages-bg.png') no-repeat;
+  background: url('../images/messages/messages-bg.png') no-repeat;
   border-bottom: 1px solid #d6d6d6;
   display: none;
   height: 288px;
@@ -72,24 +83,46 @@ body {
   z-index: 1;
 }
 
+.messages-container.linked {
+  display: block;
+  position: absolute;
+  top: 126px;
+  bottom: 0;
+  width: 100%;
+  height: auto !important;
+}
+
 .messages {
   position: absolute;
     top: 32px;
-    left: 380px;
+    left: 381px;
     right: 0;
     bottom: 0;
   overflow: scroll;
 }
 
+.messages > p {
+  margin: 0;
+  position: relative;
+}
+
+.messages a {
+  display: block;
+  position: absolute;
+  bottom: 24px;
+  left: 30px;
+  height: 30px;
+  width: 105px;
+}
+
 .table-container {
-  background: blue;
   position: absolute;
   top: 126px;
   bottom: 0px;
   width: 100%;
 }
 
-.table-container div {
+.table {
   position: absolute;
   top: 79px;
   bottom: 0px;
@@ -97,7 +130,7 @@ body {
   width: 100%;
 }
 
-.table {
+.table > div {
   position: relative;
 }
 
@@ -121,4 +154,52 @@ body {
   top: 4px;
   left: 50%;
   margin-left: -10px;
+}
+
+.version-dropdown {
+  display: none;
+  position: absolute;
+  top: 29px;
+  right: 65px;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  top: 29px;
+  right: -1px; 
+}
+
+.header-alerts {
+  background: url('../images/alerts-bg.png') no-repeat;
+  display: none;
+  position: absolute;
+  top: 36px;
+  right: 85px; 
+  z-index: 10;
+  height: 477px;
+  width: 482px;
+}
+
+.header-alerts div {
+background: url('../images/alerts-search.png') no-repeat top;
+overflow: scroll;
+height: 454px;
+width: 459px;
+position: relative;
+top: 11px;
+left:12px;
+}
+
+.header-alerts div img {
+  position: relative;
+  top: 31px;
+  z-index: -1;
+}
+
+.view-fullscreen {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 12px;
 }

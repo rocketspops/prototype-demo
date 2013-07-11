@@ -33726,9 +33726,9 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-07-10 19:58:50 +0000</string>
+	<string>2013-07-10 21:35:12 +0000</string>
 	<key>Modifier</key>
-	<string>dave.castleton</string>
+	<string>billy.whited</string>
 	<key>NotesVisible</key>
 	<string>NO</string>
 	<key>OriginVisible</key>
@@ -51719,7 +51719,8 @@ Messages}</string>
 						mwGcg7SzMz+DtLMzP4O0szM/AYaS
 						nJKdkqGSooaXAQKXAxCShJiZA5KZ
 						koSbmwKcAIOwry8/g9zbWz8BhpKc
-						kp2SoZKihoY=
+						koSengAAn4EACqAkg83MTD2GkqGS
+						ooaG
 						</data>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
@@ -89503,7 +89504,7 @@ Target budget}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -89554,7 +89555,7 @@ Target budget}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1629, 911}}</string>
+				<string>{{0, 0}, {1610, 949}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -89578,7 +89579,7 @@ Target budget}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1629, 911}</string>
+			<string>{1610, 949}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
