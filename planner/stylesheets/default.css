@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  border: 1px solid #E12787;
+}
+
 img {
   display: block;
 }
@@ -41,7 +45,7 @@ body {
 
 .alerts-trigger {
   right: 99px;
-  height: 30px;
+  height: 29px;
   width: 34px;
 }
 
@@ -53,14 +57,14 @@ body {
 }
 
 [class^="table-trigger"] {
-  height: 30px;
+  height: 29px;
   top: 0;
-  right: 65px; 
-  width: 160px;
+  right: 66px; 
+  width: 158px;
 }
 
 [class^="tooltip-trigger"] {
-  height: 30px;
+  height: 29px;
   top: 0;
   right: 0px; 
   width: 30px;
@@ -107,6 +111,7 @@ body {
 }
 
 .messages a {
+  border-radius: 5px;
   display: block;
   position: absolute;
   bottom: 24px;
@@ -145,7 +150,7 @@ body {
 
 .ui-resizable-s:before {
   content: "";
-  border-color: rgb(200,200,200);
+  border-color: #E12787;
   border-style: solid;
   border-width: 1px 0;
   height: 5px;
@@ -198,8 +203,9 @@ left:12px;
 }
 
 .view-fullscreen {
+  padding: 5px;
   position: absolute;
-  left: 20px;
-  bottom: 20px;
+  left: 15px;
+  bottom: 15px;
   font-size: 12px;
 }
