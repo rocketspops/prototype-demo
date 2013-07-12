@@ -102,7 +102,7 @@ body {
     left: 381px;
     right: 0;
     bottom: 0;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .messages > p {
@@ -131,7 +131,7 @@ body {
   position: absolute;
   top: 79px;
   bottom: 0px;
-  overflow: scroll;
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -188,7 +188,7 @@ body {
 
 .header-alerts div {
 background: url('../images/alerts-search.png') no-repeat top;
-overflow: scroll;
+overflow-x: hidden;
 height: 454px;
 width: 459px;
 position: relative;
@@ -209,3 +209,10 @@ left:12px;
   bottom: 15px;
   font-size: 12px;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
