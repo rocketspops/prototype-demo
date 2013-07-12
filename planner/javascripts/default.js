@@ -41,6 +41,15 @@ $(function() {
     return false;
   });
 
+  $('a.scrollTo').click(function(){
+    console.log('scrollTo has been clicked');
+  });
+
+   $('a.popup-ctrl').click(function(){
+      $("div.table", opener.document).scrollTo('#table-03', 400);
+      return false;
+   }); 
+
 });
 
 var toggleMessages = function () {

@@ -10,6 +10,11 @@
   <script src="javascripts/jquery.localscroll-1.2.7.js"></script>
   <script src="javascripts/jquery.scrollTo-1.4.3.1.js"></script>
   <script src="javascripts/default.js"></script>
+  <script type="text/javascript">
+  $(window).unload(function() {
+    window.opener.toggleMessages();
+  });
+  </script>
 </head>
 <body>
   <div class="top" style="height: 100%;">
@@ -27,7 +32,7 @@
         </p>
         <p>
           <img src="images/messages/message_04.png" alt="" />
-          <a href="#table-03"></a>
+          <a class="popup-ctrl" href="#"></a>
         </p>
       </div>
     </div>
