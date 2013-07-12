@@ -18,9 +18,14 @@ $(function() {
     $(this).parent().siblings().find('a').removeClass('clicked');
     $(this).parent().siblings().find('.js-toggle').hide();
     $(this).siblings('a').removeClass('clicked');
-    $(this).siblings('.js-toggle').hide();
-    $(this).next('img').toggle();
-    $(this).toggleClass('clicked');
+    $(this).next('img').toggle({ 
+      duration: 0,
+      complete: function () {
+        $(this).siblings('.js-toggle').hide();
+        console.log($(this).prev());
+        $(this).prev().toggleClass('clicked');
+      }
+    });
     return false
   });
 
