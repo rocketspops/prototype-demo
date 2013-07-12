@@ -17,6 +17,8 @@ $(function() {
   $('[class^="table-trigger"], [class^="tooltip-trigger"]').click(function() {
     $(this).parent().siblings().find('a').removeClass('clicked');
     $(this).parent().siblings().find('.js-toggle').hide();
+    $(this).siblings('a').removeClass('clicked');
+    $(this).siblings('.js-toggle').hide();
     $(this).next('img').toggle();
     $(this).toggleClass('clicked');
     return false
