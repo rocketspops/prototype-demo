@@ -1,259 +1,28 @@
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body,
-input {
-  color: rgb(50,50,50);
-  font-family: "source-sans-pro";
-}
-
-a {
-  text-decoration: none;
-  color:  rgb(50,50,50);
-}
-
-a:hover {
-  color: #00baf3;
-}
-
-a:focus { outline: none; }
-
-ul { padding: 0; }
-
-img { display: block; }
-
-.header {
-  background: url('../images/ad_server_mgmt/header_snippet.png') no-repeat;
-  margin: 100px auto 0;
-  position: relative;
-  height: 96px;
-  width: 561px;
-}
-
-.header a {
-  position: absolute;
-  outline: none;
-}
-
-.header--trigger {
-  left: 93px;
-  top: 57px;
-  width: 134px;
-  height: 16px;
-}
-
-.header--trigger:hover + .tooltip,
-.tooltip:hover {
-  display: block;
-}
-
-.tooltip {
-  background: url('../images/ad_server_mgmt/campaign_details_tooltip.png') no-repeat center top;
-  cursor: pointer;
-  display: none;
-  position: absolute;
-  left: 77px;
-  top: 77px;
-  height: 376px;
-  width: 350px;
-}
-
-.tooltip:before {
-  content: "";
-  position: absolute;
-  top: -5px;
-  width: 100%;
-  height: 20px;
-}
-
-.tooltip--edit {
-  top: 142px;
-  left: 286px;
-  width: 30px;
-  height: 16px;
-}
-
-.tooltip--notes {
-  top: 165px;
-  left: 178px;
-  width: 17px;
-  height: 16px;
-}
-
-.tooltip--img {
-  display: none;
-  position: relative;
-  top: 16px;
-  left: -8px;
-}
-
-.overlay {
-  background: rgba(255,255,255, 0.9);
-  display: none;
-  height: 100%;
-  font-size: 0;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  top: 0;
-  text-align: center;
-  z-index: 10;
-}
-
-.overlay:after {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-}
-
-.overlay__container {
-  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
-  display: inline-block;
-  border: 1px solid #CBCBCB;
-  background: white url('../images/ad_server_mgmt/edit_overlay.png') no-repeat center 15px;
-  font-size: 1rem;
-  vertical-align: middle;
-  width: 708px;
-  padding: 20px;
-  position: relative;
-  text-align: left;
-}
-
-.overlay__close {
-  position: absolute;
-  width: 35px;
-  top: 14px;
-  height: 16px;
-  right: 16px;
-}
-
-.overlay__row-wrapper {
-  position: relative;
-  margin-top: 147px;
-  left: -1px;
-}
-
-.overlay__row-wrapper ul {
-  list-style-type: none;
-}
-
-.overlay__row-wrapper li {
-  position: relative;
-  margin-bottom: 10px;
-}
-
-.overlay__row-wrapper .close {
-  position: absolute;
-  top: 8px;
-  left: 651px;
-  height: 15px;
-  width: 15px;
-}
-
-.overlay__row-wrapper input {
-  background: transparent;
-  border: none;
-  outline: none;
-  padding: 0 8px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 30px;
-  width: 200px;
-}
-
-.ad-server-button {
-  padding-top: 10px;
-}
-
 .luxo-index {
   list-style-type: none;
+  margin: 100px auto 0;
   width: 400px;
-  margin: 100px auto 0;	
 }
 
 .luxo-index img {
   border: 1px solid #cacaca;
-  height: 125px;
   display: inline-block;
-  vertical-align: middle;
+  height: 125px;
   margin-right:  20px;
+  vertical-align: middle;
 }
 
 .luxo-title {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  font-size: 14px;
+  border-bottom: 1px solid rgb(240,240,240);
   color: rgb(200,200,200);
+  font-size: 14px;
   font-weight: normal;
   margin: 0;
-}
-
-/* Autocomplete
-----------------------------------*/     
-
-.ui-menu {
-  display:block;
-  list-style:none;
-  margin: 0;
-  padding: 2px;
-}
-
-.ui-menu .ui-menu { margin-top: -3px; }
-
-.ui-menu .ui-menu-item {
-  margin:0;
-  padding: 0;
+  padding: 0 0 8px 14px;
+  position: absolute;
+    left: 0px;
+    top: 10px;
   width: 100%;
 }
 
-.ui-menu .ui-menu-item a {
-  display:block;
-  line-height:1.5;
-  margin: 0;
-  padding:.2em .4em;
-  text-decoration:none;
-  zoom:1;
-}
-
-.ui-menu .ui-menu-item a:hover { color: white; }
-
-.ui-menu .ui-menu-item a.ui-state-hover,
-.ui-menu .ui-menu-item a.ui-state-active { margin: -1px; }
-
-.ui-menu {
-  display: block;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 2px;
-}
-
-.ui-autocomplete {
-  background:  white;
-  border-radius: 0;
-  border: 1px solid #c5c5c5;
-  border-top: none;
-  color: rgb(50,50,50);
-  cursor: pointer;
-  font-family: "source-sans-pro";
-  font-size: 1rem;
-  padding: 0px;
-  position: absolute;
-}
-
-.ui-state-focus {
-  background: #00a6da;
-  border-radius: 0;
-  border: none;
-  color: white;
-}
-
-.ui-helper-hidden-accessible { display: none; }
+.luxo-title span { margin: 0 4px; }
