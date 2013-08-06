@@ -7,8 +7,10 @@ custom_js:  default.js
 
 <h1 class="luxo-title">Luxo Prototypes Index</h1>
 <ul class="luxo-index">
-  <li>
-    <img src="images/ad_server_mgmt/thumbnail.png" alt="" />
-    <a href="ad_server_mgmt.html">Ad Server Management Prototype</a>
-  </li>
+  {% for post in site.posts %}
+    <li>
+      <img src="images/ad_server_mgmt/thumbnail.png" alt="" />
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
 </ul>
