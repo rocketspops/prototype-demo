@@ -9,8 +9,8 @@ custom_js:
 <ul class="luxo-index">
   {% for post in site.posts %}
     <li>
-      <img src="{{ post.thumbnail }}" alt="" />
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <img src="{{ site.baseurl }}/{{ post.thumbnail }}" alt="" />
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
