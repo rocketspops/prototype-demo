@@ -1,54 +1,43 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Luxo — Ad Server Mgmt. Prototype</title>
-    <link rel="stylesheet" href="stylesheets/reset.css" />
-    <link rel="stylesheet" href="stylesheets/default.css" />
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
-    <script src="javascripts/jquery-1.9.1.js"></script>
-    <script src="javascripts/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="javascripts/default.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/ysf1fwm.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-    <div class="header">
-      <a class="header--trigger" href="#"></a>
-      <div class="tooltip">
-        <a class="tooltip--edit" href="#"></a>
-        <a class="tooltip--notes" tabindex="0" href="#">
-          <img class="tooltip--img" src="images/ad_server_mgmt/ad_server_notes.png" alt="" />
-        </a>
-      </div>
-    </div>
-    <div class="overlay">
-      <div class="overlay__container">
-        <a href="#" class="overlay__close"></a>
-        <div class="overlay__row-wrapper">
-          <ul>
-            <li>
-              <img src="images/ad_server_mgmt/Blank_Row.png" alt="" />
-              <input type="text" value="Brand Exchange Mobile"/>
-              <a href="#"></a>
-            </li>
-            <li>
-              <img src="images/ad_server_mgmt/Blank_Row.png" alt="" />
-              <input type="text" value="Atlas" />
-              <a href="#"></a>
-            </li>
-            <li class="blank_row">
-              <img src="images/ad_server_mgmt/Blank_Row.png" alt="" />
-              <input class="ad_server_select" type="text" />
-              <a href="#"></a>
-            </li>
-          </ul>
-          <a style="display: inline-block;" href="#">
-            <img class="ad-server-button" src="images/ad_server_mgmt/button.png" alt="" />
-          </a>
-        </div>
-      </div>
-    </div>
+---
+layout:     default
+title:      Luxo Prototypes — Index
+custom_css: [default.css, test.css]
+custom_js:  default.js
+---
 
-  </body>
-</html>
+<div class="header">
+  <a class="header--trigger" href="#"></a>
+  <div class="tooltip">
+    <a class="tooltip--edit" href="#"></a>
+    <a class="tooltip--notes" tabindex="0" href="#">
+      <img class="tooltip--img" src="images/ad_server_mgmt/ad_server_notes.png" alt="" />
+    </a>
+  </div>
+</div>
+<div class="overlay">
+  <div class="overlay__container">
+    <a href="#" class="overlay__close"></a>
+    <div class="overlay__row-wrapper">
+      <ul>
+        <li class="ui-front">
+          <img src="images/ad_server_mgmt/Blank_Row.png" alt="" />
+          <input type="text" value="Brand Exchange Mobile"/>
+          <a class="close" href="#"></a>
+        </li>
+        <li class="ui-front">
+          <img src="images/ad_server_mgmt/Blank_Row.png" alt="" />
+          <input type="text" value="Atlas" />
+          <a class="close" href="#"></a>
+        </li>
+        <li class="ui-front blank_row">
+          <img src="images/ad_server_mgmt/Blank_Row.png" alt="" />
+          <input class="ad_server_select" type="text" />
+          <a class="close" href="#"></a>
+        </li>
+      </ul>
+      <a style="display: inline-block;" href="#">
+        <img class="ad-server-button" src="images/ad_server_mgmt/button.png" alt="" />
+      </a>
+    </div>
+  </div>
+</div>
