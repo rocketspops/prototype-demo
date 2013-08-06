@@ -1,0 +1,17 @@
+Placement: Centro_CBSDFW_Mob_ROS_CPM_320x50_SS_GS2
+
+
+Complete tag:
+<a href="http://psc.phluantmobile.net/rs/click?pclick=http%3A%2F%2Fclk.atdmt.com%2FSRT%2Fgo%2F440696591%2Fdirect%2F01%2F&ctName=clickTag1&cmID=7715&adID=19868&phbust=[timestamp]" target="_blank"><img src="http://mdn2.phluantmobile.net/2/standard/ad/std/7715/202033/TMO_GS2_320x50_Static.jpg?cId=7715&eId=19868&aId=202033&type=event&key=standard&value=null&phbust=[timestamp]" style="width:320px; height:50px;" /></a>
+
+
+img src:
+http://mdn2.phluantmobile.net/2/standard/ad/std/7715/202033/TMO_GS2_320x50_Static.jpg?cId=7715&eId=19868&aId=202033&type=event&key=standard&value=null&phbust=[timestamp]
+
+
+clickthru url:
+http://psc.phluantmobile.net/rs/click?pclick=http%3A%2F%2Fclk.atdmt.com%2FSRT%2Fgo%2F440696591%2Fdirect%2F01%2F&ctName=clickTag1&cmID=7715&adID=19868&phbust=[timestamp]
+
+
+impression tracker:
+http://view.atdmt.com/SRT/view/440696591/direct/01/
