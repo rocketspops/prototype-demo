@@ -35,3 +35,7 @@
 }
 
 .m-page-title span { margin: 0 4px; }
+
+.m-posts-roll li {
+	margin-bottom: 15px;
+}
