@@ -1,4 +1,3 @@
-
 <h1 class="m-page-title">
   {% if page.tags contains 'top-level' %}  
     {{ site.name }}
@@ -12,5 +11,6 @@
     <a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a>
     <span>&rarr;</span>
     {{ page.title }}
+    <a class="l-right m-comments__count" href="{{ site.baseurl }}{{ post.url }}">Show Comments</a>
   {% endif %}
 </h1>

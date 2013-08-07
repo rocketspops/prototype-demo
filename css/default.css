@@ -5,7 +5,7 @@
   width: 400px;
 }
 
-.m-posts-roll li { margin-bottom: 12px; }
+.m-posts-roll li { margin-bottom: 20px; }
 
 .m-posts-roll img {
   border: 1px solid #cacaca;
@@ -35,3 +35,33 @@
 }
 
 .m-page-title span { margin: 0 4px; }
+
+.m-static-prototype {
+
+  padding-top: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+.m-static-prototype img {
+  border-color: #d6d6d6;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  display: inline-block;
+}
+
+.m-comments {
+  display: none;
+  background: white;
+  position: fixed;
+  top:  0;
+  bottom: 0;
+  right: 0;
+  border-left: 1px solid #d6d6d6;
+  padding: 50px 20px 0 20px;
+  width: 400px;
+}
+
+.l-right {
+  float: right;
+}
