@@ -42,7 +42,7 @@ $(function() {
   });
 
   $('a.view-fullscreen').click(function(){
-    window.open('/peripheral/2013-07-12-messaging-redux-messages.html', '', 'width=1220, height=800');
+    window.open('/product-design/peripheral/2013-07-12-messaging-redux-messages.html', '', 'width=1220, height=800');
     toggleMessages();
     $('.messages-trigger').removeClass('clicked');
     return false;
