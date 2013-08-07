@@ -72,10 +72,25 @@
   border: 1px solid #333;
 }
 
-.overlay__row-wrapper {
-  position: relative;
-  margin-top: 147px;
-  left: -1px;
+.overlay__select {
+	position: absolute;
+	width: 350px;
+	top: 185px;
+	height: 45px;
+	right: 95px;
+	border: 1px solid #333;	
+}
+
+.overlay__source-facebook {
+	
+}
+
+
+.overlay__source-wrapper {
+  position: absolute;
+  left: 81px;
+  top: 160px;
+  width: 744px;
 }
 
 .overlay__row-wrapper ul {
