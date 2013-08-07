@@ -1,0 +1,21 @@
+---
+layout:      default
+title:       Planner Prototypes
+category:    Planner
+custom_css:  default.css
+custom_js:   default.js
+---
+
+<h1 class="luxo-title">
+  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+  <span>&rarr;</span>
+  {{ page.category }}
+</h1>
+<ul class="luxo-posts">
+  {% for post in site.categories.planner %}
+    <li>
+      <img src="{{ site.baseurl }}/{{ post.thumbnail }}" alt="" />
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

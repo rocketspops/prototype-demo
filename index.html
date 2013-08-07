@@ -1,16 +1,17 @@
 ---
 layout:      default
-title:       Luxo Prototypes
+title:       Centro Prototypes
 custom_css:  default.css
-custom_js:  
+custom_js:   default.js
 ---
 
 <h1 class="luxo-title">{{ page.title }}</h1>
-<ul class="luxo-index">
-  {% for post in site.posts %}
-    <li>
-      <img src="{{ site.baseurl }}/{{ post.thumbnail }}" alt="" />
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
+<ul class="luxo-posts">
+  {% for page in site.pages %}
+    {% unless page.title contains 'Centro' %}
+      <li>
+        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+      </li>
+    {% endunless %}
   {% endfor %}
 </ul>
