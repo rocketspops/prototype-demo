@@ -1,2 +1,3 @@
 baseurl: /product-design
 name: Centro Prototypes
+permalink: /:categories/:month-:day-:year/:title/
