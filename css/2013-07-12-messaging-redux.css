@@ -7,6 +7,10 @@ img {
 
 .m-wrapper { width: 1220px; }
 
+.m-wrapper a {
+  border: 1px solid #999;
+}
+
 .header,
 .header-alt {
   border-bottom: 1px solid #d6d6d6;
