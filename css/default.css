@@ -1,11 +1,11 @@
-.luxo-posts {
+.m-posts-roll {
   display: block;
   list-style-type: none;
   margin: 100px auto 0;
   width: 400px;
 }
 
-.luxo-posts img {
+.m-posts-roll img {
   border: 1px solid #cacaca;
   display: inline-block;
   height: 125px;

@@ -9,11 +9,4 @@ custom_js:   default.js
 
 {% include breadcrumbs.html %}
 
-<ul class="luxo-posts">
-  {% for post in site.categories.auth %}
-    <li>
-      <img src="{{ site.baseurl }}/{{ post.thumbnail }}" alt="" />
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% include prototype_list.html %}
