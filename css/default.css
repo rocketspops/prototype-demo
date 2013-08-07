@@ -18,11 +18,9 @@
   color: rgb(200,200,200);
   font-size: 14px;
   font-weight: normal;
+  line-height: 1;
   margin: 0;
-  padding: 0 0 8px 14px;
-  position: absolute;
-    left: 0px;
-    top: 10px;
+  padding: 10px;
   text-transform: capitalize;
   width: 100%;
 }
