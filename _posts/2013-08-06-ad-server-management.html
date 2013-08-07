@@ -7,13 +7,8 @@ custom_css:  [default.css, 2013-08-06-ad-server-management.css]
 custom_js:   2013-08-06-ad-server-management.js
 ---
 
-<h1 class="luxo-title">
-  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-  <span>&rarr;</span>
-  <a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a>
-  <span>&rarr;</span>
-  {{ page.title }}
-</h1>
+{% include breadcrumbs.html %}
+
 <div class="header">
   <a class="header--trigger" href="#"></a>
   <div class="tooltip">
