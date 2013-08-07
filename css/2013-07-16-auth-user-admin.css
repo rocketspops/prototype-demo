@@ -15,9 +15,7 @@ img { display: block; }
   height: 100%;
 }
 
-b {
-  font-weight: 600;
-}
+b { font-weight: 600; }
 
 .header {
   background: url('../images/2013-07-16-auth-user-admin/header.png') no-repeat;

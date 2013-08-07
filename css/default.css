@@ -5,6 +5,8 @@
   width: 400px;
 }
 
+.m-posts-roll li { margin-bottom: 12px; }
+
 .m-posts-roll img {
   border: 1px solid #cacaca;
   display: inline-block;
