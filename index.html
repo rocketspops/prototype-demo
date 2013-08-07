@@ -9,7 +9,7 @@ custom_js:   default.js
 {% include breadcrumbs.html %}
 
 <ul class="m-posts-roll">
-  {% for page in site.pages %}
+  {% for page in site.pages order:ascending %}
     {% unless page.title contains 'Centro' %}
       <li>
         <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
