@@ -1,11 +1,13 @@
 ---
 layout:      default
 title:       Centro Prototypes
+tags:        top-level
 custom_css:  default.css
 custom_js:   default.js
 ---
 
-<h1 class="luxo-title">{{ page.title }}</h1>
+{% include breadcrumbs.html %}
+
 <ul class="luxo-posts">
   {% for page in site.pages %}
     {% unless page.title contains 'Centro' %}

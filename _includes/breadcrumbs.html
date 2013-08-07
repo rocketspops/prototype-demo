@@ -1,8 +1,16 @@
 
-<h1 class="luxo-title">
-  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-  <span>&rarr;</span>
-  <a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a>
-  <span>&rarr;</span>
-  {{ page.title }}
+<h1 class="m-page-title">
+  {% if page.tags contains 'top-level' %}  
+    {{ site.name }}
+  {% elsif page.tags contains 'mid-level' %}
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+    <span>&rarr;</span>
+    {{ page.category }}
+  {% else page.tags contains 'low-level' %}
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+    <span>&rarr;</span>
+    <a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a>
+    <span>&rarr;</span>
+    {{ page.title }}
+  {% endif %}
 </h1>

@@ -13,7 +13,7 @@
   vertical-align: middle;
 }
 
-.luxo-title {
+.m-page-title {
   border-bottom: 1px solid rgb(240,240,240);
   color: rgb(200,200,200);
   font-size: 14px;
@@ -23,7 +23,8 @@
   position: absolute;
     left: 0px;
     top: 10px;
+  text-transform: capitalize;
   width: 100%;
 }
 
-.luxo-title span { margin: 0 4px; }
+.m-page-title span { margin: 0 4px; }

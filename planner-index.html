@@ -1,16 +1,14 @@
 ---
 layout:      default
 title:       Planner Prototypes
-category:    Planner
+category:    planner
+tags:        mid-level
 custom_css:  default.css
 custom_js:   default.js
 ---
 
-<h1 class="luxo-title">
-  <a href="{{ site.baseurl }}/">{{ site.name }}</a>
-  <span>&rarr;</span>
-  {{ page.category }}
-</h1>
+{% include breadcrumbs.html %}
+
 <ul class="luxo-posts">
   {% for post in site.categories.planner %}
     <li>
