@@ -5,44 +5,26 @@ image_url:   /images/2013-08-07-ad-server-mapping/
 category:    luxo
 tags:        low-level
 custom_css:  [default.css, 2013-08-07-ad-server-mapping.css]
-custom_js:   2013-08-06-ad-server-management.js
+custom_js:   2013-08-07-ad-server-mapping.js
 ---
 
 {% include breadcrumbs.html %}
 
 <div class="header">
   <a class="header--trigger" href="#"></a>
-  <div class="tooltip">
-    <a class="tooltip--edit" href="#"></a>
-    <a class="tooltip--notes" tabindex="0" href="#">
-      <img class="tooltip--img" src="{{ site.baseurl }}{{ page.image_url }}ad_server_notes.png" alt="" />
-    </a>
-  </div>
+  
 </div>
 <div class="overlay">
   <div class="overlay__container">
     <a href="#" class="overlay__close"></a>
-    <div class="overlay__row-wrapper">
-      <ul>
-        <li class="ui-front">
-          <img src="{{ site.baseurl }}{{ page.image_url }}Blank_Row.png" alt="" />
-          <input type="text" value="Brand Exchange Mobile"/>
+    <a href="#" class="overlay__select"></a>
+    <div class="overlay__source-wrapper">
+      <div>
+         <img src="{{ site.baseurl }}{{ page.image_url }}source_facebook.png" alt="" />
           <a class="close" href="#"></a>
-        </li>
-        <li class="ui-front">
-          <img src="{{ site.baseurl }}{{ page.image_url }}Blank_Row.png" alt="" />
-          <input type="text" value="Atlas" />
-          <a class="close" href="#"></a>
-        </li>
-        <li class="ui-front blank_row">
-          <img src="{{ site.baseurl }}{{ page.image_url }}Blank_Row.png" alt="" />
-          <input class="ad_server_select" type="text" />
-          <a class="close" href="#"></a>
-        </li>
-      </ul>
-      <a style="display: inline-block;" href="#">
-        <img class="ad-server-button" src="{{ site.baseurl }}{{ page.image_url }}button.png" alt="" />
-      </a>
+       </div>
+       <img class="icon-link" src="{{ site.baseurl }}{{ page.image_url }}icon_link.png" alt="" />
+     
     </div>
   </div>
 </div>
