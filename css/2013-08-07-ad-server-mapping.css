@@ -13,7 +13,6 @@
 .header a {
   outline: none;
   position: absolute;
-  border: 1px solid #333;
 }
 
 .header--trigger {
@@ -37,16 +36,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  top: 0;
+  top: 30px;
   text-align: center;
   z-index: 10;
-}
-
-.overlay:after {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
 }
 
 .overlay__container {
@@ -58,6 +50,7 @@
   vertical-align: middle;
   height: 700px;
   width: 900px;
+  margin-top: 30px;
   padding: 20px;
   position: relative;
   text-align: left;
@@ -69,7 +62,6 @@
   top: 50px;
   height: 25px;
   right: 76px;
-  border: 1px solid #333;
 }
 
 .overlay__select {
@@ -77,160 +69,25 @@
 	width: 350px;
 	top: 185px;
 	height: 45px;
-	right: 95px;
-	border: 1px solid #333;	
+	right: 95px;	
 }
-
-.overlay__source-facebook {
-	
-}
-
 
 .overlay__source-wrapper {
+  display: none;
   position: absolute;
   left: 81px;
   top: 160px;
   width: 744px;
 }
 
-.overlay__row-wrapper ul {
-  list-style-type: none;
+.icon-link {
+	position: relative;
+	left: 380px;
+	top: -18px;
 }
 
-.overlay__row-wrapper li {
-  position: relative;
-  margin-bottom: 10px;
-}
 
-.overlay__row-wrapper .close {
-  position: absolute;
-  top: 8px;
-  left: 651px;
-  height: 15px;
-  width: 15px;
-}
 
-.overlay__row-wrapper input {
-  background: transparent;
-  border: none;
-  outline: none;
-  padding: 0 8px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 30px;
-  width: 200px;
-}
 
 /* @end */
 
-/* @group Tooltip */
-
-.tooltip {
-  background: url('../images/2013-08-06-ad-server-management/campaign_details_tooltip.png') no-repeat center top;
-  cursor: pointer;
-  display: none;
-  height: 376px;
-  position: absolute;
-    left: 77px;
-    top: 77px;
-  width: 350px;
-}
-
-/*.header--trigger:hover + .tooltip,
-.tooltip:hover { display: block; }*/
-
-.tooltip:before {
-  content: "";
-  height: 20px;
-  position: absolute;
-    top: -5px;
-  width: 100%;
-}
-
-.tooltip--edit {
-  height: 16px;
-  left: 286px;
-  top: 142px;
-  width: 30px;
-}
-
-.tooltip--notes {
-  left: 178px;
-  top: 165px;
-  height: 16px;
-  width: 17px;
-}
-
-.tooltip--img {
-  display: none;
-  position: relative;
-  top: 16px;
-  left: -8px;
-}
-
-/* @end */
-
-/* @group jQuery Overrides */
-
-.ui-menu {
-  display:block;
-  list-style:none;
-  margin: 0;
-  padding: 2px;
-}
-
-.ui-menu .ui-menu { margin-top: -3px; }
-
-.ui-menu .ui-menu-item {
-  margin:0;
-  padding: 0;
-  width: 100%;
-}
-
-.ui-menu .ui-menu-item a {
-  color: rgb(50,50,50);
-  display:block;
-  line-height:1.5;
-  margin: 0;
-  padding:.2em .4em;
-  text-decoration:none;
-  zoom:1;
-}
-
-.ui-menu .ui-menu-item a:hover { color: white; }
-
-.ui-menu .ui-menu-item a.ui-state-hover,
-.ui-menu .ui-menu-item a.ui-state-active { margin: -1px; }
-
-.ui-menu {
-  display: block;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 2px;
-}
-
-.ui-autocomplete {
-  background:  white;
-  border-radius: 0;
-  border: 1px solid #c5c5c5;
-  border-top: none;
-  color: rgb(50,50,50);
-  cursor: pointer;
-  font-family: "source-sans-pro";
-  font-size: 1rem;
-  padding: 0px;
-  position: absolute;
-}
-
-.ui-state-focus {
-  background: #00a6da;
-  border-radius: 0;
-  border: none;
-  color: white;
-}
-
-.ui-helper-hidden-accessible { display: none; }
-
-/* @end */
