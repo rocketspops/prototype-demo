@@ -425,6 +425,10 @@ a       { color:  #6dc0e6; }
 a:hover { text-decoration: underline; }
 a:focus { outline: none; }
 
-ul { padding: 0; }
+p, 
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 img { display: block; }

@@ -8,6 +8,7 @@ img {
   border-width: 0 1px;
   height: 100%;
   overflow: hidden;
+  padding-top: 30px;
   position: relative;
   margin: 0 auto;
   width: 1220px;
@@ -108,7 +109,7 @@ img {
 
 .table-container {
   position: absolute;
-  top: 126px;
+  top: 156px;
   bottom: 0px;
   width: 100%;
 }
