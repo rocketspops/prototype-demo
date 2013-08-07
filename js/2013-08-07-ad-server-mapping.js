@@ -1,13 +1,5 @@
 $(function() {
 
-  $('.overlay__row-wrapper').delegate('.ad_server_select', 'focus', function(e) {
-      var servers = [ "MediaMind", "DART Primary", "DART Secondary", 
-                      "PointRoll", "Brand Exchange", "Atlas", "Bing", 
-                      "Celtra", "Facebook", "FlashTalking", "Google" ]
-      $(this).autocomplete({ source: servers });
-  });
-
-
   $('.tooltip--notes').click(function() {
     $('.tooltip--img').toggle();
     return false;
@@ -17,7 +9,7 @@ $(function() {
     $('.tooltip--img').hide();
   });
 
-  $('.tooltip--edit').click(function() {
+  $('.header--trigger').click(function() {
     $('.overlay').show();
     return false;
   });
