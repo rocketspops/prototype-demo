@@ -9,7 +9,7 @@ $(function() {
   $('.messages-container').not('.linked').resizable({
     resize: function( event, ui ) { 
       var topOffset = $('.top').outerHeight();
-      $('.table-container').css('top', topOffset + 'px');
+      $('.table-container').css('top', topOffset + 30 + 'px');
       console.log("resizing!"); 
     } 
   });
@@ -62,7 +62,7 @@ $(function() {
 var toggleMessages = function () {
   $('.messages-container').toggle( 0, function() {
     var topOffset = $('.top').outerHeight();
-    $('.table-container').css('top', topOffset + 'px');
+    $('.table-container').css('top', topOffset + 30 + 'px');
     console.log(topOffset);
   });
 }

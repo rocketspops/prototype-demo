@@ -63,3 +63,15 @@
 }
 
 .l-right { float: right; }
+
+.m-wrapper {
+  border-color: #d6d6d6;
+  border-style: solid;
+  border-width: 0 1px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 30px;
+  position: relative;
+  width: 1220px;
+}

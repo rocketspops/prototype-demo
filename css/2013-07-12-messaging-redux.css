@@ -5,17 +5,7 @@ img {
   display: block;
 }
 
-.wrapper {
-  border-color: #d6d6d6;
-  border-style: solid;
-  border-width: 0 1px;
-  height: 100%;
-  overflow: hidden;
-  padding-top: 30px;
-  position: relative;
-  margin: 0 auto;
-  width: 1220px;
-}
+.m-wrapper { width: 1220px; }
 
 .header,
 .header-alt {
