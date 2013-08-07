@@ -1,7 +1,7 @@
 ---
 layout:      default
 title:       Centro Prototypes
-tags:        top-level
+tags:        [top-level, ignore]
 custom_css:  default.css
 custom_js:   default.js
 ---
@@ -10,7 +10,7 @@ custom_js:   default.js
 
 <ul class="m-posts-roll">
   {% for page in site.pages order:ascending %}
-    {% unless page.title contains 'Centro' %}
+    {% unless page.tags contains 'ignore' %}
       <li>
         <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
       </li>

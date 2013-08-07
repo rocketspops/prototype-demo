@@ -42,7 +42,7 @@ $(function() {
   });
 
   $('a.view-fullscreen').click(function(){
-    window.open('messages.html', 'Messages', 'width=1220, height=800');
+    window.open('/peripheral/2013-07-12-messaging-redux-messages.html', '', 'width=1220, height=800');
     toggleMessages();
     $('.messages-trigger').removeClass('clicked');
     return false;
@@ -66,4 +66,3 @@ var toggleMessages = function () {
     console.log(topOffset);
   });
 }
-

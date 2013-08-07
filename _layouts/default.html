@@ -9,10 +9,10 @@
     {% endfor %}
     <script src="{{ site.baseurl }}/js/jquery-1.9.1.js"></script>
     <script src="{{ site.baseurl }}/js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script type="text/javascript" src="//use.typekit.net/ysf1fwm.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script src="//use.typekit.net/ysf1fwm.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     {% for item in page.custom_js %}
-      <script src="{{ site.baseurl }}/js/{{ page.custom_js }}"></script>
+      <script src="{{ site.baseurl }}/js/{{ item }}"></script>
     {% endfor %}
   </head>
   <body>

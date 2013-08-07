@@ -1,26 +1,12 @@
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-a {
-  border: 1px solid #E12787;
-}
-
 img {
   display: block;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-body {
+.wrapper {
   border-color: #d6d6d6;
   border-style: solid;
   border-width: 0 1px;
+  height: 100%;
   overflow: hidden;
   position: relative;
   margin: 0 auto;
@@ -31,12 +17,12 @@ body {
 .header-alt {
   border-bottom: 1px solid #d6d6d6;
   height: 126px;
-  background: url("../images/header.png") no-repeat;
+  background: url("../images/2013-07-12-messaging-redux/header.png") no-repeat;
   position: relative;
 }
 
 .header-alt {
-  background: url("../images/header-alternate.png") no-repeat;
+  background: url("../images/2013-07-12-messaging-redux/header-alternate.png") no-repeat;
 }
 
 [class*="trigger"] {
@@ -79,7 +65,7 @@ body {
 }
 
 .messages-container {
-  background: url('../images/messages/messages-bg.png') no-repeat;
+  background: url('../images/2013-07-12-messaging-redux/messages-bg.png') no-repeat;
   border-bottom: 1px solid #d6d6d6;
   display: none;
   height: 288px;
@@ -176,7 +162,7 @@ body {
 }
 
 .header-alerts {
-  background: url('../images/alerts-bg.png') no-repeat;
+  background: url('../images/2013-07-12-messaging-redux/alerts-bg.png') no-repeat;
   display: none;
   position: absolute;
   top: 36px;
@@ -187,7 +173,7 @@ body {
 }
 
 .header-alerts div {
-background: url('../images/alerts-search.png') no-repeat top;
+background: url('../images/2013-07-12-messaging-redux/alerts-search.png') no-repeat top;
 overflow-x: hidden;
 height: 454px;
 width: 459px;
@@ -214,5 +200,3 @@ left:12px;
   width: 0;
   height: 0;
 }
-
-

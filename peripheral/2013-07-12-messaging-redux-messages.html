@@ -1,0 +1,40 @@
+---
+layout:      default
+title:       Messaging Redux — Messages
+tags:        ignore
+image_url:   /images/2013-07-12-messaging-redux/
+custom_css:  [default.css, 2013-07-12-messaging-redux.css]
+custom_js:   [jquery.localscroll-1.2.7.js, jquery.scrollTo-1.4.3.1.js, 2013-07-12-messaging-redux.js]
+---
+
+<script type="text/javascript">
+  $(window).unload(function() {
+    window.opener.toggleMessages();
+    $(".messages-trigger", opener.document).toggleClass('clicked');
+  });
+</script>
+</head>
+<body>
+  <div class="top" style="height: 100%;">
+    <div class="header-alt"> </div>
+    <div class="messages-container linked">
+      <div class="messages">
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_01.png" alt="" />
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_02.png" alt="" />
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_03.png" alt="" />
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_04.png" alt="" />
+          <a class="popup-ctrl" href="#"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

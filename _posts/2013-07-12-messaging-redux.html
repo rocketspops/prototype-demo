@@ -1,0 +1,73 @@
+---
+layout:      default
+title:       Messaging Redux
+image_url:   /images/2013-07-12-messaging-redux/
+category:    planner
+tags:        low-level
+custom_css:  [default.css, 2013-07-12-messaging-redux.css]
+custom_js:   [jquery.localscroll-1.2.7.js, jquery.scrollTo-1.4.3.1.js, 2013-07-12-messaging-redux.js]
+---
+
+{% include breadcrumbs.html %}
+<div class="wrapper">
+  <div class="top">
+    <div class="header">
+      <a class="alerts-trigger" href="#"></a>
+      <a class="messages-trigger" href="#"></a>
+      <div class="header-alerts">
+        <div>
+          <img src="{{ site.baseurl }}{{ page.image_url }}alerts.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="messages-container">
+      <a href="#" class="view-fullscreen">
+        <img src="{{ site.baseurl }}{{ page.image_url }}expand-link.png" alt="" />
+      </a>
+      <div class="messages">
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_01.png" alt="" />
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_02.png" alt="" />
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_03.png" alt="" />
+        </p>
+        <p>
+          <img src="{{ site.baseurl }}{{ page.image_url }}message_04.png" alt="" />
+          <a href="#table-03"></a>
+          <a class="scrollTo" href="#table-03"></a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="table-container">
+    <img class="table-header" src="{{ site.baseurl }}{{ page.image_url }}table-header.png" alt="" />
+    <div class="table">
+      <div>
+        <img id="table-01" src="{{ site.baseurl }}{{ page.image_url }}table_01.png" alt="" />
+        <a class="table-trigger" href="#"></a>
+        <img class="js-toggle version-dropdown" src="{{ site.baseurl }}{{ page.image_url }}version_dropdown_01.png" alt="" />
+        <a class="tooltip-trigger" href="#"></a>
+        <img class="js-toggle tooltip" src="{{ site.baseurl }}{{ page.image_url }}tooltip.png" alt="" />
+      </div>
+      <div>
+        <img id="table-02" src="{{ site.baseurl }}{{ page.image_url }}table_02.png" alt="" />
+        <a class="table-trigger" href="#"></a>
+        <img class="js-toggle version-dropdown" src="{{ site.baseurl }}{{ page.image_url }}version_dropdown_03.png" alt="" />
+        <a class="tooltip-trigger" href="#"></a>
+        <img class="js-toggle tooltip" src="{{ site.baseurl }}{{ page.image_url }}tooltip.png" alt="" />
+      </div>
+      <div>
+        <img id="table-03" src="{{ site.baseurl }}{{ page.image_url }}table_03.png" alt="" />
+        <a class="table-trigger" href="#"></a>
+        <img class="js-toggle version-dropdown" src="{{ site.baseurl }}{{ page.image_url }}version_dropdown_02.png" alt="" />
+        <a class="tooltip-trigger" href="#"></a>
+        <img class="js-toggle tooltip" src="{{ site.baseurl }}{{ page.image_url }}tooltip.png" alt="" />
+      </div>
+      <div style="height: 400px">
+      </div>
+    </div>
+  </div>
+</div>
