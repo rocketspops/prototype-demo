@@ -1,6 +1,7 @@
 baseurl: /product-design
 name: Centro Prototypes
 permalink: /:categories/:month-:day-:year/:title/
+exclude: ['Gemfile', 'Gemfile.lock', 'product-design.esproj']
 
 assets:
 
@@ -20,5 +21,4 @@ assets:
     - _assets/images/2013-08-06-ad-server-management
     - _assets/images/2013-08-07-ad-server-mapping
     - _assets/images/2013-08-07-ad-server-api-settings
-    
     
