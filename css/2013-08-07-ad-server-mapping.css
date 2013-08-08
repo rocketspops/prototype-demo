@@ -93,6 +93,8 @@
 }
 
 .source-remove {
+	background: url('../images/2013-08-07-ad-server-mapping/close_default.png') no-repeat center;
+	display: none;
 	position: absolute;
 	top: 14px;
 	left: 6px;
@@ -101,7 +103,7 @@
 }
 
 .source-remove:hover {
-	background: url('../images/2013-08-07-ad-server-mapping/close.png') no-repeat center;
+	background: url('../images/2013-08-07-ad-server-mapping/close_hover.png') no-repeat center;
 }
 
 
