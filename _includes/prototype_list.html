@@ -1,24 +1,24 @@
 {% if page.category contains 'auth' %}  
 <ul class="m-posts-roll">
-  {% for post in site.categories.auth order:ascending %}
+  {% for post in site.categories.auth %}
     {% include prototype_list_items.html %}
   {% endfor %}
 </ul>
 {% elsif page.category contains 'luxo' %}
 <ul class="m-posts-roll">
-  {% for post in site.categories.luxo order:ascending %}
+  {% for post in site.categories.luxo %}
     {% include prototype_list_items.html %}
   {% endfor %}
 </ul>
 {% elsif page.category contains 'planner' %}
 <ul class="m-posts-roll">
-  {% for post in site.categories.planner order:ascending %}
+  {% for post in site.categories.planner %}
     {% include prototype_list_items.html %}
   {% endfor %}
 </ul>
 {% else page.category contains 'roz' %}
 <ul class="m-posts-roll">
-  {% for post in site.categories.roz order:ascending %}
+  {% for post in site.categories.roz  %}
     {% include prototype_list_items.html %}
   {% endfor %}
 </ul>

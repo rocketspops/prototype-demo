@@ -9,10 +9,10 @@ custom_js:   default.js
 {% include breadcrumbs.html %}
 
 <ul class="m-posts-roll">
-  {% for page in site.pages order:ascending %}
+  {% for page in site.pages %}
     {% unless page.tags contains 'ignore' %}
       <li>
-        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }} ({{ site.categories.[page.category] | size }})</a>
       </li>
     {% endunless %}
   {% endfor %}
