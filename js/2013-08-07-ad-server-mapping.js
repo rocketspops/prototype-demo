@@ -6,7 +6,12 @@ $(function() {
   });
 
 	$('.overlay__select').click(function() {
-	  $('.source-facebook').show();
+	  $('.source-facebook, .icon-link').show();
+	  return false;
+	});
+
+	$('.source-remove').click(function() {
+	  $('.source-facebook, .icon-link').hide();
 	  return false;
 	});
 

@@ -86,11 +86,23 @@
 }
 
 .icon-link {
+	display: none;
 	position: relative;
 	left: 380px;
 	top: -18px;
 }
 
+.source-remove {
+	position: absolute;
+	top: 14px;
+	left: 6px;
+	height: 25px;
+	width: 25px;
+}
+
+.source-remove:hover {
+	background: url('../images/2013-08-07-ad-server-mapping/close.png') no-repeat center;
+}
 
 
 
