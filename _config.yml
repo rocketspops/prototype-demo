@@ -1,7 +1,7 @@
 baseurl: /product-design
 name: Centro Prototypes
 permalink: /:categories/:month-:day-:year/:title/
-exclude: ['Gemfile', 'Gemfile.lock', 'product-design.esproj']
+exclude: ['Gemfile', 'Gemfile.lock', 'product-design.esproj', 'publish.sh']
 
 assets:
 
@@ -9,6 +9,8 @@ assets:
     css: sass
     js:  uglifier
     
+  baseurl: /product-design/assets/
+  
   cache_assets: true
   
   sources:

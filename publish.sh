@@ -18,7 +18,8 @@ if [ $? -eq 0 ]; then
     git add .
     publish_date=`date`
     git commit -m "updated site ${publish_date}"
-    git push origin git@github.com:centro/product-design.git HEAD:test
+    git remote add origin git@github.com:centro/product-design.git
+    git push origin master:gh-pages -f
 
     echo "Successfully built and published to github..."
 else
