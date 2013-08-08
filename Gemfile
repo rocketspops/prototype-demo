@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 
-gem "jekyll-assets"
+gem 'jekyll'
+gem 'jekyll-assets'
+gem 'sprockets'
+gem 'sass'
+gem 'uglifier'

@@ -1,1 +1,1 @@
-require 'jekyll_assets'
+require 'jekyll-assets'

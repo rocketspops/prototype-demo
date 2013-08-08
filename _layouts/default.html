@@ -3,17 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css" />
+    {% stylesheet default %}
     {% for item in page.custom_css %}
-      <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ item }}" />
+      {{ item | stylesheet }}
     {% endfor %}
-    <script src="{{ site.baseurl }}/js/jquery-1.9.1.js"></script>
-    <script src="{{ site.baseurl }}/js/jquery-ui-1.10.3.custom.min.js"></script>
+    {% javascript default %}
+    {% for item in page.custom_js %}
+      {{ item | javascript }}
+    {% endfor %}
     <script src="//use.typekit.net/ysf1fwm.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-    {% for item in page.custom_js %}
-      <script src="{{ site.baseurl }}/js/{{ item }}"></script>
-    {% endfor %}
   </head>
   <body>
     {{ content }}
