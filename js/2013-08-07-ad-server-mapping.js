@@ -6,7 +6,7 @@ $(function() {
   });
 
 	$('.overlay__select').click(function() {
-	  $('.overlay__source-wrapper').show();
+	  $('.source-facebook').show();
 	  return false;
 	});
 
