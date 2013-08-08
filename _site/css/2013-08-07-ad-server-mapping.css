@@ -1,0 +1,93 @@
+.ad-server-button { padding-top: 10px; }
+
+/* @group Header */
+
+.header {
+  background: url('../images/2013-08-07-ad-server-mapping/mapping_panel.png') no-repeat;
+  margin: 100px auto 0;
+  position: relative;
+  height: 660px;
+  width: 450px;
+}
+
+.header a {
+  outline: none;
+  position: absolute;
+}
+
+.header--trigger {
+  height: 16px;
+  left: 293px;
+  top: 635px;
+  width: 134px;
+}
+
+/* @end */
+
+/* @group Overlay */
+
+.overlay {
+  background: rgba(255,255,255, 0.9);
+  display: none;
+  height: 100%;
+  font-size: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 30px;
+  text-align: center;
+  z-index: 10;
+}
+
+.overlay__container {
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  display: inline-block;
+  border: 1px solid #CBCBCB;
+  background: white url('../images/2013-08-07-ad-server-mapping/overlay_1.png') no-repeat center;
+  font-size: 1rem;
+  vertical-align: middle;
+  height: 700px;
+  width: 900px;
+  margin-top: 30px;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+}
+
+.overlay__close {
+  position: absolute;
+  width: 25px;
+  top: 50px;
+  height: 25px;
+  right: 76px;
+}
+
+.overlay__select {
+	position: absolute;
+	width: 350px;
+	top: 185px;
+	height: 45px;
+	right: 95px;	
+}
+
+.overlay__source-wrapper {
+  display: none;
+  position: absolute;
+  left: 81px;
+  top: 160px;
+  width: 744px;
+}
+
+.icon-link {
+	position: relative;
+	left: 380px;
+	top: -18px;
+}
+
+
+
+
+/* @end */
+

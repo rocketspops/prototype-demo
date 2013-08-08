@@ -1,0 +1,1 @@
+$(function(){$(".header--trigger").click(function(){return $(".overlay").show(),!1}),$(".overlay__select").click(function(){return $(".overlay__source-wrapper").show(),!1}),$(".overlay__close").click(function(){return $(".overlay").hide(),!1})});
