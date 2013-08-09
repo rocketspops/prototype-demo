@@ -3,7 +3,7 @@
 /* @group Header */
 
 .header {
-  background: url(asset_path('2013-08-07-ad-server-mapping-mapping_panel.png')) no-repeat;
+  background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-mapping_panel.png' %>) no-repeat;
   margin: 100px auto 0;
   position: relative;
   height: 660px;
@@ -45,7 +45,7 @@
   box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
   display: inline-block;
   border: 1px solid #CBCBCB;
-  background: white url(asset_path('2013-08-07-ad-server-mapping-overlay_1.png')) no-repeat center;
+  background: white url(<%= asset_data_uri '2013-08-07-ad-server-mapping-overlay_1.png' %>) no-repeat center;
   font-size: 1rem;
   vertical-align: middle;
   height: 700px;
@@ -93,7 +93,7 @@
 }
 
 .source-remove {
-	background: url(asset_path('2013-08-07-ad-server-mapping-close_default.png')) no-repeat center;
+	background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-close_default.png' %>) no-repeat center;
 	display: none;
 	position: absolute;
 	top: 14px;
@@ -102,7 +102,7 @@
 	width: 25px;
 }
 
-.source-remove:hover { background: url(asset_path('2013-08-07-ad-server-mapping-close_hover.png')) no-repeat center; }
+.source-remove:hover { background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-close_hover.png' %>) no-repeat center; }
 
 
 

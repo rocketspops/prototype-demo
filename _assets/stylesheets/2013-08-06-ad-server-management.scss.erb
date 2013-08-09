@@ -4,7 +4,7 @@
 /* @group Header */
 
 .header {
-  background: url(asset_path('2013-08-06-ad-server-management-header_snippet.png')) no-repeat;
+  background: url(<%= asset_data_uri '2013-08-06-ad-server-management-header_snippet.png' %>) no-repeat;
   margin: 100px auto 0;
   position: relative;
   height: 96px;
@@ -53,7 +53,7 @@
   box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
   display: inline-block;
   border: 1px solid #CBCBCB;
-  background: white url(asset_path('2013-08-06-ad-server-management-edit_overlay.png')) no-repeat center 15px;
+  background: white url(<%= asset_data_uri '2013-08-06-ad-server-management-edit_overlay.png' %>) no-repeat center 15px;
   font-size: 1rem;
   vertical-align: middle;
   width: 708px;
@@ -110,7 +110,7 @@
 /* @group Tooltip */
 
 .tooltip {
-  background: url(asset_path('2013-08-06-ad-server-management-campaign_details_tooltip.png')) no-repeat center top;
+  background: url(<%= asset_data_uri '2013-08-06-ad-server-management-campaign_details_tooltip.png' %>) no-repeat center top;
   cursor: pointer;
   display: none;
   height: 376px;

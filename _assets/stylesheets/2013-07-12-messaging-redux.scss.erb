@@ -15,12 +15,12 @@ img {
 .header-alt {
   border-bottom: 1px solid #d6d6d6;
   height: 126px;
-  background: url(asset_path('2013-07-12-messaging-redux-header.png')) no-repeat;
+  background: url(<%= asset_data_uri '2013-07-12-messaging-redux-header.png' %>) no-repeat;
   position: relative;
 }
 
 .header-alt {
-  background: url(asset_path('2013-07-12-messaging-redux-header-alternate.png')) no-repeat;
+  background: url(<%= asset_data_uri '2013-07-12-messaging-redux-header-alternate.png' %>) no-repeat;
 }
 
 [class*="trigger"] {
@@ -63,7 +63,7 @@ img {
 }
 
 .messages-container {
-  background: url(asset_path('2013-07-12-messaging-redux-messages-bg.png')) no-repeat;
+  background: url(<%= asset_data_uri '2013-07-12-messaging-redux-messages-bg.png' %>) no-repeat;
   border-bottom: 1px solid #d6d6d6;
   display: none;
   height: 288px;
@@ -160,7 +160,7 @@ img {
 }
 
 .header-alerts {
-  background: url(asset_path('2013-07-12-messaging-redux-alerts-bg.png')) no-repeat;
+  background: url(<%= asset_data_uri '2013-07-12-messaging-redux-alerts-bg.png' %>) no-repeat;
   display: none;
   position: absolute;
   top: 36px;
@@ -171,7 +171,7 @@ img {
 }
 
 .header-alerts div {
-background: url(asset_path('2013-07-12-messaging-redux-alerts-search.png')) no-repeat top;
+background: url(<%= asset_data_uri '2013-07-12-messaging-redux-alerts-search.png' %>) no-repeat top;
 overflow-x: hidden;
 height: 454px;
 width: 459px;
