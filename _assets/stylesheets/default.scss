@@ -26,7 +26,7 @@
 
 .m-nav {
   font-family: "reenie-beanie";
-  font-size: 20px;
+  font-size: 21px;
   list-style-type: none;
   overflow: hidden;
   padding: 10px 15px;
@@ -82,7 +82,7 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   border: 1px solid rgb(200,200,200);
   display: inline-block;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 300;
   list-style-type: none;
   margin: 0 auto;
@@ -186,7 +186,7 @@
 .m-comments {
   display: none;
   background: white;
-  position: absolute;
+  position: fixed;
   top:  45px;
   bottom: 0;
   right: 0;
