@@ -3166,7 +3166,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-08-09 19:28:29 +0000</string>
+	<string>2013-08-09 19:40:34 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -3697,7 +3697,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasSize</key>
 			<string>{2078, 1272}</string>
 			<key>ColumnAlign</key>
-			<integer>2</integer>
+			<integer>0</integer>
 			<key>ColumnSpacing</key>
 			<real>10</real>
 			<key>DisplayScale</key>
@@ -8077,7 +8077,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{730.28125762939453, 225}, {8, 11}}</string>
+							<string>{{739.28125762939453, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8143,7 +8143,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{730.28125762939453, 232}, {7, 11}}</string>
+							<string>{{739.28125762939453, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8363,7 +8363,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1060.5624923706055, 225}, {8, 11}}</string>
+							<string>{{1064.5624923706055, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8429,7 +8429,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1060.5624923706055, 232}, {7, 11}}</string>
+							<string>{{1064.5624923706055, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8506,7 +8506,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{954.06253051757812, 225}, {8, 11}}</string>
+							<string>{{958.06253051757812, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8572,7 +8572,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{954.06253051757812, 232}, {7, 11}}</string>
+							<string>{{958.06253051757812, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8649,7 +8649,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{850, 225}, {8, 11}}</string>
+							<string>{{854, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8715,7 +8715,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{850, 232}, {7, 11}}</string>
+							<string>{{854, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -10433,7 +10433,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1067.9375343322754, 379}, {26, 19}}</string>
+					<string>{{1072.9375343322754, 379}, {26, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10501,7 +10501,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1067.9375343322754, 258}, {26, 19}}</string>
+					<string>{{1072.9375343322754, 258}, {26, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10569,7 +10569,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1060.9375343322754, 320}, {33, 19}}</string>
+					<string>{{1065.9375343322754, 320}, {33, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10664,7 +10664,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1070.9375343322754, 224}, {24, 19}}</string>
+					<string>{{1074.9375343322754, 224}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10949,7 +10949,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{730.28127479553223, 379}, {24, 19}}</string>
+					<string>{{739.28125762939453, 379}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11045,7 +11045,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{730.28127479553223, 320}, {24, 19}}</string>
+					<string>{{739.28125762939453, 320}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11141,7 +11141,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{730.28127479553223, 258}, {77, 19}}</string>
+					<string>{{739.28125762939453, 258}, {77, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11237,7 +11237,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{739.28122520446777, 224}, {38, 19}}</string>
+					<string>{{748.28122520446777, 224}, {38, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12456,7 +12456,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{857.5625114440918, 379}, {53, 19}}</string>
+					<string>{{862.5625114440918, 379}, {53, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12551,7 +12551,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{969.0625114440918, 379}, {36, 19}}</string>
+					<string>{{973.0625114440918, 379}, {36, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12715,7 +12715,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{544, 379}, {52, 19}}</string>
+					<string>{{543, 379}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13418,7 +13418,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{864.5625114440918, 258}, {46, 19}}</string>
+					<string>{{869.5625114440918, 258}, {46, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13513,7 +13513,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{972.0625114440918, 258}, {33, 19}}</string>
+					<string>{{976.0625114440918, 258}, {33, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13704,7 +13704,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{544, 258}, {52, 19}}</string>
+					<string>{{543, 258}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14108,7 +14108,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{33, 336}, {76, 18}}</string>
+							<string>{{34, 336}, {76, 18}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -14227,7 +14227,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{33, 320}, {234, 19}}</string>
+							<string>{{34, 320}, {234, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -14356,7 +14356,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{871.5625114440918, 320}, {39, 19}}</string>
+					<string>{{876.5625114440918, 320}, {39, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14451,7 +14451,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{969.0625114440918, 320}, {36, 19}}</string>
+					<string>{{973.0625114440918, 320}, {36, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14615,7 +14615,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{544, 320}, {52, 19}}</string>
+					<string>{{543, 320}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15239,7 +15239,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{860.5625114440918, 224}, {51, 19}}</string>
+					<string>{{864.5625114440918, 224}, {51, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15334,7 +15334,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{965.0625114440918, 224}, {40, 19}}</string>
+					<string>{{969.0625114440918, 224}, {40, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15690,6 +15690,8 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<integer>138221</integer>
 					<key>ImageID</key>
 					<integer>59</integer>
+					<key>IsLocked</key>
+					<string>YES</string>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -21336,7 +21338,7 @@ R. White, L. Roller}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1809, 1373}}</string>
+				<string>{{0, 0}, {1747, 1272}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -21367,7 +21369,7 @@ R. White, L. Roller}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1809, 1373}</string>
+			<string>{1747, 1272}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -41018,122 +41020,6 @@ R. White, L. Roller}</string>
 						</dict>
 					</dict>
 				</dict>
-				<dict>
-					<key>Bounds</key>
-					<string>{{1518, 991}, {219, 310}}</string>
-					<key>Class</key>
-					<string>ShapedGraphic</string>
-					<key>FontInfo</key>
-					<dict>
-						<key>Color</key>
-						<dict>
-							<key>b</key>
-							<string>0</string>
-							<key>g</key>
-							<string>0</string>
-							<key>r</key>
-							<string>0</string>
-						</dict>
-						<key>Font</key>
-						<string>Helvetica-Bold</string>
-						<key>Size</key>
-						<real>12</real>
-					</dict>
-					<key>ID</key>
-					<integer>137761</integer>
-					<key>Layer</key>
-					<integer>2</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
-					<key>Style</key>
-					<dict>
-						<key>fill</key>
-						<dict>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0.74902</string>
-								<key>g</key>
-								<string>1</string>
-								<key>r</key>
-								<string>0.984314</string>
-							</dict>
-							<key>FillType</key>
-							<integer>2</integer>
-							<key>GradientAngle</key>
-							<real>90</real>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.713235</string>
-								<key>g</key>
-								<string>1</string>
-								<key>r</key>
-								<string>1</string>
-							</dict>
-						</dict>
-						<key>shadow</key>
-						<dict>
-							<key>Beneath</key>
-							<string>YES</string>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0.701961</string>
-								<key>g</key>
-								<string>0.701961</string>
-								<key>r</key>
-								<string>0.701961</string>
-							</dict>
-							<key>Fuzziness</key>
-							<real>9.0033035278320312</real>
-							<key>ShadowVector</key>
-							<string>{2, 4}</string>
-						</dict>
-						<key>stroke</key>
-						<dict>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0</string>
-								<key>g</key>
-								<string>0.735294</string>
-								<key>r</key>
-								<string>0.735294</string>
-							</dict>
-						</dict>
-					</dict>
-					<key>Text</key>
-					<dict>
-						<key>Align</key>
-						<integer>0</integer>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
-
-\f0\b\fs24 \cf0 Questions:\
-\
-1. Live status 
-\b0 \
-\
-What makes a campaign live?  Start dates or marking it as Live?  (In MMS, seems like it's marking the campaign Live)\
-\
-Do you even need to ability to "make it" live?  If it's live and not delivery, we could tell you that in an overview\
-\
-
-\b 2. IO Sent\
-
-\b0 When does the campaign actually show up in MMS? With assigned CampaignID?\
-\
-If it's in Luxo, can we assume the IO has already been sent?}</string>
-						<key>VerticalPad</key>
-						<integer>10</integer>
-					</dict>
-					<key>TextPlacement</key>
-					<integer>0</integer>
-				</dict>
 			</array>
 			<key>GridInfo</key>
 			<dict/>
@@ -41214,7 +41100,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
