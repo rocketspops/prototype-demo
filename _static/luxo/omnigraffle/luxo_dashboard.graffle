@@ -3166,7 +3166,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-08-09 18:54:24 +0000</string>
+	<string>2013-08-09 19:28:29 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -3671,7 +3671,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {2078, 1373}}</string>
+				<string>{{0, 0}, {2078, 1272}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -3695,7 +3695,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{2078, 1373}</string>
+			<string>{2078, 1272}</string>
 			<key>ColumnAlign</key>
 			<integer>2</integer>
 			<key>ColumnSpacing</key>
@@ -7881,7 +7881,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{34, 747}, {8, 11}}</string>
+							<string>{{34, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -7905,7 +7905,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137839</integer>
+							<integer>138217</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8000,7 +8000,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{34, 754}, {7, 11}}</string>
+							<string>{{34, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8024,7 +8024,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137840</integer>
+							<integer>138218</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8066,7 +8066,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137838</integer>
+					<integer>138216</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8077,7 +8077,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{730.28125762939453, 747}, {8, 11}}</string>
+							<string>{{730.28125762939453, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8101,7 +8101,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137836</integer>
+							<integer>138142</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8143,7 +8143,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{730.28125762939453, 754}, {7, 11}}</string>
+							<string>{{730.28125762939453, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8167,7 +8167,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137837</integer>
+							<integer>138143</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8209,7 +8209,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137835</integer>
+					<integer>138141</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8220,7 +8220,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 747}, {8, 11}}</string>
+							<string>{{364, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8244,7 +8244,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137828</integer>
+							<integer>138203</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8286,7 +8286,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 754}, {7, 11}}</string>
+							<string>{{364, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8310,7 +8310,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137829</integer>
+							<integer>138204</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8352,7 +8352,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137827</integer>
+					<integer>138202</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8363,7 +8363,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1060.5624923706055, 747}, {8, 11}}</string>
+							<string>{{1060.5624923706055, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8387,7 +8387,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137825</integer>
+							<integer>138086</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8429,7 +8429,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1060.5624923706055, 754}, {7, 11}}</string>
+							<string>{{1060.5624923706055, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8453,7 +8453,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137826</integer>
+							<integer>138087</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8495,7 +8495,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137824</integer>
+					<integer>138085</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8506,7 +8506,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{954.06253051757812, 747}, {8, 11}}</string>
+							<string>{{954.06253051757812, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8530,7 +8530,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137822</integer>
+							<integer>138092</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8572,7 +8572,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{954.06253051757812, 754}, {7, 11}}</string>
+							<string>{{954.06253051757812, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8596,7 +8596,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137823</integer>
+							<integer>138093</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8638,7 +8638,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137821</integer>
+					<integer>138091</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8649,7 +8649,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{850, 747}, {8, 11}}</string>
+							<string>{{850, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8673,7 +8673,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137819</integer>
+							<integer>138105</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8715,7 +8715,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{850, 754}, {7, 11}}</string>
+							<string>{{850, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8739,7 +8739,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137820</integer>
+							<integer>138106</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8781,7 +8781,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137818</integer>
+					<integer>138104</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8792,7 +8792,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{640, 747}, {8, 11}}</string>
+							<string>{{640, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8816,7 +8816,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137816</integer>
+							<integer>138155</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8858,7 +8858,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{640, 754}, {7, 11}}</string>
+							<string>{{640, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8882,7 +8882,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137817</integer>
+							<integer>138156</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -8924,7 +8924,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137815</integer>
+					<integer>138154</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -8935,7 +8935,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{543, 747}, {8, 11}}</string>
+							<string>{{543, 225}, {8, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -8959,7 +8959,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137813</integer>
+							<integer>138179</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -9001,7 +9001,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{543, 754}, {7, 11}}</string>
+							<string>{{543, 232}, {7, 11}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -9025,7 +9025,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>7</real>
 							</dict>
 							<key>ID</key>
-							<integer>137814</integer>
+							<integer>138180</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -9067,13 +9067,13 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137812</integer>
+					<integer>138178</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1143.0000114440929, 779}, {312.93746948242057, 19}}</string>
+					<string>{{1143.0000114440929, 257}, {312.93746948242057, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -9097,7 +9097,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137716</integer>
+					<integer>138069</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -9179,7 +9179,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 							<array>
 								<dict>
 									<key>Bounds</key>
-									<string>{{1673.0000495910645, 808}, {24, 19}}</string>
+									<string>{{1673.0000495910645, 269}, {24, 19}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -9203,7 +9203,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137796</integer>
+									<integer>138026</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -9305,7 +9305,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								</dict>
 								<dict>
 									<key>Bounds</key>
-									<string>{{1759.0000495910645, 811}, {9, 13}}</string>
+									<string>{{1759.0000495910645, 272}, {9, 13}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -9329,7 +9329,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137797</integer>
+									<integer>138027</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -9371,7 +9371,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137795</integer>
+							<integer>138025</integer>
 						</dict>
 						<dict>
 							<key>Class</key>
@@ -9380,7 +9380,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 							<array>
 								<dict>
 									<key>Bounds</key>
-									<string>{{1673.0000495910645, 749}, {41, 19}}</string>
+									<string>{{1673.0000495910645, 210}, {41, 19}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -9404,7 +9404,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137799</integer>
+									<integer>138029</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -9506,7 +9506,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								</dict>
 								<dict>
 									<key>Bounds</key>
-									<string>{{1759.0000495910645, 752}, {9, 13}}</string>
+									<string>{{1759.0000495910645, 213}, {9, 13}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -9530,7 +9530,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137800</integer>
+									<integer>138030</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -9572,7 +9572,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137798</integer>
+							<integer>138028</integer>
 						</dict>
 						<dict>
 							<key>Class</key>
@@ -9581,7 +9581,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 							<array>
 								<dict>
 									<key>Bounds</key>
-									<string>{{1673.0000495910645, 687}, {77, 19}}</string>
+									<string>{{1673.0000495910645, 148}, {77, 19}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -9605,7 +9605,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137802</integer>
+									<integer>138032</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -9708,7 +9708,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								</dict>
 								<dict>
 									<key>Bounds</key>
-									<string>{{1759.0000495910645, 690}, {9, 13}}</string>
+									<string>{{1759.0000495910645, 151}, {9, 13}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -9732,7 +9732,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137803</integer>
+									<integer>138033</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -9774,11 +9774,11 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137801</integer>
+							<integer>138031</integer>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1673, 653}, {38, 19}}</string>
+							<string>{{1673, 114}, {38, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -9802,7 +9802,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137804</integer>
+							<integer>138034</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -9897,7 +9897,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137794</integer>
+					<integer>138024</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -9908,7 +9908,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1793.6249923706055, 791}, {212, 36}}</string>
+							<string>{{1793.6249923706055, 269}, {212, 36}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -9932,7 +9932,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137806</integer>
+							<integer>138015</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -10041,7 +10041,7 @@ K. Doran, L. Roller}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1793.6249923706055, 670}, {194, 36}}</string>
+							<string>{{1793.6249923706055, 148}, {194, 36}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -10065,7 +10065,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137807</integer>
+							<integer>138016</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -10174,7 +10174,7 @@ R. White, L. Roller}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1793.6249923706055, 732}, {194, 36}}</string>
+							<string>{{1793.6249923706055, 210}, {194, 36}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -10198,7 +10198,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137808</integer>
+							<integer>138017</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -10307,7 +10307,7 @@ R. White, L. Roller}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1793.6249923706055, 636}, {62, 19}}</string>
+							<string>{{1793.6249923706055, 114}, {62, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -10331,7 +10331,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137809</integer>
+							<integer>138018</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -10427,13 +10427,13 @@ R. White, L. Roller}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137805</integer>
+					<integer>138014</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1067.9375343322754, 901}, {26, 19}}</string>
+					<string>{{1067.9375343322754, 379}, {26, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10457,7 +10457,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137779</integer>
+					<integer>138082</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -10501,7 +10501,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1067.9375343322754, 780}, {26, 19}}</string>
+					<string>{{1067.9375343322754, 258}, {26, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10525,7 +10525,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137778</integer>
+					<integer>138084</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -10569,7 +10569,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1060.9375343322754, 842}, {33, 19}}</string>
+					<string>{{1060.9375343322754, 320}, {33, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10593,7 +10593,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137777</integer>
+					<integer>138074</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -10664,7 +10664,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1070.9375343322754, 746}, {24, 19}}</string>
+					<string>{{1070.9375343322754, 224}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10688,7 +10688,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137776</integer>
+					<integer>138072</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -10759,7 +10759,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1483, 894}, {58, 19}}</string>
+					<string>{{1483, 372}, {58, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10783,7 +10783,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137774</integer>
+					<integer>138048</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -10854,7 +10854,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1483, 872}, {44, 19}}</string>
+					<string>{{1483, 350}, {44, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10878,7 +10878,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137773</integer>
+					<integer>138056</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -10949,7 +10949,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{730.28127479553223, 901}, {24, 19}}</string>
+					<string>{{730.28127479553223, 379}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10973,7 +10973,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137831</integer>
+					<integer>138126</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11045,7 +11045,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{730.28127479553223, 842}, {24, 19}}</string>
+					<string>{{730.28127479553223, 320}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11069,7 +11069,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137832</integer>
+					<integer>138144</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11141,7 +11141,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{730.28127479553223, 780}, {77, 19}}</string>
+					<string>{{730.28127479553223, 258}, {77, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11165,7 +11165,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137833</integer>
+					<integer>138140</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11237,7 +11237,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{739.28122520446777, 746}, {38, 19}}</string>
+					<string>{{739.28122520446777, 224}, {38, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11261,7 +11261,7 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137834</integer>
+					<integer>138137</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11329,7 +11329,7 @@ R. White, L. Roller}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1518, 991}, {219, 310}}</string>
+					<string>{{1518, 469}, {219, 310}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -11445,7 +11445,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1483, 850}, {24, 19}}</string>
+					<string>{{1483, 328}, {24, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11469,7 +11469,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137758</integer>
+					<integer>138049</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11540,7 +11540,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1483, 828}, {78, 19}}</string>
+					<string>{{1483, 306}, {78, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11564,7 +11564,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137757</integer>
+					<integer>138050</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11635,7 +11635,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1483, 806}, {43, 19}}</string>
+					<string>{{1483, 284}, {43, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11655,7 +11655,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137754</integer>
+					<integer>138052</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11699,11 +11699,11 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1475, 804.25}, {110, 21.5}}</string>
+					<string>{{1475, 282.25}, {110, 21.5}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137760</integer>
+					<integer>138062</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11758,7 +11758,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1483, 779}, {43, 19}}</string>
+					<string>{{1483, 257}, {43, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11782,7 +11782,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137759</integer>
+					<integer>138054</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11854,7 +11854,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1569, 782}, {9, 13}}</string>
+					<string>{{1569, 260}, {9, 13}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11878,7 +11878,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137755</integer>
+					<integer>138047</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -11922,7 +11922,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1481, 746}, {38, 19}}</string>
+					<string>{{1481, 224}, {38, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -11946,7 +11946,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137753</integer>
+					<integer>138065</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12014,11 +12014,11 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1475, 773}, {110, 147}}</string>
+					<string>{{1475, 251}, {110, 147}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137756</integer>
+					<integer>138063</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12065,13 +12065,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137736</integer>
+					<integer>138076</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{18, 947}</string>
-						<string>{1454, 947}</string>
+						<string>{18, 425}</string>
+						<string>{1454, 425}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -12102,7 +12102,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{34, 917}, {135, 18}}</string>
+							<string>{{34, 395}, {135, 18}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -12126,7 +12126,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137738</integer>
+							<integer>138120</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -12229,7 +12229,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{34, 901}, {94, 19}}</string>
+							<string>{{34, 379}, {94, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -12253,7 +12253,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137739</integer>
+							<integer>138121</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -12356,13 +12356,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137737</integer>
+					<integer>138119</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1143.0000114440916, 901}, {104.4608838400994, 19}}</string>
+					<string>{{1143.0000114440916, 379}, {104.4608838400994, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12386,7 +12386,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137740</integer>
+					<integer>138066</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12456,7 +12456,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{857.5625114440918, 901}, {53, 19}}</string>
+					<string>{{857.5625114440918, 379}, {53, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12480,7 +12480,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137741</integer>
+					<integer>138103</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12551,7 +12551,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{969.0625114440918, 901}, {36, 19}}</string>
+					<string>{{969.0625114440918, 379}, {36, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12575,7 +12575,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137743</integer>
+					<integer>138090</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12619,7 +12619,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{640, 901}, {52, 19}}</string>
+					<string>{{640, 379}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12643,7 +12643,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137744</integer>
+					<integer>138128</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12715,7 +12715,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{544, 901}, {52, 19}}</string>
+					<string>{{544, 379}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -12739,7 +12739,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137745</integer>
+					<integer>138132</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -12816,7 +12816,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 917}, {145, 19}}</string>
+							<string>{{364, 395}, {145, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -12840,7 +12840,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137747</integer>
+							<integer>138130</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -12942,7 +12942,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 901}, {120, 19}}</string>
+							<string>{{364, 379}, {120, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -12966,7 +12966,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137748</integer>
+							<integer>138131</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -13070,7 +13070,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137746</integer>
+					<integer>138129</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -13082,13 +13082,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137734</integer>
+					<integer>138193</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{18, 769}</string>
-						<string>{1454, 769}</string>
+						<string>{18, 247}</string>
+						<string>{1454, 247}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -13120,13 +13120,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137733</integer>
+					<integer>138185</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{18, 826}</string>
-						<string>{1454, 826}</string>
+						<string>{18, 304}</string>
+						<string>{1454, 304}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -13157,7 +13157,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{34, 796}, {85, 18}}</string>
+							<string>{{34, 274}, {85, 18}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -13181,7 +13181,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137731</integer>
+							<integer>138191</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -13284,7 +13284,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{34, 780}, {114, 19}}</string>
+							<string>{{34, 258}, {114, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -13308,7 +13308,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137732</integer>
+							<integer>138192</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -13412,13 +13412,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137730</integer>
+					<integer>138190</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{864.5625114440918, 780}, {46, 19}}</string>
+					<string>{{864.5625114440918, 258}, {46, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13442,7 +13442,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137728</integer>
+					<integer>138115</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -13513,7 +13513,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{972.0625114440918, 780}, {33, 19}}</string>
+					<string>{{972.0625114440918, 258}, {33, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13537,7 +13537,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137726</integer>
+					<integer>138089</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -13608,7 +13608,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{640, 780}, {52, 19}}</string>
+					<string>{{640, 258}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13632,7 +13632,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137725</integer>
+					<integer>138153</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -13704,7 +13704,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{544, 780}, {52, 19}}</string>
+					<string>{{544, 258}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -13728,7 +13728,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137724</integer>
+					<integer>138177</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -13805,7 +13805,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 796}, {145, 19}}</string>
+							<string>{{364, 274}, {145, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -13829,7 +13829,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137722</integer>
+							<integer>138200</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -13931,7 +13931,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 780}, {120, 19}}</string>
+							<string>{{364, 258}, {120, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -13955,7 +13955,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137723</integer>
+							<integer>138201</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -14059,7 +14059,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137721</integer>
+					<integer>138199</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
@@ -14071,13 +14071,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137720</integer>
+					<integer>138136</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Points</key>
 					<array>
-						<string>{18, 888}</string>
-						<string>{1454, 888}</string>
+						<string>{18, 366}</string>
+						<string>{1454, 366}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -14108,7 +14108,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{33, 858}, {76, 18}}</string>
+							<string>{{33, 336}, {76, 18}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -14132,7 +14132,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137718</integer>
+							<integer>138172</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -14227,7 +14227,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{33, 842}, {234, 19}}</string>
+							<string>{{33, 320}, {234, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -14251,7 +14251,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137719</integer>
+							<integer>138173</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -14350,13 +14350,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137717</integer>
+					<integer>138171</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{871.5625114440918, 842}, {39, 19}}</string>
+					<string>{{871.5625114440918, 320}, {39, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14380,7 +14380,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137715</integer>
+					<integer>138110</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -14451,7 +14451,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{969.0625114440918, 842}, {36, 19}}</string>
+					<string>{{969.0625114440918, 320}, {36, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14475,7 +14475,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137713</integer>
+					<integer>138095</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -14519,7 +14519,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{640, 842}, {52, 19}}</string>
+					<string>{{640, 320}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14543,7 +14543,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137712</integer>
+					<integer>138157</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -14615,7 +14615,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{544, 842}, {52, 19}}</string>
+					<string>{{544, 320}, {52, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14639,7 +14639,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137711</integer>
+					<integer>138166</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -14716,7 +14716,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 858}, {57, 19}}</string>
+							<string>{{364, 336}, {57, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -14740,7 +14740,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137709</integer>
+							<integer>138169</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -14835,7 +14835,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{364, 842}, {98, 19}}</string>
+							<string>{{364, 320}, {98, 19}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -14859,7 +14859,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137710</integer>
+							<integer>138170</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -14955,13 +14955,13 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137708</integer>
+					<integer>138168</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{44, 746}, {60, 19}}</string>
+					<string>{{44, 224}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14985,7 +14985,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137707</integer>
+					<integer>138210</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15053,7 +15053,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{374, 746}, {106, 19}}</string>
+					<string>{{374, 224}, {106, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15077,7 +15077,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137706</integer>
+					<integer>138211</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15145,7 +15145,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{1143.0000114440929, 746}, {41.546942436403192, 19}}</string>
+					<string>{{1143.0000114440929, 224}, {41.546942436403192, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15169,7 +15169,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137705</integer>
+					<integer>138070</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15239,7 +15239,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{860.5625114440918, 746}, {51, 19}}</string>
+					<string>{{860.5625114440918, 224}, {51, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15263,7 +15263,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137704</integer>
+					<integer>138102</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15334,7 +15334,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{965.0625114440918, 746}, {40, 19}}</string>
+					<string>{{965.0625114440918, 224}, {40, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15358,7 +15358,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137702</integer>
+					<integer>138094</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15426,7 +15426,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{650, 746}, {23, 19}}</string>
+					<string>{{650, 224}, {23, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15450,7 +15450,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137701</integer>
+					<integer>138158</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15517,7 +15517,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{554, 746}, {29, 19}}</string>
+					<string>{{554, 224}, {29, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -15541,7 +15541,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137700</integer>
+					<integer>138184</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15609,11 +15609,11 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{24, 779}, {1434.099952005658, 80}}</string>
+					<string>{{24, 257}, {1434.099952005658, 80}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137699</integer>
+					<integer>138194</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15646,11 +15646,11 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{24, 746}, {1403, 19}}</string>
+					<string>{{24, 224}, {1403, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137698</integer>
+					<integer>138215</integer>
 					<key>Layer</key>
 					<integer>1</integer>
 					<key>Shape</key>
@@ -15683,11 +15683,11 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{18, 566}, {1440.099952005658, 424}}</string>
+					<string>{{18, 44}, {1440.099952005658, 424}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137697</integer>
+					<integer>138221</integer>
 					<key>ImageID</key>
 					<integer>59</integer>
 					<key>Layer</key>
@@ -15726,7 +15726,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 							<key>Class</key>
 							<string>LineGraphic</string>
 							<key>ID</key>
-							<integer>137669</integer>
+							<integer>137895</integer>
 							<key>Points</key>
 							<array>
 								<string>{18, 484}</string>
@@ -15785,7 +15785,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137671</integer>
+									<integer>137897</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -15912,7 +15912,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137672</integer>
+									<integer>137898</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -16015,7 +16015,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137670</integer>
+							<integer>137896</integer>
 						</dict>
 						<dict>
 							<key>Bounds</key>
@@ -16043,7 +16043,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137673</integer>
+							<integer>137899</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -16176,7 +16176,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137674</integer>
+							<integer>137900</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -16300,7 +16300,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137675</integer>
+							<integer>137901</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -16366,7 +16366,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137676</integer>
+							<integer>137902</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -16432,7 +16432,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137677</integer>
+							<integer>137903</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -16558,7 +16558,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137678</integer>
+							<integer>137904</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -16689,7 +16689,7 @@ K. Doran, L. Roller}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137680</integer>
+									<integer>137906</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -16815,7 +16815,7 @@ K. Doran, L. Roller}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137681</integer>
+									<integer>137907</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -16919,132 +16919,13 @@ K. Doran, L. Roller}</string>
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137679</integer>
+							<integer>137905</integer>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137668</integer>
+					<integer>137894</integer>
 					<key>Layer</key>
-					<integer>1</integer>
-				</dict>
-				<dict>
-					<key>Bounds</key>
-					<string>{{1531, 191}, {219, 357}}</string>
-					<key>Class</key>
-					<string>ShapedGraphic</string>
-					<key>FontInfo</key>
-					<dict>
-						<key>Color</key>
-						<dict>
-							<key>b</key>
-							<string>0</string>
-							<key>g</key>
-							<string>0</string>
-							<key>r</key>
-							<string>0</string>
-						</dict>
-						<key>Font</key>
-						<string>Helvetica-Bold</string>
-						<key>Size</key>
-						<real>12</real>
-					</dict>
-					<key>ID</key>
-					<integer>29043</integer>
-					<key>Layer</key>
-					<integer>1</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
-					<key>Style</key>
-					<dict>
-						<key>fill</key>
-						<dict>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0.74902</string>
-								<key>g</key>
-								<string>1</string>
-								<key>r</key>
-								<string>0.984314</string>
-							</dict>
-							<key>FillType</key>
-							<integer>2</integer>
-							<key>GradientAngle</key>
-							<real>90</real>
-							<key>GradientColor</key>
-							<dict>
-								<key>b</key>
-								<string>0.713235</string>
-								<key>g</key>
-								<string>1</string>
-								<key>r</key>
-								<string>1</string>
-							</dict>
-						</dict>
-						<key>shadow</key>
-						<dict>
-							<key>Beneath</key>
-							<string>YES</string>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0.701961</string>
-								<key>g</key>
-								<string>0.701961</string>
-								<key>r</key>
-								<string>0.701961</string>
-							</dict>
-							<key>Fuzziness</key>
-							<real>9.0033035278320312</real>
-							<key>ShadowVector</key>
-							<string>{2, 4}</string>
-						</dict>
-						<key>stroke</key>
-						<dict>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0</string>
-								<key>g</key>
-								<string>0.735294</string>
-								<key>r</key>
-								<string>0.735294</string>
-							</dict>
-						</dict>
-					</dict>
-					<key>Text</key>
-					<dict>
-						<key>Align</key>
-						<integer>0</integer>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf390
-\cocoascreenfonts1{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720
-
-\f0\b\fs24 \cf0 Questions:\
-\
-1. Campaign: 
-\b0 \
-\
-Campaign name\
-CampaignID\
-\
-or \
-\
-CampaignID\
-Campaign name\
-\
-
-\b 1. Revenue\
-
-\b0 Who needs to see revenue?
-\b  }</string>
-						<key>VerticalPad</key>
-						<integer>10</integer>
-					</dict>
-					<key>TextPlacement</key>
-					<integer>0</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>Class</key>
@@ -17059,7 +16940,7 @@ Campaign name\
 							<key>Class</key>
 							<string>LineGraphic</string>
 							<key>ID</key>
-							<integer>137655</integer>
+							<integer>137880</integer>
 							<key>Points</key>
 							<array>
 								<string>{18, 425}</string>
@@ -17118,7 +16999,7 @@ Campaign name\
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137657</integer>
+									<integer>137882</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -17245,7 +17126,7 @@ Campaign name\
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137658</integer>
+									<integer>137883</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -17348,7 +17229,7 @@ Campaign name\
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137656</integer>
+							<integer>137881</integer>
 						</dict>
 						<dict>
 							<key>Bounds</key>
@@ -17376,7 +17257,7 @@ Campaign name\
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137659</integer>
+							<integer>137884</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -17509,7 +17390,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137660</integer>
+							<integer>137885</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -17633,7 +17514,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137661</integer>
+							<integer>137886</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -17699,7 +17580,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137662</integer>
+							<integer>137887</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -17765,7 +17646,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137663</integer>
+							<integer>137888</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -17891,7 +17772,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137664</integer>
+							<integer>137889</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -18022,7 +17903,7 @@ K. Doran, L. Roller}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137666</integer>
+									<integer>137891</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -18148,7 +18029,7 @@ K. Doran, L. Roller}</string>
 										<real>12</real>
 									</dict>
 									<key>ID</key>
-									<integer>137667</integer>
+									<integer>137892</integer>
 									<key>Shape</key>
 									<string>Rectangle</string>
 									<key>Style</key>
@@ -18252,13 +18133,13 @@ K. Doran, L. Roller}</string>
 								</dict>
 							</array>
 							<key>ID</key>
-							<integer>137665</integer>
+							<integer>137890</integer>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137654</integer>
+					<integer>137879</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>AllowConnections</key>
@@ -18268,9 +18149,9 @@ K. Doran, L. Roller}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137639</integer>
+					<integer>137878</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Points</key>
 					<array>
 						<string>{18, 247}</string>
@@ -18306,9 +18187,9 @@ K. Doran, L. Roller}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137626</integer>
+					<integer>137877</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Points</key>
 					<array>
 						<string>{18, 304}</string>
@@ -18367,7 +18248,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137628</integer>
+							<integer>137875</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -18494,7 +18375,7 @@ K. Doran, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137629</integer>
+							<integer>137876</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -18598,9 +18479,9 @@ K. Doran, L. Roller}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137627</integer>
+					<integer>137874</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
@@ -18628,9 +18509,9 @@ K. Doran, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137630</integer>
+					<integer>137873</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -18727,9 +18608,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137631</integer>
+					<integer>137872</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -18822,9 +18703,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137632</integer>
+					<integer>137871</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -18918,9 +18799,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137633</integer>
+					<integer>137870</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -19013,9 +18894,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137634</integer>
+					<integer>137869</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -19109,9 +18990,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137635</integer>
+					<integer>137868</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -19210,7 +19091,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137637</integer>
+							<integer>137866</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -19336,7 +19217,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137638</integer>
+							<integer>137867</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -19440,9 +19321,9 @@ R. White, L. Roller}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137636</integer>
+					<integer>137865</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>AllowConnections</key>
@@ -19452,9 +19333,9 @@ R. White, L. Roller}</string>
 					<key>Class</key>
 					<string>LineGraphic</string>
 					<key>ID</key>
-					<integer>137612</integer>
+					<integer>137864</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Points</key>
 					<array>
 						<string>{18, 366}</string>
@@ -19513,7 +19394,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137614</integer>
+							<integer>137862</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -19632,7 +19513,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137615</integer>
+							<integer>137863</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -19731,9 +19612,9 @@ R. White, L. Roller}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137613</integer>
+					<integer>137861</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
@@ -19761,9 +19642,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137616</integer>
+					<integer>137860</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -19860,9 +19741,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137617</integer>
+					<integer>137859</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -19955,9 +19836,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137618</integer>
+					<integer>137858</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20050,9 +19931,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137619</integer>
+					<integer>137857</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20118,9 +19999,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137620</integer>
+					<integer>137856</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20214,9 +20095,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137621</integer>
+					<integer>137855</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20315,7 +20196,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137623</integer>
+							<integer>137853</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -20434,7 +20315,7 @@ R. White, L. Roller}</string>
 								<real>12</real>
 							</dict>
 							<key>ID</key>
-							<integer>137624</integer>
+							<integer>137854</integer>
 							<key>Shape</key>
 							<string>Rectangle</string>
 							<key>Style</key>
@@ -20530,9 +20411,9 @@ R. White, L. Roller}</string>
 						</dict>
 					</array>
 					<key>ID</key>
-					<integer>137622</integer>
+					<integer>137852</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 				</dict>
 				<dict>
 					<key>Bounds</key>
@@ -20560,9 +20441,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137609</integer>
+					<integer>137851</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20652,9 +20533,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137592</integer>
+					<integer>137850</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20744,9 +20625,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137590</integer>
+					<integer>137849</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20836,9 +20717,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137589</integer>
+					<integer>137848</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -20928,9 +20809,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137588</integer>
+					<integer>137847</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21020,9 +20901,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137587</integer>
+					<integer>137846</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21112,9 +20993,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137586</integer>
+					<integer>137845</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21203,9 +21084,9 @@ R. White, L. Roller}</string>
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>137584</integer>
+					<integer>137844</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21275,9 +21156,9 @@ R. White, L. Roller}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137598</integer>
+					<integer>137843</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21312,9 +21193,9 @@ R. White, L. Roller}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137585</integer>
+					<integer>137842</integer>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21349,13 +21230,13 @@ R. White, L. Roller}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>137583</integer>
+					<integer>137841</integer>
 					<key>ImageID</key>
 					<integer>59</integer>
 					<key>IsLocked</key>
 					<string>YES</string>
 					<key>Layer</key>
-					<integer>1</integer>
+					<integer>2</integer>
 					<key>Shape</key>
 					<string>Rectangle</string>
 					<key>Style</key>
@@ -21400,11 +21281,21 @@ R. White, L. Roller}</string>
 					<key>Lock</key>
 					<string>NO</string>
 					<key>Name</key>
-					<string>Campaign</string>
+					<string>Concept 2</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
 					<string>YES</string>
+				</dict>
+				<dict>
+					<key>Lock</key>
+					<string>NO</string>
+					<key>Name</key>
+					<string>Concept 1</string>
+					<key>Print</key>
+					<string>YES</string>
+					<key>View</key>
+					<string>NO</string>
 				</dict>
 			</array>
 			<key>LayoutInfo</key>
@@ -41354,7 +41245,7 @@ If it's in Luxo, can we assume the IO has already been sent?}</string>
 		<key>SidebarWidth</key>
 		<integer>160</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 482}, {1746, 862}}</string>
+		<string>{{0, 0}, {1746, 862}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
