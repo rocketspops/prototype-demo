@@ -1,5 +1,10 @@
 //= require reset
 
+html,
+body {
+  height: 100%;
+}
+
 .m-index-container {
   font-size: 0;
   overflow: hidden;
@@ -25,16 +30,19 @@
 }
 
 .m-nav {
+  background: white;
+  border-bottom: 2px solid rgb(235,235,235);
   font-family: "reenie-beanie";
   font-size: 21px;
   list-style-type: none;
   overflow: hidden;
-  padding: 10px 15px;
-  position: absolute;
+  padding: 9px 15px;
+  position: fixed;
   left: 0;
   top: 0;
   text-transform: capitalize;
   width: 100%;
+  z-index: 100;
 }
 
 .m-nav li {
@@ -58,20 +66,18 @@
   text-decoration: none;
 }
 
-.m-nav-arrow {
-  font-family: "source-sans-pro";
-  font-size: 14px;
-  margin: 0 5px;
+.m-nav-seperator {
+  margin: 0 6px;
   color: rgb(50, 50, 50);
 }
 
 .m-index-logo img {
   display: inline;
   vertical-align: middle;
+  height: 15px;
 }
 
 .m-index-logo span {
-  padding-left: 5px;
   position: relative;
   top: 2px;
   vertical-align: middle;
@@ -79,8 +85,7 @@
 
 .m-index-roll {
   background: white;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  border: 1px solid rgb(200,200,200);
+  border: 2px solid rgb(230,230,230);
   display: inline-block;
   font-size: 21px;
   font-weight: 300;
@@ -94,7 +99,7 @@
 }
 
 .m-index-roll li {
-  border-top: 1px solid rgb(220,220,220);
+  border-top: 1px solid rgb(230,230,230);
   line-height: 1;
   transition: all 0.1s;
 }
@@ -105,7 +110,7 @@
   color: rgb(50, 50, 50);
   display: block;
   overflow: hidden;
-  padding: 10px;
+  padding: 12px;
   position: relative;
   transition: all 0.1s;
 }
@@ -118,16 +123,13 @@
 
 .m-index-roll__stats {
   position: absolute;
-  right: 10px;
-  top: 11px;
+  right: 12px;
+  top: 13px;
 }
 
 .m-index-roll__count {
-  color: rgb(200,200,200);
-  float: right;
   font-family: "reenie-beanie";
-  font-size: 24px;
-  top: 3px;
+  font-size: 21px;
   text-align: right;
 }
 
@@ -191,7 +193,6 @@
   bottom: 0;
   right: 0;
   border-left: 1px solid #d6d6d6;
-  border-top: 1px solid #d6d6d6;
   padding: 20px 20px 0 20px;
   width: 500px;
   overflow-y: scroll;

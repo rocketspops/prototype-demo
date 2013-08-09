@@ -13,9 +13,9 @@ tags:        [top-level, ignore]
           <a href="{{ site.baseurl }}{{ page.url }}">
             {{ page.title }}
             <div class="m-index-roll__stats">
-              {% for item in site.categories.[page.category] %}
-                <span class="m-index-roll__count">l</span>
-              {% endfor%}
+              <span class="m-index-roll__count">
+                {% for item in site.categories.[page.category] %}l{% endfor%}
+              </span>
             </div>
           </a>
         </li>
