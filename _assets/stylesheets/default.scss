@@ -1,5 +1,104 @@
 //= require reset
 
+.m-index-container {
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url(asset_path('sketch.jpg')) no-repeat center center;
+  text-align: center;
+}
+
+.m-index-container:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.m-index-container > * { font-size: 1rem; }
+
+.m-index-logo {
+  border-top: none;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  left: 5px;
+  top: 0;
+}
+
+.m-index-logo img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.m-index-logo span {
+  color: #fe4396;
+  font-family: "reenie-beanie";
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  vertical-align: middle;
+}
+
+.m-index-roll {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border: 1px solid rgb(200,200,200);
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 1rem;
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all 0.1s;
+  text-align: left;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.m-index-roll:hover {
+  border-color: #00a4d9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+.m-index-roll li {
+  border-top: 1px solid rgb(220,220,220);
+  line-height: 1;
+  transition: all 0.1s;
+}
+
+.m-index-roll li:hover,
+.m-index-roll li:hover + li { 
+  border-color: transparent;
+}
+
+.m-index-roll li:first-child {
+  border: none;
+}
+
+.m-index-roll li a {
+  color: rgb(160,160,160);
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  transition: all 0.1s;
+}
+
+.m-index-roll li a:hover {
+  text-decoration:none;
+  background:  #00a4d9;
+  color: white;
+}
+
+.m-index-roll__count {
+  float: right;
+  text-align: right;
+}
+
 .m-posts-roll {
   display: block;
   list-style-type: none;
