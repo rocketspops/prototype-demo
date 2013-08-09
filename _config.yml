@@ -1,26 +1,25 @@
+---
 baseurl: /product-design
 name: Centro Prototypes
 permalink: /:categories/:month-:day-:year/:title/
-exclude: ['Gemfile', 'Gemfile.lock', 'product-design.esproj', 'publish.sh']
-
+exclude:
+- Gemfile
+- Gemfile.lock
+- product-design.esproj
+- publish.sh
 assets:
-
   compress:
     css: sass
-    js:  uglifier
-    
+    js: uglifier
   baseurl: /product-design/assets/
-  
   cache_assets: true
-  
   sources:
-    - _assets/javascripts
-    - _assets/javascripts/vendor
-    - _assets/stylesheets
-    - _assets/images
-    - _assets/images/2013-07-12-messaging-redux
-    - _assets/images/2013-07-16-auth-user-admin
-    - _assets/images/2013-08-06-ad-server-management
-    - _assets/images/2013-08-07-ad-server-mapping
-    - _assets/images/2013-08-07-ad-server-api-settings
-    
+  - _assets/javascripts
+  - _assets/javascripts/vendor
+  - _assets/stylesheets
+  - _assets/images
+  - _assets/images/2013-07-12-messaging-redux
+  - _assets/images/2013-07-16-auth-user-admin
+  - _assets/images/2013-08-06-ad-server-management
+  - _assets/images/2013-08-07-ad-server-mapping
+  - _assets/images/2013-08-07-ad-server-api-settings

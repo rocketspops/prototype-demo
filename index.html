@@ -8,9 +8,10 @@ tags:        [top-level, ignore]
 
 <ul class="m-posts-roll">
   {% for page in site.pages %}
-    {% unless page.tags contains 'ignore' %}
+  {% assign post_count = site.categories.[page.category] | size %}
+    {% unless page.tags contains 'ignore' or post_count == 0 %}
       <li>
-        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }} ({{ site.categories.[page.category] | size }})</a>
+        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }} ({{ post_count }})</a>
       </li>
     {% endunless %}
   {% endfor %}
