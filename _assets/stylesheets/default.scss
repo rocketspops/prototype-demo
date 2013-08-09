@@ -46,11 +46,12 @@
 
 .m-index-roll {
   background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  border: 1px solid rgb(200,200,200);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  border: 1px solid rgb(180,180,180);
   border-radius: 5px;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 20px;
+  font-weight: 300;
   list-style-type: none;
   margin: 0 auto;
   overflow: hidden;
@@ -60,20 +61,10 @@
   width: 400px;
 }
 
-.m-index-roll:hover {
-  border-color: #00a4d9;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-}
-
 .m-index-roll li {
   border-top: 1px solid rgb(220,220,220);
   line-height: 1;
   transition: all 0.1s;
-}
-
-.m-index-roll li:hover,
-.m-index-roll li:hover + li { 
-  border-color: transparent;
 }
 
 .m-index-roll li:first-child {
@@ -81,7 +72,7 @@
 }
 
 .m-index-roll li a {
-  color: rgb(160,160,160);
+  color: rgb(100,100,100);
   display: block;
   overflow: hidden;
   padding: 10px;
@@ -90,8 +81,7 @@
 
 .m-index-roll li a:hover {
   text-decoration:none;
-  background:  #00a4d9;
-  color: white;
+  color: #fe4396;
 }
 
 .m-index-roll__count {
