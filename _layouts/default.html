@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
-    {% stylesheet default %}
-    {% for item in page.custom_css %}
-      {{ item | stylesheet }}
+    <link rel="stylesheet" href="{{ 'default.css' | asset_path }}" />
+    {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="{{ stylesheet | asset_path }}" />  
     {% endfor %}
-    {% javascript default %}
-    {% for item in page.custom_js %}
-      {{ item | javascript }}
+    <script src="{{ 'default.js' | asset_path }}"></script>
+    {% for js in page.custom_js %}
+      <script src="{{ js | asset_path }}"></script>
     {% endfor %}
     <script src="//use.typekit.net/ysf1fwm.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
