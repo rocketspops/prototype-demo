@@ -19,21 +19,50 @@
   vertical-align: middle;
 }
 
-.m-index-container > * { font-size: 1rem; }
-
-.m-index-logo {
-  border-top: none;
-  color: #fe4396;
-  display: inline-block;
-  padding: 10px;
-  position: absolute;
-  left: 5px;
-  top: 0;
+.m-index-container > * { 
+  font-size: 1rem; 
+  text-align: left;
 }
 
-.m-index-logo:hover {
-  color: rgb(100,100,100);
+.m-nav {
+  font-family: "reenie-beanie";
+  font-size: 20px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.m-nav li {
+  color: rgb(200, 200, 200);
+  float: left;
+  line-height: 25px;
+}
+
+.m-nav li:not(.m-index-logo) {
+  position: relative;
+  top: 2px;
+}
+
+.m-nav li a {
+  color: rgb(50, 50, 50);
+  display: inline-block;
+}
+
+.m-nav li a:hover {
+  color: #fe4396;
   text-decoration: none;
+}
+
+.m-nav-arrow {
+  font-family: "source-sans-pro";
+  font-size: 14px;
+  margin: 0 5px;
+  color: rgb(50, 50, 50);
 }
 
 .m-index-logo img {
@@ -42,8 +71,7 @@
 }
 
 .m-index-logo span {
-  font-family: "reenie-beanie";
-  font-size: 20px;
+  padding-left: 5px;
   position: relative;
   top: 2px;
   vertical-align: middle;
@@ -71,12 +99,10 @@
   transition: all 0.1s;
 }
 
-.m-index-roll li:first-child {
-  border: none;
-}
+.m-index-roll li:first-child { border: none; }
 
 .m-index-roll li a {
-  color: rgb(100,100,100);
+  color: rgb(50, 50, 50);
   display: block;
   overflow: hidden;
   padding: 10px;
@@ -87,9 +113,7 @@
 .m-index-roll li a:hover {
   text-decoration:none;
   color: #fe4396;
-  span {
-    color: #fe4396;
-  }
+  span { color: #fe4396; }
 }
 
 .m-index-roll__stats {
@@ -163,16 +187,17 @@
   display: none;
   background: white;
   position: absolute;
-  top:  30px;
+  top:  45px;
   bottom: 0;
   right: 0;
   border-left: 1px solid #d6d6d6;
+  border-top: 1px solid #d6d6d6;
   padding: 20px 20px 0 20px;
   width: 500px;
   overflow-y: scroll;
 }
 
-.l-right { float: right; }
+.l-right { float: right !important; }
 
 .m-wrapper {
   border-color: #d6d6d6;
