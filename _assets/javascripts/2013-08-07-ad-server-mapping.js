@@ -5,7 +5,7 @@ $(function() {
     return false;
   });
 
-	$('.overlay__select').click(function() {
+	$('.overlay__select, .remove-undo').click(function() {
 	  $('.source-facebook, .icon-link').show();
 	  return false;
 	});
@@ -22,6 +22,19 @@ $(function() {
 	  $('.source-facebook, .icon-link').hide();
 	  return false;
 	});
+	
+	$('.source-remove').click(function() {
+	  $('.remove-confirm').show();
+	  return false;
+	});
+	
+	$('.remove-undo').click(function() {
+	  $('.source-facebook, .icon-link').show();
+	  return false;},function(){
+	  $('.remove-confirm').hide();
+	    return false;
+	});
+	
 
   $('.overlay__close').click(function() {
     $('.overlay').hide();
