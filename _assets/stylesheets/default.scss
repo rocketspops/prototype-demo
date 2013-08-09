@@ -172,17 +172,18 @@ body {
 .m-page-title span { margin: 0 4px; }
 
 .m-static-prototype {
-
-  padding-top: 30px;
+  position: relative;
   text-align: center;
   width: 100%;
+  top: 90px;
 }
 
-.m-static-prototype img {
+.m-static-prototype img { display: inline-block; }
+
+.m-static-prototype img.bordered {
   border-color: #d6d6d6;
   border-style: solid;
   border-width: 0 1px 1px 1px;
-  display: inline-block;
 }
 
 .m-comments {
@@ -192,10 +193,9 @@ body {
   top:  45px;
   bottom: 0;
   right: 0;
-  border-left: 1px solid #d6d6d6;
+  border-left: 2px solid rgb(235,235,235);
   padding: 20px 20px 0 20px;
   width: 500px;
-  overflow-y: scroll;
 }
 
 .l-right { float: right !important; }
