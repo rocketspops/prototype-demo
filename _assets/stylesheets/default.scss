@@ -23,11 +23,17 @@
 
 .m-index-logo {
   border-top: none;
+  color: #fe4396;
   display: inline-block;
   padding: 10px;
   position: absolute;
   left: 5px;
   top: 0;
+}
+
+.m-index-logo:hover {
+  color: rgb(100,100,100);
+  text-decoration: none;
 }
 
 .m-index-logo img {
@@ -36,7 +42,6 @@
 }
 
 .m-index-logo span {
-  color: #fe4396;
   font-family: "reenie-beanie";
   font-size: 20px;
   position: relative;
