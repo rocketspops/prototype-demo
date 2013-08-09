@@ -1,5 +1,136 @@
 //= require reset
 
+.m-index-container {
+  font-size: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: url(asset_path('sketch.jpg')) no-repeat center center;
+  text-align: center;
+}
+
+.m-index-container:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.m-index-container > * { 
+  font-size: 1rem; 
+  text-align: left;
+}
+
+.m-nav {
+  font-family: "reenie-beanie";
+  font-size: 20px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-transform: capitalize;
+  width: 100%;
+}
+
+.m-nav li {
+  color: rgb(200, 200, 200);
+  float: left;
+  line-height: 25px;
+}
+
+.m-nav li:not(.m-index-logo) {
+  position: relative;
+  top: 2px;
+}
+
+.m-nav li a {
+  color: rgb(50, 50, 50);
+  display: inline-block;
+}
+
+.m-nav li a:hover {
+  color: #fe4396;
+  text-decoration: none;
+}
+
+.m-nav-arrow {
+  font-family: "source-sans-pro";
+  font-size: 14px;
+  margin: 0 5px;
+  color: rgb(50, 50, 50);
+}
+
+.m-index-logo img {
+  display: inline;
+  vertical-align: middle;
+}
+
+.m-index-logo span {
+  padding-left: 5px;
+  position: relative;
+  top: 2px;
+  vertical-align: middle;
+}
+
+.m-index-roll {
+  background: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border: 1px solid rgb(200,200,200);
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 300;
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all 0.1s;
+  text-align: left;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.m-index-roll li {
+  border-top: 1px solid rgb(220,220,220);
+  line-height: 1;
+  transition: all 0.1s;
+}
+
+.m-index-roll li:first-child { border: none; }
+
+.m-index-roll li a {
+  color: rgb(50, 50, 50);
+  display: block;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+  transition: all 0.1s;
+}
+
+.m-index-roll li a:hover {
+  text-decoration:none;
+  color: #fe4396;
+  span { color: #fe4396; }
+}
+
+.m-index-roll__stats {
+  position: absolute;
+  right: 10px;
+  top: 11px;
+}
+
+.m-index-roll__count {
+  color: rgb(200,200,200);
+  float: right;
+  font-family: "reenie-beanie";
+  font-size: 24px;
+  top: 3px;
+  text-align: right;
+}
+
 .m-posts-roll {
   display: block;
   list-style-type: none;
@@ -56,16 +187,17 @@
   display: none;
   background: white;
   position: absolute;
-  top:  30px;
+  top:  45px;
   bottom: 0;
   right: 0;
   border-left: 1px solid #d6d6d6;
+  border-top: 1px solid #d6d6d6;
   padding: 20px 20px 0 20px;
   width: 500px;
   overflow-y: scroll;
 }
 
-.l-right { float: right; }
+.l-right { float: right !important; }
 
 .m-wrapper {
   border-color: #d6d6d6;
