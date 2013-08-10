@@ -5,7 +5,11 @@
       <span>Product Design</span>
     </a>
   </li>
-  {% if page.tags contains 'mid-level' %}
+  {% if page.tags contains 'top-level' %}
+    <li class="l-right">
+      <a href="https://github.com/centro/product-design">To the code!</a>
+    </li>
+  {% elsif page.tags contains 'mid-level' %}
     <li><span class="m-nav-seperator">:</span></li>
     <li>{{ page.category }}</li>
   {% elsif page.tags contains 'low-level' %}
