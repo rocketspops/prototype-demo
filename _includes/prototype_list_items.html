@@ -1,5 +1,6 @@
 <li>
-  <img src="{{ post.thumbnail | asset_path }}" alt="" />
-  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  {{ post_count }}
+  <a href="{{ site.baseurl }}{{ post.url }}">
+    <img src="{{ post.thumbnail | asset_path }}" alt="" />
+    <span>{{ post.title }}</span>
+  </a>
 </li>

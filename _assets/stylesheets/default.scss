@@ -57,13 +57,7 @@ body {
 }
 
 .m-nav li a {
-  color: rgb(50, 50, 50);
   display: inline-block;
-}
-
-.m-nav li a:hover {
-  color: #fe4396;
-  text-decoration: none;
 }
 
 .m-nav-seperator {
@@ -98,6 +92,10 @@ body {
   width: 400px;
 }
 
+.m-index-roll:hover {
+  border-color: #fe4396;
+}
+
 .m-index-roll li {
   border-top: 1px solid rgb(230,230,230);
   line-height: 1;
@@ -107,18 +105,11 @@ body {
 .m-index-roll li:first-child { border: none; }
 
 .m-index-roll li a {
-  color: rgb(50, 50, 50);
   display: block;
   overflow: hidden;
   padding: 12px;
   position: relative;
   transition: all 0.1s;
-}
-
-.m-index-roll li a:hover {
-  text-decoration:none;
-  color: #fe4396;
-  span { color: #fe4396; }
 }
 
 .m-index-roll__stats {
@@ -136,40 +127,44 @@ body {
 .m-posts-roll {
   display: block;
   list-style-type: none;
-  margin: 100px auto 0;
-  width: 400px;
+  margin: 0 auto;
+  padding: 90px 45px 0;
+  overflow: hidden;
 }
 
-.m-posts-roll li { margin-bottom: 20px; }
+.m-posts-roll li {
+  float: left;
+  margin: 0 45px 0 0; 
+}
 
 .m-posts-roll img {
-  border: 1px solid #cacaca;
-  display: inline-block;
-  height: 125px;
-  margin-right:  20px;
+  border: 2px solid rgb(230,230,230);
+  display: block;
   vertical-align: middle;
 }
 
-.m-page-title {
-  background: white;
-  border-bottom: 1px solid #d6d6d6;
-  color: rgb(200,200,200);
+.m-posts-roll a {
+  display: block;
   font-size: 14px;
-  font-weight: normal;
-  line-height: 1;
-  height:  30px;
-  margin: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 8px 10px;
-  text-transform: capitalize;
-  width: 100%;
-  z-index: 10;
+  position: relative;
 }
 
-.m-page-title span { margin: 0 4px; }
+.m-posts-roll a:hover img {
+  border-color: #fe4396;
+}
+
+.m-posts-roll span {
+  background: white;
+  border-color: rgb(230,230,230);
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  padding: 5px 10px;
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+}
 
 .m-static-prototype {
   position: relative;
@@ -194,6 +189,7 @@ body {
   bottom: 0;
   right: 0;
   border-left: 2px solid rgb(235,235,235);
+  overflow: auto;
   padding: 20px 20px 0 20px;
   width: 500px;
 }
