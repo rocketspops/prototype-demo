@@ -58,7 +58,6 @@ a:focus { outline: none; }
 }
 
 .m-nav li {
-  color: rgb(200, 200, 200);
   float: left;
   line-height: 25px;
 }
@@ -68,13 +67,17 @@ a:focus { outline: none; }
   top: 2px;
 }
 
+.m-nav li.active {
+  color: $centro-bright;
+}
+
 .m-nav li a {
   display: inline-block;
 }
 
 .m-nav-seperator {
   margin: 0 6px;
-  color: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
 }
 
 .m-index-logo img {

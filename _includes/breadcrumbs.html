@@ -1,22 +1,32 @@
 <ul class="m-nav">
-  <li class="m-index-logo">
-    <a href="{{ site.baseurl }}/">
+  {% if page.tags contains 'top-level' %}
+    <li class="m-index-logo">
       <img src="{{ 'logo.png' | asset_path }}" alt="" />
       <span>Product Design</span>
-    </a>
-  </li>
-  {% if page.tags contains 'top-level' %}
+    </li>
     <li class="l-right">
       <a href="https://github.com/centro/product-design">To the code!</a>
     </li>
   {% elsif page.tags contains 'mid-level' %}
-    <li><span class="m-nav-seperator">:</span></li>
-    <li>{{ page.category }}</li>
+    <li class="m-index-logo">
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ 'logo.png' | asset_path }}" alt="" />
+        <span>Product Design</span>
+      </a>
+    </li>
+    <li><span class="m-nav-seperator">/</span></li>
+    <li class="active">{{ page.category }}</li>
   {% elsif page.tags contains 'low-level' %}
-    <li><span class="m-nav-seperator">:</span></li>
+    <li class="m-index-logo">
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ 'logo.png' | asset_path }}" alt="" />
+        <span>Product Design</span>
+      </a>
+    </li>
+    <li><span class="m-nav-seperator">/</span></li>
     <li><a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a></li>
-    <li><span class="m-nav-seperator">:</span></li>
-    <li>{{ page.title }}</li>
+    <li><span class="m-nav-seperator">/</span></li>
+    <li class="active">&ldquo;{{ page.title }}&rdquo;</li>
     <li class="l-right">
       <a class="l-right m-comments__count" href="{{ site.baseurl }}{{ post.url }}">Show Comments</a>
     </li>
