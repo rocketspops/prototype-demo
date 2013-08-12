@@ -1,9 +1,21 @@
 //= require reset
 
+$centro-bright: rgb(210, 30, 133);
+$centro-brighter: rgb(230, 51, 141); 
+
 html,
 body {
   height: 100%;
 }
+
+a { 
+  color:  rgb(50, 50, 50);
+  text-decoration: none;
+}
+a:hover { color: $centro-bright; }
+a:focus { outline: none; }
+
+// ----
 
 .m-index-container {
   font-size: 0;
@@ -93,23 +105,37 @@ body {
 }
 
 .m-index-roll:hover {
-  border-color: #fe4396;
+  border-color: $centro-bright;
 }
 
 .m-index-roll li {
-  border-top: 1px solid rgb(230,230,230);
   line-height: 1;
   transition: all 0.1s;
 }
 
-.m-index-roll li:first-child { border: none; }
-
 .m-index-roll li a {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px 0;
   display: block;
   overflow: hidden;
   padding: 12px;
   position: relative;
   transition: all 0.1s;
+}
+
+.m-index-roll li a:hover {
+  background-color: $centro-brighter;
+  border-color: $centro-bright;
+  color: white;
+}
+
+.m-index-roll li:first-child a:hover {
+  border-top-color: transparent;
+}
+
+.m-index-roll li:last-child a:hover {
+  border-bottom-color: transparent;
 }
 
 .m-index-roll__stats {
@@ -137,46 +163,59 @@ body {
   margin: 0 45px 0 0; 
 }
 
-.m-posts-roll img {
-  border: 2px solid rgb(230,230,230);
-  display: block;
-  vertical-align: middle;
-}
-
 .m-posts-roll a {
   display: block;
   font-size: 14px;
   position: relative;
 }
 
-.m-posts-roll a:hover img {
-  border-color: #fe4396;
+.m-posts-roll a > * {
+  transition: all 0.1s;
+}
+
+.m-posts-roll img {
+  border: 2px solid rgb(230,230,230);
+  display: block;
+  vertical-align: middle;
+}
+
+.m-posts-roll a:hover {
+  img,
+  span { border-color: $centro-bright; }
+  span {
+    background-color: $centro-brighter;
+    color: #fff;
+  }
 }
 
 .m-posts-roll span {
-  background: white;
+  background: rgb(235,235,235);
   border-color: rgb(230,230,230);
   border-style: solid;
-  border-width: 1px 0 0 0;
+  border-width: 2px 0 0 0;
   padding: 5px 10px;
   display: block;
   position: absolute;
   bottom: 2px;
   left: 2px;
   right: 2px;
+  transition: all 0.1s;
 }
 
 .m-static-prototype {
-  position: relative;
+  position: absolute;
   text-align: center;
   width: 100%;
-  top: 90px;
+  top: 45px;
+  bottom: 0px;
+  overflow: auto;
+  padding-top: 45px;
 }
 
 .m-static-prototype img { display: inline-block; }
 
 .m-static-prototype img.bordered {
-  border-color: #d6d6d6;
+  border-color: rgb(214,214,214);
   border-style: solid;
   border-width: 0 1px 1px 1px;
 }
@@ -197,13 +236,22 @@ body {
 .l-right { float: right !important; }
 
 .m-wrapper {
-  border-color: #d6d6d6;
-  border-style: solid;
-  border-width: 0 1px;
+  overflow: auto;
+  padding-top: 45px;
+  position: absolute;
+    bottom: 0px;
+    top: 45px;
+  width: 100%;
+}
+
+.m-wrapper > div {
   height: 100%;
   margin: 0 auto;
-  overflow: hidden;
-  padding-top: 30px;
   position: relative;
-  width: 1220px;
 }
+
+.m-wrapper > div.bordered {
+  border: 1px solid rgb(214,214,214);
+}
+
+
