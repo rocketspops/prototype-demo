@@ -14,20 +14,32 @@ custom_js:   [2013-08-07-ad-server-mapping.js]
 <div class="m-wrapper">
   <div style="width: 445px;">
     <div class="header">
-      <a class="header--trigger" href="#"></a>
+      <a class="header--trigger" href="#">
+        <span class="clickable"></span>
+      </a>
     </div>
     <div class="overlay">
       <div class="overlay__container">
-        <a href="#" class="overlay__close"></a>
-        <a href="#" class="overlay__select"></a>
+        <a href="#" class="overlay__close">
+          <span class="clickable"></span>
+        </a>
+        <a href="#" class="overlay__select">
+          <span class="clickable"></span>
+        </a>
         <div class="overlay__source-wrapper">
-          <div class="source-facebook">
+          <div class="source-facebook" style="position: relative;">
              <img src="{{ '2013-08-07-ad-server-mapping-source_facebook.png' | asset_path }}" alt="" />
-              <a class="source-remove" href="#"></a>
+             <a class="source-remove" href="#"></a>
+             <span class="clickable" style="left: 19px; top: 26px;"></span>
            </div>
            <img class="icon-link" src="{{ '2013-08-07-ad-server-mapping-icon_link.png' | asset_path }}" alt="" />
            <div class="remove-confirm">
-             <p>Delivery source removed. <a class="remove-undo" href="#">Undo</a></p>
+             <p>Delivery source removed. 
+               <a class="remove-undo" href="#">
+                 Undo 
+                <span class="clickable"></span>
+               </a>
+             </p>
            </div>
         </div>
       </div>
