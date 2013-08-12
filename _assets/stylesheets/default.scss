@@ -1,7 +1,7 @@
 //= require reset
 
 $centro-bright: rgb(210, 30, 133);
-$centro-dark: rgb(164, 11, 92); 
+$centro-brighter: rgb(230, 51, 141); 
 
 html,
 body {
@@ -114,6 +114,9 @@ a:focus { outline: none; }
 }
 
 .m-index-roll li a {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 2px 0;
   display: block;
   overflow: hidden;
   padding: 12px;
@@ -122,8 +125,17 @@ a:focus { outline: none; }
 }
 
 .m-index-roll li a:hover {
- background-color: $centro-bright;
- color: white;
+  background-color: $centro-brighter;
+  border-color: $centro-bright;
+  color: white;
+}
+
+.m-index-roll li:first-child a:hover {
+  border-top-color: transparent;
+}
+
+.m-index-roll li:last-child a:hover {
+  border-bottom-color: transparent;
 }
 
 .m-index-roll__stats {
@@ -171,7 +183,7 @@ a:focus { outline: none; }
   img,
   span { border-color: $centro-bright; }
   span {
-    background-color: $centro-bright;
+    background-color: $centro-brighter;
     color: #fff;
   }
 }
@@ -203,7 +215,7 @@ a:focus { outline: none; }
 .m-static-prototype img { display: inline-block; }
 
 .m-static-prototype img.bordered {
-  border-color: #d6d6d6;
+  border-color: rgb(214,214,214);
   border-style: solid;
   border-width: 0 1px 1px 1px;
 }
@@ -224,13 +236,22 @@ a:focus { outline: none; }
 .l-right { float: right !important; }
 
 .m-wrapper {
-  border-color: #d6d6d6;
-  border-style: solid;
-  border-width: 0 1px;
+  overflow: auto;
+  padding-top: 45px;
+  position: absolute;
+    bottom: 0px;
+    top: 45px;
+  width: 100%;
+}
+
+.m-wrapper > div {
   height: 100%;
   margin: 0 auto;
-  overflow: hidden;
-  padding-top: 30px;
   position: relative;
-  width: 1220px;
 }
+
+.m-wrapper > div.bordered {
+  border: 1px solid rgb(214,214,214);
+}
+
+

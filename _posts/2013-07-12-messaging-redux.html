@@ -12,63 +12,65 @@ custom_js:   [jquery.localscroll-1.2.7.js, jquery.scrollTo-1.4.3.1.js, 2013-07-1
 {% include breadcrumbs.html %}
 
 <div class="m-wrapper">
-  <div class="top">
-    <div class="header">
-      <a class="alerts-trigger" href="#"></a>
-      <a class="messages-trigger" href="#"></a>
-      <div class="header-alerts">
-        <div>
-          <img src="{{ '2013-07-12-messaging-redux-alerts.png' | asset_path }}" alt="" />
+  <div class="bordered" style="width: 1220px;">
+    <div class="top">
+      <div class="header">
+        <a class="alerts-trigger" href="#"></a>
+        <a class="messages-trigger" href="#"></a>
+        <div class="header-alerts">
+          <div>
+            <img src="{{ '2013-07-12-messaging-redux-alerts.png' | asset_path }}" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="messages-container">
+        <a href="#" class="view-fullscreen">
+          <img src="{{ '2013-07-12-messaging-redux-expand-link.png' | asset_path }}" alt="" />
+        </a>
+        <div class="messages">
+          <p>
+            <img src="{{ '2013-07-12-messaging-redux-message_01.png' | asset_path }}" alt="" />
+          </p>
+          <p>
+            <img src="{{ '2013-07-12-messaging-redux-message_02.png' | asset_path }}" alt="" />
+          </p>
+          <p>
+            <img src="{{ '2013-07-12-messaging-redux-message_03.png' | asset_path }}" alt="" />
+          </p>
+          <p>
+            <img src="{{ '2013-07-12-messaging-redux-message_04.png' | asset_path }}" alt="" />
+            <a href="#table-03"></a>
+            <a class="scrollTo" href="#table-03"></a>
+          </p>
         </div>
       </div>
     </div>
-    <div class="messages-container">
-      <a href="#" class="view-fullscreen">
-        <img src="{{ '2013-07-12-messaging-redux-expand-link.png' | asset_path }}" alt="" />
-      </a>
-      <div class="messages">
-        <p>
-          <img src="{{ '2013-07-12-messaging-redux-message_01.png' | asset_path }}" alt="" />
-        </p>
-        <p>
-          <img src="{{ '2013-07-12-messaging-redux-message_02.png' | asset_path }}" alt="" />
-        </p>
-        <p>
-          <img src="{{ '2013-07-12-messaging-redux-message_03.png' | asset_path }}" alt="" />
-        </p>
-        <p>
-          <img src="{{ '2013-07-12-messaging-redux-message_04.png' | asset_path }}" alt="" />
-          <a href="#table-03"></a>
-          <a class="scrollTo" href="#table-03"></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="table-container">
-    <img class="table-header" src="{{ '2013-07-12-messaging-redux-table-header.png' | asset_path }}" alt="" />
-    <div class="table">
-      <div>
-        <img id="table-01" src="{{ '2013-07-12-messaging-redux-table_01.png' | asset_path }}" alt="" />
-        <a class="table-trigger" href="#"></a>
-        <img class="js-toggle version-dropdown" src="{{ '2013-07-12-messaging-redux-version_dropdown_01.png' | asset_path }}" alt="" />
-        <a class="tooltip-trigger" href="#"></a>
-        <img class="js-toggle tooltip" src="{{ '2013-07-12-messaging-redux-tooltip.png' | asset_path }}" alt="" />
-      </div>
-      <div>
-        <img id="table-02" src="{{ '2013-07-12-messaging-redux-table_02.png' | asset_path }}" alt="" />
-        <a class="table-trigger" href="#"></a>
-        <img class="js-toggle version-dropdown" src="{{ '2013-07-12-messaging-redux-version_dropdown_03.png' | asset_path }}" alt="" />
-        <a class="tooltip-trigger" href="#"></a>
-        <img class="js-toggle tooltip" src="{{ '2013-07-12-messaging-redux-tooltip.png' | asset_path }}" alt="" />
-      </div>
-      <div>
-        <img id="table-03" src="{{ '2013-07-12-messaging-redux-table_03.png' | asset_path }}" alt="" />
-        <a class="table-trigger" href="#"></a>
-        <img class="js-toggle version-dropdown" src="{{ '2013-07-12-messaging-redux-version_dropdown_02.png' | asset_path }}" alt="" />
-        <a class="tooltip-trigger" href="#"></a>
-        <img class="js-toggle tooltip" src="{{ '2013-07-12-messaging-redux-tooltip.png' | asset_path }}" alt="" />
-      </div>
-      <div style="height: 400px">
+    <div class="table-container">
+      <img class="table-header" src="{{ '2013-07-12-messaging-redux-table-header.png' | asset_path }}" alt="" />
+      <div class="table">
+        <div>
+          <img id="table-01" src="{{ '2013-07-12-messaging-redux-table_01.png' | asset_path }}" alt="" />
+          <a class="table-trigger" href="#"></a>
+          <img class="js-toggle version-dropdown" src="{{ '2013-07-12-messaging-redux-version_dropdown_01.png' | asset_path }}" alt="" />
+          <a class="tooltip-trigger" href="#"></a>
+          <img class="js-toggle tooltip" src="{{ '2013-07-12-messaging-redux-tooltip.png' | asset_path }}" alt="" />
+        </div>
+        <div>
+          <img id="table-02" src="{{ '2013-07-12-messaging-redux-table_02.png' | asset_path }}" alt="" />
+          <a class="table-trigger" href="#"></a>
+          <img class="js-toggle version-dropdown" src="{{ '2013-07-12-messaging-redux-version_dropdown_03.png' | asset_path }}" alt="" />
+          <a class="tooltip-trigger" href="#"></a>
+          <img class="js-toggle tooltip" src="{{ '2013-07-12-messaging-redux-tooltip.png' | asset_path }}" alt="" />
+        </div>
+        <div>
+          <img id="table-03" src="{{ '2013-07-12-messaging-redux-table_03.png' | asset_path }}" alt="" />
+          <a class="table-trigger" href="#"></a>
+          <img class="js-toggle version-dropdown" src="{{ '2013-07-12-messaging-redux-version_dropdown_02.png' | asset_path }}" alt="" />
+          <a class="tooltip-trigger" href="#"></a>
+          <img class="js-toggle tooltip" src="{{ '2013-07-12-messaging-redux-tooltip.png' | asset_path }}" alt="" />
+        </div>
+        <div style="height: 400px">
+        </div>
       </div>
     </div>
   </div>
