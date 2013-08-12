@@ -5,10 +5,10 @@ $(function() {
 
 $(".m-comments__count").click( function () {
   $(".m-comments").toggleClass('isVisible');
-  if (this.text == "Show Comments") {
-    $(this).text("Hide Comments");
+  if (this.text == "Show comments") {
+    $(this).text("Hide comments");
   } else {
-    $(this).text("Show Comments");
+    $(this).text("Show comments");
   }
   return false;
 });
