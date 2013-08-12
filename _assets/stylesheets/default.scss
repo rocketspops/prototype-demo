@@ -191,10 +191,13 @@ a:focus { outline: none; }
 }
 
 .m-static-prototype {
-  position: relative;
+  position: absolute;
   text-align: center;
   width: 100%;
-  top: 90px;
+  top: 45px;
+  bottom: 0px;
+  overflow: auto;
+  padding-top: 45px;
 }
 
 .m-static-prototype img { display: inline-block; }
