@@ -4,7 +4,7 @@
 $(function() {
 
 $(".m-comments__count").click( function () {
-  $(".m-comments").toggle();
+  $(".m-comments").toggleClass('isVisible');
   if (this.text == "Show Comments") {
     $(this).text("Hide Comments");
   } else {

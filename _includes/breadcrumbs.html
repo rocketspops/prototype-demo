@@ -2,9 +2,9 @@
   {% if page.tags contains 'top-level' %}
     <li class="m-index-logo">
       <img src="{{ 'logo.png' | asset_path }}" alt="" />
-      <span>Product Design</span>
+      <span class="active">Product Design</span>
     </li>
-    <li class="l-right">
+    <li class="external l-right">
       <a href="https://github.com/centro/product-design">To the code!</a>
     </li>
   {% elsif page.tags contains 'mid-level' %}
@@ -14,7 +14,7 @@
         <span>Product Design</span>
       </a>
     </li>
-    <li><span class="m-nav-seperator">/</span></li>
+    <li><span class="m-nav-seperator">:</span></li>
     <li class="active">{{ page.category }}</li>
   {% elsif page.tags contains 'low-level' %}
     <li class="m-index-logo">
@@ -23,9 +23,9 @@
         <span>Product Design</span>
       </a>
     </li>
-    <li><span class="m-nav-seperator">/</span></li>
+    <li><span class="m-nav-seperator">:</span></li>
     <li><a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a></li>
-    <li><span class="m-nav-seperator">/</span></li>
+    <li><span class="m-nav-seperator">:</span></li>
     <li class="active">&ldquo;{{ page.title }}&rdquo;</li>
     <li class="l-right">
       <a class="l-right m-comments__count" href="{{ site.baseurl }}{{ post.url }}">Show Comments</a>

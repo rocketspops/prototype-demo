@@ -57,6 +57,10 @@ a:focus { outline: none; }
   z-index: 100;
 }
 
+.m-nav .external {
+  text-transform: none;
+}
+
 .m-nav li {
   float: left;
   line-height: 25px;
@@ -67,7 +71,7 @@ a:focus { outline: none; }
   top: 2px;
 }
 
-.m-nav li.active {
+.m-nav .active {
   color: $centro-bright;
 }
 
@@ -224,16 +228,22 @@ a:focus { outline: none; }
 }
 
 .m-comments {
-  display: none;
   background: white;
-  position: fixed;
-  top:  45px;
+  position: absolute;
+  overflow: auto;
   bottom: 0;
+  top:  45px;
   right: 0;
   border-left: 2px solid rgb(235,235,235);
-  overflow: auto;
   padding: 20px 20px 0 20px;
+  pointer-events: none;
+  visibility: hidden;
   width: 500px;
+}
+
+.m-comments.isVisible {
+  pointer-events: auto;
+  visibility: visible;
 }
 
 .l-right { float: right !important; }
