@@ -1,9 +1,21 @@
 //= require reset
 
+$centro-bright: rgb(210, 30, 133);
+$centro-dark: rgb(164, 11, 92); 
+
 html,
 body {
   height: 100%;
 }
+
+a { 
+  color:  rgb(50, 50, 50);
+  text-decoration: none;
+}
+a:hover { color: $centro-bright; }
+a:focus { outline: none; }
+
+// ----
 
 .m-index-container {
   font-size: 0;
@@ -93,16 +105,13 @@ body {
 }
 
 .m-index-roll:hover {
-  border-color: #fe4396;
+  border-color: $centro-bright;
 }
 
 .m-index-roll li {
-  border-top: 1px solid rgb(230,230,230);
   line-height: 1;
   transition: all 0.1s;
 }
-
-.m-index-roll li:first-child { border: none; }
 
 .m-index-roll li a {
   display: block;
@@ -110,6 +119,11 @@ body {
   padding: 12px;
   position: relative;
   transition: all 0.1s;
+}
+
+.m-index-roll li a:hover {
+ background-color: $centro-bright;
+ color: white;
 }
 
 .m-index-roll__stats {
@@ -137,33 +151,43 @@ body {
   margin: 0 45px 0 0; 
 }
 
-.m-posts-roll img {
-  border: 2px solid rgb(230,230,230);
-  display: block;
-  vertical-align: middle;
-}
-
 .m-posts-roll a {
   display: block;
   font-size: 14px;
   position: relative;
 }
 
-.m-posts-roll a:hover img {
-  border-color: #fe4396;
+.m-posts-roll a > * {
+  transition: all 0.1s;
+}
+
+.m-posts-roll img {
+  border: 2px solid rgb(230,230,230);
+  display: block;
+  vertical-align: middle;
+}
+
+.m-posts-roll a:hover {
+  img,
+  span { border-color: $centro-bright; }
+  span {
+    background-color: $centro-bright;
+    color: #fff;
+  }
 }
 
 .m-posts-roll span {
-  background: white;
+  background: rgb(235,235,235);
   border-color: rgb(230,230,230);
   border-style: solid;
-  border-width: 1px 0 0 0;
+  border-width: 2px 0 0 0;
   padding: 5px 10px;
   display: block;
   position: absolute;
   bottom: 2px;
   left: 2px;
   right: 2px;
+  transition: all 0.1s;
 }
 
 .m-static-prototype {
