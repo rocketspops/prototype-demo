@@ -14,20 +14,27 @@ custom_js:   [2013-08-06-ad-server-management.js]
 <div class="m-wrapper">
   <div style="width: 561px;">
     <div class="header">
-      <a class="header--trigger" href="#"></a>
+      <a class="header--trigger" href="#">
+      <span class="clickable"></span> 
+      </a>
       <div class="tooltip">
-        <a class="tooltip--edit" href="#"></a>
+        <a class="tooltip--edit" href="#">
+          <span class="clickable"></span>
+        </a>
         <a class="tooltip--notes" tabindex="0" href="#">
           <img class="tooltip--img" src="{{ '2013-08-06-ad-server-management-ad_server_notes.png' | asset_path }}" alt="" />
+          <span class="clickable"></span>
         </a>
       </div>
     </div>
     <div class="overlay">
       <div class="overlay__container">
-        <a href="#" class="overlay__close"></a>
+        <a href="#" class="overlay__close">
+          <span class="clickable"></span>
+        </a>
         <div class="overlay__row-wrapper">
           <ul>
-            <li class="ui-front">
+            <li class="ui-front" style="position: relative;">
               <img src="{{ '2013-08-06-ad-server-management-Blank_Row.png' | asset_path }}" alt="" />
               <input type="text" value="Brand Exchange Mobile"/>
               <a class="close" href="#"></a>
@@ -40,11 +47,15 @@ custom_js:   [2013-08-06-ad-server-management.js]
             <li class="ui-front blank_row">
               <img src="{{ '2013-08-06-ad-server-management-Blank_Row.png' | asset_path }}" alt="" />
               <input class="ad_server_select" type="text" />
-              <a class="close" href="#"></a>
+              <span class="clickable" style="left: 15px;"></span>
+              <a class="close" href="#">
+                <span class="clickable"></span>
+              </a>
             </li>
           </ul>
-          <a style="display: inline-block;" href="#">
+          <a style="display: inline-block; margin-top: 20px; position: relative;" href="#">
             <img class="ad-server-button" src="{{ '2013-08-06-ad-server-management-button.png' | asset_path }}" alt="" />
+            <span class="clickable"></span>
           </a>
         </div>
       </div>
