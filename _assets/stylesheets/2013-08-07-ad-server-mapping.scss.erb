@@ -1,5 +1,3 @@
-.ad-server-button { padding-top: 10px; }
-
 /* @group Header */
 
 .header {
@@ -17,7 +15,7 @@
 .header--trigger {
   height: 16px;
   left: 293px;
-  top: 635px;
+  top: 633px;
   width: 134px;
 }
 
@@ -35,9 +33,15 @@
   right: 0;
   bottom: 0;
   left: 0;
-  top: 30px;
   text-align: center;
   z-index: 10;
+}
+
+.overlay:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .overlay__container {
@@ -47,76 +51,76 @@
   background: white url(<%= asset_data_uri '2013-08-07-ad-server-mapping-overlay_1.png' %>) no-repeat center;
   font-size: 1rem;
   vertical-align: middle;
-  height: 700px;
-  width: 900px;
-  margin-top: 30px;
+  height: 597px;
+  width: 741px;
   padding: 20px;
   position: relative;
   text-align: left;
+  vertical-align: middle;
 }
 
 .overlay__close {
-  position: absolute;
-  width: 25px;
-  top: 50px;
   height: 25px;
-  right: 75px;
+  position: absolute;
+  right: 1px;
+  top: 0;
+  width: 25px;
 }
 
 .overlay__select {
-	position: absolute;
-	width: 350px;
-	top: 185px;
-	height: 45px;
-	right: 95px;	
+  position: absolute;
+  width: 350px;
+  top: 132px;
+  height: 48px;
+  right: 0;	
 }
 
 .overlay__source-wrapper {
   position: absolute;
-  left: 80px;
-  top: 160px;
-  width: 744px;
+  left: 0;
+  top: 106px;
+  width: 370px;
 }
 
 .source-facebook {
-	display: none;
-	height: 55px;
-	width: 370px;
+  display: none;
+  height: 55px;
+  width: 370px;
 }
 
 .icon-link {
-	display: none;
-	position: relative;
-	left: 380px;
-	top: -18px;
+  display: none;
+  position: relative;
+  left: 380px;
+  top: -15px;
 }
 
 .source-remove {
-	background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-close_default.png' %>) no-repeat center;
-	display: none;
-	position: absolute;
-	top: 14px;
-	left: 6px;
-	height: 25px;
-	width: 25px;
+  background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-close_default.png' %>) no-repeat center;
+  display: none;
+  position: absolute;
+  top: 14px;
+  left: 6px;
+  height: 25px;
+  width: 25px;
 }
 
 .source-remove:hover { 
-	background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-close_hover.png' %>) no-repeat center; 
+  background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-close_hover.png' %>) no-repeat center; 
 }
 
 .remove-confirm {
-	background-color: #e4efdd;
-	display: none;
-	font-size: 14px;
-	height: 55px;
-	width: 370px;
-	padding: 18px 5px 10px 38px;
+  background-color: #e4efdd;
+  display: none;
+  font-size: 14px;
+  height: 55px;
+  width: 370px;
+  padding: 18px 5px 10px 38px;
 }
 
 .remove-confirm a {
-        position: relative;
-	margin-left: 5px;
+  position: relative;
+  margin-left: 5px;
 }
 
 
