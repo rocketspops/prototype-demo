@@ -3,6 +3,9 @@
 $centro-bright: rgb(210, 30, 133);
 $centro-brighter: rgb(230, 51, 141); 
 
+@import "compass";
+@import "animation";
+
 html,
 body {
   height: 100%;
@@ -269,8 +272,10 @@ a:focus { outline: none; }
 }
 
 .clickable {
+  @include animation(pulsate 2s infinite ease-out);
+  @include border-radius(24px);
+  @include opacity(0.0);
   border: 2px solid $centro-bright;
-  -webkit-border-radius: 24px;
   height: 20px;
   width: 20px;
   position: absolute;
@@ -278,13 +283,11 @@ a:focus { outline: none; }
   margin-top: -10px;
   left: 50%;
   top: 50%;
-  -webkit-animation: pulsate 2s infinite ease-out;
-  opacity: 0.0;
   pointer-events: none;
   z-index: 10;
 }
 
-@-webkit-keyframes pulsate {
+@include keyframes(pulsate) {
   0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
   50% {opacity: 1.0;}
   100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
