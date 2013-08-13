@@ -1,0 +1,36 @@
+.header {
+  background: url(<%= asset_data_uri '2013-08-13-date-picker-widget-background.png' %>) no-repeat;
+  position: relative;
+  height: 50px;
+  width: 640px;
+}
+
+.header input {
+  background: transparent;
+  border: none;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  outline: none;
+  height: 30px;
+  padding: 0 8px;
+  position: absolute;
+  top: 11px;
+  left: 303px;
+  width: 96px;
+}
+
+.header input:-moz-placeholder { color: rgb(190, 203, 207); }
+.header input::-moz-placeholder { color: rgb(190, 203, 207); }
+.header input::-webkit-input-placeholder { color: rgb(190, 203, 207); }
+
+.calendar-icon {
+  background:  url(<%= asset_data_uri '2013-08-13-date-picker-widget-calendar-icon.png' %>) no-repeat center -19px;
+  position: absolute;
+    top: 19px;
+    left: 375px;
+  display: block;
+  height: 16px;
+  width: 16px;
+}
+
+.calendar-icon.s-is-active { background-position: center 1px; }
