@@ -3,15 +3,14 @@
 
 $(function() {
 
-$(".m-comments__count").click( function () {
-  $(".m-comments").toggleClass('isVisible');
-  if (this.text == "Show comments") {
-    $(this).text("Hide comments");
-  } else {
-    $(this).text("Show comments");
-  }
-  return false;
-});
-
+  $(".m-comments__count").click( function () {
+    $(".m-comments").toggleClass('s-is-visible');
+    if (this.text == "Show comments") {
+      $(this).text("Hide comments");
+    } else {
+      $(this).text("Show comments");
+    }
+    return false;
+  });
 
 });

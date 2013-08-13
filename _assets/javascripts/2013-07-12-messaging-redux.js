@@ -11,7 +11,9 @@ $(function() {
       var topOffset = $('.top').outerHeight();
       $('.table-container').css('top', topOffset + 'px');
       console.log("resizing!"); 
-    } 
+    },
+    minHeight: 225,
+    handles: "s"
   });
 
   $('[class^="table-trigger"], [class^="tooltip-trigger"]').click(function() {
