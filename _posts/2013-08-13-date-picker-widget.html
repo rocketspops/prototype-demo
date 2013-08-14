@@ -6,7 +6,7 @@ category:    luxo
 tags:        low-level
 comments:    true
 custom_css:  [2013-08-13-date-picker-widget.css]
-custom_js:   [2013-08-13-date-picker-widget.js]
+custom_js:   [jquery.scrollTo-1.4.3.1.js, 2013-08-13-date-picker-widget.js]
 ---
 
 
@@ -15,13 +15,43 @@ custom_js:   [2013-08-13-date-picker-widget.js]
 <div class="m-wrapper">
   <div style="width: 640px;">
     <div class="header">
-      <input placeholder="8/27/13" type="text" />
+      <input class="date" placeholder="8/27/13" value="" type="text" />
       <a class="calendar-icon" href="#">
         <span class="clickable"></span>
       </a>
     </div> 
     <div class="date-picker">
-
+      <div class="date-picker__header">
+        <p class="month">
+          <span>August</span>
+          <a class="month__dropdown" href="#">
+            <span class="clickable"></span>
+          </a>
+        </p>
+        <p class="year">2013</p>
+        <div class="month-select">
+          <ul>
+            <li>January</li>
+            <li>February</li>
+            <li>March</li>
+            <li>April</li>
+            <li>May</li>
+            <li>June</li>
+            <li>July</li>
+            <li class="s-is-active">August</li>
+            <li>September</li>
+            <li>October</li>
+            <li>November</li>
+            <li>December</li>
+          </ul>
+        </div>
+      </div>
+      <div class="date-picker__body">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
     </div>
   </div>
 </div>

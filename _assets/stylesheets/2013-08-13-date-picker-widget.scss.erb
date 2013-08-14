@@ -1,3 +1,5 @@
+@import "compass";
+
 .header {
   background: url(<%= asset_data_uri '2013-08-13-date-picker-widget-background.png' %>) no-repeat;
   position: relative;
@@ -37,10 +39,140 @@
 
 .date-picker {
   background: url(<%= asset_data_uri '2013-08-13-date-picker-widget-tooltip-bg.png' %>) no-repeat;
-  display: none;
   height: 237px;
   position: absolute;
     left: 150px;
     top: 37px;
   width: 268px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.date-picker.s-is-visible {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.date-picker__header {
+  background: url(<%= asset_data_uri '2013-08-13-date-picker-widget-tooltip-header.png' %>) no-repeat;
+  font-size: 0;
+  font-weight: 300;
+  height: 37px;
+  width: 260px;
+  position: absolute;
+  overflow: visible;
+  top: 10px;
+  left: 5px;
+}
+
+.date-picker__header p {
+  display: inline-block; 
+  font-size: 20px;
+  line-height: 36px;
+  padding: 0 10px;
+
+  &.month { 
+    position: relative;
+    width: 153px; 
+  }
+  &.year { 
+    position: relative;
+    width: 105px; 
+  }
+}
+
+.month__dropdown {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+  height: 16px;
+  width: 16px;
+  z-index: 100;
+}
+
+.month-select { 
+  pointer-events: none;
+  visibility: hidden; 
+}
+.month-select.s-is-visible { 
+  pointer-events: auto;
+  visibility: visible; 
+}
+
+.month-select {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  border: 1px solid #00BAF6;
+  z-index: 10;
+  height: 222px;
+  width: 155px;
+}
+
+.month-select ul {
+  background:
+  /* Shadow covers */
+  linear-gradient(white 30%, rgba(white ,0)),
+  /* Shadows */
+  radial-gradient(farthest-side at 50% 0, rgba(black, 0.25), rgba(black ,0));
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 110% 5px;
+  background-attachment: local, scroll;
+  background-position: center top;
+  list-style-type: none;
+  font-size: 20px;
+  top: 36px;
+  bottom: 0;
+  width: 100%;
+  overflow: auto;
+  position: absolute;
+}
+
+.date-picker__header ul li {
+  color: rgb(150,150,150);
+  cursor: pointer;
+  padding: 8px 10px;
+  line-height: 1;
+  &:hover { color: rgb(50,50,50); }
+  &.s-is-active {
+    background: #00BAF6;
+    color: white;
+  }
+}
+
+.date-picker__body {
+  background: url(<%= asset_data_uri '2013-08-13-date-picker-widget-august-cal.png' %>) no-repeat center 12px;
+  position: absolute;
+  top: 47px;
+  height: 183px;
+  width: 260px;
+  left: 4px;
+}
+
+.date-picker__body .date-select {
+  @include border-radius(50%);
+  border: 1px solid transparent;
+  cursor: pointer;
+  position: absolute;
+  top: auto; 
+  bottom: 9px; 
+  right: 44px;
+  width: 24px;
+  height: 24px;
+  &:hover { border-color: #00BAF6; }
+  img { 
+    display:none; 
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -12px;
+    top: 50%;
+    left: 50%;
+  }
+  &.s-is-active img { display: block; }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
