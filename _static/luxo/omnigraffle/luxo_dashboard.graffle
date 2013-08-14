@@ -3166,7 +3166,7 @@ Page &lt;%#%&gt; of &lt;%TotalPages%&gt;}</string>
 		</dict>
 	</array>
 	<key>ModificationDate</key>
-	<string>2013-08-12 14:43:30 +0000</string>
+	<string>2013-08-12 20:55:55 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -21515,7 +21515,7 @@ R. White, L. Roller}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1747, 1272}}</string>
+				<string>{{0, 0}, {1554, 1272}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -21546,7 +21546,7 @@ R. White, L. Roller}</string>
 			<key>CanvasOrigin</key>
 			<string>{0, 0}</string>
 			<key>CanvasSize</key>
-			<string>{1747, 1272}</string>
+			<string>{1554, 1272}</string>
 			<key>ColumnAlign</key>
 			<integer>1</integer>
 			<key>ColumnSpacing</key>
@@ -41201,7 +41201,7 @@ R. White, L. Roller}</string>
 			<key>GridInfo</key>
 			<dict/>
 			<key>HPages</key>
-			<integer>4</integer>
+			<integer>3</integer>
 			<key>KeepToScale</key>
 			<false/>
 			<key>Layers</key>
@@ -41294,7 +41294,7 @@ R. White, L. Roller}</string>
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{0, 57}, {1921, 1001}}</string>
+		<string>{{481, 184}, {1440, 874}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -41306,11 +41306,11 @@ R. White, L. Roller}</string>
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
-		<integer>160</integer>
+		<integer>126</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {1746, 862}}</string>
+		<string>{{0, 0}, {1623.74997580424, 918.74998630955838}}</string>
 		<key>Zoom</key>
-		<real>1</real>
+		<real>0.80000001192092896</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -41320,12 +41320,12 @@ R. White, L. Roller}</string>
 			</array>
 			<array>
 				<string>Dashboard</string>
-				<real>1</real>
 				<real>0.80000001192092896</real>
+				<real>1</real>
 			</array>
 			<array>
 				<string>Dashboard 2</string>
-				<real>1</real>
+				<real>0.80000001192092896</real>
 				<real>1</real>
 			</array>
 		</array>
