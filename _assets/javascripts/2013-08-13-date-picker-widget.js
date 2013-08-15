@@ -1,10 +1,8 @@
 $(function() {
-
   toggleCalendarOnClick(); 
   toggleCalendarDropdown();
-  // optionSelection();
   updateDateInput(); 
-  calendarKeyboardNav();
+  calendarSelection();
 });
 
 
@@ -65,35 +63,32 @@ var hideCalendarDropdown = function () {
 
 }
 
-var optionSelection = function () {
-  
-  $('[class*="-select"] ul li').click(function() {
-
-    var replacedText = $(this).parents('div').prev('p').find('span.text');
-    var newText = $(this).text();  
-
-    $(this).siblings().removeClass('s-is-active');
-    $(this).addClass('s-is-active');
-
-    setTimeout(function() {
-      replacedText.text(newText);
-      hideCalendarDropdown();
-    }, 150);
-
-  });
-
-}
-
 var updateDateInput = function () {
 
   $('.date-select').click(function() {
-
+    var elem = $(this);
     var date = $('.date');
-
+    $(this).parents('div').siblings().find('.date-select').removeClass('s-is-active');
     $(this).toggleClass('s-is-active');
-
-    if (!date.val()) {
-      date.val('8/30/13');
+    console.log(elem.parents('div').attr('id'));
+    if (elem.hasClass('s-is-active')) {
+      switch (elem.parents('div').attr('id')) {
+        case 'august':
+          date.val('8/30/13');
+          break;
+        case 'september':
+          date.val('9/30/13');
+          break;
+        case 'october':
+          date.val('10/30/13');
+          break;
+        case 'november':
+          date.val('11/30/13');
+          break;
+        case 'december':
+          date.val('12/30/13');
+          break;
+      }
     } 
     else {
       date.val('');
@@ -109,7 +104,7 @@ var updateDateInput = function () {
 
 }
 
-var calendarKeyboardNav = function () {
+var calendarSelection = function () {
 
   var months = $('.month-select ul li').map( function () { return $(this); }); 
   var years = $('.year-select ul li').map( function () { return $(this); }); 
@@ -132,43 +127,50 @@ var calendarKeyboardNav = function () {
       case 37:
         m--;
         if (m < 0) { m = months.length - 1; } 
-        console.log(months[m].text());
         $('.month .text').text(months[m].text());
         $('.month-select ul li').removeClass('s-is-active');
+
+
+        var newMonthImg = months[m].text().toLowerCase();
+        $('.date-picker__body').removeClass('s-is-visible');
+        $('.' + newMonthImg).toggleClass('s-is-visible');
+
         months[m].addClass('s-is-active');
         activeMonthLi = $('.month-select ul li.s-is-active').index();
-        console.log("keypress month: " + activeMonthLi);
         break; 
       case 39:
         m++;
         if (m > months.length - 1) { m = 0; } 
-        console.log(months[m].text());
         $('.month .text').text(months[m].text());
+
+        var newMonthImg = months[m].text().toLowerCase();
+        $('.date-picker__body').removeClass('s-is-visible');
+        $('.' + newMonthImg).toggleClass('s-is-visible');
+
         $('.month-select ul li').removeClass('s-is-active');
         months[m].addClass('s-is-active');
         activeMonthLi = $('.month-select ul li.s-is-active').index();
-        console.log("keypress month: " + activeMonthLi);
         break;
         // Up/Down keys control years
       case 38:
         y--;
         if (y < 0) { y = years.length - 1; } 
-        console.log(years[y].text());
+
         $('.year .text').text(years[y].text());
         $('.year-select ul li').removeClass('s-is-active');
+
         years[y].addClass('s-is-active');
         activeYearLi = $('.year-select ul li.s-is-active').index();
-        console.log("keypress year: " + activeYearLi);
         break;
       case 40:
         y++;
         if (y > years.length - 1) { y = 0; } 
-        console.log(years[y].text());
+        
         $('.year .text').text(years[y].text());
         $('.year-select ul li').removeClass('s-is-active');
+
         years[y].addClass('s-is-active');
         activeYearLi = $('.year-select ul li.s-is-active').index();
-        console.log("keypress year: " + activeYearLi);
         break; 
     }  
   });
@@ -176,15 +178,20 @@ var calendarKeyboardNav = function () {
   $('[class*="-select"] ul li').click(function() {
 
     var replacedText = $(this).parents('div').prev('p').find('span.text');
-    var newText = $(this).text();  
+    var newText = $(this).text(); 
+    var elem = $(this).parents('div');
 
     $(this).siblings().removeClass('s-is-active');
     $(this).addClass('s-is-active');
 
     setTimeout(function() {
       replacedText.text(newText);
+      var newMonthImg = newText.toLowerCase();
       hideCalendarDropdown();
-    
+      if (elem.is('.month-select')) { 
+        $('.date-picker__body').removeClass('s-is-visible');
+        $('.' + newMonthImg).toggleClass('s-is-visible'); 
+      }
     }, 150);
 
     activeMonthLi = $('.month-select ul li.s-is-active').index();

@@ -21,6 +21,7 @@ custom_js:   [jquery.scrollTo-1.4.3.1.js, 2013-08-13-date-picker-widget.js]
       </a>
     </div> 
     <div class="date-picker">
+      <!-- <div class="date-picker__help"></div> -->
       <div class="date-picker__header">
         <p class="month">
           <span class="text">August</span>
@@ -66,7 +67,38 @@ custom_js:   [jquery.scrollTo-1.4.3.1.js, 2013-08-13-date-picker-widget.js]
           </ul>
         </div>
       </div>
-      <div class="date-picker__body">
+      <div id="january" class="date-picker__body january"></div>
+      <div id="february" class="date-picker__body february"></div>
+      <div id="march" class="date-picker__body march"></div>
+      <div id="april" class="date-picker__body april"></div>
+      <div id="may" class="date-picker__body may"></div>
+      <div id="june" class="date-picker__body june"></div>
+      <div id="july" class="date-picker__body july"></div>
+      <div id="august" class="date-picker__body august s-is-visible">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="september" class="date-picker__body september">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="october" class="date-picker__body october">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="november" class="date-picker__body november">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="december" class="date-picker__body december">
         <a class="date-select">
           <span class="clickable"></span>
           <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
