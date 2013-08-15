@@ -20,23 +20,23 @@ a:focus { outline: none; }
 
 // ----
 
-.m-index-container {
+.m-index-container,
+.m-index-container--centered {
   font-size: 0;
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
   background: url(asset_path('sketch.jpg')) no-repeat center center;
   text-align: center;
+  width: 100%;
 }
 
-.m-index-container:after {
+.m-index-container--centered:after {
   content: '';
   display: inline-block;
-  height: 100%;
   vertical-align: middle;
+  height: 100%;
 }
 
 .m-index-container > * { 
@@ -165,12 +165,11 @@ a:focus { outline: none; }
   list-style-type: none;
   margin: 0 auto;
   padding: 90px 45px 0;
-  overflow: hidden;
 }
 
 .m-posts-roll li {
   float: left;
-  margin: 0 45px 0 0; 
+  margin: 0 45px 45px 0; 
 }
 
 .m-posts-roll a {
