@@ -1,0 +1,146 @@
+.header {
+  background: url(<%= asset_data_uri '2013-08-16-campaign-notes-header.png' %>) no-repeat;
+  position: relative;
+  height: 96px;
+  width: 561px;
+}
+
+.header a {
+  outline: none;
+  position: absolute;
+}
+
+.header--trigger {
+  height: 16px;
+  right: 139px;
+  top: 57px;
+  width: 80px;
+}
+
+.overlay {
+  background: rgba(255,255,255, 0.9);
+  display: none;
+  height: 100%;
+  font-size: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.overlay:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.overlay__container {
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  display: inline-block;
+  border: 1px solid #CBCBCB;
+  background: url(<%= asset_data_uri '2013-08-16-campaign-notes-overlay-header.png' %>) no-repeat 20px 10px,
+              url(<%= asset_data_uri '2013-08-16-campaign-notes-overlay-controls.png' %>) no-repeat center bottom; 
+  background-color: white;
+  font-size: 1rem;
+  vertical-align: middle;
+  width: 600px;
+  padding: 20px 20px 0 20px;
+  position: relative;
+  text-align: left;
+}
+
+.overlay__close {
+  position: absolute;
+  width: 16px;
+  top: 10px;
+  height: 16px;
+  right: 8px;
+}
+
+.overlay__body {
+  margin-top: 60px;
+}
+
+.overlay__body ul {
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.overlay__body li {
+  display: table;
+  vertical-align: top;
+  margin-bottom: 24px;
+}
+
+.overlay__body li div {
+  display: table-cell;
+  padding-right: 20px;
+  &:last-child {
+    padding: none;
+  }
+}
+
+.overlay__body li div.link {
+  font-size: 0;
+  width: 50px;
+  top: 4px;
+  position: relative;
+  span {
+    font-size: 14px;
+    height: 16px;
+    width: 35px;
+    display: block;
+    background: url(<%= asset_data_uri '2013-08-16-campaign-notes-links.png' %>) no-repeat center top;
+    &.s-is-flag-hovered,
+    &.s-is-flag-clicked { background-position: center -15px; }
+    &.s-is-delete-hovered { background-position: center -30px; }
+    &.s-is-flag-clicked.s-is-delete-hovered { background-position: center -45px; }
+  }
+  a {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    top: 0px;
+    // border: 1px solid red;
+    &.flag { left: -2px; }
+    &.delete { left: 20px; }
+  }
+}
+
+.overlay__body li div.name {
+  width: 140px;
+  color: rgb(150,150,150);
+}
+
+.overlay__footer {
+  font-size: 0;
+  height: 72px;
+  padding: 18px 0;
+  overflow: hidden;
+}
+
+.overlay__footer input {
+  background: transparent;
+  font-size: 14px;
+  height: 36px;
+  padding: 0 8px;
+  outline: none;
+  border: none;
+  width: 467px;
+  float: left;
+}
+
+.overlay__footer button {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 36px;
+  margin-left: 21px;
+  width: 70px;
+}
