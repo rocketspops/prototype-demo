@@ -48,7 +48,7 @@ $(function() {
   $('#js-button').click(function() {
     var noteVal = $('#js-input').val();
     console.log(noteVal);
-
+   if (noteVal) { 
    $('.overlay__body ul').append('
      <li>
       <div class="link">
@@ -60,8 +60,10 @@ $(function() {
       <div class="note">' + noteVal + '</div>
      </li>
     '); 
-
-  $('#js-input').val('');
+    $('#js-input').val('').removeClass('error');
+  } else {
+   $('#js-input').addClass('error'); 
+  }
 
   });
 

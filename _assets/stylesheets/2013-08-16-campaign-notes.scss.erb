@@ -1,3 +1,5 @@
+@import "compass";
+
 .header {
   background: url(<%= asset_data_uri '2013-08-16-campaign-notes-header.png' %>) no-repeat;
   position: relative;
@@ -12,9 +14,9 @@
 
 .header--trigger {
   height: 16px;
-  right: 139px;
+  right: 159px;
   top: 57px;
-  width: 80px;
+  width: 60px;
 }
 
 .overlay {
@@ -120,11 +122,11 @@
 }
 
 .overlay__footer {
+  @include pie-clearfix;
   font-size: 0;
   height: 72px;
   padding: 18px 0;
   position: relative;
-  overflow: hidden;
 }
 
 .overlay__footer {
@@ -135,13 +137,16 @@
 
 .overlay__footer input {
   background: transparent;
+  border: 1px solid transparent;
   font-size: 14px;
   height: 36px;
   padding: 0 8px;
+  position: relative;
+  left: -1px;
   outline: none;
-  border: none;
-  width: 467px;
+  width: 469px;
   float: left;
+  &.error { border: 1px solid rgb(210, 30, 133); }
 }
 
 .overlay__footer button {
@@ -149,7 +154,7 @@
   border: none;
   font-size: 14px;
   height: 36px;
-  margin-left: 21px;
   width: 70px;
   position: relative;
+  float: right;
 }
