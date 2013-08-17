@@ -32,33 +32,51 @@ $(function() {
     return false;
   });
 
-  $('.overlay__body ul').on('mouseenter', '.delete', function( event ) {
-        $(this).parent().find('span').addClass('s-is-delete-hovered');
-  }).on('mouseleave', '.delete', function( event ) {
-        $(this).parent().find('span').removeClass('s-is-delete-hovered');
-  });
-  
-    $('.overlay__body ul').on('mouseenter', '.flag', function( event ) {
-        $(this).parent().find('span').addClass('s-is-flag-hovered');
+  $('.overlay__body ul').on('mouseenter', '.flag', function( event ) {
+    $(this).parent().find('span').addClass('s-is-flag-hovered');
   }).on('mouseleave', '.flag', function( event ) {
-        $(this).parent().find('span').removeClass('s-is-flag-hovered');
+    $(this).parent().find('span').removeClass('s-is-flag-hovered');
   });
 
 
   $('#js-button').click(function() {
+
+    var d = new Date();
+    var curr_date = d.getDate();
+    var curr_month = d.getMonth();
+    curr_month++;
+    var curr_year = d.getFullYear();
+    var a_p = "";
+    var curr_hour = d.getHours();
+    if (curr_hour < 12) { a_p = "am"; }
+    else { a_p = "pm"; }
+    if (curr_hour == 0) { curr_hour = 12; }
+    if (curr_hour > 12) { curr_hour = curr_hour - 12; }
+    var curr_min = d.getMinutes();
+
+curr_min = curr_min + "";
+
+if (curr_min.length == 1)
+   {
+   curr_min = "0" + curr_min;
+   }
     var noteVal = $('#js-input').val();
+
     console.log(noteVal);
    if (noteVal) { 
    $('.overlay__body ul').append('
-     <li>
-      <div class="link">
-        <span></span>
-        <a class="flag" title="" href="#"></a>
-        <a class="delete" href="#"></a>
-      </div>
-      <div class="name">Your name here</div>
-      <div class="note">' + noteVal + '</div>
-     </li>
+      <li>
+        <div class="link">
+          <span></span>
+          <a class="flag" title="" href="#"></a>
+        </div>
+        <div class="note">
+          <p class="name">
+            Your Name Here<span><i>|</i>' + curr_month + '/' + curr_date + '/' + curr_year + ' at ' + curr_hour + ':' + curr_min + a_p + '<i>|</i><a class="delete" href="#">Delete</a></span>
+          </p>
+          <p>' + noteVal + ' </p>
+        </div>
+      </li>
     '); 
     $('#js-input').val('').removeClass('error');
   } else {
