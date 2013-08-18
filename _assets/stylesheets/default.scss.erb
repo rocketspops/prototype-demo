@@ -50,7 +50,7 @@ a:focus { outline: none; }
   font-family: "reenie-beanie";
   font-size: 21px;
   list-style-type: none;
-  overflow: hidden;
+  height: 45px;
   padding: 9px 15px;
   position: fixed;
   left: 0;
@@ -266,6 +266,45 @@ a:focus { outline: none; }
 .m-comments.s-is-visible {
   pointer-events: auto;
   visibility: visible;
+}
+
+.m-comments__count {
+  cursor: pointer;
+  padding: 0 15px;
+  position: absolute !important;
+  right: 0px !important;
+  top: 0 !important;
+  height: 45px;
+}
+
+.m-comments__count span {
+  background: url(<%= asset_data_uri 'comments.png' %>) no-repeat left top;
+  background-size: 25px;
+  display: block;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  position: relative;
+  top: 13px;
+  a,
+  a:hover{ 
+    color: white; 
+    line-height: 16px;
+    position: relative;
+    width: 100%;
+    top: -5px;
+  }
+}
+
+
+.m-comments__count.s-is-active {
+  background: white;
+  border-left: 2px solid rgb(235,235,235) !important;
+}
+
+.m-comments__count:hover span,
+.m-comments__count.s-is-active span {
+  background-position: left -30px;
 }
 
 .l-right { float: right !important; }
