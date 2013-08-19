@@ -1,0 +1,32 @@
+@import "compass";
+
+.header {
+  background: url(<%= asset_data_uri '2013-05-16-campaign-quick-search-header.png' %>) no-repeat;
+  position: relative;
+  height: 30px;
+  width: 804px;
+}
+
+.quick-search {
+  background: rgb(145,145,145) url(<%= asset_data_uri '2013-05-16-campaign-quick-search-search-icon.png' %>) no-repeat 8px center;
+  border-color: rgb(215,215,215);
+  border-style: solid;
+  border-width: 0 1px;
+  color: white;
+  font-size: 14px;
+  height: 30px;
+  outline: none;
+  padding: 0 8px 0 30px;
+  position: absolute; 
+    right: 62px;
+  width: 250px;
+}
+
+.quick-search:focus {
+  background-color: rgb(170,170,170);
+  & + .clickable  {
+    display: none;
+  }
+}
+
+
