@@ -1,4 +1,4 @@
-@import "compass";
+@import "base";
 
 .header {
   background: url(<%= asset_data_uri '2013-05-16-campaign-quick-search-header.png' %>) no-repeat;
@@ -28,5 +28,91 @@
     display: none;
   }
 }
+
+.quick-search:-moz-placeholder { color: $centro-gray-5; }
+.quick-search::-moz-placeholder { color: $centro-gray-5; }
+.quick-search::-webkit-input-placeholder { color: $centro-gray-5; }
+
+.name b, 
+.id b {
+  color: $centro-brand-normal;
+  font-weight: 600;
+}
+
+.id {
+  color: $centro-gray-3;
+  font-family: "source-code-pro";
+}
+
+/* @group jQuery Overrides */
+
+.ui-menu {
+  display:block;
+  list-style:none;
+  margin: 0;
+  padding: 2px;
+}
+
+.ui-menu .ui-menu { margin-top: -3px; }
+
+.ui-menu .ui-menu-item {
+  font-size: 14px;
+  line-height: 24px;
+  margin:0;
+  padding: 0;
+  width: 100%;
+}
+
+.ui-menu .ui-menu-item a {
+  color: rgb(50,50,50);
+  display:block;
+  line-height: 18px;
+  margin: 0;
+  padding: 6px 8px 4px 8px;
+  text-decoration:none;
+  zoom:1;
+}
+
+.ui-menu .ui-menu-item {
+  border-bottom: 1px solid #c5c5c5; 
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active { margin: -1px; }
+
+.ui-menu {
+  display: block;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 2px;
+}
+
+.ui-autocomplete {
+  background:  white;
+  border-radius: 0;
+  border: 1px solid #c5c5c5;
+  border-top: none;
+  color: rgb(50,50,50);
+  cursor: pointer;
+  font-family: "source-sans-pro";
+  font-size: 1rem;
+  padding: 0px;
+  position: absolute;
+  width: 250px;
+}
+
+.ui-state-focus {
+  background: $centro-highlight;
+  border-radius: 0;
+  border: none;
+}
+
+.ui-helper-hidden-accessible { display: none; }
+
+/* @end */
 
 
