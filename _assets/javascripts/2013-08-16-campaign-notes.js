@@ -64,7 +64,7 @@ if (curr_min.length == 1)
 
     console.log(noteVal);
    if (noteVal) { 
-   $('.overlay__body ul').append('
+   $('.overlay__body ul').prepend('
       <li>
         <div class="link">
           <span></span>

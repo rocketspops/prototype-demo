@@ -75,7 +75,22 @@
 }
 
 .overlay__body {
-  padding: 0 20px;
+    background:
+  /* Shadow covers */
+  linear-gradient(white 30%, rgba(white,0)),
+  linear-gradient(rgba(white,0), white 70%) 0 100%,
+  /* Shadows */
+  radial-gradient(farthest-side at 50% 0, rgba(black,0.2), rgba(black,0)),
+  radial-gradient(farthest-side at 50% 100%, rgba(black,0.2), rgba(black,0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 5px, 100% 5px;
+  background-attachment: local, local, scroll, scroll;
+  //background-position: center top;
+  margin-right: 2px;
+  padding: 0 18px 0 20px;
+  max-height: 360px;
+  overflow: auto; 
 }
 
 .overlay__body ul {

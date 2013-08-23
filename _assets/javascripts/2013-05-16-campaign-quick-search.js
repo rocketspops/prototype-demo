@@ -42,8 +42,8 @@ $('.quick-search').autocomplete({
   }
   }).data( "ui-autocomplete" )._renderItem = function( ul, item ) {
     var term = this.element.val(),
-        itemName = item.name.replace( new RegExp(term, 'i'), "<b>$&</b>" );
-        itemID = item.id.replace( new RegExp(term, 'i'), "<b>$&</b>" );
+      itemName = item.name.replace( new RegExp(term, 'i'), "<b>$&</b>" );
+      itemID = item.id.replace( new RegExp(term, 'i'), "<b>$&</b>" );
     return $("<li>")
     .append($("<a></a>").html("<p class='name'>" + itemName + "</p><p class='id'>" + itemID + "</p>"))
     .appendTo(ul);
