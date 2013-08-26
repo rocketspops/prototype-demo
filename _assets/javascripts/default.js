@@ -4,12 +4,8 @@
 $(function() {
 
   $(".m-comments__count").click( function () {
+    $(this).toggleClass('s-is-active');
     $(".m-comments").toggleClass('s-is-visible');
-    if (this.text == "Show comments") {
-      $(this).text("Hide comments");
-    } else {
-      $(this).text("Show comments");
-    }
     return false;
   });
 

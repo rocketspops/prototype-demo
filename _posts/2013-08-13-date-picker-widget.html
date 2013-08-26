@@ -6,7 +6,7 @@ category:    luxo
 tags:        low-level
 comments:    true
 custom_css:  [2013-08-13-date-picker-widget.css]
-custom_js:   [2013-08-13-date-picker-widget.js]
+custom_js:   [jquery.scrollTo-1.4.3.1.js, 2013-08-13-date-picker-widget.js]
 ---
 
 
@@ -15,11 +15,96 @@ custom_js:   [2013-08-13-date-picker-widget.js]
 <div class="m-wrapper">
   <div style="width: 640px;">
     <div class="header">
-    <input placeholder="8/27/13" type="text" />
-    <a class="calendar-icon" href="#">
-      <span class="clickable"></span>
-    </a>
+      <input class="date" placeholder="8/27/13" value="" type="text" />
+      <a class="calendar-icon" href="#">
+        <span class="clickable"></span>
+      </a>
     </div> 
+    <div class="date-picker">
+      <!-- <div class="date-picker__help"></div> -->
+      <div class="date-picker__header">
+        <p class="month">
+          <span class="text">August</span>
+          <a class="month__dropdown" href="#">
+            <span class="clickable"></span>
+          </a>
+        </p>
+        <div class="month-select">
+          <ul>
+            <li>January</li>
+            <li>February</li>
+            <li>March</li>
+            <li>April</li>
+            <li>May</li>
+            <li>June</li>
+            <li>July</li>
+            <li class="s-is-active">August</li>
+            <li>September</li>
+            <li>October</li>
+            <li>November</li>
+            <li>December</li>
+          </ul>
+        </div>
+        <p class="year">
+          <span class="text">2013</span>
+          <a class="year__dropdown" href="#">
+            <span class="clickable"></span>
+          </a>  
+        </p>
+        <div class="year-select">
+          <ul>
+            <li>2008</li>
+            <li>2009</li>
+            <li>2010</li>
+            <li>2011</li>
+            <li>2012</li>
+            <li class="s-is-active">2013</li>
+            <li>2014</li>
+            <li>2015</li>
+            <li>2016</li>
+            <li>2017</li>
+            <li>2018</li>
+          </ul>
+        </div>
+      </div>
+      <div id="january" class="date-picker__body january"></div>
+      <div id="february" class="date-picker__body february"></div>
+      <div id="march" class="date-picker__body march"></div>
+      <div id="april" class="date-picker__body april"></div>
+      <div id="may" class="date-picker__body may"></div>
+      <div id="june" class="date-picker__body june"></div>
+      <div id="july" class="date-picker__body july"></div>
+      <div id="august" class="date-picker__body august s-is-visible">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="september" class="date-picker__body september">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="october" class="date-picker__body october">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="november" class="date-picker__body november">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+      <div id="december" class="date-picker__body december">
+        <a class="date-select">
+          <span class="clickable"></span>
+          <img src="{{ '2013-08-13-date-picker-widget-active-date.png' | asset_path }}" alt="" />
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 

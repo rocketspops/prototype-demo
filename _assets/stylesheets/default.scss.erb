@@ -1,10 +1,6 @@
 //= require reset
 
-$centro-bright: rgb(210, 30, 133);
-$centro-brighter: rgb(230, 51, 141); 
-
-@import "compass";
-@import "animation";
+@import "base";
 
 html,
 body {
@@ -20,23 +16,23 @@ a:focus { outline: none; }
 
 // ----
 
-.m-index-container {
+.m-index-container,
+.m-index-container--centered {
   font-size: 0;
-  overflow: hidden;
+  overflow: auto;
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: 0;
   background: url(asset_path('sketch.jpg')) no-repeat center center;
   text-align: center;
+  width: 100%;
 }
 
-.m-index-container:after {
+.m-index-container--centered:after {
   content: '';
   display: inline-block;
-  height: 100%;
   vertical-align: middle;
+  height: 100%;
 }
 
 .m-index-container > * { 
@@ -50,7 +46,7 @@ a:focus { outline: none; }
   font-family: "reenie-beanie";
   font-size: 21px;
   list-style-type: none;
-  overflow: hidden;
+  height: 45px;
   padding: 9px 15px;
   position: fixed;
   left: 0;
@@ -84,7 +80,6 @@ a:focus { outline: none; }
 
 .m-nav-seperator {
   margin: 0 6px;
-  color: rgb(200, 200, 200);
 }
 
 .m-index-logo img {
@@ -160,17 +155,36 @@ a:focus { outline: none; }
   text-align: right;
 }
 
+.m-index-roll__count i { position: relative; }
+
+.m-index-roll__count i:nth-child(5n) {
+  font-size: 0;
+  visibility: hidden;
+  &:before {
+    @include transform(rotate(60deg) scaleY(1.75));
+    content: "l";
+    display: inline-block;
+    font-size: 21px;
+    position: absolute;
+      left: -12px;
+    visibility: visible;
+  }
+  &:not(:last-child):after {
+    content: "";
+    margin-right: 8px;
+  }
+}
+
 .m-posts-roll {
   display: block;
   list-style-type: none;
   margin: 0 auto;
   padding: 90px 45px 0;
-  overflow: hidden;
 }
 
 .m-posts-roll li {
   float: left;
-  margin: 0 45px 0 0; 
+  margin: 0 45px 45px 0; 
 }
 
 .m-posts-roll a {
@@ -248,6 +262,45 @@ a:focus { outline: none; }
 .m-comments.s-is-visible {
   pointer-events: auto;
   visibility: visible;
+}
+
+.m-comments__count {
+  cursor: pointer;
+  padding: 0 15px;
+  position: absolute !important;
+  right: 0px !important;
+  top: 0 !important;
+  height: 45px;
+}
+
+.m-comments__count span {
+  background: url(<%= asset_data_uri 'comments.png' %>) no-repeat left top;
+  background-size: 25px;
+  display: block;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  position: relative;
+  top: 13px;
+  a,
+  a:hover{ 
+    color: white; 
+    line-height: 16px;
+    position: relative;
+    width: 100%;
+    top: -5px;
+  }
+}
+
+
+.m-comments__count.s-is-active {
+  background: white;
+  border-left: 2px solid rgb(235,235,235) !important;
+}
+
+.m-comments__count:hover span,
+.m-comments__count.s-is-active span {
+  background-position: left -30px;
 }
 
 .l-right { float: right !important; }
