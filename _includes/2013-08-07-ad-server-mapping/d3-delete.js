@@ -46,19 +46,20 @@ $('.source-remove').on( 'mousedown', function(e) {
 $('.source-remove').on('mouseup', function() { 
 
   console.log(currentEndAngle);
-
-  if (currentEndAngle >= 360) {
-    $('button').off();
-    $(".source-facebook").delay(200).fadeOut(200).fadeIn(200).fadeOut(200, function() { 
-      foreground.transition().call(arcTween, 0 * τ ); 
-    });
-    $('.overlay__select .clickable').delay(600).fadeIn(200);
-  } 
-  else {
-  foreground.transition()
-    .duration(1500)
-    .ease('linear')
-    .call(arcTween, 0 * τ );
+  if (e.which===1) {
+    if (currentEndAngle >= 360) {
+      $('button').off();
+      $(".source-facebook").delay(200).fadeOut(200).fadeIn(200).fadeOut(200, function() { 
+        foreground.transition().call(arcTween, 0 * τ ); 
+      });
+      $('.overlay__select .clickable').delay(600).fadeIn(200);
+    } 
+    else {
+    foreground.transition()
+      .duration(1500)
+      .ease('linear')
+      .call(arcTween, 0 * τ );
+    }
   }
 
 });
