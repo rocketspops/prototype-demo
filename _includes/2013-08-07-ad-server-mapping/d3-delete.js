@@ -34,16 +34,16 @@ var foreground = svg.append("path")
     .attr("d", arc);
 
 
-$('.source-remove').on( 'mousedown', function(e) { 
+$('.source-remove').on('mousedown', function(e) { 
   if (e.which===1) {
     foreground.transition()
       .duration(1500)
-      .ease('linear')
+      .ease('circle-out')
       .call(arcTween, 1 * τ );
   }
 });
 
-$('.source-remove').on('mouseup', function() { 
+$('.source-remove').on('mouseup', function(e) { 
 
   console.log(currentEndAngle);
   if (e.which===1) {
@@ -56,7 +56,7 @@ $('.source-remove').on('mouseup', function() {
     } 
     else {
     foreground.transition()
-      .duration(1500)
+      .duration(1000)
       .ease('linear')
       .call(arcTween, 0 * τ );
     }
