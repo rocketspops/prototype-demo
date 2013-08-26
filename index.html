@@ -3,7 +3,7 @@ layout:      default
 title:       Centro Prototypes
 tags:        [top-level, ignore]
 ---
-<div class="m-index-container">
+<div class="m-index-container--centered">
   {% include breadcrumbs.html %}
   <ul class="m-index-roll">
     {% for page in site.pages %}
@@ -14,7 +14,7 @@ tags:        [top-level, ignore]
             {{ page.title }}
             <div class="m-index-roll__stats">
               <span class="m-index-roll__count">
-                {% for item in site.categories.[page.category] %}l{% endfor%}
+                {% for item in site.categories.[page.category] %}<i>l</i>{% endfor%}
               </span>
             </div>
           </a>
