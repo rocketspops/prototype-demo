@@ -27,8 +27,8 @@
     <li><a href="{{ site.baseurl }}/{{ page.category }}-index.html">{{ page.category }}</a></li>
     <li><span class="m-nav-seperator">:</span></li>
     <li class="active">{{ page.title }}</li>
-    <li class="m-comments__count">
-      <span><a class="external" href="{{ site.baseurl }}{{ page.url }}#disqus_thread"></a></span>
+    <li class="l-right">
+      <a class="external l-right m-comments__count" href="{{ site.baseurl }}{{ post.url }}">Show comments</a>
     </li>
   {% endif %}
 </ul>
