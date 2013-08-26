@@ -7,6 +7,7 @@ $(function() {
 
   $('.overlay__select, .remove-undo').click(function() {
     $('.source-facebook, .icon-link').show();
+    $(this).children('.clickable').hide();
     return false;
   });
 

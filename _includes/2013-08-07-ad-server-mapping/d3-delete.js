@@ -47,10 +47,10 @@ $('.source-remove').on('mouseup', function() {
 
   if (currentEndAngle >= 360) {
     $('button').off();
-    $('.icon-link').delay(200).fadeOut(200);
-    $(".source-facebook").delay(200).fadeOut(200).fadeIn(200).fadeOut(250, function() { 
+    $(".source-facebook").delay(200).fadeOut(200).fadeIn(200).fadeOut(200, function() { 
       foreground.transition().call(arcTween, 0 * τ ); 
     });
+    $('.overlay__select .clickable').delay(600).fadeIn(200);
   } 
   else {
   foreground.transition()
