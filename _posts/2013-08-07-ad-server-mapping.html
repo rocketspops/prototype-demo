@@ -6,7 +6,7 @@ category:    luxo
 tags:        low-level
 comments:    true
 custom_css:  [2013-08-07-ad-server-mapping.css]
-custom_js:   [2013-08-07-ad-server-mapping.js]
+custom_js:   [d3.v3.min.js, 2013-08-07-ad-server-mapping.js]
 ---
 
 {% include breadcrumbs.html %}
@@ -24,22 +24,13 @@ custom_js:   [2013-08-07-ad-server-mapping.js]
           <span class="clickable"></span>
         </a>
         <a href="#" class="overlay__select">
-          <span style="left: 1px;" class="clickable"></span>
+          <span class="clickable"></span>
         </a>
         <div class="overlay__source-wrapper">
           <div class="source-facebook" style="position: relative;">
-             <img src="{{ '2013-08-07-ad-server-mapping-source_facebook.png' | asset_path }}" alt="" />
+             <img class="icon-link" src="{{ '2013-08-07-ad-server-mapping-icon_link.png' | asset_path }}" alt="" />
+             <img style="position:relative; left: 51px;" src="{{ '2013-08-07-ad-server-mapping-source_facebook.png' | asset_path }}" alt="" />
              <a class="source-remove" href="#"></a>
-             <span class="clickable" style="left: 19px; top: 26px;"></span>
-           </div>
-           <img class="icon-link" src="{{ '2013-08-07-ad-server-mapping-icon_link.png' | asset_path }}" alt="" />
-           <div class="remove-confirm">
-             <p>Delivery source removed. 
-               <a class="remove-undo" href="#">
-                 Undo 
-                <span class="clickable"></span>
-               </a>
-             </p>
            </div>
         </div>
       </div>
@@ -47,4 +38,5 @@ custom_js:   [2013-08-07-ad-server-mapping.js]
   </div>
 </div>
 
+{% include 2013-08-07-ad-server-mapping/d3-delete.js %}
 {% include comments.html %}
