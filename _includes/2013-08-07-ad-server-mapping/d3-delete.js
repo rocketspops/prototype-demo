@@ -34,11 +34,13 @@ var foreground = svg.append("path")
     .attr("d", arc);
 
 
-$('.source-remove').on( 'mousedown', function() { 
-  foreground.transition()
-    .duration(1500)
-    .ease('linear')
-    .call(arcTween, 1 * τ );
+$('.source-remove').on( 'mousedown', function(e) { 
+  if (e.which===1) {
+    foreground.transition()
+      .duration(1500)
+      .ease('linear')
+      .call(arcTween, 1 * τ );
+  }
 });
 
 $('.source-remove').on('mouseup', function() { 

@@ -78,11 +78,13 @@
 .overlay__source-wrapper {
   position: absolute;
   left: 0;
-  top: 112px;
+  top: 130px;
   width: 370px;
 }
 
 .overlay__source-wrapper svg {
+  cursor: pointer;
+  pointer-events: none;
   position: absolute;
   left: 22px;
   top: 12px;
@@ -98,21 +100,22 @@
   display: none;
   position: absolute;
   left: 380px;
-  top: 35px;
+  top: 17px;
 }
 
 .source-remove {
   background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-delete-button.png' %>) no-repeat center top;
   position: absolute;
   top: 13px;
-  left: 22px;
-  height: 24px;
-  width: 24px;
+  left: 21px;
+  height: 25px;
+  width: 25px;
   z-index: 2;
 }
 
 .source-remove:hover { 
   background-position: center -24px;
+  span { display: none; }
 }
 
 .remove-confirm {
