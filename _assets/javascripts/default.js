@@ -9,4 +9,10 @@ $(function() {
     return false;
   });
 
+ $('#disqus_thread iframe').css({
+    'height': '327px',
+    'height': 'auto !important',
+    'min-height': '327px'
+  });
+
 });

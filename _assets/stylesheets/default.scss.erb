@@ -171,7 +171,7 @@ a:focus { outline: none; }
   }
   &:not(:last-child):after {
     content: "";
-    margin-right: 8px;
+    padding-right: 8px;
   }
 }
 
@@ -246,6 +246,7 @@ a:focus { outline: none; }
 
 .m-comments {
   background: white;
+  display: none;
   position: absolute;
   overflow: auto;
   bottom: 0;
@@ -253,15 +254,12 @@ a:focus { outline: none; }
   right: 0;
   border-left: 2px solid rgb(235,235,235);
   padding: 20px 20px 0 20px;
-  pointer-events: none;
-  visibility: hidden;
   width: 500px;
   z-index: 1000;
 }
 
 .m-comments.s-is-visible {
-  pointer-events: auto;
-  visibility: visible;
+  display: block; 
 }
 
 .m-comments__count {
@@ -291,7 +289,6 @@ a:focus { outline: none; }
     top: -5px;
   }
 }
-
 
 .m-comments__count.s-is-active {
   background: white;
@@ -356,4 +353,12 @@ a:focus { outline: none; }
   }
 }
 
+//----
 
+#disqus_thread { font-size: 0; }
+
+#disqus_thread,
+#disqus_thread iframe {
+  height: 100%;
+  min-height: 100%;
+}

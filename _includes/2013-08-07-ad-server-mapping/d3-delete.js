@@ -43,22 +43,33 @@ $('.source-remove').on('mousedown', function(e) {
   }
 });
 
-$('.source-remove').on('mouseup', function(e) { 
+var eCounter = 0;
+
+$('.source-remove').on('mouseup mouseleave', function(e) { 
 
   console.log(currentEndAngle);
+  console.log(eCounter);
+  target = $(this).find('span');
+
   if (e.which===1) {
     if (currentEndAngle >= 360) {
       $('button').off();
+      target.removeClass();
       $(".source-facebook").delay(200).fadeOut(200).fadeIn(200).fadeOut(200, function() { 
         foreground.transition().call(arcTween, 0 * τ ); 
       });
       $('.overlay__select .clickable').delay(600).fadeIn(200);
+      eCounter = 0;
     } 
     else {
-    foreground.transition()
-      .duration(1000)
-      .ease('linear')
-      .call(arcTween, 0 * τ );
+      eCounter++;
+      foreground.transition()
+        .duration(1000)
+        .ease('linear')
+        .call(arcTween, 0 * τ );
+      if (eCounter >= 2) { 
+        target.addClass('s-help-text');
+      }
     }
   }
 
@@ -103,7 +114,11 @@ function arcTween(transition, newAngle) {
       // correct starting angle can be inferred from the data.
       d.endAngle = interpolate(t);
       currentEndAngle = d.endAngle * (180/Math.PI);
-
+      if (currentEndAngle >= 360) {
+        $('.s-help-text').text('Release!'); 
+      } else {
+       $('.s-help-text').text('Click + Hold'); 
+      }
       // Lastly, compute the arc path given the updated data! In effect, this
       // transition uses data-space interpolation: the data is interpolated
       // (that is, the end angle) rather than the path string itself.
