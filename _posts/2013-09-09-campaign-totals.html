@@ -1,0 +1,94 @@
+---
+layout:      default
+title:       Campaign Totals
+thumbnail:   2013-09-09-campaign-totals-thumbnail.png
+category:    luxo
+tags:        low-level
+comments:    true
+custom_css:  [2013-09-09-campaign-totals.css]
+custom_js:   [2013-09-09-campaign-totals.js, jquery.quicksilver.js, jquery.liveUpdate.js, jquery.highlight.js]
+---
+
+{% include breadcrumbs.html %}
+
+<div class="m-wrapper">
+  <div style="width: 1220px;">
+    <div class="bordered" style="position: relative; height: 508px;">
+      <img src="{{ '2013-09-09-campaign-totals-header.png' | asset_path }}" alt="" />
+      <ul class="table">
+        <li class="row1"><span>Look alike targeting :: Geo Buffalo</span></li>
+        <li class="row2"><span>Look alike targeting :: Geo Richmond</span></li>
+        <li class="row3"><span>Look alike targeting :: Geo Rochester</span></li>
+        <li class="row4"><span>Albany Zip Targeted :: 30 ROS : Demo to Education</span></li>
+        <li class="row5"><span>Buffalo Zip Targeted :: 30 ROS : Demo to Education</span></li>
+        <li class="row6"><span>Cleveland Zip Targeted :: 30 ROS : Demo to Education</span></li>
+        <li class="row1"><span>Look alike targeting :: Geo Buffalo</span></li>
+        <li class="row2"><span>Look alike targeting :: Geo Richmond</span></li>
+        <li class="row3"><span>Look alike targeting :: Geo Rochester</span></li>
+        <li class="row4"><span>Albany Zip Targeted :: 30 ROS : Demo to Education</span></li>
+        <li class="row5"><span>Buffalo Zip Targeted :: 30 ROS : Demo to Education</span></li>
+        <li style="height: 69px"class="row6"><span>Cleveland Zip Targeted :: 30 ROS : Demo to Education</span></li>
+      </ul>
+      <div class="totals-trigger">
+        <span class="clickable"></span>
+      </div>
+      <div class="totals-bar">
+        <input id="search" type="text" placeholder="Search placements by name…" />
+        <span style="left: 20px;" class="clickable"></span>
+        <ul>
+          <li class="multi contract">
+            <span class="clickable"></span>
+            <ul class="wayfinder">
+              <li class="active"></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <p class="active">
+              <span class="num">1,147,288</span>
+              <span class="unit">imps</span>
+            </p>
+            <p>
+              <span class="num">183,779</span>
+              <span class="unit">clicks</span>
+            </p>
+            <p>
+              <span class="num">423</span>
+              <span class="unit">actions</span>
+            </p>
+          </li>
+          <li class="loss">
+            <span class="num">$15,180</span>
+            <span class="unit">est. loss</span>
+          </li>
+          <li class="multi delivered">
+            <span class="clickable"></span>
+            <ul class="wayfinder">
+              <li class="active"></li>
+              <li></li>
+            </ul>
+            <p class="active">
+              <span class="num">547,090</span>
+              <span class="unit">imps</span>
+            </p>
+            <p>
+              <span class="num">1,199</span>
+              <span class="unit">clicks</span>
+            </p>
+          </li>
+          <li class="pacing">
+            <span class="num">86%</span>
+            <span class="unit">pacing</span>
+          </li>
+          <li class="pushpin">
+            <a href="#">
+              <img src="{{ '2013-09-09-campaign-totals-pushpin.png' | asset_path }}" alt="" />
+              <span class="clickable"></span>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </div>
+</div>
+</div>
+
+{% include comments.html %}
