@@ -20,9 +20,9 @@ jQuery.fn.liveUpdate = function(list){
     var term = jQuery.trim( jQuery(this).val().toLowerCase() ), scores = [];
    
     if ( !term ) {
-      rows.show();
+      rows.show().removeClass('hidden');
     } else {
-      rows.hide();
+      rows.hide().addClass('hidden');
  
       cache.each(function(i){
         var score = this.score(term);
@@ -30,7 +30,7 @@ jQuery.fn.liveUpdate = function(list){
       });
  
       jQuery.each(scores.sort(function(a, b){return b[0] - a[0];}), function(){
-        jQuery(rows[ this[1] ]).show();
+        jQuery(rows[ this[1] ]).show().removeClass('hidden');
       });
     }
   }

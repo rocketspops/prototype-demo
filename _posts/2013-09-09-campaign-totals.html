@@ -13,21 +13,47 @@ custom_js:   [2013-09-09-campaign-totals.js, jquery.quicksilver.js, jquery.liveU
 
 <div class="m-wrapper">
   <div style="width: 1220px;">
-    <div class="bordered" style="position: relative; height: 508px;">
+    <div class="bordered" style="position: relative;">
       <img src="{{ '2013-09-09-campaign-totals-header.png' | asset_path }}" alt="" />
       <ul class="table">
-        <li class="row1"><span>Look alike targeting :: Geo Buffalo</span></li>
-        <li class="row2"><span>Look alike targeting :: Geo Richmond</span></li>
-        <li class="row3"><span>Look alike targeting :: Geo Rochester</span></li>
-        <li class="row4"><span>Albany Zip Targeted :: 30 ROS : Demo to Education</span></li>
-        <li class="row5"><span>Buffalo Zip Targeted :: 30 ROS : Demo to Education</span></li>
-        <li class="row6"><span>Cleveland Zip Targeted :: 30 ROS : Demo to Education</span></li>
-        <li class="row1"><span>Look alike targeting :: Geo Buffalo</span></li>
-        <li class="row2"><span>Look alike targeting :: Geo Richmond</span></li>
-        <li class="row3"><span>Look alike targeting :: Geo Rochester</span></li>
-        <li class="row4"><span>Albany Zip Targeted :: 30 ROS : Demo to Education</span></li>
-        <li class="row5"><span>Buffalo Zip Targeted :: 30 ROS : Demo to Education</span></li>
-        <li style="height: 69px"class="row6"><span>Cleveland Zip Targeted :: 30 ROS : Demo to Education</span></li>
+        <li class="row1">
+          <span class="name">Look alike targeting :: Geo Buffalo</span>
+          <span class="contracted imps">637,500</span>
+          <span class="loss">$1,647</span>
+          <span class="delivered imps">225,421</span>
+        </li>
+        <li class="row2">
+          <span class="name">Look alike targeting :: Geo Richmond</span>
+          <span class="contracted imps">191,250</span>
+          <span class="loss">$130</span>
+          <span class="delivered imps">158,812</span>
+        </li>
+        <li class="row3">
+          <span class="name">Look alike targeting :: Geo Rochester</span>
+          <span class="contracted imps">318,538</span>
+          <span class="loss">$623</span>
+          <span class="delivered imps">162,857</span>
+        </li>
+        <li class="no-border subtotals-row"></li>
+        <li class="no-border header-row"></li>
+        <li class="row4">
+          <span class="name">Albany Zip Targeted :: 30 ROS : Demo to Education</span>
+          <span class="contracted clicks">22,773</span>
+          <span class="loss">$1,585</span>
+          <span class="delivered clicks">127</span>
+        </li>
+        <li class="row5">
+          <span class="name">Buffalo Zip Targeted :: 30 ROS : Demo to Education</span>
+          <span class="contracted clicks">50,394</span>
+          <span class="loss">$3,506</span>
+          <span class="delivered clicks">295</span>
+        </li>
+        <li class="row6">
+          <span class="name">Cleveland Zip Targeted :: 30 ROS : Demo to Education</span>
+          <span class="contracted clicks">110,612</span>
+          <span class="loss">$7,689</span>
+          <span class="delivered clicks">777</span>
+        </li>
       </ul>
       <div class="totals-trigger">
         <span class="clickable"></span>
@@ -41,23 +67,18 @@ custom_js:   [2013-09-09-campaign-totals.js, jquery.quicksilver.js, jquery.liveU
             <ul class="wayfinder">
               <li class="active"></li>
               <li></li>
-              <li></li>
             </ul>
-            <p class="active">
-              <span class="num">1,147,288</span>
+            <p class="active imps">
+              <span class="num">0</span>
               <span class="unit">imps</span>
             </p>
-            <p>
-              <span class="num">183,779</span>
+            <p class="clicks">
+              <span class="num">0</span>
               <span class="unit">clicks</span>
             </p>
-            <p>
-              <span class="num">423</span>
-              <span class="unit">actions</span>
-            </p>
           </li>
-          <li class="loss">
-            <span class="num">$15,180</span>
+          <li class="single loss">
+            <span class="num">0</span>
             <span class="unit">est. loss</span>
           </li>
           <li class="multi delivered">
@@ -66,12 +87,12 @@ custom_js:   [2013-09-09-campaign-totals.js, jquery.quicksilver.js, jquery.liveU
               <li class="active"></li>
               <li></li>
             </ul>
-            <p class="active">
-              <span class="num">547,090</span>
+            <p class="active imps">
+              <span class="num">0</span>
               <span class="unit">imps</span>
             </p>
-            <p>
-              <span class="num">1,199</span>
+            <p class="clicks">
+              <span class="num">0</span>
               <span class="unit">clicks</span>
             </p>
           </li>
