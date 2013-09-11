@@ -1,5 +1,11 @@
 $(function() {
   
+  if ($('.table li').outerWidth() < 1220 ) {
+    console.log("scrollbars present");
+    $('.table li').css({'margin-right':'-15px'});
+  }
+
+
   updateContractedImps();
   updateContractedClicks();
   updateEstLoss();
