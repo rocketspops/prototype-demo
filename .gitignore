@@ -3,3 +3,4 @@ _site/
 .jekyll-assets-cache/
 *.esproj/
 *.swp
+*.swp.*
