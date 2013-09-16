@@ -95,7 +95,11 @@ ul {
   list-style-type: none;
 }
 
-.tooltip-nav > li li:hover, 
+.tooltip-nav > li li a {
+  color: rgb(180,180,180);
+}
+
+.tooltip-nav > li li a:hover, 
 .tooltip-nav > li:not(.locked) span:hover {
   color: rgb(140,140,140);
 }
@@ -137,9 +141,9 @@ ul {
   &.active { 
     background: rgb(220,220,220); 
     border-color: rgb(210,210,210);
-    color: rgb(50,50,50);
     margin: 0 -15px 0 -43px;
     padding-left: 43px;
+    a { color: rgb(50,50,50); }
   }
 }
 
@@ -152,11 +156,18 @@ ul {
   float:right;
 }
 
-.tooltip-main > div {
+.tooltip-main div {
+  background: white;
   height: 100%;
   width: 100%;
-}
+  position: absolute;
+  top: 0;
+  left: 0;
+}             
 
+.tooltip-main .is-visible {
+  z-index: 10;
+}
 
 ul.to-dos li {
   border-bottom: 1px solid rgb(220,220,220);
@@ -172,4 +183,8 @@ ul.to-dos li > input[type="checkbox"] {
 
 ul.to-dos li > label {
   cursor: pointer;
+  &.checked {
+    color: rgb(180,180,180);
+    text-decoration: line-through;
+  }
 }

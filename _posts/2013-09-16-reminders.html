@@ -29,36 +29,44 @@ custom_js:   [2013-09-16-reminders.js]
           <li class="locked">
             <span>My Reminders</span>
             <ul>
-              <li class="active">Today</li>
-              <li>Overdue</li>
+              <li class="active"><a href="#my-reminders--today">Today</a></li>
+              <li><a href="">Overdue</a></li>
             </ul>
           </li>
           <li>
             <span>Launch Alerts</span>
             <ul>
-              <li>Yesterday</li>
-              <li>Today</li>
-              <li>Tomorrow</li>
+              <li><a href="#launch-alerts--yesterday">Yesterday</a></li>
+              <li><a href="#">Today</a></li>
+              <li><a href="#">Tomorrow</a></li>
             </ul>
           </li>
           <li>
             <span>Campaign Updates</span>
             <ul>
-              <li>New</li>
-              <li>Ending Soon</li>
-              <li>Completed</li>
+              <li><a href="#">New</a></li>
+              <li><a href="#">Ending Soon</a></li>
+              <li><a href="#">Completed</a></li>
             </ul>
           </li>
         </ul>
         <button type="button">Schedule a reminder</button>
       </div>
       <div class="tooltip-main">
-        <div id="my-reminders--today">
+        <div class="is-visible" id="my-reminders--today">
           <ul class="to-dos">
             <li><input id="1" type="checkbox"/><label for="1">Client report due for FORD334</label></li>
             <li><input id="2" type="checkbox"/><label for="2">Map/UE on 8.27 (PR and YouTube)</label></li>
             <li><input id="3" type="checkbox"/><label for="3">DSP-Centro; reporting on Monday</label></li>
             <li><input id="4" type="checkbox"/><label for="4">Weekly reporting T(next 08.6)</label></li>
+          </ul>
+        </div>
+        <div id="launch-alerts--yesterday">
+          <ul class="to-dos">
+            <li><input id="5" type="checkbox"/><label for="5">test</label></li>
+            <li><input id="6" type="checkbox"/><label for="6">test 1</label></li>
+            <li><input id="7" type="checkbox"/><label for="7">test 2</label></li>
+            <li><input id="8" type="checkbox"/><label for="8">test 3</label></li>
           </ul>
         </div>
       </div>
