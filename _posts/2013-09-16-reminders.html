@@ -12,7 +12,47 @@ custom_js:   [2013-09-16-reminders.js]
 {% include breadcrumbs.html %}
 
 <div class="m-wrapper">
-  <div>
+  <div style="width: 806px;">
+    <div class="header">
+      <img src="{{ '2013-09-16-reminders-header.png' | asset_path }}" alt="" />
+      <a class="trigger" onclick="return false;" href="#"><span class="clickable"></span></a>
+    </div>
+    <div class="tooltip">
+      <div class="tooltip-header">
+        <ul>
+          <li class="active">Today</li>
+          <li>Scheduled</li>
+        </ul>
+      </div>
+      <div class="tooltip-sidebar">
+        <ul class="tooltip-nav">
+          <li class="locked">
+            <span>My Reminders</span>
+            <ul>
+              <li class="active">Today</li>
+              <li>Overdue</li>
+            </ul>
+          </li>
+          <li>
+            <span>Launch Alerts</span>
+            <ul>
+              <li>Yesterday</li>
+              <li>Today</li>
+              <li>Tomorrow</li>
+            </ul>
+          </li>
+          <li>
+            <span>Campaign Updates</span>
+            <ul>
+              <li>New</li>
+              <li>Ending Soon</li>
+              <li>Completed</li>
+            </ul>
+          </li>
+        </ul>
+        <button type="button">Schedule a reminder</button>
+      </div>
+    </div>
   </div>
 </div>
 
