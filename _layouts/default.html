@@ -15,10 +15,10 @@
     {% endfor %}
     <script src="//use.typekit.net/ysf1fwm.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    {% include analytics.html %}
   </head>
   <body>
     {{ content }}
     {% include comments_count.html %}
-    {% include analytics.html %}
   </body>
 </html>

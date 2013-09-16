@@ -1,10 +1,9 @@
 $(function() {
   
-  if ($('.table li').outerWidth() < 1220 ) {
+  if ($('.table li').outerWidth() < 1218 ) {
     console.log("scrollbars present");
     $('.table li').css({'margin-right':'-15px'});
   }
-
 
   updateContractedImps();
   updateContractedClicks();
@@ -53,14 +52,17 @@ $(function() {
 $('.totals-bar').on('mouseleave', function(event){
   if($('#search').val() == ''){
     $(this).removeClass('stick');
+    $('.table li:last-child').removeClass('add-search-scroll-room');
   } else {
     $(this).addClass('stick');
+    $('.table li:last-child').addClass('add-search-scroll-room');
   }
 });
 
 $('.pushpin a').on('click', function(event){ 
   $(this).toggleClass('active');
   $('.totals-bar').toggleClass('pinned')
+  $('.table li:last-child').toggleClass('add-scroll-room');
   return false;
 });
 
