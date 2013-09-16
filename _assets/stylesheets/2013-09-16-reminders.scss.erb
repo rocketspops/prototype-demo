@@ -1,6 +1,10 @@
 @import "compass";
 @import "base";
 
+ul { 
+ list-style-type: none;
+}
+
 .header {
   border: 1px solid rgb(140,140,140); 
   position: relative;
@@ -18,6 +22,7 @@
   font-size: 14px;
   height: 471px; 
   width: 618px;
+  overflow: hidden;
   position: relative;
     top: 6px;
     left: 144px;
@@ -63,6 +68,7 @@
   background: rgb(240,240,240);
   border-right: 1px solid rgb(210,210,210);
   color: rgb(180,180,180);
+  float: left;
   display: inline-block;
   padding: 15px;
   position: relative;
@@ -135,4 +141,35 @@
     margin: 0 -15px 0 -43px;
     padding-left: 43px;
   }
+}
+
+.tooltip-main {
+  height: 406px;
+  width: 385px;
+  position: relative;
+  right: 5px;
+  top: 10px;
+  float:right;
+}
+
+.tooltip-main > div {
+  height: 100%;
+  width: 100%;
+}
+
+
+ul.to-dos li {
+  border-bottom: 1px solid rgb(220,220,220);
+  line-height: 30px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+ul.to-dos li > input[type="checkbox"] {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+ul.to-dos li > label {
+  cursor: pointer;
 }
