@@ -3,6 +3,17 @@ $(function() {
   $('.tooltip-header li').click(function() { 
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
+    $('.tooltip-sidebar > div').removeClass('active'); 
+    if ($(this).text() == "Today") {
+      var reset = $('.tooltip-nav li.active a').attr('href');
+      $('#sidebar-nav').addClass('active');
+      $('#scheduled').removeClass('is-visible');
+      $(reset).addClass('is-visible');
+    } else {
+      $('#sidebar-create').addClass('active');
+      $('#scheduled').siblings('div').removeClass('is-visible');
+      $('#scheduled').addClass('is-visible');
+    }
   });
 
   $('.tooltip-nav ul li').click(function() { 
@@ -16,8 +27,6 @@ $(function() {
 
     $('.tooltip-nav > li').removeClass('locked');
     $(this).parents('li').addClass('locked');
-
-    
 
     return false;
   });

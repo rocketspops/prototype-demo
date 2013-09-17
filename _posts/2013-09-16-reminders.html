@@ -25,36 +25,41 @@ custom_js:   [2013-09-16-reminders.js]
         </ul>
       </div>
       <div class="tooltip-sidebar">
-        <ul class="tooltip-nav">
-          <li class="locked">
-            <span>My Reminders <span class="total">3</span></span>
-            <ul>
-              <li class="active">
-                <a href="#my-reminders--today">Today <span class="counter">3</span></a>
-              </li>
-              <li><a href="#my-reminders--overdue">Overdue <span class="counter">1</span></a></li>
-            </ul>
-          </li>
-          <li>
-            <span>Launch Alerts <span class="total">4</span></span>
-            <ul>
-              <li>
-                <a href="#launch-alerts--yesterday">Yesterday <span class="counter">3</span></a>
-              </li>
-              <li><a href="#empty">Today</a></li>
-              <li><a href="#empty">Tomorrow</a></li>
-            </ul>
-          </li>
-          <li>
-            <span>Campaign Updates <span class="total">3</span></span>
-            <ul>
-              <li><a href="#camp-updates--new">New <span class="counter">1</span></a></li>
-              <li><a href="#camp-updates--ending">Ending Soon <span class="counter">2</span></a></li>
-              <li><a href="#empty">Completed</a></li>
-            </ul>
-          </li>
-        </ul>
-        <button type="button">Schedule a reminder</button>
+        <div id="sidebar-nav" class="active">
+          <ul class="tooltip-nav">
+            <li class="locked">
+              <span>My Reminders <span class="total">3</span></span>
+              <ul>
+                <li class="active">
+                  <a href="#my-reminders--today">Today <span class="counter">3</span></a>
+                </li>
+                <li><a href="#my-reminders--overdue">Overdue <span class="counter">1</span></a></li>
+              </ul>
+            </li>
+            <li>
+              <span>Launch Alerts <span class="total">4</span></span>
+              <ul>
+                <li>
+                  <a href="#launch-alerts--yesterday">Yesterday <span class="counter">3</span></a>
+                </li>
+                <li><a href="#empty">Today</a></li>
+                <li><a href="#empty">Tomorrow</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>Campaign Updates <span class="total">3</span></span>
+              <ul>
+                <li><a href="#camp-updates--new">New <span class="counter">1</span></a></li>
+                <li><a href="#camp-updates--ending">Ending Soon <span class="counter">2</span></a></li>
+                <li><a href="#empty">Completed</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button type="button">Schedule a reminder</button>
+        </div>
+        <div id="sidebar-create">
+          test
+        </div>
       </div>
       <div class="tooltip-main">
         <div class="is-visible" id="my-reminders--today">
@@ -139,6 +144,9 @@ custom_js:   [2013-09-16-reminders.js]
             <p class="secondary">No more reminders in this 
               category today.</p>
           </div>
+        </div>
+        <div id="scheduled">
+          Schedule stuff here
         </div>
       </div>
     </div>
