@@ -27,16 +27,20 @@ custom_js:   [2013-09-16-reminders.js]
       <div class="tooltip-sidebar">
         <ul class="tooltip-nav">
           <li class="locked">
-            <span>My Reminders</span>
+            <span>My Reminders <span class="total">3</span></span>
             <ul>
-              <li class="active"><a href="#my-reminders--today">Today</a></li>
-              <li><a href="">Overdue</a></li>
+              <li class="active">
+                <a href="#my-reminders--today">Today <span class="counter">3</span></a>
+              </li>
+              <li><a href="#my-reminders--overdue">Overdue <span class="counter">1</span></a></li>
             </ul>
           </li>
           <li>
-            <span>Launch Alerts</span>
+            <span>Launch Alerts <span class="total">4</span></span>
             <ul>
-              <li><a href="#launch-alerts--yesterday">Yesterday</a></li>
+              <li>
+                <a href="#launch-alerts--yesterday">Yesterday <span class="counter">4</span></a>
+              </li>
               <li><a href="#">Today</a></li>
               <li><a href="#">Tomorrow</a></li>
             </ul>
@@ -56,8 +60,13 @@ custom_js:   [2013-09-16-reminders.js]
         <div class="is-visible" id="my-reminders--today">
           <ul class="to-dos">
             <li><input id="1" type="checkbox"/><label for="1">Client report due for FORD334</label></li>
-            <li><input id="2" type="checkbox"/><label for="2">Map/UE on 8.27 (PR and YouTube)</label></li>
+            <li><input id="2" type="checkbox"/><label for="2">Map/UE on 9.27 (PR and YouTube)</label></li>
             <li><input id="3" type="checkbox"/><label for="3">DSP-Centro; reporting on Monday</label></li>
+            
+          </ul>
+        </div>
+        <div id="my-reminders--overdue">
+          <ul class="to-dos">
             <li><input id="4" type="checkbox"/><label for="4">Weekly reporting T(next 08.6)</label></li>
           </ul>
         </div>

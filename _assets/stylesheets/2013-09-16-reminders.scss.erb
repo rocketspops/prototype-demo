@@ -67,7 +67,7 @@ ul {
 .tooltip-sidebar {
   background: rgb(240,240,240);
   border-right: 1px solid rgb(210,210,210);
-  color: rgb(180,180,180);
+  color: rgb(160,160,160);
   float: left;
   display: inline-block;
   padding: 15px;
@@ -96,18 +96,22 @@ ul {
 }
 
 .tooltip-nav > li li a {
-  color: rgb(180,180,180);
+  color: rgb(160,160,160);
 }
 
 .tooltip-nav > li li a:hover, 
 .tooltip-nav > li:not(.locked) span:hover {
-  color: rgb(140,140,140);
+  color: rgb(120,120,120);
 }
 
 .tooltip-nav > li {
   cursor: pointer;
   position: relative;
   padding-left: 8px;
+}
+
+.tooltip-nav > li:not(.closed) .total {
+  display: none;
 }
 
 .tooltip-nav > li:after {
@@ -137,13 +141,19 @@ ul {
   border-style: solid;
   border-width: 1px 0;
   cursor: pointer;
+  a { 
+    display: block; 
+    overflow: hidden;
+  }
 
   &.active { 
     background: rgb(220,220,220); 
     border-color: rgb(210,210,210);
     margin: 0 -15px 0 -43px;
+    padding-right: 15px;
     padding-left: 43px;
-    a { color: rgb(50,50,50); }
+    a, 
+    span { color: rgb(50,50,50); }
   }
 }
 
@@ -187,4 +197,9 @@ ul.to-dos li > label {
     color: rgb(180,180,180);
     text-decoration: line-through;
   }
+}
+
+.counter,
+.total{
+  float: right;
 }
