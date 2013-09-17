@@ -20,8 +20,8 @@ custom_js:   [2013-09-16-reminders.js]
     <div class="tooltip">
       <div class="tooltip-header">
         <ul>
-          <li class="active">Today</li>
-          <li>Scheduled</li>
+          <li id="today-tab" class="active">Today</li>
+          <li id="scheduled-tab">Scheduled</li>
         </ul>
       </div>
       <div class="tooltip-sidebar">
@@ -55,10 +55,30 @@ custom_js:   [2013-09-16-reminders.js]
               </ul>
             </li>
           </ul>
-          <button type="button">Schedule a reminder</button>
+          <button id="schedule-reminder" type="button">Schedule a reminder</button>
         </div>
         <div id="sidebar-create">
-          test
+          <form action="">
+            <textarea autofocus id=""></textarea>
+            <select id="repeat" name="">
+              <option value="">Repeat</option>
+              <option value="Never">Never</option>
+              <option value="Daily">Daily</option>
+              <option value="Weekly">Weekly</option>
+              <option value="Monthly">Monthly</option>
+            </select>
+            <select id="day" name="">
+              <option value="">Choose day...</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+            <input id="date" placeholder="mm/dd/yy" type="text" />
+            <button id="js-submit" type="button">Add</button>
+            <a class="text-delete" href="#">clear</a>
+          </form>
         </div>
       </div>
       <div class="tooltip-main">
@@ -82,27 +102,27 @@ custom_js:   [2013-09-16-reminders.js]
             <li>
               <input id="5" type="checkbox"/>
               <label for="5">
-                <span>SLD/UNRIVALED 2013<span>
+                <span class="type">SLD/UNRIVALED 2013<span>
                 <span class="camp-id">ADIDAS008<span>
               </label>
-              <span class="plcmts">23 plcmts</span>
+              <span class="info">23 plcmts</span>
               <span class="alert">High impact</span>
             </li>
             <li>
               <input id="6" type="checkbox"/>
               <label for="6">
-                <span>Splat and the Cool School Trip - Parents</span> 
+                <span class="type">Splat and the Cool School Trip - Parents</span> 
                 <span class="camp-id">HARPERCOLLINS279<span>
               </label>
-              <span class="plcmts">10 plcmts</span>
+              <span class="info">10 plcmts</span>
             </li>
             <li>
               <input id="7" type="checkbox"/>
               <label for="7">
-                <span>13_Y1H_CAR_AWA_Centro Q4: HOUSTON</span>
+                <span class="type">13_Y1H_CAR_AWA_Centro Q4: HOUSTON</span>
                 <span class="camp-id">FORD334<span>
               </label>
-              <span class="plcmts">36 plcmts</span>
+              <span class="info">36 plcmts</span>
             </li>
           </ul>
         </div>
@@ -111,10 +131,10 @@ custom_js:   [2013-09-16-reminders.js]
             <li>
               <input id="8" type="checkbox"/>
               <label for="8">
-                <span>The Little House that Stood DVD Launch<span>
+                <span class="type">The Little House that Stood DVD Launch<span>
                 <span class="camp-id">VEGTALES001<span>
               </label>
-              <span class="plcmts">140 plcmts</span>
+              <span class="info">140 plcmts</span>
             </li>
           </ul>
         </div>
@@ -123,18 +143,18 @@ custom_js:   [2013-09-16-reminders.js]
             <li>
               <input id="9" type="checkbox"/>
               <label for="9">
-                <span>1 Month Test<span>
+                <span class="type">1 Month Test<span>
                 <span class="camp-id">CHARTERCOM001<span>
               </label>
-              <span class="plcmts">47 plcmts</span>
+              <span class="info">47 plcmts</span>
             </li>
             <li>
               <input id="10" type="checkbox"/>
               <label for="10">
-                <span>13_Y1H_HIS_HIS_Q3 HOUSTON<span>
+                <span class="type">13_Y1H_HIS_HIS_Q3 HOUSTON<span>
                 <span class="camp-id">FORD327<span>
               </label>
-              <span class="plcmts">31 plcmts</span>
+              <span class="info">31 plcmts</span>
             </li>
           </ul>
         </div>
@@ -146,7 +166,29 @@ custom_js:   [2013-09-16-reminders.js]
           </div>
         </div>
         <div id="scheduled">
-          Schedule stuff here
+          <ul class="to-dos">
+            <li>
+              <a href="#" class="delete"></a>
+              <label>
+                <span class="type">Vivamus non ligula fringilla.<span>
+              </label>
+              <span class="info">9/30/13</span>
+            </li>
+            <li>
+              <a href="#" class="delete"></a>
+              <label>
+                <span class="type">Sed venenatis ante ac neque accumsan dictum in et lorem.<span>
+              </label>
+              <span class="info">Monthly</span>
+            </li>
+            <li>
+              <a href="#" class="delete"></a>
+              <label>
+                <span class="type">Cras ac mollis nisl. Etiam consectetur adipiscing turpis, vitae vestibulum justo<span>
+              </label>
+              <span class="info">Daily</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
