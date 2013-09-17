@@ -1,5 +1,23 @@
 $(function() {
   
+  var favicon=new Favico({
+    type : 'rectangle',
+    animation: 'fade'
+  });
+
+  favicon.badge(10);
+
+
+  $('.tooltip').hide();
+
+  $('.trigger').click(function() {
+    $('.tooltip').toggle().focus();
+    return false;
+  });
+  $('.tooltip').blur(function() {
+    $(this).hide();
+  });
+  
   $('.tooltip-header li').click(function() { 
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
@@ -51,8 +69,9 @@ $(function() {
     
     target.find('.total').text(totals);
 
+    
+
     if ($(this).find('li').hasClass('active')) {
-      console.log('this one has a child with class active');
       $('.tooltip-nav li').removeClass('locked');
       target.addClass('locked');
     } else {
@@ -63,12 +82,13 @@ $(function() {
 
   $('.to-dos input[type="checkbox"').change(function() {
 
+    var totalReminderCount = 0;
+
     $(this).next('label').toggleClass('checked');
     $(this).parent().toggleClass('checked');
 
     var parentDiv = $(this).parents('div').attr('id');
     var length = $(this).parents('ul').find('li:not(.checked)').length;
-    console.log(length);
 
     if (length > 0) {
       $('a[href="#' + parentDiv + '"').find('.counter').text(length).show(); 
@@ -76,6 +96,19 @@ $(function() {
       $('a[href="#' + parentDiv + '"').find('.counter').text(length).hide(); 
     }
 
+    $('.tooltip-nav').find('.counter').each(function () {
+      var number = parseInt($(this).text(), 10); 
+      totalReminderCount += number;
+    });
+
+    if (totalReminderCount > 0) {
+      $('.total-reminder-count').show();
+      $('.total-reminder-count').text(totalReminderCount);
+    } else {
+      $('.total-reminder-count').hide();
+    }
+
+      favicon.badge(totalReminderCount);
   });
 
   $('#scheduled .to-dos').on('click', 'a.delete', function(event) { 
