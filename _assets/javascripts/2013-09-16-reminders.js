@@ -2,7 +2,7 @@ $(function() {
   
   var favicon=new Favico({
     type : 'rectangle',
-    animation: 'fade'
+    animation: 'slide'
   });
 
   favicon.badge(10);
@@ -11,13 +11,10 @@ $(function() {
   $('.tooltip').hide();
 
   $('.trigger').click(function() {
-    $('.tooltip').toggle().focus();
+    $('.tooltip').toggle();
     return false;
   });
-  $('.tooltip').blur(function() {
-    $(this).hide();
-  });
-  
+
   $('.tooltip-header li').click(function() { 
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
