@@ -129,10 +129,10 @@ $(function() {
       $('#day').addClass('is-visible');
       $('#date').removeClass('is-visible').val('');
     } else if ($(this).val() == "Never") {
-       $('#date').addClass('is-visible');
+       $('#date').addClass('is-visible').attr('placeholder', 'Enter date (mm/dd/yy)');
        $('#day').removeClass('is-visible');
     } else if ($(this).val() == "Monthly") {
-      $('#date').addClass('is-visible');
+      $('#date').addClass('is-visible').attr('placeholder', 'Enter start date (mm/dd/yy)');
       $('#day').removeClass('is-visible');
     } else {
       $('#day').removeClass('is-visible');
