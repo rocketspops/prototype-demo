@@ -148,7 +148,7 @@ $(function() {
       console.log(reminderText);
     }
 
-    if ($('#date').val()) {
+    if ($('#date').val() && $('#repeat').val() != "Monthly") {
       infoText = $('#date').val();
     } else {
       infoText = $('#repeat').val();
