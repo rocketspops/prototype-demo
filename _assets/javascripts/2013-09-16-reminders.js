@@ -27,6 +27,7 @@ $(function() {
       $('#sidebar-create').addClass('active');
       $('#scheduled').siblings('div').removeClass('is-visible');
       $('#scheduled').addClass('is-visible');
+      $('textarea').focus();
     }
   });
 
@@ -157,7 +158,7 @@ $(function() {
       $('#sidebar-create textarea').removeClass('error');
       if ($('#date.is-visible').val() || $('#day.is-visible').val() || $('#repeat').val() == "Daily" ) {
         $('#scheduled .to-dos').prepend('
-          <li>
+          <li class="newly-added">
             <a href="#" class="delete"></a>
             <label>
               <span class="type">' + reminderText + '<span>
@@ -168,6 +169,13 @@ $(function() {
         $('#repeat, .is-visible').removeClass('error'); 
         $('select').removeClass('changed'); 
         $('textarea, #repeat, .is-visible').val('').removeClass('is-visible'); 
+
+        setTimeout(function() {
+      // Do something after 5 seconds
+          $('#scheduled .to-dos .newly-added').removeClass();
+        }, 3000);
+        
+
       } else if ($('#repeat').val() == '') {
         $('#repeat').addClass('error'); 
       } else {
