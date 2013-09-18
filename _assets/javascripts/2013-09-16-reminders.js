@@ -191,6 +191,7 @@ $(function() {
     $('#repeat, .is-visible').removeClass('error'); 
     $('select').removeClass('changed'); 
     $('textarea, #repeat, .is-visible').val('').removeClass('is-visible'); 
+    return false;
   });
 
 });
