@@ -31,11 +31,13 @@ $(function() {
   });
 
   $('#schedule-reminder').click(function() {
+    $('.tooltip-header li').removeClass('active');
     $('#sidebar-create').addClass('active');
+    $('#scheduled-tab').addClass('active');
+
     $('#scheduled').siblings('div').removeClass('is-visible');
     $('#scheduled').addClass('is-visible');
-    $('.tooltip-header li').removeClass('active');
-    $('#scheduled-tab').addClass('active');
+    $('textarea').focus();
 
   });
 
