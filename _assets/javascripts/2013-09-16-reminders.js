@@ -1,12 +1,11 @@
 $(function() {
   
   var favicon=new Favico({
-    type : 'rectangle',
+    bgColor: '#c31d88',
     animation: 'slide'
   });
 
   favicon.badge(10);
-
 
   $('.tooltip').hide();
 
