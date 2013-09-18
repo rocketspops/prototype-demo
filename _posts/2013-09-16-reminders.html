@@ -6,7 +6,7 @@ category:    luxo
 tags:        low-level
 comments:    true
 custom_css:  [2013-09-16-reminders.css]
-custom_js:   [2013-09-16-reminders.js]
+custom_js:   [2013-09-16-reminders.js, favico.js]
 ---
 
 {% include breadcrumbs.html %}
@@ -15,7 +15,10 @@ custom_js:   [2013-09-16-reminders.js]
   <div style="width: 806px;">
     <div class="header">
       <img src="{{ '2013-09-16-reminders-header.png' | asset_path }}" alt="" />
-      <a class="trigger" onclick="return false;" href="#"><span class="clickable"></span></a>
+      <a class="trigger" tabindex="0" href="#">
+        <span class="total-reminder-count">10</span>
+        <span class="clickable"></span>
+      </a>
     </div>
     <div class="tooltip">
       <div class="tooltip-header">
@@ -59,7 +62,7 @@ custom_js:   [2013-09-16-reminders.js]
         </div>
         <div id="sidebar-create">
           <form action="">
-            <textarea autofocus id=""></textarea>
+            <textarea id=""></textarea>
             <select id="repeat" name="">
               <option value="">Repeat</option>
               <option value="Never">Never</option>

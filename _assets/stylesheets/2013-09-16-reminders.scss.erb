@@ -19,6 +19,7 @@ ul {
 
 .tooltip {
   background: url(<%= asset_data_uri '2013-09-16-reminders-tooltip-background.png' %>) no-repeat;
+  outline: none;
   font-size: 14px;
   height: 471px; 
   width: 618px;
@@ -179,6 +180,7 @@ ul {
 }
 
 ul.to-dos li {
+  @include transition(background-color ease 1s);
   border-bottom: 1px solid rgb(220,220,220);
   padding: 7px 0 6px 10px;
   position: relative;
@@ -336,4 +338,20 @@ input[type="text"] {
 
 #sidebar-create button {
   position: static;
+}
+
+.total-reminder-count {
+  background: #969696;
+  color: white;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  font-size: 10px;
+  line-height: 1;
+  padding: 0 1px;
+  z-index: 10;
+}
+
+.newly-added {
+  background-color: #fef9eb;
 }

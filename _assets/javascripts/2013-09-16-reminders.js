@@ -1,5 +1,19 @@
 $(function() {
   
+  var favicon=new Favico({
+    bgColor: '#c31d88',
+    animation: 'slide'
+  });
+
+  favicon.badge(10);
+
+  $('.tooltip').hide();
+
+  $('.trigger').click(function() {
+    $('.tooltip').toggle();
+    return false;
+  });
+
   $('.tooltip-header li').click(function() { 
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
@@ -13,15 +27,18 @@ $(function() {
       $('#sidebar-create').addClass('active');
       $('#scheduled').siblings('div').removeClass('is-visible');
       $('#scheduled').addClass('is-visible');
+      $('textarea').focus();
     }
   });
 
   $('#schedule-reminder').click(function() {
+    $('.tooltip-header li').removeClass('active');
     $('#sidebar-create').addClass('active');
+    $('#scheduled-tab').addClass('active');
+
     $('#scheduled').siblings('div').removeClass('is-visible');
     $('#scheduled').addClass('is-visible');
-    $('.tooltip-header li').removeClass('active');
-    $('#scheduled-tab').addClass('active');
+    $('textarea').focus();
 
   });
 
@@ -51,8 +68,9 @@ $(function() {
     
     target.find('.total').text(totals);
 
+    
+
     if ($(this).find('li').hasClass('active')) {
-      console.log('this one has a child with class active');
       $('.tooltip-nav li').removeClass('locked');
       target.addClass('locked');
     } else {
@@ -63,12 +81,13 @@ $(function() {
 
   $('.to-dos input[type="checkbox"').change(function() {
 
+    var totalReminderCount = 0;
+
     $(this).next('label').toggleClass('checked');
     $(this).parent().toggleClass('checked');
 
     var parentDiv = $(this).parents('div').attr('id');
     var length = $(this).parents('ul').find('li:not(.checked)').length;
-    console.log(length);
 
     if (length > 0) {
       $('a[href="#' + parentDiv + '"').find('.counter').text(length).show(); 
@@ -76,6 +95,19 @@ $(function() {
       $('a[href="#' + parentDiv + '"').find('.counter').text(length).hide(); 
     }
 
+    $('.tooltip-nav').find('.counter').each(function () {
+      var number = parseInt($(this).text(), 10); 
+      totalReminderCount += number;
+    });
+
+    if (totalReminderCount > 0) {
+      $('.total-reminder-count').show();
+      $('.total-reminder-count').text(totalReminderCount);
+    } else {
+      $('.total-reminder-count').hide();
+    }
+
+      favicon.badge(totalReminderCount);
   });
 
   $('#scheduled .to-dos').on('click', 'a.delete', function(event) { 
@@ -126,7 +158,7 @@ $(function() {
       $('#sidebar-create textarea').removeClass('error');
       if ($('#date.is-visible').val() || $('#day.is-visible').val() || $('#repeat').val() == "Daily" ) {
         $('#scheduled .to-dos').prepend('
-          <li>
+          <li class="newly-added">
             <a href="#" class="delete"></a>
             <label>
               <span class="type">' + reminderText + '<span>
@@ -137,6 +169,13 @@ $(function() {
         $('#repeat, .is-visible').removeClass('error'); 
         $('select').removeClass('changed'); 
         $('textarea, #repeat, .is-visible').val('').removeClass('is-visible'); 
+
+        setTimeout(function() {
+      // Do something after 5 seconds
+          $('#scheduled .to-dos .newly-added').removeClass();
+        }, 3000);
+        
+
       } else if ($('#repeat').val() == '') {
         $('#repeat').addClass('error'); 
       } else {
@@ -152,6 +191,7 @@ $(function() {
     $('#repeat, .is-visible').removeClass('error'); 
     $('select').removeClass('changed'); 
     $('textarea, #repeat, .is-visible').val('').removeClass('is-visible'); 
+    return false;
   });
 
 });
