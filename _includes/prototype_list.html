@@ -16,6 +16,12 @@
     {% include prototype_list_items.html %}
   {% endfor %}
 </ul>
+{% elsif page.category contains 'suite' %}
+<ul class="m-posts-roll">
+  {% for post in site.categories.suite %}
+    {% include prototype_list_items.html %}
+  {% endfor %}
+</ul>
 {% else page.category contains 'roz' %}
 <ul class="m-posts-roll">
   {% for post in site.categories.roz  %}
