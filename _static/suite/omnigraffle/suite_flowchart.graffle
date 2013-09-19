@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-09-19 21:21:15 +0000</string>
+	<string>2013-09-19 21:42:08 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -30756,7 +30756,7 @@ attach}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs24 \cf2 \expnd0\expndtw0\kerning0
-Publisher Update\
+Vendor/Client Update\
 (as needed)}</string>
 								<key>VerticalPad</key>
 								<integer>10</integer>
@@ -33648,7 +33648,7 @@ Initiate plan}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>Integration Screen Flow v.1</string>
+			<string>Integrated UI Screen Flow v.1</string>
 			<key>UniqueID</key>
 			<integer>6</integer>
 			<key>VPages</key>
@@ -74793,7 +74793,7 @@ Campaign - Planning}</string>
 		<array>
 			<dict>
 				<key>name</key>
-				<string>Integration Screen Flow v.1</string>
+				<string>Integrated UI Screen Flow v.1</string>
 			</dict>
 		</array>
 		<key>Frame</key>
@@ -74811,9 +74811,9 @@ Campaign - Planning}</string>
 		<key>SidebarWidth</key>
 		<integer>250</integer>
 		<key>VisibleRegion</key>
-		<string>{{-529, -34}, {3256, 1796}}</string>
+		<string>{{284, 415}, {1628, 898}}</string>
 		<key>Zoom</key>
-		<real>0.5</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -74827,9 +74827,9 @@ Campaign - Planning}</string>
 				<real>1</real>
 			</array>
 			<array>
-				<string>Integration Screen Flow v.1</string>
+				<string>Integrated UI Screen Flow v.1</string>
+				<real>1</real>
 				<real>0.5</real>
-				<real>0.80000001192092896</real>
 			</array>
 			<array>
 				<string>Hierarchy</string>
