@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-09-19 21:42:08 +0000</string>
+	<string>2013-09-19 21:47:31 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -33611,7 +33611,7 @@ Initiate plan}</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -74811,9 +74811,9 @@ Campaign - Planning}</string>
 		<key>SidebarWidth</key>
 		<integer>250</integer>
 		<key>VisibleRegion</key>
-		<string>{{284, 415}, {1628, 898}}</string>
+		<string>{{79.999998807907119, 191.24999715015295}, {2034.9999696761374, 1122.4999832734468}}</string>
 		<key>Zoom</key>
-		<real>1</real>
+		<real>0.80000001192092896</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -74828,7 +74828,7 @@ Campaign - Planning}</string>
 			</array>
 			<array>
 				<string>Integrated UI Screen Flow v.1</string>
-				<real>1</real>
+				<real>0.80000001192092896</real>
 				<real>0.5</real>
 			</array>
 			<array>
