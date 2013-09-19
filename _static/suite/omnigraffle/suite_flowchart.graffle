@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-09-19 16:54:31 +0000</string>
+	<string>2013-09-19 17:04:25 +0000</string>
 	<key>Modifier</key>
 	<string>dave.castleton</string>
 	<key>NotesVisible</key>
@@ -1982,6 +1982,13 @@
 						<key>Size</key>
 						<real>12</real>
 					</dict>
+					<key>Head</key>
+					<dict>
+						<key>ID</key>
+						<integer>96256</integer>
+						<key>Info</key>
+						<integer>4</integer>
+					</dict>
 					<key>ID</key>
 					<integer>98485</integer>
 					<key>OrthogonalBarAutomatic</key>
@@ -1994,8 +2001,8 @@
 					<array>
 						<string>{1824.4998931884766, 1541.9999932050696}</string>
 						<string>{1867, 1541.9999932050696}</string>
-						<string>{1904.7790362983965, 877.9999255537989}</string>
-						<string>{1931.7790678308788, 740.99993896484375}</string>
+						<string>{1907, 878}</string>
+						<string>{1952.000170171259, 739}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2033,6 +2040,13 @@
 						<key>Size</key>
 						<real>12</real>
 					</dict>
+					<key>Head</key>
+					<dict>
+						<key>ID</key>
+						<integer>96256</integer>
+						<key>Info</key>
+						<integer>4</integer>
+					</dict>
 					<key>ID</key>
 					<integer>98484</integer>
 					<key>OrthogonalBarAutomatic</key>
@@ -2045,7 +2059,7 @@
 					<array>
 						<string>{1824.4998931884766, 44}</string>
 						<string>{1906.9998621642612, 424.74994019046517}</string>
-						<string>{1934.4998930096644, 740.99994575977416}</string>
+						<string>{1952.000170171259, 739}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -24232,8 +24246,8 @@ Add vendor}</string>
 							<integer>96243</integer>
 							<key>Points</key>
 							<array>
-								<string>{1967.5000850856295, 757.49998237937712}</string>
-								<string>{1989.5000850856295, 757.49998237937712}</string>
+								<string>{1966.500170171259, 754}</string>
+								<string>{1988.500170171259, 754}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -24270,8 +24284,8 @@ Add vendor}</string>
 							<integer>96244</integer>
 							<key>Points</key>
 							<array>
-								<string>{1967.5000850856295, 752.74998237937712}</string>
-								<string>{1989.5000850856295, 752.74998237937712}</string>
+								<string>{1966.500170171259, 749.25}</string>
+								<string>{1988.500170171259, 749.25}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -24308,8 +24322,8 @@ Add vendor}</string>
 							<integer>96245</integer>
 							<key>Points</key>
 							<array>
-								<string>{1967.5000850856295, 746.99998237937712}</string>
-								<string>{1989.5000850856295, 746.99998237937712}</string>
+								<string>{1966.500170171259, 743.5}</string>
+								<string>{1988.500170171259, 743.5}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -24337,7 +24351,7 @@ Add vendor}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1963.0000850856295, 740.49998237937712}, {31.5, 41}}</string>
+							<string>{{1962.000170171259, 737}, {31.5, 41}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -24408,7 +24422,7 @@ Add vendor}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1963.0000850856295, 740.49998237937712}, {110, 41}}</string>
+							<string>{{1962.000170171259, 737}, {110, 41}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -24477,7 +24491,7 @@ Add vendor}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{2060.0000850856295, 723.49998237937712}, {9, 13}}</string>
+							<string>{{2059.000170171259, 720}, {9, 13}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -24538,7 +24552,7 @@ mail}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{2055.0000850856295, 718.49998237937712}, {18, 20}}</string>
+							<string>{{2054.000170171259, 715}, {18, 20}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -24616,8 +24630,8 @@ mail}</string>
 							<integer>96250</integer>
 							<key>Points</key>
 							<array>
-								<string>{2001.0000850856295, 789.49998237937712}</string>
-								<string>{2012.5000850856295, 789.49998237937712}</string>
+								<string>{2000.000170171259, 786}</string>
+								<string>{2011.500170171259, 786}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -24654,8 +24668,8 @@ mail}</string>
 							<integer>96251</integer>
 							<key>Points</key>
 							<array>
-								<string>{1983.0000850856295, 789.49998237937712}</string>
-								<string>{1994.5000850856295, 789.49998237937712}</string>
+								<string>{1982.000170171259, 786}</string>
+								<string>{1993.500170171259, 786}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -24692,8 +24706,8 @@ mail}</string>
 							<integer>96252</integer>
 							<key>Points</key>
 							<array>
-								<string>{1965.0000850856295, 789.49998237937712}</string>
-								<string>{1976.5000850856295, 789.49998237937712}</string>
+								<string>{1964.000170171259, 786}</string>
+								<string>{1975.500170171259, 786}</string>
 							</array>
 							<key>Style</key>
 							<dict>
@@ -24721,7 +24735,7 @@ mail}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1963.0000850856295, 709.49998237937712}, {110, 6}}</string>
+							<string>{{1962.000170171259, 706}, {110, 6}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -24790,7 +24804,7 @@ mail}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1963.0000850856295, 718.49998237937712}, {110, 20}}</string>
+							<string>{{1962.000170171259, 715}, {110, 20}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -24859,7 +24873,7 @@ mail}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1963.0000850856295, 793.49998174359416}, {110, 24.833333969116211}}</string>
+							<string>{{1962.000170171259, 789.99999936421705}, {110, 24.833333969116211}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -24928,7 +24942,7 @@ mail}</string>
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{1953.0000850856295, 657.49998237937712}, {130, 170}}</string>
+							<string>{{1952.000170171259, 654}, {130, 170}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FontInfo</key>
@@ -66789,7 +66803,7 @@ Campaign - Planning}</string>
 		<key>SidebarWidth</key>
 		<integer>250</integer>
 		<key>VisibleRegion</key>
-		<string>{{303, 838}, {1592, 890}}</string>
+		<string>{{137, 708}, {1592, 890}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
