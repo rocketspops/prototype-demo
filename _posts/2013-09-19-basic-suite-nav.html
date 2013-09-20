@@ -13,6 +13,57 @@ custom_js:   [2013-09-19-basic-suite-nav.js]
 
 <div class="m-wrapper">
   <div style="width: 1220px;">
+    <div class="header">
+      <div class="header__subtitle">
+          <ul>
+            <li class="changeable">$100,000 budget</li>
+            <li class="link">Campaign Details</li>
+            <li class="link">Recent Activity</li>
+          </ul>
+        </div>
+      <div class="header__nav">
+        <ul class="contact-menu">
+          <li class="selected"><span>Planning</span></li>
+          <li class="selectable">
+            <ul>
+              <li class="active">Planning</li>
+              <li>Operations</li>
+              <li>Billing</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="context-menu">
+          <ul id="planning" class="visible">
+            <li>Plan Item (1)</li>
+            <li>Plan Item (2)</li>
+            <li>Plan Item (3)</li>
+            <li>Plan Item (4)</li>
+          </ul>
+          <ul id="operations">
+            <li>All (5)</li>
+            <li>Live (0)</li>
+            <li>Issues (1)</li>
+            <li>Completed (5)</li>
+          </ul>
+          <ul id="billing">
+            <li>Bill Item (1)</li>
+            <li>Bill Item (2)</li>
+            <li>Bill Item (3)</li>
+            <li>Bill Item (4)</li>
+          </ul>
+        </div>
+        <div class="header__nav__controls">
+          <img class="planning visible" src="{{ '2013-09-19-basic-suite-nav-planner-controls.png' | asset_path }}" alt="" />
+          <img class="operations" src="{{ '2013-09-19-basic-suite-nav-luxo-controls.png' | asset_path }}" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="table">
+          <img class="planning visible" src="{{ '2013-09-19-basic-suite-nav-planner-table.png' | asset_path }}" alt="" />
+          <img class="operations" src="{{ '2013-09-19-basic-suite-nav-luxo-table.png' | asset_path }}" alt="" />
+      </div>
+    </div>
   </div>
 </div>
 
