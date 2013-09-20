@@ -9,28 +9,43 @@ $(function() {
 
     $('.contact-menu').toggleClass('open');
 
-    $('.selectable li').removeClass('active');
-    $(this).addClass('active');
-
     $(this).parents('li').toggleClass('open');
 
     $('.context-menu ul').removeClass('visible');
     $('ul#' + newSelectedText.toLowerCase() + '').addClass('visible');
 
-    $('img').removeClass('visible');
-    $('img.' + newSelectedText.toLowerCase() + '').addClass('visible');
+    $('.table-overlay').addClass('visible');
 
-    if (newSelectedText == "Operations") {
+    $('.totals-bar').removeClass('pinned');
+
+   
+
+    setTimeout(function() {
+      $('.selected span').text(newSelectedText);
+    }, 60);
+
+    //setTimeout(function() {
+    //  $('img').removeClass('visible');
+    //  $('img.' + newSelectedText.toLowerCase() + '').addClass('visible');
+    //  if (newSelectedText == "Operations") {
+    //    $('li.changeable').text('ACURALOUISVILLE005').addClass('id');
+    //  } else {
+    //    $('li.changeable').text('$100,000 budget').removeClass('id');
+    //  }
+    //}, 200);
+
+    setTimeout(function() {
+      $('img').removeClass('visible');
+      $('img.' + newSelectedText.toLowerCase() + '').addClass('visible');
+      if (newSelectedText == "Operations") {
         $('li.changeable').text('ACURALOUISVILLE005').addClass('id');
       } else {
         $('li.changeable').text('$100,000 budget').removeClass('id');
       }
-
-    setTimeout(function() {
       $('.selected span').text(newSelectedText);
-
-      
-    }, 60);
+      $('.table-overlay').removeClass('visible');
+      $('.totals-bar.' + newSelectedText.toLowerCase() + '').addClass('pinned');
+    }, 500);
 
   });
 

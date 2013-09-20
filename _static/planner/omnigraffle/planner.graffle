@@ -4540,7 +4540,7 @@ Est. Loss}</string>
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{764, 2403}, {55, 19}}</string>
+					<string>{{759, 2403}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4597,7 +4597,7 @@ Est. Loss}</string>
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 $8.24 cpc}</string>
+\f0\fs28 \cf2 $8.24 cpm}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -4606,7 +4606,7 @@ Est. Loss}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{764, 2331}, {55, 19}}</string>
+					<string>{{759, 2331}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4663,7 +4663,7 @@ Est. Loss}</string>
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 $3.23 cpc}</string>
+\f0\fs28 \cf2 $3.23 cpm}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -4672,7 +4672,7 @@ Est. Loss}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{764, 2256}, {55, 19}}</string>
+					<string>{{759, 2256}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4729,7 +4729,7 @@ Est. Loss}</string>
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 $7.15 cpc}</string>
+\f0\fs28 \cf2 $7.15 cpm}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -4738,7 +4738,7 @@ Est. Loss}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{764, 2184}, {55, 19}}</string>
+					<string>{{759, 2184}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4795,7 +4795,7 @@ Est. Loss}</string>
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 $1.32 cpc}</string>
+\f0\fs28 \cf2 $1.32 cpm}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -4804,7 +4804,7 @@ Est. Loss}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{764, 2112}, {55, 19}}</string>
+					<string>{{759, 2112}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4861,7 +4861,7 @@ Est. Loss}</string>
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 $0.54 cpc}</string>
+\f0\fs28 \cf2 $0.54 cpm}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -4870,7 +4870,7 @@ Est. Loss}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{764, 2040}, {55, 19}}</string>
+					<string>{{759, 2040}, {60, 19}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -4927,7 +4927,7 @@ Est. Loss}</string>
 {\colortbl;\red255\green255\blue255;\red153\green153\blue153;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qr
 
-\f0\fs28 \cf2 $0.50 cpc}</string>
+\f0\fs28 \cf2 $0.50 cpm}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -7719,7 +7719,7 @@ Ad Size}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{51.000000000000284, 2384.5000371628294}, {401.99999999999989, 54}}</string>
+			<string>{{51.000000000000284, 2384.5000371628294}, {401.99999999999989, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -7778,7 +7778,7 @@ Ad Size}</string>
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs28 \cf2 Promoted Posts - A25-54; Chicago, Houston, Akron, Tampa, Philly, St. Louis, S. Plainfield, NJ, Plano, Austin, Louisville, Buffalo, Orlando, Galveston, Denver}</string>
+\f0\fs28 \cf2 Geotarget to Low Priority Zip List}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -7923,7 +7923,7 @@ Ad Size}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{51.000000000000171, 2313.5000371628294}, {401.99999999999989, 54}}</string>
+			<string>{{51.000000000000171, 2313.5000371628294}, {401.99999999999989, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -7982,7 +7982,7 @@ Ad Size}</string>
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs28 \cf2 Promoted Posts - A25-54; Chicago, Houston, Akron, Tampa, Philly, St. Louis, S. Plainfield, NJ, Plano, Austin, Louisville, Buffalo, Orlando, Galveston, Denver}</string>
+\f0\fs28 \cf2 Custom built Brand Wrap Ad - Geo: Atlanta DMA (728x90, Wrap)}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -8176,7 +8176,7 @@ Ad Size}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{51.000000000000171, 2237.5000371628294}, {398.91896800825572, 54}}</string>
+			<string>{{51.000000000000171, 2237.5000371628294}, {398.91896800825572, 36}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -8235,7 +8235,7 @@ Ad Size}</string>
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs28 \cf2 ESPN - Poster - NFL - Rotational - Geo-targeted to Chicago, Houston, Akron, Tampa, Philly, St. Louis, S. Plainfield, NJ, Plano, Austin, Louisville, Buffalo, Orlando, Galveston, Denver}</string>
+\f0\fs28 \cf2 SB Nation One-Day Takeover - Atlanta Team Sites and Regional Hubs SBB, Reskin Wallpaper, 300x250, 728x90 Sponsorship}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -8429,7 +8429,7 @@ Ad Size}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{51.000000000000284, 2166.5000371628294}, {401.99999999999989, 54}}</string>
+			<string>{{51.000000000000284, 2166.5000371628294}, {401.99999999999989, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -8488,7 +8488,7 @@ Ad Size}</string>
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs28 \cf2 ESPN - InContent - NFL - Rotational - Geo-targeted to Chicago, Houston, Akron, Tampa, Philly, St. Louis, S. Plainfield, NJ, Plano, Austin, Louisville, Buffalo, Orlando, Galveston, Denver}</string>
+\f0\fs28 \cf2 Geotarget to High Priority Zip List}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -8682,7 +8682,7 @@ Ad Size}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{51.000000000000284, 2094.5000371628294}, {401.99999999999989, 54}}</string>
+			<string>{{51.000000000000284, 2094.5000371628294}, {401.99999999999989, 19}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -8741,7 +8741,7 @@ Ad Size}</string>
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs28 \cf2 ESPN - InContent - Fantasy Rotational - Geo-targeted to Chicago, Houston, Akron, Tampa, Philly, St. Louis, S. Plainfield, NJ, Plano, Austin, Louisville, Buffalo, Orlando, Galveston, Denver}</string>
+\f0\fs28 \cf2 Geotarget to Low Priority Zip List}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -9062,7 +9062,7 @@ Ad Size}</string>
 {\colortbl;\red255\green255\blue255;\red51\green51\blue51;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f0\fs28 \cf2 ESPN - Banner - NFL - Rotational - Geo-targeted to Chicago, Houston, Akron, Tampa, Philly, St. Louis, S. Plainfield, NJ, Plano, Austin, Louisville, Buffalo, Orlando, Galveston, Denver}</string>
+\f0\fs28 \cf2 Breaking News Email (Impressions are estmate and can vary  greatly depending on the news cycle because we like longer titles than we should)}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
 			</dict>
@@ -9178,7 +9178,7 @@ Ad Size}</string>
 \pard\pardeftab720\slleading-40
 
 \f0\b\fs28 \cf2 \expnd0\expndtw0\kerning0
-ESPN.com}</string>
+Buzz-Media.com}</string>
 						<key>VerticalPad</key>
 						<integer>0</integer>
 					</dict>
@@ -59075,7 +59075,7 @@ search}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-09-20 12:53:18 +0000</string>
+	<string>2013-09-20 13:13:08 +0000</string>
 	<key>Modifier</key>
 	<string>billy.whited</string>
 	<key>NotesVisible</key>
@@ -59185,7 +59185,7 @@ search}</string>
 		<key>SidebarWidth</key>
 		<integer>154</integer>
 		<key>VisibleRegion</key>
-		<string>{{-111, 1842}, {1470, 782}}</string>
+		<string>{{-111, 1819.5}, {1470, 782}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
