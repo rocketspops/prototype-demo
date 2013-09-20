@@ -381,6 +381,7 @@
 }
 
 .totals-bar > ul > li {
+  cursor: default !important;
   border-right: 1px solid #d6d6d6;
   float: left; 
   line-height: 1;
@@ -403,10 +404,11 @@
       width: 60px;
       &:hover { background-color: darken(#dfe6e8, 8%); }
       &.active { background-color: $centro-brand-normal; }
+      cursor: default !important;
     }
   }
   &.multi:hover {
-    cursor: pointer;
+    cursor: default !important;
   }
 }
 
