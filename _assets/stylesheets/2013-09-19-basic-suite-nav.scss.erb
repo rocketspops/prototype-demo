@@ -1,0 +1,240 @@
+@import "compass";
+@import "base";
+
+.header {
+  background: url(<%= asset_data_uri '2013-09-19-basic-suite-nav-suite-header.png' %>) no-repeat;
+  height: 175px;
+  position: relative;
+  width: 100%; 
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 20px;
+  top: 88px;
+}
+
+.header__subtitle ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.header__subtitle li {
+  color: rgb(160,160,160);
+  float: left;
+  line-height: 1;
+  margin-left: 10px;
+  &.link { 
+    color: $centro-brand-normal; 
+    cursor: pointer;
+  }
+}
+
+.header__subtitle li:before {
+  content: "";
+  margin-right: 10px;
+  border-left: 1px solid #ccc; 
+  width:1px;
+}
+
+.header__subtitle li:first-child {
+  margin-left: 0;
+  &:before { display: none; }
+}
+
+.header__nav {
+  position: absolute;
+  bottom: 1px;
+  height: 48px;
+  left: 1px;
+  width: 1218px;
+
+  overflow: hidden;
+}
+
+.header__nav ul {
+  list-style-type: none;
+}
+
+.header__nav li {
+  float: left;
+  font-size: 14px;
+}
+
+.header__nav__controls {
+  position: absolute;
+  width: 500px;
+  height: 48px;
+  right: 10px;
+  top: 0;
+  img {
+    @include transition(right 0.1s);
+    position: absolute;
+    right: -1000px;
+    top: 9px;
+    &.visible {
+      z-index: 2;
+      right: 0;
+    }
+  }
+}
+
+.contact-menu {
+  @include transition(background 0.1s);
+  left: 0;
+  right: 0;
+  position: absolute;
+  overflow: hidden;
+  line-height: 48px;
+  z-index: 10;
+  &.open { background: rgba(white, 0.8); }
+}
+
+.contact-menu .selected {
+  background: rgb(245,245,245);
+  cursor: pointer;
+  min-width: 95px;
+  padding: 0 15px;
+  position: relative;
+  text-align: center;
+  z-index: 10;
+}
+
+.contact-menu .selectable {
+  cursor: pointer;
+  margin-right: 13px;
+}
+
+.contact-menu .selectable .active {
+  color: rgb(160,160,160); 
+  cursor: not-allowed;
+}
+
+.contact-menu .selected span {
+  color: rgb(50,50,50);
+}
+
+.contact-menu .selected span:after {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #d6d6d6;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 10px 0 10px 5px;
+  content: '';
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  position: absolute;
+    right: -7px;
+    top: 14px;
+  width: 0;
+  z-index: 20;
+}
+
+.contact-menu .selected:after,
+.contact-menu .selectable li:after {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: rgb(245,245,245);
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 24px 0 24px 12px;
+  content: '';
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  position: absolute;
+    right: -12px;
+    top: 0;
+  width: 0;
+}
+
+.contact-menu .selectable li:after {
+  border-left-color: white;
+}
+
+.contact-menu .selectable li:not(.active):hover:after {
+  border-left-color: rgb(245,245,245);
+}
+
+.contact-menu .selected:before,
+.contact-menu .selectable li:before {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #d6d6d6;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 26px 0 26px 13px;
+  content: '';
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  position: absolute;
+    right: -13px;
+    top: -2px;
+  width: 0;
+}
+
+.contact-menu .selectable li {
+  @include transition(padding 0.1s, width 0.1s);
+  background: white;
+  font-size: 0;
+  padding: 0;
+  position: relative;
+  width: 0;
+  z-index: 9;
+}
+
+.contact-menu .selectable li:not(.active):hover {
+  background: rgb(245,245,245);
+}
+
+.contact-menu .selectable li:nth-child(2) { 
+  z-index: 8;
+}
+
+.contact-menu .selectable li:nth-child(3) { 
+  z-index: 7;
+}
+
+.selectable.open li {
+  padding: 0 15px 0 28px;
+  position: relative;
+  width: auto;
+  font-size: 14px;
+}
+
+.context-menu {
+  margin-left: 125px;
+  overflow: hidden;
+  height: 48px;
+}
+
+.context-menu ul {
+  background: white;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  line-height: 48px;
+  width: 500px;
+  &.visible { z-index: 2; }
+}
+
+.context-menu li:not(:last-child) {
+  margin-right: 20px;
+}
+
+.changeable {
+  background: white;
+  @include transition(width 0.1s);
+  position: relative;
+  width: 112px;
+  overflow: hidden;
+}
+
+.changeable.id {
+  font-family: "source-code-pro";
+  top: -1px;
+  width: 174px;
+}
