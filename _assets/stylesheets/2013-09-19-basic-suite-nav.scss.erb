@@ -238,3 +238,17 @@
   top: -1px;
   width: 174px;
 }
+
+.table {
+  position: relative;
+}
+
+.table img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  &.visible {
+    z-index: 1;
+  }
+}

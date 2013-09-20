@@ -17,7 +17,7 @@ $(function() {
     $('.context-menu ul').removeClass('visible');
     $('ul#' + newSelectedText.toLowerCase() + '').addClass('visible');
 
-    $('.header__nav__controls img').removeClass('visible');
+    $('img').removeClass('visible');
     $('img.' + newSelectedText.toLowerCase() + '').addClass('visible');
 
     if (newSelectedText == "Operations") {
