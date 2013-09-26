@@ -4,8 +4,10 @@ $(function() {
   $('[class*="lowfi"').removeClass('active');
   if (target == '') {
     $('#dashboard').addClass('active');
+    $('.m-wrapper').scrollTo('0');
   } else {
     $(target).addClass('active');
+    $('.m-wrapper').scrollTo('0');
   }
 
   $(window).on('hashchange', function() {
@@ -16,6 +18,7 @@ $(function() {
     } else {
       $(target).addClass('active');
     }
+    $('.m-wrapper').scrollTo('0');
   });
 
   $('.add-publisher').click(function() {
