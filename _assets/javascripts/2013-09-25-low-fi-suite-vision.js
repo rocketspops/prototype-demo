@@ -1,7 +1,7 @@
 $(function() {
 
   target = $(location).attr('hash');
-  $('[class*="lowfi"').removeClass('active');
+  $('[class*="lowfi"]').removeClass('active');
   if (target == '') {
     $('#dashboard').addClass('active');
     $('.m-wrapper').scrollTo('0');
@@ -12,7 +12,7 @@ $(function() {
 
   $(window).on('hashchange', function() {
     target = $(location).attr('hash');
-    $('[class*="lowfi"').removeClass('active');
+    $('[class*="lowfi"]').removeClass('active');
     if (target == '') {
       $('#dashboard').addClass('active');
     } else {
