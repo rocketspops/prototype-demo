@@ -159,7 +159,7 @@ p.centered {
   height: 359px;
   width: 40%;
   &:before {
-    @include background-image(linear-gradient(right, rgba(0,0,0, 0.1), rgba(0,0,0, 0)));
+    @include background-image(linear-gradient(right, rgba(50,50,50, 0.1), rgba(50,50,50, 0)));
     content: "";
     height: 100%;
     pointer-events: none;
@@ -178,11 +178,34 @@ p.centered {
   list-style-type: none;
   font-size: 14px;
   li {
+    @include pie-clearfix;
     border-bottom: 1px solid #ddd;  
     line-height: 30px;
     &:last-child {
       border-bottom: none;
     }
+    a {
+      color: $centro-brand-normal;
+      float:right;
+    }
+  }
+}
+
+.camp-sidebar div {
+  display:none;
+  position:absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  &.open {
+    display:block;
+  }
+  a.js-back {
+    font-size: 14px;   
+    color: $centro-brand-normal;
+    position:absolute;
+    top: 2px;
+    right: 0;
   }
   
 }

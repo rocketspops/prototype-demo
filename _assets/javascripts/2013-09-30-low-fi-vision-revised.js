@@ -47,7 +47,7 @@ $(function() {
   });
 
   $('.ajax-container').on('click', '.no-controls', function() {
-    $('.camp-controls').removeClass('open');
+    $('.camp-controls, .camp-sidebar').removeClass('open');
     return false;
   });
 
@@ -58,6 +58,18 @@ $(function() {
 
   $('.ajax-container').on('click', '.js-panel', function() {
     $('.camp-sidebar').toggleClass('open');
+    return false;
+  });
+
+  $('.ajax-container').on('click', '.js-pub-details', function() {
+    $('#pub-search').removeClass('open');
+    $('#pub-details').addClass('open');
+    return false;
+  });
+
+  $('.ajax-container').on('click', '.js-back', function() {
+    $('#pub-details').removeClass('open');
+    $('#pub-search').addClass('open');
     return false;
   });
 
