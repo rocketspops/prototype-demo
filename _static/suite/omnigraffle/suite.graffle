@@ -7570,9 +7570,9 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2013-09-19 14:56:36 +0000</string>
+	<string>2013-09-25 13:02:42 +0000</string>
 	<key>Modifier</key>
-	<string>billy.whited</string>
+	<string>dave.castleton</string>
 	<key>NotesVisible</key>
 	<string>NO</string>
 	<key>OriginVisible</key>
@@ -14518,13 +14518,13 @@
 			<array>
 				<dict>
 					<key>Lock</key>
-					<string>YES</string>
+					<string>NO</string>
 					<key>Name</key>
 					<string>Grid</string>
 					<key>Print</key>
 					<string>YES</string>
 					<key>View</key>
-					<string>NO</string>
+					<string>YES</string>
 				</dict>
 				<dict>
 					<key>Lock</key>
@@ -20240,7 +20240,7 @@
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>ExpandedCanvases</key>
 		<array>
 			<dict>
