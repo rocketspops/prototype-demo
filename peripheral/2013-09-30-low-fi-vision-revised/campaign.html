@@ -1,0 +1,56 @@
+<div class="camp-header">
+  <a href="#dashboard" class="home js-trigger"></a>
+  <div class="camp-controls open">
+    <a style="margin-right: 10px;" class="js-panel button" href="#">Add Publishers</a
+    ><a class="js-overlay-trigger button" href="#">Edit Media Brief</a>
+  </div>
+  <div class="camp-nav">
+    <ul class="active">
+      <li class="active"><a class="has-controls" href="#planning">Planning</a></li>
+      <li><a class="no-controls" href="#analytics">Analytics</a></li>
+      <li><a class="no-controls" href="#billing">Billing</a></li>
+    </ul>
+  </div>
+</div>
+<div class="camp-content">
+  <div>
+    <p id="planning" class="centered main active">List of Publishers and Recommendations (based on Media Brief)</p>
+    <p id="analytics" class="centered">Delivery Information</p>
+    <p id="billing" class="centered">Billing Detail</p>
+  </div>
+  <div class="camp-sidebar">
+    <div class="open">
+      <input readonly placeholder="Search pulishers..." type="text" />
+      <ul>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+        <li>Publisher search result <a href="#">Details</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="overlay">
+  <div class="overlay__container">
+    <h3>Media Brief</h3>
+    <form action="">
+      <input readonly placeholder="Campaign name" type="text" />
+      <textarea readonly placeholder="Summary, ID, flight dates, etc." id="" name="" ></textarea>
+      <textarea readonly placeholder="Details, target demographics, positioning, etc." id="" name=""></textarea>
+      <div style="line-height: 1; margin-bottom: 24px;">
+        <input checked type="checkbox" />
+        <label for="">Include Recommendations</label>
+      </div> 
+      <div style="font-size: 14px;">
+        <a class="button js-close" style="margin-right: 5px;">Save</a
+          ><span style="margin-right: 5px;">or</span
+          ><a class="js-close" style="color:red;" href="#">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>

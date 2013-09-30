@@ -11,7 +11,7 @@ $(function() {
   }
 
   $(window).on('hashchange', function() {
-    target = $(location).attr('hash');
+    target = $(location).attr('hash').replace('#','');
     $('[class*="lowfi"]').removeClass('active');
     if (target == '') {
       $('#dashboard').addClass('active');
