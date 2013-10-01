@@ -1,29 +1,35 @@
 $(function() {
+
+  if ($(location).attr('hostname') == 'localhost') {
+    var path = '';
+  } else {
+    var path = '/product-design';
+  }
   
+  console.log(path);
+
   if ($(location).attr('hash') == '') { 
     $(location).attr('hash', 'dashboard');
-    $.get( "/peripheral/2013-09-30-low-fi-vision-revised/dashboard.html", function( data ) {
+    $.get(path + "/peripheral/2013-09-30-low-fi-vision-revised/dashboard.html", function( data ) {
       $(".ajax-container").html(data);
     });
   }
 
   window.onpopstate = function() {
     var target = $(location).attr('hash').replace('#','');
-    console.log(target);
-    $.get( "/peripheral/2013-09-30-low-fi-vision-revised/" + target + ".html", function( data ) {
+    $.get(path + "/peripheral/2013-09-30-low-fi-vision-revised/" + target + ".html", function( data ) {
       $(".ajax-container").html(data);
     });
   };
 
   $('.ajax-container').on('click', '.js-trigger', function() { 
     var target = $(this).attr('data-target');
-    $.get( "/peripheral/2013-09-30-low-fi-vision-revised/" + target + ".html", function( data ) {
+    $.get(path + "/peripheral/2013-09-30-low-fi-vision-revised/" + target + ".html", function( data ) {
       $(".ajax-container").html(data);
     });
   });
 
   $('.ajax-container').on('change', '.onoffswitch-checkbox', function() {
-    console.log('test');
     $('.dash-nav ul, p.main').toggleClass('active');
   }); 
 
@@ -59,6 +65,10 @@ $(function() {
   $('.ajax-container').on('click', '.js-panel', function() {
     $('.camp-sidebar').toggleClass('open');
     return false;
+  });
+
+  $(document).keyup(function(e) {
+    if (e.keyCode == 27) { $('.camp-sidebar').removeClass('open'); }  
   });
 
   $('.ajax-container').on('click', '.js-pub-details', function() {

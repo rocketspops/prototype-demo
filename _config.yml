@@ -17,6 +17,7 @@ assets:
   - _assets/javascripts
   - _assets/javascripts/vendor
   - _assets/stylesheets
+  - _assets/fonts
   - _assets/images
   - _assets/images/2013-07-12-messaging-redux
   - _assets/images/2013-07-16-auth-user-admin
