@@ -415,11 +415,8 @@ body,
 input {
   color: rgb(50,50,50);
   font-family: "source-sans-pro";
+  text-rendering: optimizeLegibility;
 }
-
-a       { color:  #6dc0e6; }
-a:hover { text-decoration: underline; }
-a:focus { outline: none; }
 
 p, 
 ul {

@@ -9,9 +9,11 @@ $(function() {
   $('.messages-container').not('.linked').resizable({
     resize: function( event, ui ) { 
       var topOffset = $('.top').outerHeight();
-      $('.table-container').css('top', topOffset + 30 + 'px');
+      $('.table-container').css('top', topOffset + 'px');
       console.log("resizing!"); 
-    } 
+    },
+    minHeight: 225,
+    handles: "s"
   });
 
   $('[class^="table-trigger"], [class^="tooltip-trigger"]').click(function() {
@@ -62,7 +64,7 @@ $(function() {
 var toggleMessages = function () {
   $('.messages-container').toggle( 0, function() {
     var topOffset = $('.top').outerHeight();
-    $('.table-container').css('top', topOffset + 30 + 'px');
+    $('.table-container').css('top', topOffset + 'px');
     console.log(topOffset);
   });
 }

@@ -1,11 +1,8 @@
 
-.ad-server-button { padding-top: 10px; }
-
 /* @group Header */
 
 .header {
   background: url(<%= asset_data_uri '2013-08-06-ad-server-management-header_snippet.png' %>) no-repeat;
-  margin: 100px auto 0;
   position: relative;
   height: 96px;
   width: 561px;
@@ -28,7 +25,7 @@
 /* @group Overlay */
 
 .overlay {
-  background: rgba(255,255,255, 0.9);
+  background: rgba(255,255,255, 0.8);
   display: none;
   height: 100%;
   font-size: 0;
@@ -85,10 +82,14 @@
   margin-bottom: 10px;
 }
 
+.overlay__row-wrapper li:last-child {
+  margin-bottom: 0;
+}
+
 .overlay__row-wrapper .close {
   position: absolute;
-  top: 8px;
-  left: 651px;
+  top: 7px;
+  left: 650px;
   height: 15px;
   width: 15px;
 }
@@ -134,15 +135,15 @@
 .tooltip--edit {
   height: 16px;
   left: 286px;
-  top: 142px;
+  top: 141px;
   width: 30px;
 }
 
 .tooltip--notes {
-  left: 178px;
-  top: 165px;
+  left: 177px;
+  top: 164px;
   height: 16px;
-  width: 17px;
+  width: 16px;
 }
 
 .tooltip--img {
@@ -205,13 +206,14 @@
   font-size: 1rem;
   padding: 0px;
   position: absolute;
+  z-index: 100;
 }
 
 .ui-state-focus {
   background: #00a6da;
   border-radius: 0;
   border: none;
-  color: white;
+  color: white !important;
 }
 
 .ui-helper-hidden-accessible { display: none; }

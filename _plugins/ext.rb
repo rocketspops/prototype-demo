@@ -1,4 +1,3 @@
 require 'jekyll-assets'
-require "sprockets"
-
-Sprockets.append_path "/css/"
+require 'animation'
+require "jekyll-assets/compass"

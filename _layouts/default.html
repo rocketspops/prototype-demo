@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="{{ 'favicon.png' | asset_path }}" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ 'default.css' | asset_path }}" />
     {% for stylesheet in page.custom_css %}
@@ -13,8 +15,10 @@
     {% endfor %}
     <script src="//use.typekit.net/ysf1fwm.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    {% include analytics.html %}
   </head>
   <body>
     {{ content }}
+    {% include comments_count.html %}
   </body>
 </html>

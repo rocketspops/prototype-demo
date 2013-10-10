@@ -1,0 +1,147 @@
+---
+layout:      default
+title:       Basic Suite Navigation 
+thumbnail:   2013-09-19-basic-suite-nav-thumbnail.png
+category:    suite
+tags:        low-level
+comments:    true
+custom_css:  [2013-09-19-basic-suite-nav.css]
+custom_js:   [2013-09-19-basic-suite-nav.js]
+---
+
+{% include breadcrumbs.html %}
+
+<div class="m-wrapper">
+  <div style="width: 1220px;">
+    <div class="header">
+      <div class="header__subtitle">
+          <ul>
+            <li class="changeable">$100,000 budget</li>
+            <li class="link">Campaign Details</li>
+            <li class="link">Recent Activity</li>
+          </ul>
+        </div>
+      <div class="header__nav">
+        <ul class="contact-menu">
+          <li class="selected"><span>Planning</span><p class="clickable"></p></li>
+          <li class="selectable">
+            <ul>
+              <li>Planning</li>
+              <li>Operations</li>
+              <li>Billing</li>
+            </ul>
+          </li>
+        </ul>
+        <div class="context-menu">
+          <ul id="planning" class="visible">
+            <li>Plan Item (1)</li>
+            <li class="active">Plan Item (2)</li>
+            <li>Plan Item (3)</li>
+            <li>Plan Item (4)</li>
+          </ul>
+          <ul id="operations">
+            <li class="active">All (5)</li>
+            <li>Live (0)</li>
+            <li>Issues (1)</li>
+            <li>Completed (5)</li>
+          </ul>
+          <ul id="billing">
+            <li>Bill Item (1)</li>
+            <li>Bill Item (2)</li>
+            <li class="active">Bill Item (3)</li>
+            <li>Bill Item (4)</li>
+          </ul>
+        </div>
+        <div class="header__nav__controls">
+          <img class="planning visible" src="{{ '2013-09-19-basic-suite-nav-planner-controls.png' | asset_path }}" alt="" />
+          <img class="operations" src="{{ '2013-09-19-basic-suite-nav-luxo-controls.png' | asset_path }}" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="table">
+          <img class="planning visible" src="{{ '2013-09-19-basic-suite-nav-planner-table.png' | asset_path }}" alt="" />
+          <img class="operations" src="{{ '2013-09-19-basic-suite-nav-luxo-table.png' | asset_path }}" alt="" />
+      </div>
+      <div class="table-overlay">
+        <p>Loading&hellip;</p>
+      </div>
+      <div class="totals-bar pinned planning">
+        <input id="search" type="text" placeholder="Search placements by name…" />
+        <ul>
+          <li class="single loss">
+            <span class="num">13,725,490</span>
+            <span class="unit">imps</span>
+          </li>
+          <li class="single delivered">
+            <p class="active imps">
+              <span class="num">$9.00</span>
+              <span class="unit">cost</span>
+            </p>
+          </li>
+          <li class="pacing">
+            <span class="num">$74,849.40</span>
+            <span class="unit">total</span>
+          </li>
+          <li class="pushpin">
+            <a class="active" href="#">
+              <img src="{{ '2013-09-09-campaign-totals-pushpin.png' | asset_path }}" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="totals-bar operations">
+        <input id="search" type="text" placeholder="Search placements by name…" />
+        <ul>
+          <li class="multi contract">
+            <ul class="wayfinder">
+              <li class="active"></li>
+              <li></li>
+            </ul>
+            <p class="active imps">
+              <span class="num">7,597,450</span>
+              <span class="unit">imps</span>
+            </p>
+            <p class="clicks">
+              <span class="num">0</span>
+              <span class="unit">clicks</span>
+            </p>
+          </li>
+          <li class="single loss">
+            <span class="num">$9,214.45</span>
+            <span class="unit">est. loss</span>
+          </li>
+          <li class="multi delivered">
+            <ul class="wayfinder">
+              <li class="active"></li>
+              <li></li>
+            </ul>
+            <p class="active imps">
+              <span class="num">6,916,319</span>
+              <span class="unit">imps</span>
+            </p>
+            <p class="clicks">
+              <span class="num">0</span>
+              <span class="unit">clicks</span>
+            </p>
+          </li>
+          <li class="pacing">
+            <span class="num">91.0%</span>
+            <span class="unit">pacing</span>
+          </li>
+          <li class="pushpin">
+            <a class="active" href="#">
+              <img src="{{ '2013-09-09-campaign-totals-pushpin.png' | asset_path }}" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+{% include comments.html %}

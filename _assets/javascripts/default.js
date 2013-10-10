@@ -3,15 +3,16 @@
 
 $(function() {
 
-$(".m-comments__count").click( function () {
-  $(".m-comments").toggle();
-  if (this.text == "Show Comments") {
-    $(this).text("Hide Comments");
-  } else {
-    $(this).text("Show Comments");
-  }
-  return false;
-});
+  $(".m-comments__count").click( function () {
+    $(this).toggleClass('s-is-active');
+    $(".m-comments").toggleClass('s-is-visible');
+    return false;
+  });
 
+ $('#disqus_thread iframe').css({
+    'height': '327px',
+    'height': 'auto !important',
+    'min-height': '327px'
+  });
 
 });

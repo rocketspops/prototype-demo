@@ -3,15 +3,23 @@ layout:      default
 title:       Centro Prototypes
 tags:        [top-level, ignore]
 ---
-
-{% include breadcrumbs.html %}
-
-<ul class="m-posts-roll">
-  {% for page in site.pages %}
-    {% unless page.tags contains 'ignore' %}
-      <li>
-        <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }} ({{ site.categories.[page.category] | size }})</a>
-      </li>
-    {% endunless %}
-  {% endfor %}
-</ul>
+<div class="m-index-container--centered">
+  {% include breadcrumbs.html %}
+  <ul class="m-index-roll">
+    {% for page in site.pages %}
+    {% assign post_count = site.categories.[page.category] | size %}
+      {% unless page.tags contains 'ignore' or post_count == 0 %}
+        <li>
+          <a href="{{ site.baseurl }}{{ page.url }}">
+            {{ page.title }}
+            <div class="m-index-roll__stats">
+              <span class="m-index-roll__count">
+                {% for item in site.categories.[page.category] %}<i>l</i>{% endfor%}
+              </span>
+            </div>
+          </a>
+        </li>
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</div>

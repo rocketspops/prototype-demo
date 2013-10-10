@@ -1,0 +1,193 @@
+@import "compass";
+@import "compass/css3/user-interface";
+@import "base";
+
+.table {
+ list-style-type: none;
+ height: 425px;
+ width: 100%;
+ overflow-x: hidden;
+}
+
+.highlight {
+  color: $centro-brand-normal; 
+  font-weight: 600;
+}
+
+.table li { 
+  border-top: 1px solid #dde6e8; 
+  height: 70px; 
+  position: relative;
+  &:first-child,
+  &.no-border { border-top: none; }
+  &.row1 { background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-1.png' %>) no-repeat; }
+  &.row2 { background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-2.png' %>) no-repeat; }
+  &.row3 { background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-3.png' %>) no-repeat; }
+  &.row4 { background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-4.png' %>) no-repeat; }
+  &.row5 { background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-5.png' %>) no-repeat; }
+  &.row6 { background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-6.png' %>) no-repeat; }
+  &.header-row { 
+    background: url(<%= asset_data_uri '2013-09-09-campaign-totals-row-header.png' %>) no-repeat;
+    height: 31px;
+  }
+  &.subtotals-row { 
+    background: url(<%= asset_data_uri '2013-09-09-campaign-totals-subtotals-row.png' %>) no-repeat;
+    height: 70px;
+    border-top: none;
+  }
+  &.add-scroll-room,
+  &.add-search-scroll-room { margin-bottom: 60px; }
+  > span {
+    font-size: 14px;
+    color:#1d4851; 
+    position: absolute;
+    top: 8px;
+    &.name       { left: 40px; }
+    &.contracted { right: 411px; }
+    &.loss       { right: 313px; }
+    &.delivered  { right: 212px; }
+  }
+}
+
+.header-row:not(.hidden) + [class*='row'] { border-top: none; }
+
+.totals-trigger {
+  background: transparent;
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  bottom: 0px;
+}
+
+.totals-bar {
+  @include transition(bottom ease 0.25s 0s);
+  background: white;
+  border-top: 1px solid darken(#dce3e5, 2%);
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  bottom: -70px;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  &.stick,
+  &.pinned {
+    bottom:0px !important;
+  }
+}
+
+.totals-trigger:hover + .totals-bar,
+.totals-bar:hover {
+  @include transition(bottom ease 0.25s 0.25s);
+  bottom: 0px;
+}
+
+.totals-bar:before {
+  @include background-image(linear-gradient(bottom, rgba(3,37,48,0.1), rgba(3,37,48,0)));
+  content: "";
+  pointer-events: none;
+  position: absolute;
+    left: 0;
+    top: -9px;
+  height: 8px;
+  width: 100%;
+  z-index: 0;
+}
+
+.totals-bar input {
+  border: none;
+  background: transparent;
+  color: $centro-brand-normal; 
+  font-size:  20px;
+  font-weight: 300;
+  outline: none;
+  padding: 0 15px;
+  vertical-align: middle;
+  width: 695px;
+}
+
+.totals-bar input::-webkit-input-placeholder { color: #b2c4c9; }
+.totals-bar input:-moz-placeholder {color: #b2c4c9; }
+.totals-bar input::-moz-placeholder { color: #b2c4c9;  }
+
+
+.totals-bar > ul {
+ border-left: 1px solid #dce3e5;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.totals-bar > ul > li {
+  border-right: 1px solid #dce3e5;
+  float: left; 
+  line-height: 1;
+  padding: 13px 15px 0 0;
+  position: relative;
+  height: 60px;
+  &.pacing { width: 100px; }
+  &.delivered,
+  &.loss { width: 99px; }
+  &.contract { width: 128px; }
+  &.pushpin { 
+    border: none;
+    padding: 0; width: 97px; 
+    text-align: center;
+    a { 
+      background-color: #dfe6e8;
+      display: inline-block; 
+      width: 60px;
+      &:hover { background-color: darken(#dfe6e8, 8%); }
+      &.active { background-color: $centro-brand-normal; }
+    }
+  }
+  &.multi:hover {
+    cursor: pointer;
+  }
+}
+
+.totals-bar > ul > li > p {
+  @include user-select(none);
+  display: none;
+  &.active { display: block; }
+}
+
+.totals-bar > ul > li span {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+}
+
+.totals-bar > ul > li span.num {
+  color: #1d4851;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 0 0 1px 0;
+}
+
+.totals-bar > ul > li span.unit {
+  color: #6c8993; 
+}
+
+ul.wayfinder {
+  list-style-type: none;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+}
+
+ul.wayfinder li {
+  @include border-radius(50%);
+  background-color: #dfe6e8;
+  height: 6px;
+  width: 6px;
+  margin-bottom: 4px;
+  &.active {
+    background-color: $centro-brand-normal;
+  }
+}
+
+input:focus + .clickable {
+  display: none;
+}

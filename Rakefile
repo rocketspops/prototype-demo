@@ -24,7 +24,7 @@ end
 def ensure_assets_exist(post_name)
   FileUtils.mkdir_p image_dir(post_name)
   FileUtils.touch   "_assets/javascripts/#{post_name}.js"
-  FileUtils.touch   "_assets/stylesheets/#{post_name}.scss"
+  FileUtils.touch   "_assets/stylesheets/#{post_name}.scss.erb"
 end
 
 def manage_images(post_name)

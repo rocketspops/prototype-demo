@@ -1,0 +1,357 @@
+@import "compass";
+@import "base";
+
+ul { 
+ list-style-type: none;
+}
+
+.header {
+  border: 1px solid rgb(140,140,140); 
+  position: relative;
+  a.trigger {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 62px;
+    top: 0;
+  }
+}
+
+.tooltip {
+  background: url(<%= asset_data_uri '2013-09-16-reminders-tooltip-background.png' %>) no-repeat;
+  outline: none;
+  font-size: 14px;
+  height: 471px; 
+  width: 618px;
+  overflow: hidden;
+  position: relative;
+    top: 6px;
+    left: 144px;
+}
+
+.tooltip-header {
+  width: 608px;
+  height: 48px;
+  border-bottom: 1px solid rgb(220,220,220);
+  position: relative;
+  left: 5px;
+  top: 10px;
+}
+
+.tooltip-header > ul {
+  color: rgb(180,180,180);
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 20px;
+  padding-left: 15px;
+  li { 
+    cursor: pointer;
+    float: left; 
+    line-height: 48px;
+    margin-right: 15px;
+    position: relative;
+    &:last-child { margin: 0; }
+    &.active { color: $centro-gray-1; }
+    &.active:after { 
+      content: url(<%= asset_data_uri '2013-09-16-reminders-triangle-carat.png' %>);
+      height: 8px;
+      position: absolute;
+      bottom: -1px;
+      margin-left: -6px;
+      left: 50%;
+      line-height: 0;
+      width: 12px; 
+    }
+  }
+}
+
+.tooltip-sidebar {
+  border-right: 1px solid rgb(210,210,210);
+  color: rgb(160,160,160);
+  float: left;
+  display: inline-block;
+  position: relative;
+    left: 5px;
+    top: 10px;
+  height: 406px;
+  width: 223px;
+}
+
+.tooltip-sidebar > div {
+  background: rgb(240,240,240);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  &.active { z-index: 10; }
+}
+
+.tooltip-sidebar button {
+  @include background(linear-gradient(white, rgb(220,220,220)));
+  @include border-radius(3px);
+  color: rgb(80,80,80);
+  border: 1px solid rgb(180,180,180);
+  padding: 4px 8px;
+  position: absolute;
+  bottom: 15px;
+  &:active { background: rgb(220,220,220); }
+}
+
+.tooltip-nav, 
+.tooltip-nav ul { list-style-type: none; }
+
+.tooltip-nav > li li a { color: rgb(160,160,160); }
+
+.tooltip-nav > li li a:hover, 
+.tooltip-nav > li:not(.locked) span:hover { color: rgb(120,120,120); }
+
+.tooltip-nav > li {
+  cursor: pointer;
+  position: relative;
+  padding-left: 8px;
+}
+
+.tooltip-nav > li:not(.closed) .total { display: none; }
+
+.tooltip-nav > li:after {
+  background: url(<%= asset_data_uri '2013-09-16-reminders-direction-arrows.png' %>) no-repeat center 2px;
+  content: "";
+  height: 9px;
+  overflow: hidden;
+  position: absolute;
+  top: 7px;
+  left: -5px;
+  width: 9px;
+  text-align: center;
+}
+
+.tooltip-nav > li.closed:after { background-position: center -7px; }
+.tooltip-nav > li.closed > ul { display: none; }
+
+.tooltip-nav li, 
+.tooltip-nav ul li { line-height: 24px; }
+
+.tooltip-nav ul { margin-left: 20px; }
+
+.tooltip-nav ul li {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 0;
+  cursor: pointer;
+
+  a { 
+    display: block; 
+    overflow: hidden;
+  }
+
+  &.active { 
+    background: rgb(220,220,220); 
+    border-color: rgb(210,210,210);
+    margin: 0 -15px 0 -43px;
+    padding-right: 15px;
+    padding-left: 43px;
+    a, 
+    span { color: rgb(50,50,50); }
+  }
+}
+
+.tooltip-main {
+  height: 406px;
+  width: 385px;
+  position: relative;
+  right: 5px;
+  top: 10px;
+  float:right;
+}
+
+.tooltip-main div {
+  background: white;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}             
+
+.tooltip-main .is-visible {
+  z-index: 10;
+}
+
+ul.to-dos li {
+  @include transition(background-color ease 1s);
+  border-bottom: 1px solid rgb(220,220,220);
+  padding: 7px 0 6px 10px;
+  position: relative;
+}
+
+ul.to-dos li > input[type="checkbox"] {
+  cursor: pointer;
+  position: absolute;
+  left: 10px;
+  top: 8px;
+}
+
+ul.to-dos li > label {
+  display: block;
+  cursor: pointer;
+  line-height: 16px;
+  padding: 0 15px 0 22px;
+  &.checked {
+    color: rgb(180,180,180);
+    text-decoration: line-through;
+  }
+  span {
+    display: block;
+  }
+}
+
+.counter,
+.total{
+  float: right;
+}
+
+.camp-id {
+  color: rgb(180,180,180);
+  line-height: 1;
+}
+
+.info {
+  color: rgb(180,180,180);
+  font-size: 12px;
+  position: absolute;
+  top: 6px;
+  right: 15px;
+}
+
+.alert {
+  font-size: 12px;
+  color: $centro-bright;
+  position: absolute;
+  bottom: 4px;
+  right: 15px;
+}
+
+#empty {
+  text-align: center;
+}
+
+#empty > div {
+  position: absolute;
+  top: 50%;
+  height: 50px;
+  margin-top: -35px;
+  color: rgb(160,160,160);
+  .main {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.type {
+  width: 270px;
+}
+
+.delete {
+  background: url(<%= asset_data_uri '2013-08-07-ad-server-mapping-delete-button.png' %>) no-repeat center -7px;
+  position: absolute;
+  top: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+.delete:hover {
+  background-position: center -30px;
+}
+
+textarea {
+  background: white;
+  border: 1px solid rgb(210,210,210);
+  outline: none;
+  resize: none;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  height: 126px;
+  line-height: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  display: block;
+}
+
+select {
+  @include border-radius(0);
+  background: white url(<%= asset_data_uri '2013-09-16-reminders-dropdown.png' %>) no-repeat 96% center;
+  border: 1px solid rgb(210,210,210);
+  outline: none;
+  line-height: 30px;
+  margin-bottom: 12px;
+  padding: 0 8px;
+  width: 100%;
+  -webkit-appearance: textfield;
+  -moz-apparence: textfield;
+  color: rgb(160,160,160);
+  cursor: pointer;
+}
+
+textarea,
+input[type="text"],
+select {
+  &:focus { border-color: $centro-brand-normal; }
+  &.error {
+    border-color: $centro-bright;
+  }
+}
+
+select.changed {
+  color: rgb(50,50,50);
+}
+
+
+
+input[type="text"] {
+  border: 1px solid rgb(210,210,210);
+  outline: none;
+  padding: 5px 8px;
+  margin-bottom: 12px;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.text-delete {
+  color: rgb(160,160,160);
+  float: right;
+  position: relative;
+  top: 5px;
+  &:hover {
+    color: $centro-bright;
+  }
+}
+
+#day,
+#date { 
+  display: none; 
+  &.is-visible { display: block; }
+}
+
+#sidebar-create button {
+  position: static;
+}
+
+.total-reminder-count {
+  background: #969696;
+  color: white;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  font-size: 10px;
+  line-height: 1;
+  padding: 0 1px;
+  z-index: 10;
+}
+
+.newly-added {
+  background-color: #fef9eb;
+}

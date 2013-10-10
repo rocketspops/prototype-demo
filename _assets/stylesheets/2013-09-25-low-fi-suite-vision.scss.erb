@@ -1,0 +1,270 @@
+@import "compass";
+@import "base";
+
+//.m-wrapper {
+//   height: 100%;
+//   margin-top: -45px;
+//   padding-top: 45px;
+// }
+
+[class*="lowfi"] {
+  background: white;
+  display: none;
+  position: absolute;
+  &.active { display: block; }
+}
+
+[class*="lowfi"] img:not(.flyout) {
+  width: 100%;
+  padding: 0 0 45px 0;
+}
+
+[class*="lowfi"] a {
+  position: absolute;
+}
+
+
+
+.lowfi-dashboard a {
+  right: 41px;
+  top: 88px;
+  height: 60px;
+  width: 135px;
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+}
+
+a.next {
+  bottom: 80px;
+  left: 29px;
+  width: 155px;
+  height: 80px;
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+}
+
+a.generate {
+  bottom: 45px;
+  left: 18px;
+  width: 190px;
+  height: 70px;
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+  &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+}
+
+div#research {
+  overflow: hidden;
+  position: relative; 
+
+  img.flyout {
+    @include transition(right 0.5s);
+    cursor: pointer;
+    position: absolute;
+    top: 253px;
+    right: -500px;
+    height: 700px;
+    z-index: 100;
+    &.active { z-index: 101; }
+    &.open { right: 0; }
+  } 
+
+  a.planning {
+    top: 206px;
+    left: 245px;
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.analytics {
+    top: 207px;
+    left: 394px;
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.billing {
+    top: 204px;
+    left: 541px;
+    width: 118px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.add-publisher {
+    @include rotate(2deg);
+    top: 269px;
+    left: 19px;
+    width: 305px;
+    height: 72px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.rfp-all {
+    @include rotate(-2deg);
+    top: 277px;
+    right: 19px;
+    width: 171px;
+    height: 70px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+}
+
+div#planning {
+
+  a.research {
+    top: 200px;
+    left: 32px;
+    width: 132px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.analytics {
+    top: 205px;
+    left: 372px;
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.billing {
+    top: 207px;
+    left: 537px;
+    width: 110px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+   a.io-all {
+    @include rotate(-2deg);
+    top: 281px;
+    right: 20px;
+    width: 135px;
+    height: 60px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+}
+
+div#analytics {
+
+  a.research {
+    top: 192px;
+    left: 29px;
+    width: 132px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.planning {
+    top: 194px;
+    left: 207px;
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.billing {
+    top: 191px;
+    left: 547px;
+    width: 115px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.revise {
+    @include rotate(-2deg);
+    top: 258px;
+    right: 69px;
+    width: 135px;
+    height: 60px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+}
+
+div#billing {
+
+  position: relative;
+
+  img.tab {
+    cursor: pointer;
+    position: absolute;
+    bottom: 179px;
+    left: 0;
+    z-index: 100;
+    display: none;
+    &.open { display: block; }
+  }
+
+  a.research {
+    top: 189px;
+    left: 26px;
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.planning {
+    top: 192px;
+    left: 197px;
+    width: 132px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.analytics {
+    top: 191px;
+    left: 368px;
+    width: 129px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+
+  a.invoices-tab {
+    top: 266px;
+    left: 185px;
+    width: 123px;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.25);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    &:active { box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+  }
+}
