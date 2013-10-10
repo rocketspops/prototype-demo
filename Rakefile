@@ -12,7 +12,7 @@ require 'yaml'
 #
 desc "Generate folders and rename assets to match the name of the associated post"
 task :generate do
-  post_names = Dir.entries("_posts").select { |x| x.include?(".html") }.map { |x| x.sub(".html", "") }
+  post_names = Dir.entries("_posts").reject { |x| x.end_with?(".swp") }.select { |x| x.include?(".html") }.map { |x| x.sub(".html", "") }
   post_names.each do |post_name|
     ensure_assets_exist(post_name)
     manage_images(post_name)
