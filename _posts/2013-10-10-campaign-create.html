@@ -1,0 +1,96 @@
+---
+layout:      default
+title:       Campaign Create
+thumbnail:   thumbnail.png
+category:    suite
+tags:        low-level
+comments:    true
+custom_css:  [2013-10-10-campaign-create.css]
+custom_js:   [2013-10-10-campaign-create.js]
+---
+
+{% include breadcrumbs.html %}
+
+<div class="m-wrapper">
+  <div style="width: 1200px;">
+
+    <div class="header">
+      <a class="new-campaign-button" href="#">
+      </a>
+    </div>
+
+    <div class="overlay">
+      <div class="overlay__container">
+        <a href="#" class="overlay__close">
+        </a>
+        
+        <div class="overlay__header">
+          <h1>New Campaign</h1>
+          <ul class="overlay__nav">
+            <li class="s-is-current">
+              <a href="#" id="basic-info">Basic Info</a>
+            </li>
+            <li>
+              <a href="#" id="targeting">Targeting</a>
+            </li>
+            <li>
+              <a href="#" id="requirements">Requirements</a>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="overlay__body">
+          <div class="l-left form__field campaign-name">
+            <label class="form__label">Campaign Name</label>
+            <input class="form__input" id="js-input" type="text" />
+          </div>
+          <div class="l-left form__field unique-id">
+            <label class="form__label">Unique ID</label>
+            <input class="form__input" id="js-input" type="text" />
+          </div>
+          <div class="form__field">
+            <label class="form__label">Client</label>
+            <input class="form__input" id="js-input" type="text" />
+          </div>
+
+          <div class="form__field flight-dates">
+            <label class="form__label">Flight Date</label>
+            <div class="flight-date">
+              <div class="date-range">
+                <span class="i-datepicker"></span>
+                <input class="form__input form__datepicker" placeholder="Date" id="js-input" type="text" />
+              </div>
+              <span class="range">-</span>
+              <div class="date-range">
+                <span class="i-datepicker"></span>
+                <input class="form__input form__datepicker" placeholder="Date" id="js-input" type="text" />
+              </div>
+            </div>
+            <a href="#" id="add-flight-date" class="design-link">Add another set</a>
+          </div>
+
+          <div class="form__field account-team">
+            <label class="form__label">Account Team</label>
+            <div>
+              <a href="#" id="add-tag" class="l-right button input-hug">Add</a>
+              <span style="display: block; overflow: hidden;">
+                <input class="form__input" id="js-input" type="text" />
+              </span>
+            </div>
+            <div id="tag-group">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="overlay__footer">
+          <button class="l-left button--primary" id="js-button create-campaign" type="submit">Create</button>
+          <a class="l-right button" id="cancel-campaign" href="#">Cancel</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include comments.html %}

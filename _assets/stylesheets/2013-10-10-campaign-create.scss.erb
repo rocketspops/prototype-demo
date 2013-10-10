@@ -1,0 +1,297 @@
+@import "compass";
+
+// layout styles 
+// -----------------------------------------------------------
+.l-left {
+  float: left;
+}
+
+.l-right {
+  float: right;
+}
+
+// header
+// -----------------------------------------------------------
+.header {
+  background: url(<%= asset_data_uri '2013-10-10-campaign-create-dashboard-header-normal.png' %>) no-repeat;
+  height: 205px;
+  width: 1200px;
+  position: relative;
+}
+
+.header--new-campaign-bg {
+  background-image: url(<%= asset_data_uri '2013-10-10-campaign-create-new-campaign-header.png' %>) !important;
+  background-size: 100%;
+}
+
+
+// buttons
+// -----------------------------------------------------------
+.new-campaign-button {
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 1px;
+  width: 96px;
+  height: 96px;
+  background: url(<%= asset_data_uri '2013-10-10-campaign-create-plus-icon.png' %>) center no-repeat;
+  border-left: 1px solid #dbdbdb;
+  font-size: 14px;
+  &:hover {
+    background-color: rgb(240,240,240);
+  }
+}
+
+.button {
+  @include border-radius(3px);
+  @include background-image (linear-gradient(lighten(rgb(220, 227, 229), 10%), rgb(220, 227, 229)));
+  position: relative;
+  padding: 5px 6px;
+  font-size: 14px;
+  line-height: normal;
+  color: rgb(65, 82, 88);
+  text-shadow: hsla(100, 0%, 100%, 0.5);
+  border: 1px solid darken(rgb(220, 227, 229), 15%);
+  &:hover {
+    color: darken(rgb(65, 82, 88), 5%);
+  }
+}
+
+.button--primary {
+  @extend .button;
+  @include background-image (linear-gradient(lighten(rgb(0, 164, 219), 10%), rgb(0, 164, 219)));
+  color: white;
+  text-shadow: hsla(0, 0%, 0%, 0.2);
+  border: 1px solid darken(rgb(0, 164, 219), 4%);
+
+  &:hover {
+    color: white;
+  }
+}
+
+.input-hug {
+  @include border-left-radius(0);
+}
+
+.design-link {
+  color: rgb(0, 164, 219);
+
+  &:hover {
+    color: lighten(rgb(0, 164, 219), 5%);
+    text-decoration: underline;
+  }
+}
+
+// overlay
+// -----------------------------------------------------------
+.overlay {
+  background: rgba(255,255,255, 0.8);
+  display: none;
+  height: 100%;
+  font-size: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.overlay:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.overlay__container {
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+  display: inline-block;
+  border: 1px solid #CBCBCB;
+  background-color: white;
+  font-size: 1rem;
+  vertical-align: middle;
+  width: 500px;
+  position: relative;
+  text-align: left;
+}
+
+.overlay__header {
+  margin-bottom: 18px;
+  padding: 20px 20px 0 20px;
+  border-bottom: 1px solid rgb(204,204,204);
+}
+
+.overlay__close {
+  background: url(<%= asset_data_uri '2013-08-16-campaign-notes-delete-btn.png' %>) no-repeat center center;
+  position: absolute;
+  width: 14px;
+  top: 10px;
+  height: 14px;
+  right: 8px;
+}
+
+.overlay__header h1 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0 0 18px;
+}
+
+.overlay__nav {
+  list-style: none;
+  font-size: 0;
+}
+
+.overlay__nav > li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 14px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+
+  &.s-is-current {
+    &:after {
+      display: block;
+      content: " ";
+      width: 100%;
+      height: 4px;
+      background: rgb(216,216,216);
+      border: 1px solid rgb(204,204,204);
+    }
+  }
+}
+
+.overlay__nav > li > a {
+  display: block;
+  margin-bottom: 6px;
+  color: rgb(202,202,202);
+}
+
+.overlay__nav > li.s-is-current > a {
+  color: rgb(57,57,57);
+}
+
+.overlay__body {
+  max-height: 360px;
+  margin-bottom: 30px;
+  padding: 0 18px 0 20px;
+    background:
+  /* Shadow covers */
+  linear-gradient(white 30%, rgba(white,0)),
+  linear-gradient(rgba(white,0), white 70%) 0 100%,
+  /* Shadows */
+  radial-gradient(farthest-side at 50% 0, rgba(black,0.2), rgba(black,0)),
+  radial-gradient(farthest-side at 50% 100%, rgba(black,0.2), rgba(black,0)) 0 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 40px, 100% 40px, 100% 5px, 100% 5px;
+  background-attachment: local, local, scroll, scroll;
+  //background-position: center top;
+  overflow: auto; 
+}
+
+.overlay__footer {
+  @include pie-clearfix;
+  background: rgb(240, 240, 240);
+  border-top: 1px solid rgb(203, 203, 203);
+  font-size: 0;
+  height: 72px;
+  padding: 18px 20px;
+  position: relative;
+}
+
+// form styles
+// -----------------------------------------------------------
+label {
+  font-size: 14px;
+  line-height: 1;
+  color: rgb(155,155,155);
+}
+
+input[type="text"],
+textarea {
+  display: block; 
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid rgb(204,204,204);
+  box-shadow: inset 0 1px 3px hsla(0, 0, 0, 0.1);
+  font-size: 14px;
+  resize: none;
+  outline: none;
+}
+
+input[type="text"] {
+  height: 30px;
+  padding: 0 8px;
+}
+
+.campaign-name {
+  width: 280px;
+  margin-right: 20px;
+}
+
+.unique-id {
+  width: 160px;
+}
+
+.flight-dates {
+  position: relative;
+  width: 221px;
+}
+
+.date-range {
+  position: relative;
+  display: inline-block;
+}
+
+.date-range > input[type="text"] {
+  position: relative;
+  width: 100px;
+}
+
+.range {
+  display: inline-block;
+  padding: 0 5px;
+  color: rgb(137,137,137);
+}
+
+.i-datepicker {
+  z-index: 1;
+  display:block;
+  position: absolute;
+  top: 0;
+  right: 9px;
+  width: 15px;
+  height: 30px;
+  background: url(<%= asset_data_uri '2013-10-10-campaign-create-calendar-icon.png' %>) no-repeat;
+}
+
+ #add-flight-date {
+  position: absolute;
+  bottom: 18px;
+  right: -89px;
+  font-size: 12px;
+}
+
+.account-team input[type="text"] {
+  margin-bottom: 0;
+  border-right: 0;
+}
+
+.account-team .button {
+  height: 30px;
+}
+
+
+// state styles
+// -----------------------------------------------------------
+.s-is-hidden {
+  display: none;
+}
+
