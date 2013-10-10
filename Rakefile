@@ -18,6 +18,7 @@ task :generate do
     manage_images(post_name)
     ensure_listed_in_sources(post_name)
   end
+  create_local_config
 end
 
 def ensure_assets_exist(post_name)
@@ -47,6 +48,12 @@ def ensure_listed_in_sources(post_name)
     config['assets']['sources'] << source
     File.write('_config.yml', config.to_yaml)
   end
+end
+
+def create_local_config
+  config = YAML.load_file('_config.yml')
+  config['assets']['baseurl'] = '/assets/'
+  File.write('_local_config.yml', config.to_yaml)
 end
 
 def image_dir(post_name)
