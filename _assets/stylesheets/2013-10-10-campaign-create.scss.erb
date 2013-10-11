@@ -1,14 +1,8 @@
 @import "compass";
 
-// layout styles 
+// reset
 // -----------------------------------------------------------
-.l-left {
-  float: left;
-}
-
-.l-right {
-  float: right;
-}
+ul { list-style: none;}
 
 // header
 // -----------------------------------------------------------
@@ -80,6 +74,17 @@
     color: lighten(rgb(0, 164, 219), 5%);
     text-decoration: underline;
   }
+}
+
+.close {
+  position: absolute;
+  top: 50%;
+  right: -16px;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  background: url(<%= asset_data_uri '2013-08-16-campaign-notes-delete-btn.png' %>) no-repeat 0 0;
+  background-size: 100%;
 }
 
 // overlay
@@ -242,7 +247,15 @@ input[type="text"] {
 
 .flight-dates {
   position: relative;
-  width: 221px;
+  display: inline-block;
+}
+
+.flight-date {
+  > li {
+    position: relative;
+    margin-bottom: 6px;
+    &:last-child { margin-bottom: 0; }
+  }
 }
 
 .date-range {
@@ -253,6 +266,7 @@ input[type="text"] {
 .date-range > input[type="text"] {
   position: relative;
   width: 100px;
+  margin-bottom: 0;
 }
 
 .range {
@@ -261,7 +275,7 @@ input[type="text"] {
   color: rgb(137,137,137);
 }
 
-.i-datepicker {
+.i-calendar {
   z-index: 1;
   display:block;
   position: absolute;
@@ -269,13 +283,28 @@ input[type="text"] {
   right: 9px;
   width: 15px;
   height: 30px;
-  background: url(<%= asset_data_uri '2013-10-10-campaign-create-calendar-icon.png' %>) no-repeat;
+  background: url(<%= asset_data_uri '2013-10-10-campaign-create-calendar-icon.png' %>) 0 0 no-repeat;
+}
+
+#datepicker {
+  display: none;
+  position: absolute;
+  width: 266px;
+  height: 236px;
+  background: url(<%= asset_data_uri '2013-10-10-campaign-create-datepicker-center.png' %>) no-repeat;
+
+  &.start,
+  &.end {
+    display: block;
+    top: 0;
+    z-index: 1001;
+  }
+
+  &.start { left: 321px; }
+  &.end   { left: 321px+122px; }
 }
 
  #add-flight-date {
-  position: absolute;
-  bottom: 18px;
-  right: -89px;
   font-size: 12px;
 }
 
