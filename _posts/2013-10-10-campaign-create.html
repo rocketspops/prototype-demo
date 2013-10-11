@@ -41,15 +41,15 @@ custom_js:   [2013-10-10-campaign-create.js]
         <div class="overlay__body">
           <div class="l-left form__field campaign-name">
             <label class="form__label">Campaign Name</label>
-            <input class="form__input" id="js-input" type="text" />
+            <input class="form__input" type="text" />
           </div>
           <div class="l-left form__field unique-id">
             <label class="form__label">Unique ID</label>
-            <input class="form__input" id="js-input" type="text" />
+            <input class="form__input" type="text" />
           </div>
           <div class="form__field">
             <label class="form__label">Client</label>
-            <input class="form__input" id="js-input" type="text" />
+            <input class="form__input" type="text" />
           </div>
 
           <div class="form__field flight-dates">
@@ -57,14 +57,14 @@ custom_js:   [2013-10-10-campaign-create.js]
             <ul class="flight-date">
               <li>
                 <div class="date-range">
-                  <span class="i-calendar"></span>
-                  <input class="form__input form__datepicker" placeholder="Start" id="js-input" type="text" />
+                  <span tabindex="0" data-type="start" class="i-calendar"></span>
+                  <input class="form__input form__datepicker" placeholder="Start" type="text" />
                 </div>
-                <span class="range">-</span>
+                <span class="range">&ndash;</span>
 
                 <div class="date-range">
-                  <span class="i-calendar"></span>
-                  <input class="form__input form__datepicker" placeholder="End" id="js-input" type="text" />
+                  <span tabindex="0" data-type="end" class="i-calendar"></span>
+                  <input class="form__input form__datepicker" placeholder="End" type="text" />
                 </div>
               </li>
             </ul>
@@ -74,13 +74,10 @@ custom_js:   [2013-10-10-campaign-create.js]
 
           <div class="form__field account-team">
             <label class="form__label">Account Team</label>
-            <div>
-              <a href="#" id="add-tag" class="l-right button input-hug">Add</a>
-              <span style="display: block; overflow: hidden;">
-                <input class="form__input" id="js-input" type="text" />
-              </span>
-            </div>
-            <div id="tag-group">
+            <div class="faux-input">
+              <input class="input-no-styles" id="js-input" type="text" placeholder="Name" /> 
+              <div class="tag-group">
+              </div>
             </div>
           </div>
 

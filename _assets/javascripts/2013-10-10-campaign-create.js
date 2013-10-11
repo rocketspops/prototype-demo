@@ -17,19 +17,29 @@ $(function() {
     return false;
   });
 
-  $('.flight-dates').on('focus', '.form__datepicker', function(event) {
+  $('.flight-dates').on('click', '.i-calendar', function(event) {
+    var targetIcon = $(this);
     var flightDatesOffset = $(this).parents('li').offset();
     var DatepickerTopPosition = flightDatesOffset.top - 65;
-    var classAssignment = $(this).attr('placeholder').toLowerCase();
-    console.log(classAssignment);
-    $('#datepicker').addClass(classAssignment).css('top', DatepickerTopPosition);
-    $(this).parent().children('.i-calendar').css('background-position', '-15px 0');
+    var classAssignment = $(this).attr('data-type');
 
+    $('.i-calendar').not($(this)).removeClass('toggled');
+    $(this).toggleClass('toggled');
+    $('#datepicker').removeClass().css('top', DatepickerTopPosition);
+
+    if (targetIcon.hasClass('toggled')) {
+      $('#datepicker').addClass(classAssignment);
+      targetIcon.addClass('i-calendar--clicked');
+    } else {
+      $('#datepicker').removeClass();
+      $('.i-calendar').removeClass('i-calendar--clicked');
+    }
+    
   });
 
-  $('.flight-dates').on('blur', '.form__datepicker', function(event) {
+  $('.flight-dates').on('blur', '.i-calendar', function(event) {
     $('#datepicker').removeClass();
-    $('.i-calendar').css('background-position', '0 0');
+    $('.i-calendar').removeClass('i-calendar--clicked');
   });
 
   $(window).resize(function() {
@@ -44,10 +54,32 @@ $(function() {
   });
 
   $('#add-flight-date').click(function() {
-    $('ul.flight-date').append('<li><div class="date-range"><span class="i-calendar"></span><input class="form__input form__datepicker" placeholder="Start" id="js-input" type="text" /></div>
-      <span class="range">-</span>
-      <div class="date-range"><span class="i-calendar"></span><input class="form__input form__datepicker" placeholder="End" id="js-input" type="text" /></div><a href="#" class="close"></a></li>');
+    $('ul.flight-date').append('
+        <li>
+          <div class="date-range">
+            <span tabindex="0" data-type="start" class="i-calendar"></span>
+            <input class="form__input form__datepicker" placeholder="Start" id="js-input" type="text" />
+          </div>
+          <span class="range">&ndash;</span>
+          <div class="date-range">
+            <span tabindex="0" data-type="end" class="i-calendar"></span>
+            <input class="form__input form__datepicker" placeholder="End" id="js-input" type="text" />
+          </div>
+          <a href="#" class="close"></a>
+        </li>');
     return false;
+  });
+
+  $(document).bind('keydown', function(e) {
+    if (e.which == 13) {
+      var inputVal = $('#js-input').val();
+      console.log(inputVal);
+      if (inputVal) { 
+         $('.tag-group').append('<span class="tag">' + inputVal + '<a href="#" class="close"></a></span>');
+         $('#js-input').val('');
+         $('.input-no-styles').addClass('bottom-border');
+      };
+    }
   });
 
 });
