@@ -418,6 +418,10 @@ input {
   text-rendering: optimizeLegibility;
 }
 
+input {
+  -webkit-font-smoothing: antialiased;
+}
+
 p, 
 ul {
   margin: 0;

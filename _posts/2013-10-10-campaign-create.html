@@ -20,36 +20,29 @@ custom_js:   [2013-10-10-campaign-create.js]
 
     <div class="overlay">
       <div class="overlay__container">
-        <a href="#" class="overlay__close">
-        </a>
-        
+        <a href="#" class="overlay__close"></a>
+
         <div class="overlay__header">
           <h1>New Campaign</h1>
           <ul class="overlay__nav">
-            <li class="s-is-current">
-              <a href="#" id="basic-info">Basic Info</a>
-            </li>
-            <li>
-              <a href="#" id="targeting">Targeting</a>
-            </li>
-            <li>
-              <a href="#" id="requirements">Requirements</a>
-            </li>
+            <li class="s-is-current"><a href="#" id="basic-info">Basic Info</a></li>
+            <li><a href="#" id="targeting">Targeting</a></li>
+            <li><a href="#" id="requirements">Requirements</a></li>
           </ul>
         </div>
         
         <div class="overlay__body">
           <div class="l-left form__field campaign-name">
             <label class="form__label">Campaign Name</label>
-            <input class="form__input" type="text" />
+            <input class="form__input" type="text" tabindex="1" />
           </div>
           <div class="l-left form__field unique-id">
             <label class="form__label">Unique ID</label>
-            <input class="form__input" type="text" />
+            <input class="form__input" type="text" tabindex="2" />
           </div>
           <div class="form__field">
             <label class="form__label">Client</label>
-            <input class="form__input" type="text" />
+            <input class="auto-search unique form__input" placeholder="Choose a client..." type="text" tabindex="3" />
           </div>
 
           <div class="form__field flight-dates">
@@ -58,36 +51,29 @@ custom_js:   [2013-10-10-campaign-create.js]
               <li>
                 <div class="date-range">
                   <span tabindex="0" data-type="start" class="i-calendar"></span>
-                  <input class="form__input form__datepicker" placeholder="Start" type="text" />
+                  <input class="start form__input form__datepicker" placeholder="Start" type="text" tabindex="4" />
                 </div>
                 <span class="range">&ndash;</span>
-
                 <div class="date-range">
                   <span tabindex="0" data-type="end" class="i-calendar"></span>
-                  <input class="form__input form__datepicker" placeholder="End" type="text" />
+                  <input class="end form__input form__datepicker" placeholder="End" type="text" tabindex="5" />
                 </div>
               </li>
             </ul>
-
             <a href="#" id="add-flight-date" class="design-link">Add another set</a>
           </div>
 
           <div class="form__field account-team">
             <label class="form__label">Account Team</label>
-            <div class="faux-input">
-              <input class="input-no-styles" id="js-input" type="text" placeholder="Name" /> 
-              <div class="tag-group">
-              </div>
-            </div>
+            <input class="auto-search collection form__input" type="text" placeholder="Choose a team member..." tabindex="6" /> 
           </div>
-
+          <div class="tag-group"></div>
         </div>
 
         <div class="overlay__footer">
-          <button class="l-left button--primary" id="js-button create-campaign" type="submit">Create</button>
-          <a class="l-right button" id="cancel-campaign" href="#">Cancel</a>
+          <button class="l-left button--primary" id="js-button create-campaign" type="submit" tabindex="7">Create</button>
+          <a class="l-right button" id="cancel-campaign" href="#" tabindex="8">Cancel</a>
         </div>
-
 
       </div>
     </div>

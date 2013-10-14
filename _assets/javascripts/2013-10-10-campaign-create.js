@@ -44,8 +44,14 @@ $(function() {
 
   $(window).resize(function() {
     var flightDatesOffset = $('.flight-date').offset();
+    var accountTeamOffset = $('.account-team').offset();
+
     var DatepickerTopPosition = flightDatesOffset.top - 65;
+    var accountTeamMenuTopPosition = accountTeamOffset.top + 53;
+    var accountTeamMenuLeftPosition = accountTeamOffset.left;
+
     $('#datepicker').css('top', DatepickerTopPosition);
+    $('.ui-autocomplete').css({'top' : accountTeamMenuTopPosition, 'left' : accountTeamMenuLeftPosition});
   });
 
   $('ul.flight-date').on("click", "li a", function() {
@@ -73,12 +79,100 @@ $(function() {
   $(document).bind('keydown', function(e) {
     if (e.which == 13) {
       var inputVal = $('#js-input').val();
-      console.log(inputVal);
       if (inputVal) { 
          $('.tag-group').append('<span class="tag">' + inputVal + '<a href="#" class="close"></a></span>');
-         $('#js-input').val('');
-         $('.input-no-styles').addClass('bottom-border');
+         $('.auto-search').val('');
+         $('.tag-group').addClass('open');
       };
+    }
+  });
+
+  $('.tag-group').on('click', '.tag > .close', function() {
+    var target = $(this).parent();
+    if ($('.tag-group').children().length === 1) {
+      $('.tag-group').removeClass('open');
+      target.parents('div').prev().children('input').removeClass('is-adjacent');
+      target.remove();
+    } else {
+      target.remove();
+      $('.auto-search').val('');
+    }
+  });
+
+  var team = [
+    { value: "Andrew Graf",    name: "Andrew Graf" },
+    { value: "Billy Whited",   name: "Billy Whited" },
+    { value: "Corey Burrows",  name: "Corey Burrows" },
+    { value: "Dave Castleton", name: "Dave Castleton" },
+    { value: "Laren Furey",    name: "Laren Furey" },
+    { value: "Liz Roller",     name: "Liz Roller" },
+    { value: "Matt Nolker",    name: "Matt Nolker" },
+    { value: "Nick Nieman",    name: "Nick Nieman" },
+    { value: "Tiffany Wood",   name: "Tiffany Wood" }
+  ];
+
+
+  //---- Collection
+
+  var collectionAutoComplete = $('.auto-search.collection').autocomplete({ 
+    minLength: 0,
+    select: function( event, ui ) {
+      $('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close"></a></span>');
+      $(this).addClass('is-adjacent').val(''); 
+      return false;
+    },
+    source: function (request, response) {
+      var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
+      var matching = $.grep(team, function (value) {
+        var name = value.name;
+        return matcher.test(name);
+      });
+      response(matching);
+    }
+    }).on("focus", function () {
+      $(this).autocomplete("search", this.value);
+    });
+
+  collectionAutoComplete.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+    var term = this.element.val(),
+        itemName = item.name.replace( new RegExp(term, 'i'), "<b>$&</b>" );
+    return $("<li>")
+      .append($("<a></a>").html("<p class='name'>" + itemName + "</p>"))
+      .appendTo(ul);
+  };
+
+  //---- Unique
+
+  var uniqueAutoComplete = $('.auto-search.unique').autocomplete({ 
+    minLength: 0,
+    select: function( event, ui ) {
+      $(this).blur(); 
+      $('input.start').focus();
+    },
+    source: function (request, response) {
+      var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
+      var matching = $.grep(team, function (value) {
+        var name = value.name;
+        return matcher.test(name);
+      });
+      response(matching);
+    }
+    }).on("focus", function () {
+      $(this).autocomplete("search", this.value);
+    });
+
+  uniqueAutoComplete.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
+    var term = this.element.val(),
+        itemName = item.name.replace( new RegExp(term, 'i'), "<b>$&</b>" );
+    return $("<li>")
+      .append($("<a></a>").html("<p class='name'>" + itemName + "</p>"))
+      .appendTo(ul);
+  };
+
+  $('.auto-search').on("click", function() {
+    target = $(this);  
+    if (target.is(':focus')) { 
+      target.autocomplete("search", this.value);
     }
   });
 
