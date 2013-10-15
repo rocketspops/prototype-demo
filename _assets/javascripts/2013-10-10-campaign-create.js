@@ -90,24 +90,32 @@ $(function() {
     return false;
   });
 
-  $(document).bind('keydown', function(e) {
-    if (e.which == 13) {
-      var inputVal = $('#js-input').val();
-      if (inputVal) { 
-         $('.tag-group').append('<span class="tag">' + inputVal + '<a href="#" class="close"></a></span>');
-         $('.auto-search').val('');
-         $('.tag-group').addClass('open');
-      };
-    }
-  });
+  //$(document).bind('keydown', function(e) {
+  //  if (e.which == 13) {
+  //    var inputVal = $('#js-input').val();
+  //    if (inputVal) { 
+  //       $('.tag-group').append('<span class="tag">' + inputVal + '<a href="#" class="close"></a></span>');
+  //       $('.auto-search').val('');
+  //       $('.tag-group').addClass('open');
+  //    };
+  //  }
+  //});
 
   $('.tag-group').on('click', '.tag > .close', function() {
     var target = $(this).parent();
+    var inputTarget = $(this).parents('div').prev().children('input');
     if ($('.tag-group').children().length === 1) {
       $('.tag-group').removeClass('open');
-      target.parents('div').prev().children('input').removeClass('is-adjacent');
+      inputTarget.removeClass('is-adjacent');
+      inputTarget.autocomplete("option", { minLength: 1 });
+      inputTarget.focus();
+      inputTarget.autocomplete("option", { minLength: 0 });
       target.remove();
+      inputTarget.addClass('psuedo-focus');
     } else {
+      inputTarget.autocomplete("option", { minLength: 1 });
+      inputTarget.focus();
+      inputTarget.autocomplete("option", { minLength: 0 });
       target.remove();
     }
   });
@@ -118,7 +126,7 @@ $(function() {
       { value: "Billy Whited",   name: "Billy Whited" },
       { value: "Corey Burrows",  name: "Corey Burrows" },
       { value: "Dave Castleton", name: "Dave Castleton" },
-      { value: "Lauren Furey",    name: "Laren Furey" },
+      { value: "Lauren Furey",   name: "Laren Furey" },
       { value: "Liz Roller",     name: "Liz Roller" },
       { value: "Matt Nolker",    name: "Matt Nolker" },
       { value: "Nick Nieman",    name: "Nick Nieman" },
@@ -180,6 +188,7 @@ $(function() {
     minLength: 0,
     open: function( event, ui ) {
       $(this).data('ui-autocomplete').menu.element.addClass($(this).attr('data-context'));
+      $(this).removeClass('psuedo-focus');
     },
     close: function( event, ui ) {
       $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
@@ -192,8 +201,10 @@ $(function() {
       var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
       var matching = $.grep(dataSources[source], function (value) {
         var name = value.name;
+        console.log(name.length);
         return matcher.test(name);
       });
+        
       response(matching);
     }
     }).on("focus", function () {
