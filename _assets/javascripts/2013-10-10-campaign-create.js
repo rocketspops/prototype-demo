@@ -1,4 +1,6 @@
 $(function() {
+  
+  randomString();
 
   $('.new-campaign-button').on('click', function() {
     $('.overlay').show();
@@ -37,21 +39,33 @@ $(function() {
     
   });
 
+  $('#datepicker').click(function() {
+    if($(this).hasClass('start')) { 
+      $('input.start').val('10/15/13').focus();
+    } else {
+      $('input.end').val('12/22/13').focus();
+    }
+  });
+
+
   $('.flight-dates').on('blur', '.i-calendar', function(event) {
-    $('#datepicker').removeClass();
-    $('.i-calendar').removeClass('i-calendar--clicked');
+    setTimeout(function() {
+      $('#datepicker').removeClass();
+      $('.i-calendar').removeClass('i-calendar--clicked toggled');
+    }, 25);
   });
 
   $(window).resize(function() {
+
     var flightDatesOffset = $('.flight-date').offset();
-    var accountTeamOffset = $('.account-team').offset();
+    $('#datepicker').css({'top': flightDatesOffset.top - 65});
 
-    var DatepickerTopPosition = flightDatesOffset.top - 65;
-    var accountTeamMenuTopPosition = accountTeamOffset.top + 53;
-    var accountTeamMenuLeftPosition = accountTeamOffset.left;
+    var accountTeamOffset = $('input.team').offset();
+    $('.ui-autocomplete.team').css({'top' : accountTeamOffset.top + 30, 'left' : accountTeamOffset.left});
 
-    $('#datepicker').css('top', DatepickerTopPosition);
-    $('.ui-autocomplete').css({'top' : accountTeamMenuTopPosition, 'left' : accountTeamMenuLeftPosition});
+    var clientOffset = $('input.client').offset();
+    $('.ui-autocomplete.client').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
   });
 
   $('ul.flight-date').on("click", "li a", function() {
@@ -95,41 +109,60 @@ $(function() {
       target.remove();
     } else {
       target.remove();
-      $('.auto-search').val('');
     }
   });
 
-  var team = [
-    { value: "Andrew Graf",    name: "Andrew Graf" },
-    { value: "Billy Whited",   name: "Billy Whited" },
-    { value: "Corey Burrows",  name: "Corey Burrows" },
-    { value: "Dave Castleton", name: "Dave Castleton" },
-    { value: "Laren Furey",    name: "Laren Furey" },
-    { value: "Liz Roller",     name: "Liz Roller" },
-    { value: "Matt Nolker",    name: "Matt Nolker" },
-    { value: "Nick Nieman",    name: "Nick Nieman" },
-    { value: "Tiffany Wood",   name: "Tiffany Wood" }
-  ];
-
+  var dataSources = { 
+    team: [
+      { value: "Andrew Graf",    name: "Andrew Graf" },
+      { value: "Billy Whited",   name: "Billy Whited" },
+      { value: "Corey Burrows",  name: "Corey Burrows" },
+      { value: "Dave Castleton", name: "Dave Castleton" },
+      { value: "Lauren Furey",    name: "Laren Furey" },
+      { value: "Liz Roller",     name: "Liz Roller" },
+      { value: "Matt Nolker",    name: "Matt Nolker" },
+      { value: "Nick Nieman",    name: "Nick Nieman" },
+      { value: "Tiffany Wood",   name: "Tiffany Wood" }
+    ],
+    client: [
+      { value: "Client 1",  name: "Client 1" },
+      { value: "Client 2",  name: "Client 2" },
+      { value: "Client 3",  name: "Client 3" },
+      { value: "Client 4",  name: "Client 4" },
+      { value: "Client 5",  name: "Client 5" },
+      { value: "Client 6",  name: "Client 6" },
+      { value: "Client 7",  name: "Client 7" },
+      { value: "Client 8",  name: "Client 8" },
+      { value: "Client 9",  name: "Client 9" }
+    ]
+  }
 
   //---- Collection
 
   var collectionAutoComplete = $('.auto-search.collection').autocomplete({ 
     minLength: 0,
+    open: function( event, ui ) {
+      $(this).data('ui-autocomplete').menu.element.addClass($(this).attr('data-context'));
+    },
+    close: function( event, ui ) {
+      $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
+    },
     select: function( event, ui ) {
       $('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close"></a></span>');
       $(this).addClass('is-adjacent').val(''); 
       return false;
     },
     source: function (request, response) {
+      var source = this.element.attr('data-context');
       var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
-      var matching = $.grep(team, function (value) {
+      var matching = $.grep(dataSources[source], function (value) {
         var name = value.name;
         return matcher.test(name);
       });
       response(matching);
     }
     }).on("focus", function () {
+      $('.tag-group').addClass('focus');
       $(this).autocomplete("search", this.value);
     });
 
@@ -145,19 +178,26 @@ $(function() {
 
   var uniqueAutoComplete = $('.auto-search.unique').autocomplete({ 
     minLength: 0,
+    open: function( event, ui ) {
+      $(this).data('ui-autocomplete').menu.element.addClass($(this).attr('data-context'));
+    },
+    close: function( event, ui ) {
+      $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
+    },
     select: function( event, ui ) {
-      $(this).blur(); 
-      $('input.start').focus();
+      $(this).addClass('psuedo-focus'); 
     },
     source: function (request, response) {
+      var source = this.element.attr('data-context');
       var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
-      var matching = $.grep(team, function (value) {
+      var matching = $.grep(dataSources[source], function (value) {
         var name = value.name;
         return matcher.test(name);
       });
       response(matching);
     }
     }).on("focus", function () {
+      $(this).removeClass('psuedo-focus'); 
       $(this).autocomplete("search", this.value);
     });
 
@@ -173,7 +213,26 @@ $(function() {
     target = $(this);  
     if (target.is(':focus')) { 
       target.autocomplete("search", this.value);
+      $(this).removeClass('psuedo-focus');
     }
   });
 
+  $('.auto-search.collection').on("blur", function() {
+    $('.tag-group').removeClass('focus');
+  });
+
 });
+
+
+function randomString() {
+  var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
+  var string_length = 10;
+  var randomstring = '';
+  for (var i=0; i<string_length; i++) {
+    var rnum = Math.floor(Math.random() * chars.length);
+    randomstring += chars.substring(rnum,rnum+1);
+  }
+
+  $('#unique-id').val(randomstring.toUpperCase());
+
+}

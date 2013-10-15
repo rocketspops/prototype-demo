@@ -34,15 +34,15 @@ custom_js:   [2013-10-10-campaign-create.js]
         <div class="overlay__body">
           <div class="l-left form__field campaign-name">
             <label class="form__label">Campaign Name</label>
-            <input class="form__input" type="text" tabindex="1" />
+            <input autofocus class="form__input" type="text" tabindex="1" />
           </div>
           <div class="l-left form__field unique-id">
             <label class="form__label">Unique ID</label>
-            <input class="form__input" type="text" tabindex="2" />
+            <input disabled id="unique-id" class="form__input" type="text" tabindex="2" />
           </div>
           <div class="form__field">
             <label class="form__label">Client</label>
-            <input class="auto-search unique form__input" placeholder="Choose a client..." type="text" tabindex="3" />
+            <input data-context="client" class="auto-search client unique form__input" placeholder="Choose a client..." type="text" tabindex="3" />
           </div>
 
           <div class="form__field flight-dates">
@@ -65,7 +65,7 @@ custom_js:   [2013-10-10-campaign-create.js]
 
           <div class="form__field account-team">
             <label class="form__label">Account Team</label>
-            <input class="auto-search collection form__input" type="text" placeholder="Choose a team member..." tabindex="6" /> 
+            <input data-context="team" class="auto-search collection team form__input" type="text" placeholder="Choose a team member..." tabindex="6" /> 
           </div>
           <div class="tag-group"></div>
         </div>

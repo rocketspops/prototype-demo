@@ -240,6 +240,11 @@ input[type="text"] {
   }
 }
 
+input[disabled] {
+  cursor: not-allowed !important; 
+  color: $centro-gray-3; 
+}
+
 
 
 .faux-input {
@@ -345,7 +350,7 @@ input[type="text"] {
 
 .auto-search:focus,
 .is-adjacent {
- border-bottom-style: dashed !important;
+ border-bottom: 1px dashed rgb(220,220,220) !important;
 }
 
 .tag-group {
@@ -358,7 +363,7 @@ input[type="text"] {
   }
 }
 
-.is-adjacent:focus + .tag-group {
+.tag-group.focus {
   border-color: $centro-brand-normal;
 }
 
@@ -433,7 +438,7 @@ input[type="text"] {
 }
 
 .ui-autocomplete {
-  @include box-shadow(0 2px 4px rgba(black, 0.2));
+  @include box-shadow(0 2px 2px rgba(black, 0.1));
   background:  white;
   border-radius: 0;
   border: 1px solid $centro-brand-normal;
@@ -452,8 +457,10 @@ input[type="text"] {
   overflow-x: hidden;
 }
 
-.ui-state-focus {
-  background: darken($centro-highlight, 3%);
+.ui-state-focus,
+.ui-state-focus b {
+  background: $centro-brand-normal;
+  color: white !important;
   border-radius: 0;
   border: none;
 }
@@ -462,4 +469,12 @@ input[type="text"] {
 
 /* @end */
 
+#unique-id {
+  font-family: "source-code-pro";
+  padding-top: 1px;
+}
+
+.psuedo-focus:focus {
+  border-bottom: 1px solid $centro-brand-normal !important;
+}
 
