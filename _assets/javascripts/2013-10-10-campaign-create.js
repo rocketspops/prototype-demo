@@ -186,17 +186,22 @@ $(function() {
       { value: "Client 9",  name: "Client 9" }
     ],
     geo: [
-      { value: "Client 1",  name: "Client 1" },
-      { value: "Client 2",  name: "Client 2" },
-      { value: "Client 3",  name: "Client 3" },
-      { value: "Client 4",  name: "Client 4" },
-      { value: "Client 5",  name: "Client 5" },
-      { value: "Client 6",  name: "Client 6" },
-      { value: "Client 7",  name: "Client 7" },
-      { value: "Client 8",  name: "Client 8" },
-      { value: "Client 9",  name: "Client 9" }
+      { value: "National",  name: "National" },
+      { value: "New York - Northern New Jersey-Long Island, NY-NJ-PA",  name: "New York - Northern New Jersey-Long Island, NY-NJ-PA" },
+      { value: "Los Angeles-Long Beach-Santa Ana, CA",  name: "Los Angeles-Long Beach-Santa Ana, CA" },
+      { value: "Chicago-Naperville-Joliet, IL-IN-WI",  name: "Chicago-Naperville-Joliet, IL-IN-WI" },
+      { value: "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",  name: "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD" },
+      { value: "Dallas-Fort Worth-Arlington, TX",  name: "Dallas-Fort Worth-Arlington, TX" },
+      { value: "Miami-Fort Lauderdale-Miami Beach, FL",  name: "Miami-Fort Lauderdale-Miami Beach, FL" },
+      { value: "Houston-Sugar Land Baytown, TX",  name: "Houston-Sugar Land Baytown, TX" },
+      { value: "Washington-Arlington-Alexandria, DC-VA-MD-WV",  name: "Washington-Arlington-Alexandria, DC-VA-MD-WV" }
     ],
     category: [
+      { value: "Automotive",  name: "Automotive" },
+      { value: "Baseball",  name: "Baseball" },
+      { value: "B2B",  name: "B2B" },
+      { value: "Blogs",  name: "Blogs" },
+      { value: "Celebrity Gossip",  name: "Celebrity Gossip" },
       { value: "Entertainment",  name: "Entertainment" },
       { value: "News and Entertainment",  name: "News and Entertainment" },
       { value: "Home Entertainment",  name: "Home Entertainment" },
@@ -206,46 +211,27 @@ $(function() {
     platform: [
       { value: "Desktop",  name: "Desktop" },
       { value: "Mobile",  name: "Mobile" },
-      { value: "Client 3",  name: "Client 3" },
-      { value: "Client 4",  name: "Client 4" },
-      { value: "Client 5",  name: "Client 5" },
-      { value: "Client 6",  name: "Client 6" },
-      { value: "Client 7",  name: "Client 7" },
-      { value: "Client 8",  name: "Client 8" },
-      { value: "Client 9",  name: "Client 9" }
+      { value: "Tablet",  name: "Tablet" }
     ],
     type: [
-      { value: "Client 1",  name: "Client 1" },
-      { value: "Client 2",  name: "Client 2" },
-      { value: "Client 3",  name: "Client 3" },
-      { value: "Client 4",  name: "Client 4" },
-      { value: "Client 5",  name: "Client 5" },
-      { value: "Client 6",  name: "Client 6" },
-      { value: "Client 7",  name: "Client 7" },
-      { value: "Client 8",  name: "Client 8" },
-      { value: "Client 9",  name: "Client 9" }
+      { value: "Display",  name: "Display" },
+      { value: "Video",  name: "Video" },
+      { value: "Game",  name: "Game" }
     ],
     size: [
-      { value: "Client 1",  name: "Client 1" },
-      { value: "Client 2",  name: "Client 2" },
-      { value: "Client 3",  name: "Client 3" },
-      { value: "Client 4",  name: "Client 4" },
-      { value: "Client 5",  name: "Client 5" },
-      { value: "Client 6",  name: "Client 6" },
-      { value: "Client 7",  name: "Client 7" },
-      { value: "Client 8",  name: "Client 8" },
-      { value: "Client 9",  name: "Client 9" }
+      { value: "Banner",  name: "Banner" },
+      { value: "160x600",  name: "160x600" },
+      { value: "728x90",  name: "728x90" },
+      { value: "300x250",  name: "300x250" },
+      { value: "250x250",  name: "250x250" },
+      { value: "Sliding Billboard",  name: "Sliding Billboard" },
+      { value: "Global Take Over",  name: "Global Take Over" }
     ],
     positioning: [
-      { value: "Client 1",  name: "Client 1" },
-      { value: "Client 2",  name: "Client 2" },
-      { value: "Client 3",  name: "Client 3" },
-      { value: "Client 4",  name: "Client 4" },
-      { value: "Client 5",  name: "Client 5" },
-      { value: "Client 6",  name: "Client 6" },
-      { value: "Client 7",  name: "Client 7" },
-      { value: "Client 8",  name: "Client 8" },
-      { value: "Client 9",  name: "Client 9" }
+      { value: "Homepage",  name: "Homepage" },
+      { value: "Sports",  name: "Sports" },
+      { value: "Above the fold",  name: "Above the fold" },
+      { value: "Shopping",  name: "Shopping" }
     ]
   }
 
