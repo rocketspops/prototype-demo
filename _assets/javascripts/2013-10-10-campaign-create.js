@@ -184,6 +184,68 @@ $(function() {
       { value: "Client 7",  name: "Client 7" },
       { value: "Client 8",  name: "Client 8" },
       { value: "Client 9",  name: "Client 9" }
+    ],
+    geo: [
+      { value: "Client 1",  name: "Client 1" },
+      { value: "Client 2",  name: "Client 2" },
+      { value: "Client 3",  name: "Client 3" },
+      { value: "Client 4",  name: "Client 4" },
+      { value: "Client 5",  name: "Client 5" },
+      { value: "Client 6",  name: "Client 6" },
+      { value: "Client 7",  name: "Client 7" },
+      { value: "Client 8",  name: "Client 8" },
+      { value: "Client 9",  name: "Client 9" }
+    ],
+    category: [
+      { value: "Entertainment",  name: "Entertainment" },
+      { value: "News and Entertainment",  name: "News and Entertainment" },
+      { value: "Home Entertainment",  name: "Home Entertainment" },
+      { value: "Sports",  name: "Sports" },
+      { value: "Shopping",  name: "Shopping" }
+    ],
+    platform: [
+      { value: "Desktop",  name: "Desktop" },
+      { value: "Mobile",  name: "Mobile" },
+      { value: "Client 3",  name: "Client 3" },
+      { value: "Client 4",  name: "Client 4" },
+      { value: "Client 5",  name: "Client 5" },
+      { value: "Client 6",  name: "Client 6" },
+      { value: "Client 7",  name: "Client 7" },
+      { value: "Client 8",  name: "Client 8" },
+      { value: "Client 9",  name: "Client 9" }
+    ],
+    type: [
+      { value: "Client 1",  name: "Client 1" },
+      { value: "Client 2",  name: "Client 2" },
+      { value: "Client 3",  name: "Client 3" },
+      { value: "Client 4",  name: "Client 4" },
+      { value: "Client 5",  name: "Client 5" },
+      { value: "Client 6",  name: "Client 6" },
+      { value: "Client 7",  name: "Client 7" },
+      { value: "Client 8",  name: "Client 8" },
+      { value: "Client 9",  name: "Client 9" }
+    ],
+    size: [
+      { value: "Client 1",  name: "Client 1" },
+      { value: "Client 2",  name: "Client 2" },
+      { value: "Client 3",  name: "Client 3" },
+      { value: "Client 4",  name: "Client 4" },
+      { value: "Client 5",  name: "Client 5" },
+      { value: "Client 6",  name: "Client 6" },
+      { value: "Client 7",  name: "Client 7" },
+      { value: "Client 8",  name: "Client 8" },
+      { value: "Client 9",  name: "Client 9" }
+    ],
+    positioning: [
+      { value: "Client 1",  name: "Client 1" },
+      { value: "Client 2",  name: "Client 2" },
+      { value: "Client 3",  name: "Client 3" },
+      { value: "Client 4",  name: "Client 4" },
+      { value: "Client 5",  name: "Client 5" },
+      { value: "Client 6",  name: "Client 6" },
+      { value: "Client 7",  name: "Client 7" },
+      { value: "Client 8",  name: "Client 8" },
+      { value: "Client 9",  name: "Client 9" }
     ]
   }
 
