@@ -5,6 +5,15 @@
 // -----------------------------------------------------------
 ul { list-style: none;}
 
+// tabs
+// -----------------------------------------------------------
+#info,
+#target,
+#requirements {
+  display: none;
+  z-index: -1;
+}
+
 // header
 // -----------------------------------------------------------
 .header {
@@ -388,6 +397,10 @@ input[disabled] {
 // -----------------------------------------------------------
 .s-is-hidden {
   display: none;
+}
+
+.is-visible {
+  display: block !important;
 }
 
 /* @group jQuery Overrides */
