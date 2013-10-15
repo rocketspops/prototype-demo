@@ -140,10 +140,13 @@ $(function() {
   //});
 
   $('.tag-group').on('click', '.tag > .close', function() {
-    var target = $(this).parent();
+
+    var target      = $(this).parent();
+    var parentDiv   = $(this).parents('.tag-group'); 
     var inputTarget = $(this).parents('div').prev().children('input');
-    if ($('.tag-group').children().length === 1) {
-      $('.tag-group').removeClass('open');
+
+    if (parentDiv.children().length <= 1) {
+      parentDiv.removeClass('open');
       inputTarget.removeClass('is-adjacent');
       inputTarget.autocomplete("option", { minLength: 1 });
       inputTarget.focus();
@@ -156,6 +159,7 @@ $(function() {
       inputTarget.autocomplete("option", { minLength: 0 });
       target.remove();
     }
+    return false;
   });
 
   var dataSources = { 
@@ -194,7 +198,7 @@ $(function() {
       $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
     },
     select: function( event, ui ) {
-      $('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close"></a></span>');
+      $(this).parent().next('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close"></a></span>');
       $(this).addClass('is-adjacent').val(''); 
       return false;
     },
@@ -208,7 +212,7 @@ $(function() {
       response(matching);
     }
     }).on("focus", function () {
-      $('.tag-group').addClass('focus');
+      $(this).parent().next('.tag-group').addClass('focus');
       $(this).autocomplete("search", this.value);
     });
 
@@ -270,31 +274,31 @@ $(function() {
     $('.tag-group').removeClass('focus');
   });
 
-  // age slider
-  $( "#age-range" ).slider({
-    range: true,
-    min: 0,
-    max: 80,
-    values: [ 18, 36 ],
-    slide: function( event, ui ) {
-      $( "#age-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-    }
-  });
-  $( "#age-range > #amount" ).val( "$" + $( "#age-range > #slider-range" ).slider( "values", 0 ) +
-    " - $" + $( "#age-range > #slider-range" ).slider( "values", 1 ) );
+  //// age slider
+  //$( "#age-range" ).slider({
+  //  range: true,
+  //  min: 0,
+  //  max: 80,
+  //  values: [ 18, 36 ],
+  //  slide: function( event, ui ) {
+  //    $( "#age-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+  //  }
+  //});
+  //$( "#age-range > #amount" ).val( "$" + $( "#age-range > #slider-range" ).slider( "values", 0 ) +
+  //  " - $" + $( "#age-range > #slider-range" ).slider( "values", 1 ) );
 
-  // income slider
-  $('#income-range').slider({
-    range: true,
-    min: 0,
-    max: 250000,
-    values: [ 500000, 100000 ],
-    slide: function( event, ui ) {
-      $( "#income-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-    }
-  });
-  $( "#income-range > #amount" ).val( "$" + $( "#income-range > #slider-range" ).slider( "values", 0 ) +
-    " - $" + $( "#income-range > #slider-range" ).slider( "values", 1 ) );
+  //// income slider
+  //$('#income-range').slider({
+  //  range: true,
+  //  min: 0,
+  //  max: 250000,
+  //  values: [ 500000, 100000 ],
+  //  slide: function( event, ui ) {
+  //    $( "#income-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+  //  }
+  //});
+  //$( "#income-range > #amount" ).val( "$" + $( "#income-range > #slider-range" ).slider( "values", 0 ) +
+  //  " - $" + $( "#income-range > #slider-range" ).slider( "values", 1 ) );
 });
 
 
