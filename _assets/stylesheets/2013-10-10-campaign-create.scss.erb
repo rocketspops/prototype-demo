@@ -5,6 +5,10 @@
 // -----------------------------------------------------------
 ul { list-style: none;}
 
+.clearfix {
+  @include pie-clearfix;
+}
+
 // tabs
 // -----------------------------------------------------------
 #info,
@@ -78,12 +82,17 @@ ul { list-style: none;}
 }
 
 .design-link {
+  font-size: 12px;
   color: rgb(0, 164, 219);
 
   &:hover {
     color: lighten(rgb(0, 164, 219), 5%);
     text-decoration: underline;
   }
+}
+
+#show-example {
+  margin-top: 4px;
 }
 
 .close {
@@ -254,7 +263,18 @@ input[disabled] {
   color: $centro-gray-3; 
 }
 
+input[type="radio"] {
+  display: inline-block;
+  margin: 0 10px 0 2px;
+  background: none;
+  border: 1px solid rgb(204,204,204);
+}
 
+.radio-label {
+  @extend label;
+  display: inline-block;
+  color: rgb(57,57,57);
+}
 
 .faux-input {
   background: white;
@@ -345,16 +365,8 @@ input[disabled] {
   &.end   { left: 321px+122px; }
 }
 
-#add-flight-date {
-  font-size: 12px;
-}
-
-.account-team input[type="text"] {
+.last-field input[type="text"] {
   margin-bottom: 0;
-}
-
-.account-team .button {
-  height: 30px;
 }
 
 .auto-search:focus,
@@ -370,6 +382,15 @@ input[disabled] {
   &.open {
     display: block;
   }
+}
+
+.gender {
+  @include pie-clearfix;
+  width: 120px;
+}
+
+.sliders {
+  width: 340px;
 }
 
 .tag-group.focus {
