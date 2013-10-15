@@ -130,11 +130,12 @@ $(function() {
 
   //$(document).bind('keydown', function(e) {
   //  if (e.which == 13) {
-  //    var inputVal = $('#js-input').val();
-  //    if (inputVal) { 
-  //       $('.tag-group').append('<span class="tag">' + inputVal + '<a href="#" class="close"></a></span>');
+  //    var target = $('.auto-search:focus');
+  //    var inputVal = $('.auto-search:focus').val();
+  //    console.log(inputVal);
+  //    if (inputVal && target.hasClass('collection')) { 
+  //       target.parent().next('.tag-group').addClass('open').append('<span class="tag">' + inputVal + '<a href="#" class="close"></a></span>');
   //       $('.auto-search').val('');
-  //       $('.tag-group').addClass('open');
   //    };
   //  }
   //});
