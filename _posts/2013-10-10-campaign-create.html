@@ -33,20 +33,20 @@ custom_js:   [2013-10-10-campaign-create.js]
         
         <div id="info" class="tab is-visible">
           <div class="overlay__body">
-            <div class="l-left form__field campaign-name">
+            <div class="l-left form-field campaign-name">
               <label class="form__label">Campaign Name</label>
               <input autofocus class="form__input" type="text" tabindex="1" />
             </div>
-            <div class="l-left form__field unique-id">
+            <div class="l-left form-field unique-id">
               <label class="form__label">Unique ID</label>
               <input disabled id="unique-id" class="form__input" type="text" tabindex="2" />
             </div>
-            <div class="form__field">
+            <div class="form-field">
               <label class="form__label">Client</label>
               <input data-context="client" class="auto-search client unique form__input" placeholder="Choose a client..." type="text" tabindex="3" />
             </div>
 
-            <div class="form__field flight-dates">
+            <div class="form-field flight-dates">
               <label class="form__label">Flight Date</label>
               <ul class="flight-date">
                 <li>
@@ -64,11 +64,14 @@ custom_js:   [2013-10-10-campaign-create.js]
               <a href="#" id="add-flight-date" class="design-link">Add another set</a>
             </div>
 
-            <div class="form__field last-field">
-              <label class="form__label">Account Team</label>
-              <input data-context="team" class="auto-search collection team form__input" type="text" placeholder="Choose a team member..." tabindex="6" /> 
+            <div class="form-field last">
+              <div>
+                <label class="form__label">Account Team</label>
+                <input data-context="team" class="auto-search collection team form__input" type="text" placeholder="Choose a team member..." tabindex="6" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
+
           </div>
 
           <div class="overlay__footer">
@@ -79,7 +82,7 @@ custom_js:   [2013-10-10-campaign-create.js]
 
         <div id="target" class="tab">
           <div class="overlay__body">
-            <div class="form__field">
+            <div class="form-field">
               <a href="#" id="show-example" class="l-right design-link">Show example</a>
               <label class="form__label">Campaign Objectives</label>
               <textarea autofocus class="form__input" type="text" tabindex="7"></textarea>
@@ -98,8 +101,7 @@ custom_js:   [2013-10-10-campaign-create.js]
                   <input type="radio" name="sex" value="both" tabindex="10"><label class="radio-label">Both</label>
                 </div>
               </div>
-
-              <div class="l-right form__field sliders">
+              <div class="l-right form-field sliders">
                 <div class="age">
                   <label class="form__label">Age</label>
                   <div id="age-range" tabindex="11"></div>
@@ -111,53 +113,68 @@ custom_js:   [2013-10-10-campaign-create.js]
               </div>
             </div>
 
-            <div class="form__field">
-              <label class="form__label">Geographic (by DMA)</label>
-              <input data-context="geo" class="auto-search collection geo form__input" type="text" placeholder="Choose a location..." tabindex="13" /> 
+            <div class="form-field">
+              <div>
+                <label class="form__label">Geographic (by DMA)</label>
+                <input data-context="geo" class="auto-search collection geo form__input" type="text" placeholder="Choose a location..." tabindex="13" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
 
-             <div class="form__field last-field">
-              <label class="form__label">Category</label>
-              <input data-context="category" class="auto-search collection category form__input" type="text" placeholder="Choose a category..." tabindex="13" /> 
+            <div class="form-field last">
+              <div>
+                <label class="form__label">Category</label>
+                <input data-context="category" class="auto-search collection category form__input" type="text" placeholder="Choose a category..." tabindex="13" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
+
           </div>
+
           <div class="overlay__footer">
             <button class="l-left button--primary" id="js-button create-campaign" type="submit" tabindex="">Create</button>
             <a class="l-right button" href="#requirements" tabindex="">Next</a>
             <a class="l-right button" style="margin-right: 10px;" href="#info" tabindex="">Back</a>
           </div>
+
         </div>
         
         <div id="requirements" class="tab">
           <div class="overlay__body">
-            <div class="form__field">
-              <label class="form__label">Ad Platform</label>
-              <input data-context="platform" class="auto-search collection platform form__input" type="text" placeholder="Choose ad platform..." tabindex="13" /> 
+
+            <div class="form-field">
+              <div>
+                <label class="form__label">Ad Platform</label>
+                <input data-context="platform" class="auto-search collection platform form__input" type="text" placeholder="Choose ad platform..." tabindex="13" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
 
-
-            <div class="form__field">
-              <label class="form__label">Ad Type</label>
-              <input data-context="type" class="auto-search collection type form__input" type="text" placeholder="Choose ad type..." tabindex="13" /> 
+            <div class="form-field">
+              <div>
+                <label class="form__label">Ad Type</label>
+                <input data-context="type" class="auto-search collection type form__input" type="text" placeholder="Choose ad type..." tabindex="13" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
 
-             <div class="form__field">
-              <label class="form__label">Ad Size</label>
-              <input data-context="size" class="auto-search collection size form__input" type="text" placeholder="Choose ad sizes..." tabindex="13" /> 
+            <div class="form-field">
+              <div>
+                <label class="form__label">Ad Size</label>
+                <input data-context="size" class="auto-search collection size form__input" type="text" placeholder="Choose ad sizes..." tabindex="13" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
 
-            <div class="form__field">
-              <label class="form__label">Desired Positioning</label>
-              <input data-context="positioning" class="auto-search collection positioning form__input" type="text" placeholder="Choose desired positioning..." tabindex="13" /> 
+            <div class="form-field">
+              <div>
+                <label class="form__label">Desired Positioning</label>
+                <input data-context="positioning" class="auto-search collection positioning form__input" type="text" placeholder="Choose desired positioning..." tabindex="13" /> 
+              </div>
+              <div class="tag-group"></div>
             </div>
-            <div class="tag-group"></div>
 
-            <div class="form__field last-field">
+            <div class="form-field last">
               <a href="#" class="show-example">Show example</a>
               <label class="form__label">Additional Notes</label>
               <textarea autofocus class="form__input" type="text" tabindex="7"></textarea>
