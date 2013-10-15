@@ -19,6 +19,44 @@ $(function() {
     return false;
   });
 
+  $('.overlay__nav li').click(function() {
+    $(this).siblings().removeClass('s-is-current');
+    $(this).addClass('s-is-current');
+    if ($(this).text() == "Basic Info") {
+      $('#target, #requirements').removeClass('is-visible');
+      $('#info').addClass('is-visible');
+    }
+    if ($(this).text() == "Targeting") {
+      $('#info, #requirements').removeClass('is-visible');
+      $('#target').addClass('is-visible');
+    }
+    if ($(this).text() == "Requirements") {
+      $('#target, #info').removeClass('is-visible');
+      $('#requirements').addClass('is-visible');
+    } else {
+      return false;
+    }
+  });
+
+  $('.overlay__footer > a').click(function() {
+    if ($(this).attr('href', "#info")) {
+      $('#target, #requirements').removeClass('is-visible');
+      $('#info').addClass('is-visible');
+      //$('.overlay__nav li').remdataoveClass('s-is-current');
+      //$('.overlay__nav li').attr('data-tab', '1').addClass('s-is-current');
+    }
+    if ($(this).attr('href', "#target")) {
+      $('#info, #requirements').removeClass('is-visible');
+      $('#target').addClass('is-visible');
+    }
+    if ($(this).attr('href', "#requirements")) {
+      $('#target, #info').removeClass('is-visible');
+      $('#requirements').addClass('is-visible');
+    } else {
+      return false;
+    }
+  });
+
   $('.flight-dates').on('click', '.i-calendar', function(event) {
     var targetIcon = $(this);
     var flightDatesOffset = $(this).parents('li').offset();
@@ -40,7 +78,7 @@ $(function() {
   });
 
   $('#datepicker').click(function() {
-    if($(this).hasClass('start')) { 
+    if($(this).hasClass('start')) {
       $('input.start').val('10/15/13').focus();
     } else {
       $('input.end').val('12/22/13').focus();
@@ -221,6 +259,31 @@ $(function() {
     $('.tag-group').removeClass('focus');
   });
 
+  // age slider
+  $( "#age-range" ).slider({
+    range: true,
+    min: 0,
+    max: 80,
+    values: [ 18, 36 ],
+    slide: function( event, ui ) {
+      $( "#age-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+    }
+  });
+  $( "#age-range > #amount" ).val( "$" + $( "#age-range > #slider-range" ).slider( "values", 0 ) +
+    " - $" + $( "#age-range > #slider-range" ).slider( "values", 1 ) );
+
+  // income slider
+  $('#income-range').slider({
+    range: true,
+    min: 0,
+    max: 250000,
+    values: [ 500000, 100000 ],
+    slide: function( event, ui ) {
+      $( "#income-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+    }
+  });
+  $( "#income-range > #amount" ).val( "$" + $( "#income-range > #slider-range" ).slider( "values", 0 ) +
+    " - $" + $( "#income-range > #slider-range" ).slider( "values", 1 ) );
 });
 
 
@@ -236,3 +299,4 @@ function randomString() {
   $('#unique-id').val(randomstring.toUpperCase());
 
 }
+
