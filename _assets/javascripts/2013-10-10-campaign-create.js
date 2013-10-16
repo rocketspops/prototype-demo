@@ -323,31 +323,30 @@ $(function() {
     $('.tag-group').removeClass('focus');
   });
 
-  //// age slider
-  //$( "#age-range" ).slider({
-  //  range: true,
-  //  min: 0,
-  //  max: 80,
-  //  values: [ 18, 36 ],
-  //  slide: function( event, ui ) {
-  //    $( "#age-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-  //  }
-  //});
-  //$( "#age-range > #amount" ).val( "$" + $( "#age-range > #slider-range" ).slider( "values", 0 ) +
-  //  " - $" + $( "#age-range > #slider-range" ).slider( "values", 1 ) );
+  // Hacked together JS for custom CSS dropdowns
 
-  //// income slider
-  //$('#income-range').slider({
-  //  range: true,
-  //  min: 0,
-  //  max: 250000,
-  //  values: [ 500000, 100000 ],
-  //  slide: function( event, ui ) {
-  //    $( "#income-range > #amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
-  //  }
-  //});
-  //$( "#income-range > #amount" ).val( "$" + $( "#income-range > #slider-range" ).slider( "values", 0 ) +
-  //  " - $" + $( "#income-range > #slider-range" ).slider( "values", 1 ) );
+  $('[class*="m-form__dropdown"]').each( function () {
+    $(this).find('li:first a').addClass('s-is-active');
+    //$(this).find('span').text($(this).find('li:first a').text());
+  })
+
+  $('.m-form__dropdown').click(function() { 
+    $(this).toggleClass('s-is-open');
+    return false;
+  });
+
+  $('[class*="m-form__dropdown"] li a').click(function() { 
+    var target = $(this);
+    var optionText = $(this).text();
+    $(this).parents('[class*="m-form__dropdown"]').find('a').removeClass();
+    $(this).addClass('s-is-active');
+    setTimeout(function() {
+      target.parents('[class*="m-form__dropdown"]').find('span').text(optionText).removeClass('placeholder');
+      target.parents('.m-form__dropdown').removeClass('s-is-open');
+    }, 50);
+    return false;
+  });
+
 });
 
 

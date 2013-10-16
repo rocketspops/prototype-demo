@@ -88,27 +88,53 @@ custom_js:   [2013-10-10-campaign-create.js]
               <textarea autofocus class="form__input" type="text" tabindex="7"></textarea>
             </div>
 
-            <div class="clearfix" style="margin-bottom: 12px;">
-              <div class="l-left form__field gender">
-                <label class="form__label">Gender</label>
-                <div>
-                  <input type="radio" name="sex" id="male" value="male" tabindex="8"><label for="male"class="radio-label">Male</label>
-                </div>
-                <div>
-                  <input type="radio" name="sex" id="female" value="female" tabindex="9"><label for="female" class="radio-label">Female</label>
-                </div>
-                <div>
-                  <input type="radio" name="sex" id="both" value="both" tabindex="10"><label for="both" class="radio-label">Both</label>
+            <div class="clearfix form-field">
+              <div class="l-left gender">
+                <label>Gender</label>
+                <div class="m-form__dropdown" tabindex="8">
+                  <span class="m-form__dropdown__selected placeholder">Chose&hellip;</span>
+                  <ul>
+                    <li><a href="#">Male</a></li>
+                    <li><a href="#">Female</a></li>
+                    <li><a href="#">Both</a></li>
+                  </ul>
+                  <div class="m-form__dropdown__overlay"></div>
                 </div>
               </div>
-              <div class="l-right form-field sliders">
-                <div class="age">
-                  <label class="form__label">Age</label>
-                  <div id="age-range" tabindex="11"></div>
+              <div class="l-left age">
+                <label>Age</label>
+                <div class="m-form__dropdown" tabindex="8">
+                  <span class="m-form__dropdown__selected placeholder">Chose&hellip;</span>
+                  <ul>
+                    <li><a href="#">18+</a></li>
+                    <li><a href="#">18&ndash;24</a></li>
+                    <li><a href="#">18&ndash;34</a></li>
+                    <li><a href="#">18&ndash;54</a></li>
+                    <li><a href="#">25&ndash;34</a></li>
+                    <li><a href="#">25&ndash;54</a></li>
+                    <li><a href="#">35&ndash;44</a></li>
+                    <li><a href="#">45&ndash;54</a></li>
+                    <li><a href="#">55&ndash;64</a></li>
+                    <li><a href="#">65+</a></li>
+                  </ul>
+                  <div class="m-form__dropdown__overlay"></div>
                 </div>
-                <div class="income">
-                  <label class="form__label">Yearly Income</label>
-                  <div id="income-range" tabindex="12"></div>
+              </div>
+              <div class="l-left income">
+                <label>Yearly Income</label>
+                <div class="m-form__dropdown" tabindex="8">
+                  <span class="m-form__dropdown__selected placeholder">Chose&hellip;</span>
+                  <ul>
+                    <li><a href="#">Under $25k</li>
+                    <li><a href="#">$25k&ndash;$39,999</a></li>
+                    <li><a href="#">$40k&ndash;$59,999</a></li>
+                    <li><a href="#">$60k&ndash;$74,999</a></li>
+                    <li><a href="#">$25k plus</a></li>
+                    <li><a href="#">$60k plus</a></li>
+                    <li><a href="#">$75k plus</a></li>
+                    <li><a href="#">$100k plus</a></li>
+                  </ul>
+                  <div class="m-form__dropdown__overlay"></div>
                 </div>
               </div>
             </div>
