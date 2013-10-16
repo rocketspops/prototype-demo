@@ -131,6 +131,7 @@ ul { list-style: none;}
   right: 10px;
   font-size: 14px;
   color: $grayscale-1;
+  z-index: 10;
   &:hover { color: $grayscale-3; }
 }
 
@@ -160,8 +161,7 @@ ul { list-style: none;}
 
   &.s-is-current {
     color: $grayscale-5;
-    border: 3px solid $grayscale-1;
-    border-width: 0 0 4px 0;
+    border-bottom: 4px solid $grayscale-0;
     text-align: center;
   }
 }
@@ -338,7 +338,7 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   font-size: 12px;
   line-height: 30px;
   text-align: center;
-  color: $grayscale-2;
+  color: $grayscale-1;
 }
 
 .i-calendar--clicked,
