@@ -590,12 +590,11 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   border: 1px solid $centro-brand-1b;
   border-top-width: 0;
   color: $grayscale-5;
-  opacity: 0;
+  display: none;
   position: absolute;
     left: -1px;
     right: -1px;
     top: 28px;
-  visibility: hidden;
   line-height: 1em;
   z-index: 1002;
 }
@@ -625,7 +624,8 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   color: white;
 }
 
-.m-form__dropdown.s-is-open {
+.m-form__dropdown.s-is-open,
+.m-form__dropdown:focus {
   // @include box-shadow(none);
   border-color: $centro-brand-1b;
   cursor: pointer;
@@ -633,12 +633,11 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
 }
 
 .m-form__dropdown.s-is-open ul {
-  opacity: 1;
-  visibility:visible;
+  display: block;
 }
 
 .m-form__dropdown .m-form__dropdown__overlay {
-  visibility: hidden;
+  display: none;
   z-index: 1001;
 }
 
@@ -648,7 +647,7 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   right: 0;
   bottom: 0;
   left: 0;
-  visibility:visible;
+  display: block;
 }
 
 //

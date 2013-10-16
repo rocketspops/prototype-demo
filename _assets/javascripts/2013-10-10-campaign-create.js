@@ -284,6 +284,7 @@ $(function() {
     }).on("focus", function () {
       $(this).parent().next('.tag-group').addClass('focus');
       $(this).autocomplete("search", this.value);
+      $('.m-form__dropdown').removeClass('s-is-open').blur();
     });
 
   collectionAutoComplete.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
@@ -322,6 +323,7 @@ $(function() {
     }).on("focus", function () {
       $(this).removeClass('psuedo-focus'); 
       $(this).autocomplete("search", this.value);
+      $('.m-form__dropdown').removeClass('s-is-open').blur();
     });
 
   uniqueAutoComplete.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
@@ -351,11 +353,17 @@ $(function() {
     //$(this).find('span').text($(this).find('li:first a').text());
   })
 
-  $('.m-form__dropdown').click(function() { 
-    $('.m-form__dropdown').not($(this)).removeClass('s-is-open');
-    $(this).toggleClass('s-is-open');
+  $('.m-form__dropdown__overlay').click(function() { 
+    $('.m-form__dropdown').removeClass('s-is-open').blur();
     return false;
   });
+
+  $('.m-form__dropdown').focus(function() { 
+    $('.m-form__dropdown').not($(this)).removeClass('s-is-open');
+    $(this).addClass('s-is-open');
+    return false;
+  });
+
 
   $('[class*="m-form__dropdown"] li a').click(function() { 
     var target = $(this);
