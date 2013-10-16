@@ -20,42 +20,44 @@ $(function() {
   });
 
   $('.overlay__nav li').click(function() {
+
+    var targetTab = $(this).attr('data-tab');
+    console.log(targetTab);
+
     $(this).siblings().removeClass('s-is-current');
     $(this).addClass('s-is-current');
-    if ($(this).text() == "Basic Info") {
-      $('#target, #requirements').removeClass('is-visible');
-      $('#info').addClass('is-visible');
-    }
-    if ($(this).text() == "Targeting") {
-      $('#info, #requirements').removeClass('is-visible');
-      $('#target').addClass('is-visible');
-    }
-    if ($(this).text() == "Requirements") {
-      $('#target, #info').removeClass('is-visible');
-      $('#requirements').addClass('is-visible');
-    } else {
-      return false;
-    }
+
+    $('.tab').removeClass('is-visible');
+    $(targetTab).addClass('is-visible');
+
+    return false;
   });
 
-  $('.overlay__footer > a').click(function() {
-    if ($(this).attr('href', "#info")) {
-      $('#target, #requirements').removeClass('is-visible');
-      $('#info').addClass('is-visible');
-      //$('.overlay__nav li').remdataoveClass('s-is-current');
-      //$('.overlay__nav li').attr('data-tab', '1').addClass('s-is-current');
-    }
-    if ($(this).attr('href', "#target")) {
-      $('#info, #requirements').removeClass('is-visible');
-      $('#target').addClass('is-visible');
-    }
-    if ($(this).attr('href', "#requirements")) {
-      $('#target, #info').removeClass('is-visible');
-      $('#requirements').addClass('is-visible');
-    } else {
-      return false;
-    }
+  $('.next').click(function() {
+    var nextTab = $(this).parents('.tab').next('.tab').attr('id');
+    var targetHash = "#" + nextTab;
+  
+    $('.overlay__nav li').removeClass('s-is-current');
+    $('.overlay__nav li[data-tab="' + targetHash +'"]').addClass('s-is-current');
+
+    $('.tab').removeClass('is-visible');
+    $(targetHash).addClass('is-visible');
+    return false;
   });
+
+  $('.back').click(function() {
+    var backTab = $(this).parents('.tab').prev('.tab').attr('id');
+    var targetHash = "#" + backTab;
+  
+    $('.overlay__nav li').removeClass('s-is-current');
+    $('.overlay__nav li[data-tab="' + targetHash +'"]').addClass('s-is-current');
+
+    $('.tab').removeClass('is-visible');
+    $(targetHash).addClass('is-visible');
+    return false;
+  });
+
+
 
   $('.flight-dates').on('click', '.i-calendar', function(event) {
     var targetIcon = $(this);

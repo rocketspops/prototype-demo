@@ -16,7 +16,7 @@ ul { list-style: none;}
   display: none;
   z-index: -1;
   position: absolute;
-  top: 100px;
+  top: 104px;
   bottom: 0;
   width: 100%;
 }
@@ -173,6 +173,9 @@ ul { list-style: none;}
 }
 
 .overlay__nav > li {
+  color: $grayscale-2;
+  cursor: pointer;
+  line-height: 30px;
   display: inline-block;
   margin-right: 20px;
   font-size: 14px;
@@ -182,6 +185,7 @@ ul { list-style: none;}
   }
 
   &.s-is-current {
+    color: $grayscale-5;
     border: 3px solid $grayscale-1;
     border-width: 0 0 3px 0;
     text-align: center;
