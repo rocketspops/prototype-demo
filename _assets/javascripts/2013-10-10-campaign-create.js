@@ -331,6 +331,7 @@ $(function() {
   })
 
   $('.m-form__dropdown').click(function() { 
+    $('.m-form__dropdown').not($(this)).removeClass('s-is-open');
     $(this).toggleClass('s-is-open');
     return false;
   });
