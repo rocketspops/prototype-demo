@@ -126,12 +126,12 @@ ul { list-style: none;}
 }
 
 .overlay__close {
-  background: url(<%= asset_data_uri '2013-08-16-campaign-notes-delete-btn.png' %>) no-repeat center center;
   position: absolute;
-  width: 14px;
   top: 10px;
-  height: 14px;
-  right: 8px;
+  right: 10px;
+  font-size: 14px;
+  color: $grayscale-1;
+  &:hover { color: $grayscale-3; }
 }
 
 .overlay__header h1 {
@@ -332,16 +332,18 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   top: 0;
   right: 0;
   width: 30px;
-  height: 30px;
-  background: url(<%= asset_data_uri '2013-10-10-campaign-create-calendar-icon.png' %>) 0 0 no-repeat;
   cursor: pointer;
   outline: none;
   border: none;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: $grayscale-2;
 }
 
 .i-calendar--clicked,
 .i-calendar:hover {
-  background-position: 0 -30px;
+  color: $centro-brand-1b;
 }
 
 #datepicker {
@@ -358,8 +360,8 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
     z-index: 1001;
   }
 
-  &.start { left: 321px; }
-  &.end   { left: 321px+122px; }
+  &.start { left: 322px; }
+  &.end   { left: 322px+124px; }
   z-index: 1001;
 }
 

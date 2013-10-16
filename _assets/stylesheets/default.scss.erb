@@ -28,6 +28,32 @@ a:focus { outline: none; }
   color: $centro-gray-4; 
 }
 
+@font-face {
+  font-family: 'SS Standard';
+  src: url(asset_path('ss-standard.woff')) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-icon {
+  cursor: pointer;
+  display: inline-block;
+  font-family: "SS Standard";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  padding-top: 2px !important;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
 // ----
 
 .m-index-container,
