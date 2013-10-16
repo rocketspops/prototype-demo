@@ -262,6 +262,9 @@ textarea {
 textarea {
   line-height: 1.25;
   height: 72px;
+  &:focus {
+    border-color: $centro-brand-1b;
+  }
 }
 
 input[type="text"] {
@@ -535,7 +538,7 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   @include transition(none !important);
   @include box-shadow(inset 0 1px 2px rgba(black, 0.1));
   display: inline-block;
-  border: 1px solid $centro-gray-4;
+  border: 1px solid $grayscale-1;
   background: white;
   line-height: 30px;
   height: 30px;
@@ -548,19 +551,19 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
 }
 
 .m-form__dropdown__selected {
-  color: $centro-gray-1;
+  color: $grayscale-5;
   cursor: pointer;
   display: block !important;
   margin-bottom: 0 !important;
   position: relative;
   z-index: 1003;
   &.placeholder {
-    color: $centro-gray-3; 
+    color: $grayscale-2; 
   }
 }
 
 .m-form__dropdown__selected:after {
-  color: $centro-gray-4;
+  color: $grayscale-1;
   content: "\25BE";
   font-size: 14px;
   height: 1em;
@@ -572,12 +575,20 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   width: 1em;
 }
 
+.m-form__dropdown.s-is-open .m-form__dropdown__selected.placeholder {
+  color: rgba($grayscale-2, 0.5);
+}
+
+.m-form__dropdown.s-is-open .m-form__dropdown__selected:after {
+  color: $grayscale-2;
+}
+
 .m-form__dropdown ul {
   @include box-shadow(0 4px 2px -2px rgba(black, 0.1));
   background: white;
-  border: 1px solid $centro-brand-normal;
+  border: 1px solid $centro-brand-1b;
   border-top-width: 0;
-  color: $centro-gray-1;
+  color: $grayscale-5;
   opacity: 0;
   position: absolute;
     left: -1px;
@@ -595,27 +606,27 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
 }
 
 .m-form__dropdown li a {
-  color: $centro-gray-3;
+  color: $grayscale-3;
   display: block;
   padding: 0 8px; 
   position: relative;
   &:hover {
-    color: $centro-gray-1;
+    color: $grayscale-5;
   }
   &.s-is-active {
-    background: $centro-brand-normal;
+    background: $centro-brand-1b;
     color: white;
   }
 }
 
 .m-form__dropdown li a.s-is-active {
-  background: $centro-brand-normal;
+  background: $centro-brand-1b;
   color: white;
 }
 
 .m-form__dropdown.s-is-open {
   // @include box-shadow(none);
-  border-color: $centro-brand-normal;
+  border-color: $centro-brand-1b;
   cursor: pointer;
   outline: none;
 }
