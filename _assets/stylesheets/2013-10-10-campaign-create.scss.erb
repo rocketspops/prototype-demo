@@ -53,33 +53,6 @@ ul { list-style: none;}
   }
 }
 
-.button {
-  @include border-radius(3px);
-  @include background-image (linear-gradient(lighten(rgb(220, 227, 229), 10%), rgb(220, 227, 229)));
-  position: relative;
-  padding: 4px 15px;
-  font-size: 14px;
-  line-height: normal;
-  color: rgb(65, 82, 88);
-  text-shadow: hsla(100, 0%, 100%, 0.5);
-  border: 1px solid darken(rgb(220, 227, 229), 15%);
-  &:hover {
-    color: darken(rgb(65, 82, 88), 5%);
-  }
-}
-
-.button--primary {
-  @extend .button;
-  @include background-image (linear-gradient(lighten(rgb(0, 164, 219), 10%), rgb(0, 164, 219)));
-  color: white;
-  text-shadow: hsla(0, 0%, 0%, 0.2);
-  border: 1px solid darken(rgb(0, 164, 219), 4%);
-
-  &:hover {
-    color: white;
-  }
-}
-
 .input-hug {
   @include border-left-radius(0);
 }
