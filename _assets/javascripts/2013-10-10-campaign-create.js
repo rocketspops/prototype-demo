@@ -71,9 +71,10 @@ $(function() {
 
     if (targetIcon.hasClass('toggled')) {
       $('#datepicker').addClass(classAssignment);
+      $('#datepicker-overlay').addClass('open');
       targetIcon.addClass('i-calendar--clicked');
     } else {
-      $('#datepicker').removeClass();
+      $('#datepicker, #datepicker-overlay').removeClass();
       $('.i-calendar').removeClass('i-calendar--clicked');
     }
     
@@ -85,14 +86,14 @@ $(function() {
     } else {
       $('input.end').val('12/22/13').focus();
     }
+    $('.i-calendar').removeClass('i-calendar--clicked toggled');
+    $(this).removeClass();
   });
 
-
-  $('.flight-dates').on('blur', '.i-calendar', function(event) {
-    setTimeout(function() {
+  $('#datepicker-overlay').click(function() {
       $('#datepicker').removeClass();
       $('.i-calendar').removeClass('i-calendar--clicked toggled');
-    }, 25);
+      $(this).removeClass();
   });
 
   $(window).resize(function() {
