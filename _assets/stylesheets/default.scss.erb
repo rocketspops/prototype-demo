@@ -376,6 +376,41 @@ input:focus + .clickable { display: none; }
   }
 }
 
+.m-button {
+  @include border-radius(3px);
+  @include background-image (linear-gradient(lighten($grayscale-0, 10%), $grayscale-0));
+  position: relative;
+  padding: 4px 15px;
+  font-size: 14px;
+  line-height: normal;
+  color: $grayscale-4;
+  text-shadow: hsla(100, 0%, 100%, 0.5);
+  border: 1px solid darken($grayscale-0, 15%);
+
+  &:hover { color: darken($grayscale-4, 5%); }
+
+  &:focus {
+    @include box-shadow(0 0 0 3px rgba($grayscale-5, 0.1));
+    border-color: darken($grayscale-0, 22%);
+    outline: none;
+  }
+}
+
+.m-button--primary {
+  @extend .m-button;
+  @include background-image (linear-gradient(lighten($centro-brand-1b, 10%), $centro-brand-1b));
+  color: white;
+  text-shadow: hsla(0, 0%, 0%, 0.2);
+  border: 1px solid darken($centro-brand-1b, 4%);
+
+  &:hover { color: white; }
+
+  &:focus {
+    border-color: darken($centro-brand-1b, 6%);
+    @include box-shadow(0 0 0 3px rgba($centro-brand-1b, 0.30));
+  }
+}
+
 //----
 
 #disqus_thread { font-size: 0; }
