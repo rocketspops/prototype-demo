@@ -359,6 +359,18 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
 
   &.start { left: 321px; }
   &.end   { left: 321px+122px; }
+  z-index: 1001;
+}
+
+#datepicker-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  &.open { display: block; }
 }
 
 .last-field input[type="text"] {
