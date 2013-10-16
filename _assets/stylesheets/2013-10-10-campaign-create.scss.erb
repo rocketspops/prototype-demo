@@ -16,7 +16,7 @@ ul { list-style: none;}
   display: none;
   z-index: -1;
   position: absolute;
-  top: 104px;
+  top: 105px;
   bottom: 0;
   width: 100%;
 }
@@ -122,6 +122,7 @@ ul { list-style: none;}
 .overlay__header {
   padding: 20px 20px 0 20px;  
   border-bottom: 1px solid $grayscale-1;
+  position: relative;
 }
 
 .overlay__close {
@@ -160,7 +161,7 @@ ul { list-style: none;}
   &.s-is-current {
     color: $grayscale-5;
     border: 3px solid $grayscale-1;
-    border-width: 0 0 3px 0;
+    border-width: 0 0 4px 0;
     text-align: center;
   }
 }
@@ -646,6 +647,24 @@ input:focus::-webkit-input-placeholder { opacity: 0.5; }
   bottom: 0;
   left: 0;
   visibility:visible;
+}
+
+//
+
+label.required:after {
+  content: '*';
+  color: $centro-alert-1;
+  padding-left: 1px;
+}
+
+.required-note {
+  line-height: 1em;
+  color: $grayscale-3;
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  font-size: 14px;
+  span { color: $centro-alert-1; }
 }
 
 //

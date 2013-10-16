@@ -29,25 +29,26 @@ custom_js:   [2013-10-10-campaign-create.js]
             <li data-tab="#target">Targeting</li>
             <li data-tab="#requirements">Requirements</li>
           </ul>
+          <span class="required-note"><span>*</span> = required</span>
         </div>
         
         <div id="info" class="tab is-visible">
           <div class="overlay__body">
             <div class="l-left form-field campaign-name">
-              <label class="form__label">Campaign Name</label>
+              <label class="required">Campaign Name</label>
               <input autofocus class="form__input" type="text" tabindex="1" />
             </div>
             <div class="l-left form-field unique-id">
-              <label class="form__label">Unique ID</label>
+              <label class="required">Unique ID</label>
               <input disabled id="unique-id" class="form__input" type="text" tabindex="2" />
             </div>
             <div class="form-field">
-              <label class="form__label">Client</label>
+              <label class="required">Client</label>
               <input data-context="client" class="auto-search client unique form__input" placeholder="Choose a client..." type="text" tabindex="3" />
             </div>
 
             <div class="form-field flight-dates">
-              <label class="form__label">Flight Date</label>
+              <label class="required">Flight Date</label>
               <ul class="flight-date">
                 <li>
                   <div class="date-range">
@@ -66,7 +67,7 @@ custom_js:   [2013-10-10-campaign-create.js]
 
             <div class="form-field last">
               <div>
-                <label class="form__label">Account Team</label>
+                <label class="required">Account Team</label>
                 <input data-context="team" class="auto-search collection team form__input" type="text" placeholder="Choose a team member..." tabindex="6" /> 
               </div>
               <div class="tag-group"></div>
