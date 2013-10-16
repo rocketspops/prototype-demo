@@ -107,6 +107,24 @@ $(function() {
     var clientOffset = $('input.client').offset();
     $('.ui-autocomplete.client').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
 
+    var clientOffset = $('input.geo').offset();
+    $('.ui-autocomplete.geo').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
+    var clientOffset = $('input.category').offset();
+    $('.ui-autocomplete.category').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
+    var clientOffset = $('input.platform').offset();
+    $('.ui-autocomplete.platform').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
+    var clientOffset = $('input.type').offset();
+    $('.ui-autocomplete.type').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
+    var clientOffset = $('input.size').offset();
+    $('.ui-autocomplete.size').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
+    var clientOffset = $('input.positioning').offset();
+    $('.ui-autocomplete.positioning').css({'top' : clientOffset.top + 30, 'left' : clientOffset.left});
+
   });
 
   $('ul.flight-date').on("click", "li a", function() {
