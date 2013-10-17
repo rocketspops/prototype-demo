@@ -404,39 +404,121 @@ input:focus + .clickable { display: none; }
   }
 }
 
+
+// ----- button styles
+@mixin button-styles($t-color, $t-shadow, $bg-top, $bg-bottom, $border-color) {
+  color: $t-color;
+  text-shadow: 0 1px 1px $t-shadow;
+  @include background-image (linear-gradient($bg-top, $bg-bottom));
+  border-color: $border-color;
+}
+
 .m-button {
-  @include border-radius(3px);
-  @include background-image (linear-gradient(lighten($grayscale-0, 10%), $grayscale-0));
   position: relative;
-  padding: 4px 10px;
+  display: inline-block;
+  height: $base-line-height + 8;
+  padding: 5px ($base-line-height / 2.5);
   font-size: 14px;
   line-height: normal;
-  color: $grayscale-4;
-  text-shadow: hsla(100, 0%, 100%, 0.5);
-  border: 1px solid darken($grayscale-0, 15%);
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid darken($grayscale-0, 15%); 
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
 
-  &:hover { color: darken($grayscale-4, 5%); }
+  @include button-styles($grayscale-4, hsla(100, 0%, 100%, 0.5), lighten($grayscale-0, 10%), $grayscale-0, darken($grayscale-0, 15%));
+
+  //css3 transition
+  @include transition(all .12s);
+
+  &:hover {
+    @include button-styles(darken($grayscale-4, 5%), hsla(100, 0%, 100%, 0.7), white, darken($grayscale-0, 4%), darken($grayscale-0, 12%));
+  }
 
   &:focus {
     @include box-shadow(0 0 0 3px rgba($grayscale-5, 0.1));
     border-color: darken($grayscale-0, 22%);
     outline: none;
   }
+
+  &:active {
+    @include button-styles(darken($grayscale-4, 5%), hsla(100, 0%, 100%, 0.5), lighten($grayscale-0, 2%), lighten($grayscale-0, 2%), darken($grayscale-0, 17%));
+    @include box-shadow(none);
+  }
 }
 
 .m-button--primary {
   @extend .m-button;
-  @include background-image (linear-gradient(lighten($centro-brand-1b, 10%), $centro-brand-1b));
-  color: white;
-  text-shadow: hsla(0, 0%, 0%, 0.2);
-  border: 1px solid darken($centro-brand-1b, 4%);
+  font-weight: 600;
+  @include button-styles(white, hsla(0, 0%, 0%, 0.2), lighten($centro-brand-1b, 10%), $centro-brand-1b, darken($centro-brand-1b, 4%));
 
-  &:hover { color: white; }
+  &:hover {
+    @include button-styles(white, hsla(0, 0%, 0%, 0.2), lighten($centro-brand-1b, 19%), $centro-brand-1b, darken($centro-brand-1b, 3%));
+  }
 
   &:focus {
     border-color: darken($centro-brand-1b, 6%);
     @include box-shadow(0 0 0 3px rgba($centro-brand-1b, 0.30));
   }
+
+  &:active {
+    @include button-styles(white, hsla(0, 0%, 0%, 0.3), lighten($centro-brand-1b, 3.5%), lighten($centro-brand-1b, 3.5%), darken($centro-brand-1b, 5%));
+    @include box-shadow(none);
+  }
+
+  &.m-button--small {
+    font-weight: 400;
+  }
+}
+
+.m-button--secondary {
+  @extend .m-button;  
+  @include button-styles(white, hsla(0, 0%, 0%, 0.2), lighten($centro-green, 6%), $centro-green, darken($centro-green, 3%));
+
+  &:hover {
+    @include button-styles(white, hsla(0, 0%, 0%, 0.2), lighten($centro-green, 10%), $centro-green, darken($centro-green, 2%));
+  }
+
+  &:focus {
+    border-color: darken($centro-green, 4%);
+    @include box-shadow(0 0 0 3px rgba($centro-green, 0.32));
+  }
+
+  &:active {
+    @include button-styles(white, hsla(0, 0%, 0%, 0.3), lighten($centro-green, 4%), lighten($centro-green, 4%), darken($centro-green, 4%));
+    @include box-shadow(none);
+  }
+}
+
+.m-button[disabled],
+.m-button.disabled {
+  &,
+  &:hover,
+  &:active {
+    cursor: not-allowed;
+    @include button-styles($grayscale-2, hsla(100, 0%, 100%, 0.5), lighten($grayscale-0, 6%), lighten($grayscale-0, 6%), $grayscale-1)
+  }
+}
+
+.m-button--small {
+  height: ($base-line-height + 2);
+  padding: 4px ($base-line-height / 3);
+  font-size: 12px;
+  line-height: normal;
+}
+
+.m-button--large {
+  height: ($base-line-height + 12);
+  padding: 6px ($base-line-height / 3);
+  font-size: 16px;
+  line-height: normal;
+}
+
+// Firefox fix for input[type="submit"]
+input[type="submit"] {
+  padding-top: 1px;
+  padding-bottom: 3px;
 }
 
 //----
