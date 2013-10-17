@@ -34,14 +34,26 @@ $(function() {
   $('.next').click(function() {
     var nextTab = $(this).parents('.tab').next('.tab').attr('id');
     var targetHash = "#" + nextTab;
-  
     $('.overlay__nav li').removeClass('s-is-current');
     $('.overlay__nav li[data-tab="' + targetHash +'"]').addClass('s-is-current');
-
     $('.tab').removeClass('is-visible');
     $(targetHash).addClass('is-visible');
     return false;
   });
+
+  $('.create').click(function() {
+ 
+    if( $('input.required').val() === '' ) {
+      console.log('you did not fill out all fields');
+      $('.required').addClass('error');
+    } else {
+      $('.required').addClass('error');
+      $('.overlay').hide();
+    }
+      
+    return false;
+  });
+
 
   $('.back').click(function() {
     var backTab = $(this).parents('.tab').prev('.tab').attr('id');
