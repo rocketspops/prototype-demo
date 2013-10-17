@@ -1,6 +1,5 @@
 $(function() {
   
-  randomString();
 
   $('.new-campaign-button').on('click', function() {
     $('.overlay').show();
@@ -22,7 +21,6 @@ $(function() {
   $('.overlay__nav li').click(function() {
 
     var targetTab = $(this).attr('data-tab');
-    console.log(targetTab);
 
     $(this).siblings().removeClass('s-is-current');
     $(this).addClass('s-is-current');
@@ -197,15 +195,15 @@ $(function() {
       { value: "Tiffany Wood",   name: "Tiffany Wood" }
     ],
     client: [
-      { value: "Client 1",  name: "Client 1" },
-      { value: "Client 2",  name: "Client 2" },
-      { value: "Client 3",  name: "Client 3" },
-      { value: "Client 4",  name: "Client 4" },
-      { value: "Client 5",  name: "Client 5" },
-      { value: "Client 6",  name: "Client 6" },
-      { value: "Client 7",  name: "Client 7" },
-      { value: "Client 8",  name: "Client 8" },
-      { value: "Client 9",  name: "Client 9" }
+      { value: "Amtrak",  name: "Amtrak" },
+      { value: "Hyundai",  name: "Hyundai" },
+      { value: "Oklahoma City CVB",  name: "Oklahoma City CVB" },
+      { value: "CitraNatal Vitamins",  name: "CitraNatal Vitamins" },
+      { value: "McDonalds",  name: "McDonald's" },
+      { value: "Veggie Tales",  name: "Veggie Tales" },
+      { value: "Oakland Nursery",  name: "Oakland Nursery" },
+      { value: "Charter Communications",  name: "Charter Communications" },
+      { value: "Wisconsin Lottery",  name: "Wisconsin Lottery" }
     ],
     geo: [
       { value: "National",  name: "National" },
@@ -307,14 +305,28 @@ $(function() {
       $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
     },
     select: function( event, ui ) {
+      var target = ui.item.value;
+      var abbr = target.slice(0,7).replace(/\s+/g, '').toUpperCase();
       $(this).addClass('psuedo-focus'); 
+
+      if( $(this).hasClass('client') ) { 
+
+        var chars = "0123456789";
+        var string_length = 3;
+        var randomstring = '';
+        for (var i=0; i<string_length; i++) {
+          var rnum = Math.floor(Math.random() * chars.length);
+          randomstring += chars.substring(rnum,rnum+1);
+        }
+
+        $('#unique-id').val(abbr + randomstring.toUpperCase());
+      }
     },
     source: function (request, response) {
       var source = this.element.attr('data-context');
       var matcher = new RegExp($.ui.autocomplete.escapeRegex(request.term), "i");
       var matching = $.grep(dataSources[source], function (value) {
         var name = value.name;
-        console.log(name.length);
         return matcher.test(name);
       });
         
@@ -344,6 +356,13 @@ $(function() {
 
   $('.auto-search.collection').on("blur", function() {
     $('.tag-group').removeClass('focus');
+  });
+
+  $('.auto-search.client').on("blur", function() {
+    var targetValue = $(this).val(); 
+    if ( targetValue === '' ) {
+      $('#unique-id').val('');
+    }
   });
 
   // Hacked together JS for custom CSS dropdowns
@@ -388,8 +407,9 @@ function randomString() {
     var rnum = Math.floor(Math.random() * chars.length);
     randomstring += chars.substring(rnum,rnum+1);
   }
+  //var test = $('#unique-id').parent().prev('.form-field').find('input').val();
+  //console.log(test);
 
-  $('#unique-id').val(randomstring.toUpperCase());
 
 }
 
