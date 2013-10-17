@@ -146,15 +146,15 @@ $(function() {
     $('ul.flight-date').append('
         <li>
           <div class="date-range">
-            <span tabindex="0" data-type="start" class="i-calendar"></span>
+            <span tabindex="0" data-type="start" class="i-calendar font-icon">calendar</span>
             <input class="form__input form__datepicker" placeholder="Start" id="js-input" type="text" />
           </div>
           <span class="range">&ndash;</span>
           <div class="date-range">
-            <span tabindex="0" data-type="end" class="i-calendar"></span>
+            <span tabindex="0" data-type="end" class="i-calendar font-icon">calendar</span>
             <input class="form__input form__datepicker" placeholder="End" id="js-input" type="text" />
           </div>
-          <a href="#" class="close"></a>
+          <a href="#" class="close font-icon">close</a>
         </li>');
     return false;
   });
@@ -278,7 +278,7 @@ $(function() {
       $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
     },
     select: function( event, ui ) {
-      $(this).parent().next('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close"></a></span>');
+      $(this).parent().next('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close font-icon">close</a></span>');
       $(this).addClass('is-adjacent').val(''); 
       return false;
     },
