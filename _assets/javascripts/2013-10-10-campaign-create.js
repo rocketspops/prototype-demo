@@ -278,7 +278,7 @@ $(function() {
       $(this).data('ui-autocomplete').menu.element.removeClass($(this).attr('data-context'));
     },
     select: function( event, ui ) {
-      $(this).parent().next('.tag-group').addClass('open').append('<span class="tag">' + ui.item.name + '<a href="#" class="close font-icon">close</a></span>');
+      $(this).parent().next('.tag-group').addClass('open').append('<div class="tag">' + '<span class="tag-value">' + ui.item.name + '</span>' + '<a href="#" class="l-right close font-icon">close</a></div>');
       $(this).addClass('is-adjacent').val(''); 
       return false;
     },
