@@ -67,6 +67,19 @@ $(function() {
     return false;
   });
 
+  $('.help-trigger').click(function() {
+    var targetTrigger = $(this);
+    var targetOffset = $(this).offset();
+    var tooltipTopPosition = targetOffset.top - 65;
+
+    console.log(tooltipTopPosition);
+
+    $('.help-tooltip').removeClass('s-is-hidden').css('top', tooltipTopPosition);
+  });
+
+  $('.help-tooltip > .close').click(function() {
+    $('.help-tooltip').addClass('s-is-hidden');
+  });
 
 
   $('.flight-dates').on('click', '.i-calendar', function(event) {
