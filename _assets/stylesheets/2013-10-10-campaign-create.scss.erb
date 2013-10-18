@@ -462,6 +462,7 @@ textarea:focus::-webkit-input-placeholder { opacity: 0.5; }
     font-size: 8px;
     line-height: 22px;
     color: desaturate(darken($centro-brand-1d, 12%), 12%);
+    text-shadow: 0 1px 0 rgba(white, 0.5);
     border: 1px solid desaturate(lighten($centro-brand-1d, 5%), 15%);
     border-width: 1px 1px 1px 0;
 
@@ -746,7 +747,7 @@ label.required:after {
   line-height: 1.25;
   color: $grayscale-3;
   background: lighten($centro-alert-2, 10%);
-  border: 1px solid $grayscale-1;
+  border: 1px solid darken($centro-alert-2, 4%);
 
   > .close {
     position: absolute;
@@ -756,7 +757,8 @@ label.required:after {
     height: 18px;
     padding-top: 6px !important;
     font-size: 8px;
-    color: $grayscale-3;
+    color: darken($centro-alert-2, 24%);
+    text-shadow: 0 1px 0 rgba(white, 0.7);
 
     &:hover { color: $centro-alert-1; }
   }
