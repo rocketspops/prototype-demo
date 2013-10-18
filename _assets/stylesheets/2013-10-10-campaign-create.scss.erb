@@ -258,16 +258,16 @@ input[disabled] {
   cursor: not-allowed !important; 
 }
 
-input::-webkit-input-placeholder {
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
   color: $grayscale-2; 
   cursor: text;
 }
 
-input.error {
-  border-color: lighten($centro-alert-1, 5%) !important;
-}
+input.error { border-color: lighten($centro-alert-1, 5%) !important; }
 
-input:focus::-webkit-input-placeholder { opacity: 0.5; }
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder { opacity: 0.5; }
 
 .faux-input {
   border: 1px solid $grayscale-1;
@@ -672,4 +672,11 @@ label.required:after {
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
+}
+
+.has-help-text {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  a { position: absolute; top: 2px; right: 0; }
 }

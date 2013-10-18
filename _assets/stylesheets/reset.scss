@@ -418,7 +418,8 @@ input {
   text-rendering: optimizeLegibility;
 }
 
-input {
+input,
+textarea {
   -webkit-font-smoothing: antialiased;
 }
 
