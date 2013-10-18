@@ -68,13 +68,11 @@ $(function() {
   });
 
   $('.help-trigger').click(function() {
-    var targetTrigger = $(this);
-    var targetOffset = $(this).offset();
-    var tooltipTopPosition = targetOffset.top - 65;
-
-    console.log(tooltipTopPosition);
+    var tooltipOffset = $(this).offset();
+    var tooltipTopPosition = tooltipOffset.top - 65;
 
     $('.help-tooltip').removeClass('s-is-hidden').css('top', tooltipTopPosition);
+    $('#datepicker-overlay').addClass('open');
   });
 
   $('.help-tooltip > .close').click(function() {
@@ -115,11 +113,15 @@ $(function() {
 
   $('#datepicker-overlay').click(function() {
       $('#datepicker').removeClass();
+      $('.help-tooltip').addClass('s-is-hidden');
       $('.i-calendar').removeClass('i-calendar--clicked toggled');
       $(this).removeClass();
   });
 
   $(window).resize(function() {
+
+    var tooltipOffset = $('.help-trigger').offset();
+    $('.help-tooltip').css({'top': tooltipOffset.top - 65});
 
     var flightDatesOffset = $('.flight-date').offset();
     $('#datepicker').css({'top': flightDatesOffset.top - 65});
