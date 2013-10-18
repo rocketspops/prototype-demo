@@ -25,9 +25,9 @@ custom_js:   [2013-10-10-campaign-create.js]
         <div class="overlay__header">
           <h1>New Campaign</h1>
           <ul class="overlay__nav">
-            <li data-tab="#info" class="s-is-current">Basic Info</li>
-            <li data-tab="#target">Targeting</li>
-            <li data-tab="#requirements">Requirements</li>
+            <li data-tab="#info" class="s-is-current">Basic Info<span class="arrow"></span></li>
+            <li data-tab="#target">Targeting<span class="arrow"></span></li>
+            <li data-tab="#requirements">Requirements<span class="arrow"></span></li>
           </ul>
           <p class="required-note"><span>*</span> = required</p>
         </div>
@@ -45,7 +45,12 @@ custom_js:   [2013-10-10-campaign-create.js]
             </div>
 
             <div class="l-left form-field unique-id">
-              <label class="has-help-text">Unique ID <a class="design-link" href="#">Help</a></label>
+              <label class="has-help-text">Unique ID
+                <a class="design-link m-trigger" href="#">
+                  Help
+                  <span class="m-tooltip--no-arrow">Bacon ipsum dolor sit amet ham ball tip fatback, pork loin ham hock meatball doner strip steak beef tenderloin shank spare ribs.</span>
+                </a>
+              </label>
               <input disabled id="unique-id" type="text" tabindex="2" />
             </div>
 
