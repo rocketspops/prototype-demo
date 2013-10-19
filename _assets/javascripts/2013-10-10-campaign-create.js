@@ -73,10 +73,12 @@ $(function() {
 
     $('.help-tooltip').removeClass('s-is-hidden').css('top', tooltipTopPosition);
     $('#datepicker-overlay').addClass('open');
+    return false;
   });
 
   $('.help-tooltip > .close').click(function() {
     $('.help-tooltip').addClass('s-is-hidden');
+    return false;
   });
 
 
