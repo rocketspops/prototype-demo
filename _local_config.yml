@@ -1,5 +1,5 @@
 ---
-baseurl: /product-design
+baseurl: /prototype-demo
 name: Centro Prototypes
 permalink: /:categories/:month-:day-:year/:title/
 exclude:

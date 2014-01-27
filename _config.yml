@@ -1,5 +1,5 @@
 ---
-baseurl: /product-design
+baseurl: /prototype-demo
 name: Centro Prototypes
 permalink: /:categories/:month-:day-:year/:title/
 exclude:
@@ -11,7 +11,7 @@ assets:
   compress:
     css: sass
     js: uglifier
-  baseurl: /product-design/assets/
+  baseurl: /prototype-demo/assets/
   cache_assets: true
   sources:
   - _assets/javascripts
