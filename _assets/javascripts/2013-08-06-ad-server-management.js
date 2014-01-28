@@ -39,7 +39,7 @@ $(function() {
   });
 
   $('.ad-server-button').click(function() {
-    $(".overlay__row-wrapper ul").append('<li class="ui-front"><img src="/product-design/images/2013-08-06-ad-server-management-Blank_Row.png" alt="" /><input class="ad_server_select" type="text" /><a href="#"></a></li>');
+    $(".overlay__row-wrapper ul").append('<li class="ui-front"><img src="/prototype-demo/images/2013-08-06-ad-server-management-Blank_Row.png" alt="" /><input class="ad_server_select" type="text" /><a href="#"></a></li>');
     return false;
   });
 
