@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="/prototype-demo/assets/favicon-bc356b4d0ff397697983839a5cfc8c0f.png" />
+    <title>Reminders</title>
+    <link rel="stylesheet" href="/prototype-demo/assets/default-e297bb63a148e2f184c2db33775c130e.css" />
+    
+      <link rel="stylesheet" href="/prototype-demo/assets/2013-09-16-reminders-9677a48bb2a14c2bc08288d989106a1a.css" />  
+    
+    <script src="/prototype-demo/assets/default-693573586776e46280d011426c3afc4f.js"></script>
+    
+      <script src="/prototype-demo/assets/2013-09-16-reminders-42d2bc67045a5498a288a582c5a10bdf.js"></script>
+    
+      <script src="/prototype-demo/assets/favico-4a4d55418f1a77a7c907c401cee3982f.js"></script>
+    
+    <script src="//use.typekit.net/ysf1fwm.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47551354-1', 'williamwhited.com');
+  ga('send', 'pageview');
+
+</script>
+
+  </head>
+  <body>
+    <ul class="m-nav">
+  
+    <li class="m-index-logo">
+      <a href="/prototype-demo/">
+        <img src="/prototype-demo/assets/logo-57823d22fac6bca07b24bdc6821e00f4.png" alt="" />
+        <span>Product Design</span>
+      </a>
+    </li>
+    <li><span class="m-nav-seperator">:</span></li>
+    <li><a href="/prototype-demo/luxo-index.html">luxo</a></li>
+    <li><span class="m-nav-seperator">:</span></li>
+    <li class="active">Reminders</li>
+  
+</ul>
+
+
+<div class="m-wrapper">
+  <div style="width: 806px;">
+    <div class="header">
+      <img src="/prototype-demo/assets/2013-09-16-reminders-header-e7663ca4dd3fcb4c3a7854aa6571f927.png" alt="" />
+      <a class="trigger" tabindex="0" href="#">
+        <span class="total-reminder-count">10</span>
+        <span class="clickable"></span>
+      </a>
+    </div>
+    <div class="tooltip">
+      <div class="tooltip-header">
+        <ul>
+          <li id="today-tab" class="active">Today</li>
+          <li id="scheduled-tab">Scheduled</li>
+        </ul>
+      </div>
+      <div class="tooltip-sidebar">
+        <div id="sidebar-nav" class="active">
+          <ul class="tooltip-nav">
+            <li class="locked">
+              <span>My Reminders <span class="total">3</span></span>
+              <ul>
+                <li class="active">
+                  <a href="#my-reminders--today">Today <span class="counter">3</span></a>
+                </li>
+                <li><a href="#my-reminders--overdue">Overdue <span class="counter">1</span></a></li>
+              </ul>
+            </li>
+            <li>
+              <span>Launch Alerts <span class="total">4</span></span>
+              <ul>
+                <li>
+                  <a href="#launch-alerts--yesterday">Yesterday <span class="counter">3</span></a>
+                </li>
+                <li><a href="#empty">Today</a></li>
+                <li><a href="#empty">Tomorrow</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>Campaign Updates <span class="total">3</span></span>
+              <ul>
+                <li><a href="#camp-updates--new">New <span class="counter">1</span></a></li>
+                <li><a href="#camp-updates--ending">Ending Soon <span class="counter">2</span></a></li>
+                <li><a href="#empty">Completed</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button id="schedule-reminder" type="button">Schedule a reminder</button>
+        </div>
+        <div id="sidebar-create">
+          <form action="">
+            <textarea id=""></textarea>
+            <select id="repeat" name="">
+              <option value="">Repeats&hellip;</option>
+              <option value="Never">Never</option>
+              <option value="Daily">Daily</option>
+              <option value="Weekly">Weekly</option>
+              <option value="Monthly">Monthly</option>
+            </select>
+            <select id="day" name="">
+              <option value="">Choose day...</option>
+              <option value="Monday">Monday</option>
+              <option value="Tuesday">Tuesday</option>
+              <option value="Wednesday">Wednesday</option>
+              <option value="Thursday">Thursday</option>
+              <option value="Friday">Friday</option>
+            </select>
+            <input id="date" placeholder="mm/dd/yy" type="text" />
+            <button id="js-submit" type="button">Add</button>
+            <a class="text-delete" href="#">clear</a>
+          </form>
+        </div>
+      </div>
+      <div class="tooltip-main">
+        <div class="is-visible" id="my-reminders--today">
+          <ul class="to-dos">
+            <li><input id="1" type="checkbox"/><label for="1">Client report due for FORD334</label></li>
+            <li><input id="2" type="checkbox"/><label for="2">Map/UE on 9.27 (PR and YouTube)</label></li>
+            <li><input id="3" type="checkbox"/><label for="3">DSP-Centro; reporting on Monday</label></li>
+          </ul>
+        </div>
+        <div id="my-reminders--overdue">
+          <ul class="to-dos">
+            <li>
+              <input id="4" type="checkbox"/>
+              <label for="4">Weekly reporting T(next 08.6)</label>
+            </li>
+          </ul>
+        </div>
+        <div id="launch-alerts--yesterday">
+          <ul class="to-dos">
+            <li>
+              <input id="5" type="checkbox"/>
+              <label for="5">
+                <span class="type">SLD/UNRIVALED 2013<span>
+                <span class="camp-id">ADIDAS008<span>
+              </label>
+              <span class="info">23 plcmts</span>
+              <span class="alert">High impact</span>
+            </li>
+            <li>
+              <input id="6" type="checkbox"/>
+              <label for="6">
+                <span class="type">Splat and the Cool School Trip - Parents</span> 
+                <span class="camp-id">HARPERCOLLINS279<span>
+              </label>
+              <span class="info">10 plcmts</span>
+            </li>
+            <li>
+              <input id="7" type="checkbox"/>
+              <label for="7">
+                <span class="type">13_Y1H_CAR_AWA_Centro Q4: HOUSTON</span>
+                <span class="camp-id">FORD334<span>
+              </label>
+              <span class="info">36 plcmts</span>
+            </li>
+          </ul>
+        </div>
+        <div id="camp-updates--new">
+          <ul class="to-dos">
+            <li>
+              <input id="8" type="checkbox"/>
+              <label for="8">
+                <span class="type">The Little House that Stood DVD Launch<span>
+                <span class="camp-id">VEGTALES001<span>
+              </label>
+              <span class="info">140 plcmts</span>
+            </li>
+          </ul>
+        </div>
+        <div id="camp-updates--ending">
+          <ul class="to-dos">
+            <li>
+              <input id="9" type="checkbox"/>
+              <label for="9">
+                <span class="type">1 Month Test<span>
+                <span class="camp-id">CHARTERCOM001<span>
+              </label>
+              <span class="info">47 plcmts</span>
+            </li>
+            <li>
+              <input id="10" type="checkbox"/>
+              <label for="10">
+                <span class="type">13_Y1H_HIS_HIS_Q3 HOUSTON<span>
+                <span class="camp-id">FORD327<span>
+              </label>
+              <span class="info">31 plcmts</span>
+            </li>
+          </ul>
+        </div>
+        <div id="empty">
+          <div>
+            <p class="main">You&rsquo;re all set!</p>
+            <p class="secondary">No more reminders in this 
+              category today.</p>
+          </div>
+        </div>
+        <div id="scheduled">
+          <ul class="to-dos">
+            <li>
+              <a href="#" class="delete"></a>
+              <label>
+                <span class="type">Vivamus non ligula fringilla.<span>
+              </label>
+              <span class="info">9/30/13</span>
+            </li>
+            <li>
+              <a href="#" class="delete"></a>
+              <label>
+                <span class="type">Sed venenatis ante ac neque accumsan dictum in et lorem.<span>
+              </label>
+              <span class="info">Monthly</span>
+            </li>
+            <li>
+              <a href="#" class="delete"></a>
+              <label>
+                <span class="type">Cras ac mollis nisl. Etiam consectetur adipiscing turpis, vitae vestibulum justo<span>
+              </label>
+              <span class="info">Daily</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'centro-dev'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+  </body>
+</html>

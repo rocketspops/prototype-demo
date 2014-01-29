@@ -1,0 +1,1 @@
+$(function(){$(".header--trigger").click(function(){return $(".overlay").show(),!1}),$(".overlay__select, .remove-undo").click(function(){return $(".source-facebook, .icon-link").show(),$(this).children(".clickable").hide(),!1}),$(".source-remove").click(function(){return!1}),$(".overlay__close").click(function(){return $(".overlay").hide(),!1})});
